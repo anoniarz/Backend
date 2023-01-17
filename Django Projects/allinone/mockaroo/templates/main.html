@@ -37,9 +37,9 @@
             <button class="btn btn-secondary btn-lg" onclick="getData(100, apiUrl)">Generate 100</button>
         </div>
           <div class="container mt-3">
-            <button class="btn btn-secondary btn-lg" onclick="getData(100, 'data1.json')">Show 1st set</button>
-            <button class="btn btn-secondary btn-lg" onclick="getData(100, 'data2.json')">Show 2nd set</button>
-            <button class="btn btn-secondary btn-lg" onclick="getData(100, 'data3.json')">Show 3rd set</button>
+            <button class="btn btn-secondary btn-lg" onclick="getData(100, '{% static 'data1.json' %}')">Show 1st set</button>
+            <button class="btn btn-secondary btn-lg" onclick="getData(100, '{% static 'data2.json' %}')">Show 2nd set</button>
+            <button class="btn btn-secondary btn-lg" onclick="getData(100, '{% static 'data3.json' %}')">Show 3rd set</button>
           </div>
         </section>
         <table class="table table-bordered table-dark" id="zawodnicy" display="none">

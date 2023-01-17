@@ -2,5 +2,5 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 
-def mock(request):
-    return render(request, 'main.html')
+def home_p(request):
+    return render(request, 'home.html')
