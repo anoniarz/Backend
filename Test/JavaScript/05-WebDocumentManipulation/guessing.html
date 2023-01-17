@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Try to guess</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Try to guess</h1>
+
+    <script>
+        // read user's number (popup window)
+        number = prompt("podaj liczbe(0-5): ")
+            // create a random number
+        rand = Math.floor(Math.random() * 5)
+        console.log(rand)
+            // compare the numbers
+        if (number == rand) {
+            window.alert("you win")
+        }
+        // show results (popup window)
+    </script>
+</body>
+
+</html>
