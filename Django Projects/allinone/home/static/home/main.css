@@ -1,0 +1,21 @@
+
+body {
+
+    background-color: gray;
+}
+
+button {
+    font-size: larger;
+    text-align: center;
+    align-items: center;
+    color: red;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    top: 300px;
+    position: relative;
+}
