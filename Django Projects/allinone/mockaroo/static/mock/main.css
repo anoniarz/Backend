@@ -25,7 +25,7 @@
 /* apply background styling and font type */
 
 
-/* body {
+body {
     background: -moz-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), -moz-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), none;
     background: -webkit-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), -webkit-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), none;
     background: -o-radial-gradient(0% 2%, circle, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), -o-radial-gradient(100% 100%, rgba(96, 16, 48, 0) 9px, black 10px, rgba(96, 16, 48, 0) 11px), none;
@@ -34,7 +34,7 @@
     background-color: #444;
     font-family: 'Lato', sans-serif;
     z-index: 1;
-} */
+}
 
 
 /* set page display */
