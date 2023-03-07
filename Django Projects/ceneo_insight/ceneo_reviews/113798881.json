@@ -1,0 +1,40 @@
+{
+    "15878857": {
+        "local_id": 1,
+        "product_id": "113798881",
+        "product_name": "Abarqs Żeliwne 30Kg 2X15Kg",
+        "review_Id": "15878857",
+        "author": "a...3",
+        "is_recomended": true,
+        "is_verified": true,
+        "stars": "5/5",
+        "date_p": "2022-03-27 21:57:57",
+        "date_b": "2022-03-27 21:57:57",
+        "t_up": "0",
+        "t_down": "0",
+        "opinion": "Produkt spełnia moje wymogi w 100procetach.....dostawa w terminie. Polecam! ",
+        "features": {
+            "positive": [],
+            "negative": []
+        }
+    },
+    "15489394": {
+        "local_id": 2,
+        "product_id": "113798881",
+        "product_name": "Abarqs Żeliwne 30Kg 2X15Kg",
+        "review_Id": "15489394",
+        "author": "Użytkownik Ceneo",
+        "is_recomended": false,
+        "is_verified": false,
+        "stars": "1/5",
+        "date_p": "2022-01-01 23:56:45",
+        "date_b": "2022-01-01 23:56:45",
+        "t_up": "2",
+        "t_down": "1",
+        "opinion": "Oszustwo nie ta same hantle co na zdjęciu .",
+        "features": {
+            "positive": [],
+            "negative": []
+        }
+    }
+}
