@@ -1,10 +1,9 @@
 {% extends "main/base.html" %}
 {% block content %}
 <article class="media content-section">
-  <form method="post" action="{% url 'add_product' %}">
+  <form method="post">
     {% csrf_token %}
-    <label for="url">Enter product URL:</label>
-    <input type="text" id="url" name="url_f">
+    {{ form.as_p }}
     <button type="submit">Submit</button>
 </form>
 </article>
