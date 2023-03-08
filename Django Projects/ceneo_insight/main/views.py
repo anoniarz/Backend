@@ -126,6 +126,7 @@ def scrape(link):
     pos_features=data['pos_features'],
     neg_features=data['neg_features'],
 )
+# x
     
 def add_product(request):
     if request.method == 'POST':

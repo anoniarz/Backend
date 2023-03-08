@@ -4,11 +4,12 @@ links = [
     "https://www.ceneo.pl/113798881",
     "https://www.ceneo.pl/136848772",
     "https://www.ceneo.pl/50367847",
+    "https://www.ceneo.pl/88072703"
 ]
 
 def link_to_id(adress):
     import re
-    return "".join(re.findall(r"\d+", adress))
+    return "".join(re.findall(r"\d{5,}", adress))
 
 def scrape(link):
     import requests
