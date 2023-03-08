@@ -13,10 +13,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Produkt spełnia moje wymogi w 100procetach.....dostawa w terminie. Polecam! ",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "15489394": {
         "local_id": 2,
@@ -32,9 +30,7 @@
         "t_up": "2",
         "t_down": "1",
         "opinion": "Oszustwo nie ta same hantle co na zdjęciu .",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     }
 }

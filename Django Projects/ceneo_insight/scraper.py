@@ -103,7 +103,8 @@ def scrape(link):
                 "t_up": t_up,
                 "t_down": t_down,
                 "opinion": opinion,
-                "features": {"positive": pos_features, "negative": neg_features}
+                "pos_features": pos_features, 
+                "neg_features": neg_features,
             }
         pagination = try_or(doc.find(class_="pagination"))
         try:

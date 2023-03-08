@@ -13,12 +13,10 @@
         "t_up": "4",
         "t_down": "0",
         "opinion": "Hantle HMS SR52 które dostałem, mają opisy w KG, a nie LBS :)\r\n\nDostępne nastawy obciążenia to: 2,5 KG; 3,5 KG; 4,5 KG; 5,5 KG; 6,5 KG; 8 KG; 9 KG; 10 KG; 11,5 KG; 13,5 KG; 16 KG; 18 KG; 20,5 KG; 22,5 KG; 24 KG.\r\n\nNóżki podstawki są twarde, więc jeśli ktoś ma panele/drewnianą podłogę, to sugeruję dokupić sobie ślizgacze filcowe (takie jak do mebli) i taki filc na nie nakleić. Pokrętła są pokryte warstwą gumy o grubości ~4mm, a cyfry z wagą, są przebijającym się na wylot, wewnętrznym plastikowym elementem pokrętła przez tą gumę, więc nigdy się nie zetrą. Zmiana wagi, zgodnie z moimi oczekiwaniami, jest nieporównywalnie szybsza i łatwiejsza niż przy sztangielkach/hantlach klasycznych, czy to z nakrętkami (takich używałem do tej pory przez wiele lat), czy zaciskami. Odważniki z żeliwa są pokryte tworzywem sztucznym. Szerokość całkowita to 42cm, więc porównywalna z typowymi regulowanymi hantlami, gdzie gryf ma też często okolice 40cm. Chwyty są ogumowane, chwyt jest pewny, dosyć ergonomiczny.\r\n\nOdważniki przy podnoszeniu hantli nad głową, nawet gdyby zaczepy się pourywały, a w cudowny sposób wyciągnęlibyśmy hantle z obciążeniem z pourywanymi zaczepami z podstawy (jest to praktycznie niemożliwe, no ale przypuśćmy), nie bardzo mogą spaść na nas, kiedy hantla jest \"wyciśnięta\" nad głową, bo ściąga się je w przeciwnym kierunku, czyli w tym przypadku w kierunku sufitu (pod warunkiem, że normalnie trzymamy hantle, czyli tak, że trzymając hantle w rękach, kiedy popatrzymy na hantle, to widzimy czerwone elementy z napisem HMS).\r\n\nHantle mam dopiero kilka dni, więc nic nie mogę powiedzieć na temat trwałości przy normalnym użytkowaniu. Wolałbym chyba, by dyski trzymające były z metalu, a nie z tworzywa, nie mniej jednak tworzywo tworzywu nie równe (tak jak metal metalowi - gdyby mieli zrobić ze ZnAl to już wolę to tworzywo). Zaczepy trzymające na obciążeniach, są już z metalu.\r\n\nAż chce się ćwiczyć tymi hantlami, bo kręcenie w tradycyjnych żeliwnych hantlach/sztangielkach (takie miałem wcześniej przez lata), przy zmianie obciążenia, było dla mnie zniechęcające.",
-        "features": {
-            "positive": [
-                "jakość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość wygoda"
+        ],
+        "neg_features": []
     },
     "10508415": {
         "local_id": 2,
@@ -34,12 +32,10 @@
         "t_up": "1",
         "t_down": "0",
         "opinion": "Hantle HMS SR52 które dostałem, mają opisy w KG, a nie LBS :)\r\n\nDostępne nastawy obciążenia to: 2,5 KG; 3,5 KG; 4,5 KG; 5,5 KG; 6,5 KG; 8 KG; 9 KG; 10 KG; 11,5 KG; 13,5 KG; 16 KG; 18 KG; 20,5 KG; 22,5 KG; 24 KG.\r\n\nNóżki podstawki są twarde, więc jeśli ktoś ma panele/drewnianą podłogę, to sugeruję dokupić sobie ślizgacze filcowe (takie jak do mebli) i taki filc na nie nakleić. Pokrętła są pokryte warstwą gumy o grubości ~4mm, a cyfry z wagą, są przebijającym się na wylot, wewnętrznym plastikowym elementem pokrętła przez tą gumę, więc nigdy się nie zetrą. Zmiana wagi, zgodnie z moimi oczekiwaniami, jest nieporównywalnie szybsza i łatwiejsza niż przy sztangielkach/hantlach klasycznych, czy to z nakrętkami (takich używałem do tej pory przez wiele lat), czy zaciskami. Odważniki z żeliwa są pokryte tworzywem sztucznym. Szerokość całkowita to 42cm, więc porównywalna z typowymi regulowanymi hantlami, gdzie gryf ma też często okolice 40cm. Chwyty są ogumowane, chwyt jest pewny, dosyć ergonomiczny.\r\n\nOdważniki przy podnoszeniu hantli nad głową, nawet gdyby zaczepy się pourywały, a w cudowny sposób wyciągnęlibyśmy hantle z obciążeniem z pourywanymi zaczepami z podstawy (jest to praktycznie niemożliwe, no ale przypuśćmy), nie bardzo mogą spaść na nas, kiedy hantla jest \"wyciśnięta\" nad głową, bo ściąga się je w przeciwnym kierunku, czyli w tym przypadku w kierunku sufitu (pod warunkiem, że normalnie trzymamy hantle, czyli tak, że trzymając hantle w rękach, kiedy popatrzymy na hantle, to widzimy czerwone elementy z napisem HMS).\r\n\nHantle mam dopiero kilka dni, więc nic nie mogę powiedzieć na temat trwałości przy normalnym użytkowaniu. Wolałbym chyba, by dyski trzymające były z metalu, a nie z tworzywa, nie mniej jednak tworzywo tworzywu nie równe (tak jak metal metalowi - gdyby mieli zrobić ze ZnAl to już wolę to tworzywo). Zaczepy trzymające na obciążeniach, są już z metalu.\r\n\nAż chce się ćwiczyć tymi hantlami, bo kręcenie w tradycyjnych żeliwnych hantlach/sztangielkach (takie miałem wcześniej przez lata), przy zmianie obciążenia, było dla mnie zniechęcające.",
-        "features": {
-            "positive": [
-                "szybkość zmiany obciążenia wygląd wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "szybkość zmiany obciążenia wygląd wygoda"
+        ],
+        "neg_features": []
     },
     "16435197": {
         "local_id": 3,
@@ -55,12 +51,10 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Sztangielki są super, bardzo dobrze wykonane, mechanizm działa bez zarzutów. Jedyny minus to, to, że skala podana jest w lbs a nie w kg, ale wiedziałam o tym. ",
-        "features": {
-            "positive": [
-                "jakość szybkość zmiany obciążenia trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość szybkość zmiany obciążenia trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "15864489": {
         "local_id": 4,
@@ -76,12 +70,10 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Hantelki wygodne jeśli chodzi o zmianę ciężaru, szybko i sprawnie, trochę długie i przez to dla mnie mniej wygodne, ogólnie ok, polecam",
-        "features": {
-            "positive": [
-                "bardzo duży zakres regulacji cena jakość szybkość zmiany obciążenia trwałość wygląd wygoda zastępuje 15 hantli"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "bardzo duży zakres regulacji cena jakość szybkość zmiany obciążenia trwałość wygląd wygoda zastępuje 15 hantli"
+        ],
+        "neg_features": []
     },
     "16807574": {
         "local_id": 5,
@@ -97,10 +89,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Spoko zobaczymy jak długo wytrzyma ",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "14686351": {
         "local_id": 6,
@@ -116,10 +106,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "EXTRAAAAAAA     :)\n",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "14132138": {
         "local_id": 7,
@@ -135,12 +123,10 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Są rewelacyjne",
-        "features": {
-            "positive": [
-                "jakość szybkość zmiany obciążenia trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość szybkość zmiany obciążenia trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "11040682": {
         "local_id": 8,
@@ -156,10 +142,8 @@
         "t_up": "2",
         "t_down": "0",
         "opinion": "Ogólnie polecam ze względu na możliwości nie trzeba zawalać sobie domowej siłowni wieloma hantlami wystarcza takie dwa i ławeczka z wyciągiem i możecie zrobić wszystko :)\r\nJako minus: luzy które mogą niektórym przeszkadzać",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "8594801": {
         "local_id": 9,
@@ -175,12 +159,10 @@
         "t_up": "1",
         "t_down": "0",
         "opinion": "Ciekawy sprzęt. Nie mam dużo miejsca a dzięki niemu nie musiałem kupować ciężarków o różnej wadze. Łatwo i szybko zmienia się obciążenie. Idealne do domowej siłowni.",
-        "features": {
-            "positive": [
-                "jakość trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "15532710": {
         "local_id": 10,
@@ -196,14 +178,12 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Po roku użytkowania pękła plastikowa podstawka bez, ktorej nie zmienie ciężaru. Pomimo, że uważałem przy treningach to producent zdecydował się na plastykowe wykończenia fundamentalnych elementów całego mechanizmu. Gwarancja nie obejmie bo mechaniczne pozostaje kropelka i jakaś przeróbka na własną rękę.  . Jednym słowem do bani ",
-        "features": {
-            "positive": [
-                "szybkość zmiany obciążenia"
-            ],
-            "negative": [
-                "jakość trwałość wygoda"
-            ]
-        }
+        "pos_features": [
+            "szybkość zmiany obciążenia"
+        ],
+        "neg_features": [
+            "jakość trwałość wygoda"
+        ]
     },
     "11040413": {
         "local_id": 11,
@@ -219,13 +199,11 @@
         "t_up": "3",
         "t_down": "0",
         "opinion": "Idealne do Hipertrofii gdzie co serie musimy zmienić ciężar. Dwie takie sztuki zastępują 30 pojedynczych hantli i zastępują nam 350kg obciążenia.",
-        "features": {
-            "positive": [
-                "bardzo duży zakres regulacji szybkość zmiany obciążenia trwałość zastępuje 15 hantli"
-            ],
-            "negative": [
-                "cena delikatne - nie do wszystkich treningów sztangielka ma luzy wygląd"
-            ]
-        }
+        "pos_features": [
+            "bardzo duży zakres regulacji szybkość zmiany obciążenia trwałość zastępuje 15 hantli"
+        ],
+        "neg_features": [
+            "cena delikatne - nie do wszystkich treningów sztangielka ma luzy wygląd"
+        ]
     }
 }

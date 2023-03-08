@@ -1,17 +1,31 @@
 {% extends "main/base.html" %}
 {% block content %}
-    {% for post in posts %}
+<article class="media content-section">
+  <form method="post" action="{% url 'add_product' %}">
+    {% csrf_token %}
+    <label for="url">Enter product URL:</label>
+    <input type="text" id="url" name="url_f">
+    <button type="submit">Submit</button>
+</form>
+</article>
+    {% for review in reviews %}
         <article class="media content-section">
-          <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
+          {% comment %} <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}"> {% endcomment %}
           <div class="media-body">
             <div class="article-metadata">
-              <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a>
-              <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
+              {% comment %} <a class="mr-2" href="{% url 'user-posts' post.author.username %}">{{ post.author }}</a> {% endcomment %}
+              <small class="text-muted">{{ review.date_p|date:"F d, Y" }}</small>
             </div>
-            <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
+            {% comment %} <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2> {% endcomment %}
+            <p class="article-content">{{ review.product_id }}</p>
+            <p class="article-content">{{ review.product_name }}</p>
+            <p class="article-content">{{ review.author }}</p>
+            <p class="article-content">{{ review.is_recomended }}</p>
+            <p class="article-content">{{ review.is_verified }}</p>
+            <p class="article-content">{{ review.stars }}</p>
+            <p class="article-content">{{ review.date_p }}</p>
           </div>
         </article>
-    {% endfor %}
+    {% endfor %}s
 
 {% endblock content %}

@@ -13,10 +13,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Puki co rower super, wszystko chodzi lekko. Syn zadowolony. Trzeba pamiętać o nóżce i błotnikach - brak w zestawie. ",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "15952893": {
         "local_id": 2,
@@ -32,12 +30,10 @@
         "t_up": "1",
         "t_down": "0",
         "opinion": "Bardzo dobra jakość. Nastolatek zadowolony, śmiga nim dzien w dzień. ",
-        "features": {
-            "positive": [
-                "jakość trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "16140562": {
         "local_id": 3,
@@ -53,10 +49,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "W porządku, za krótko użytkowany na rzetelną ocenę ",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "15926130": {
         "local_id": 4,
@@ -72,10 +66,8 @@
         "t_up": "1",
         "t_down": "0",
         "opinion": "Bardzo porządny rower. Polecam",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "17116450": {
         "local_id": 5,
@@ -91,10 +83,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Cena adekwatna knn",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "16523740": {
         "local_id": 6,
@@ -110,12 +100,10 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Syn zachwycony.",
-        "features": {
-            "positive": [
-                "jakość trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "15915609": {
         "local_id": 7,
@@ -131,10 +119,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "super rower !!!",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "17193200": {
         "local_id": 8,
@@ -150,10 +136,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Świetny rower!",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "16124433": {
         "local_id": 9,
@@ -169,10 +153,8 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Good",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     },
     "17032071": {
         "local_id": 10,
@@ -188,12 +170,10 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "Ok",
-        "features": {
-            "positive": [
-                "jakość trwałość wygoda"
-            ],
-            "negative": []
-        }
+        "pos_features": [
+            "jakość trwałość wygoda"
+        ],
+        "neg_features": []
     },
     "16152514": {
         "local_id": 11,
@@ -209,9 +189,7 @@
         "t_up": "0",
         "t_down": "0",
         "opinion": "ok",
-        "features": {
-            "positive": [],
-            "negative": []
-        }
+        "pos_features": [],
+        "neg_features": []
     }
 }
