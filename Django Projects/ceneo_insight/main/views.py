@@ -1,11 +1,24 @@
 from django.shortcuts import render
-from .models import Reviews, Products
+from .models import Review, Product
 from datetime import datetime
-import requests, re
-from bs4 import BeautifulSoup as bs
 from .forms import Url_f
+
+# Scraper
+import requests
+import re
+from bs4 import BeautifulSoup as bs
+
+
 def link_to_id(adress):
     return "".join(re.findall(r"\d{5,}", adress))
+
+
+def try_or(f):
+    try:
+        return f
+    except:
+        return None
+
 
 def scrape(link):
     def try_or(f):
@@ -13,36 +26,30 @@ def scrape(link):
             return f
         except:
             return None
-    data = {}
+
     flag = True
     n = 1
-    l_id = 0
+    local_id = 0
     ceneo_id = link_to_id(link)
-    print(ceneo_id)
+    data = {f"{ceneo_id}": {}}
     while flag:
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
-        
-        print(content)
-        name = try_or(doc.find(
+
+        product_name = try_or(doc.find(
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
-        
+        # Scraping
         for i in range(len(content)):
-            # Local id
-            l_id += 1
-            # review Id
+            local_id += 1
             review_id = try_or(content[i].get("data-entry-id"))
-            str(review_id)
-            print(review_id)
-            # Author
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
             # Recomendation
             if try_or(content[i].find(
-                class_="recommended")):
+                    class_="recommended")):
                 recomendation = True
             else:
                 recomendation = False
@@ -89,10 +96,10 @@ def scrape(link):
             except:
                 pass
 
-            data[review_id] = {
-                "local_id": l_id,
-                "product_id": ceneo_id, 
-                "product_name": name,
+            data[ceneo_id][review_id] = {
+                "local_id": local_id,
+                "product_id": ceneo_id,
+                "product_name": product_name,
                 "review_id": review_id,
                 "author": author,
                 "is_recomended": recomendation,
@@ -103,58 +110,65 @@ def scrape(link):
                 "t_up": t_up,
                 "t_down": t_down,
                 "opinion": opinion,
-                "pos_features": pos_features, 
+                "pos_features": pos_features,
                 "neg_features": neg_features,
             }
-            
-            
-            Reviews.objects.create(
-                local_id =  l_id,
-                review_id = review_id,
-                author = author,
-                is_recomended = recomendation,
-                is_verified = is_verified,
-                stars = stars,
-                date_p = date_p,
-                date_b = date_b,
-                t_up = t_up,
-                t_down = t_down,
-                opinion = opinion,
-                pos_features = pos_features, 
-                neg_features = neg_features,
-        )
-        
+
         pagination = try_or(doc.find(class_="pagination"))
         try:
             if pagination.find(class_="pagination__item pagination__next") == None:
                 flag = False
         except:
             flag = False
-        n+=1
-    Products.objects.create(
-    prodct_id = ceneo_id,
-    product_name = name,
-    )
-            
-    
+        n += 1
+
+    for ceneo_id, reviews in data.items():
+
+        product_name = reviews[review_id].get('product_name')
+        product = Product.objects.create(
+            product_id=ceneo_id, product_name=product_name)
+        for review_id, review in reviews.items():
+            date_p = datetime.strptime(review['date_p'], '%Y-%m-%d %H:%M:%S')
+            date_b = datetime.strptime(review['date_b'], '%Y-%m-%d %H:%M:%S')
+            new_review = Review.objects.create(
+                product=product,
+                local_id=review['local_id'],
+                review_id=review['review_id'],
+                author=review['author'],
+                is_recomended=review['is_recomended'],
+                is_verified=review['is_verified'],
+                stars=review['stars'],
+                date_p=date_p,
+                date_b=date_b,
+                t_up=review['t_up'],
+                t_down=review['t_down'],
+                opinion=review['opinion'],
+                pos_features=review['pos_features'],
+                neg_features=review['neg_features'],
+            )
+            product.reviews.add(new_review)
+
+
 # x
-    
-def add_product(request):
-    if request.method == 'POST':
-        form = Url_f(request.POST)
-        if form.is_valid():
-            url = form.cleaned_data['url_f']
-            scrape(url)
-    else:
-        form = Url_f()
-    return render(request, 'main/home.html', {'form': form})
+
+# def add_product(request):
+#     if request.method == 'POST':
+#         form = Url_f(request.POST)
+#         if form.is_valid():
+#             url = form.cleaned_data['url_f']
+#             scrape(url)
+#     else:
+#         form = Url_f()
+#     return render(request, 'main/home.html', {'form': form})
+
 
 def home_p(request):
-    
-    context = {
-        "reviews": Reviews.objects.all()
-    }
-    
-    return render(request, 'main/home.html', context)
 
-scrape("https://www.ceneo.pl/134532054#tag=nph_row_promotion")
+    # context = {
+    #     "reviews": Reviews.objects.all()
+    # }
+
+    return render(request, 'main/home.html')
+
+
+scrape("https://www.ceneo.pl/94823130/opinie-9")

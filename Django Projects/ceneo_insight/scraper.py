@@ -1,29 +1,29 @@
 links = [
-    "https://www.ceneo.pl/133337315#tab=reviews",
-    "https://www.ceneo.pl/123854584",
-    "https://www.ceneo.pl/113798881",
-    "https://www.ceneo.pl/136848772",
-    "https://www.ceneo.pl/50367847",
-    "https://www.ceneo.pl/88072703"
+    "https://www.ceneo.pl/94823130/opinie-9"
 ]
+
 
 def link_to_id(adress):
     import re
     return "".join(re.findall(r"\d{5,}", adress))
 
+
 def scrape(link):
     import requests
     from bs4 import BeautifulSoup as bs
+
     def try_or(f):
         try:
             return f
         except:
             return None
-    data = {}
+
     flag = True
     n = 1
     l_id = 0
     ceneo_id = link_to_id(link)
+    data = {f"{ceneo_id}": {}}
+
     print(ceneo_id)
     while flag:
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
@@ -37,16 +37,15 @@ def scrape(link):
         for i in range(len(content)):
             # Local id
             l_id += 1
-            # review Id
+            # review id
             review_id = try_or(content[i].get("data-entry-id"))
-
             # Author
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
 
             # Recomendation
             if try_or(content[i].find(
-                class_="recommended")):
+                    class_="recommended")):
                 recomendation = True
             else:
                 recomendation = False
@@ -93,9 +92,9 @@ def scrape(link):
             except:
                 pass
 
-            data[review_id] = {
+            data[ceneo_id][review_id] = {
                 "local_id": l_id,
-                "product_id": ceneo_id, 
+                "product_id": ceneo_id,
                 "product_name": name,
                 "review_Id": review_id,
                 "author": author,
@@ -107,7 +106,7 @@ def scrape(link):
                 "t_up": t_up,
                 "t_down": t_down,
                 "opinion": opinion,
-                "pos_features": pos_features, 
+                "pos_features": pos_features,
                 "neg_features": neg_features,
             }
         pagination = try_or(doc.find(class_="pagination"))
@@ -116,15 +115,14 @@ def scrape(link):
                 flag = False
         except:
             flag = False
-        n+=1
-            
+        n += 1
+
     return data
 
 
 for link in links:
     import json
-    ceneo_id = link_to_id(link) 
+    ceneo_id = link_to_id(link)
     data = scrape(ceneo_id)
     with open(f'ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
-        
