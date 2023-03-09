@@ -23,6 +23,11 @@ h6 {
     color: var(--font-2);
 }
 
+.navbar-dark{
+
+    color: #ff6300;
+}
+
 ul {
     margin: 0;
 }

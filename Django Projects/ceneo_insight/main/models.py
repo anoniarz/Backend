@@ -28,10 +28,5 @@ class Review(models.Model):
     pos_features = models.JSONField()
     neg_features = models.JSONField()
 
-    def save(self, *args, **kwargs):
-        self.date_p = timezone.now()
-        self.date_b = timezone.now()
-        super().save(*args, **kwargs)
-
     def __str__(self):
         return f"{self.author} - {self.review_id}"

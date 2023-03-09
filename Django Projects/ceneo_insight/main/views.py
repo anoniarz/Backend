@@ -149,26 +149,32 @@ def scrape(link):
             product.reviews.add(new_review)
 
 
-# x
+# Adding Product
+def add_product(request):
+    if request.method == 'POST':
+        form = Url_f(request.POST)
+        if form.is_valid():
+            url = form.cleaned_data['url_f']
+            scrape(url)
+    else:
+        form = Url_f()
 
-# def add_product(request):
-#     if request.method == 'POST':
-#         form = Url_f(request.POST)
-#         if form.is_valid():
-#             url = form.cleaned_data['url_f']
-#             scrape(url)
-#     else:
-#         form = Url_f()
-#     return render(request, 'main/home.html', {'form': form})
+    return render(request, 'main/home.html', {'form': form})
 
 
 def home_p(request):
 
-    # context = {
-    #     "reviews": Reviews.objects.all()
-    # }
+    if request.method == 'POST':
+        form = Url_f(request.POST)
+        if form.is_valid():
+            url = form.cleaned_data['url_f']
+            scrape(url)
+    else:
+        form = Url_f()
 
-    return render(request, 'main/home.html')
+    context = {
+        "products": Product.objects.all(),
+        "reviews": Review.objects.all()
+    }
 
-
-scrape("https://www.ceneo.pl/94823130/opinie-9")
+    return render(request, 'main/home.html', context)
