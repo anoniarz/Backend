@@ -16,8 +16,6 @@
               <small class="text-muted">{{ review.date_p|date:"F d, Y" }}</small>
             </div>
             {% comment %} <h2><a class="article-title" href="{% url 'post-detail' post.id %}">{{ post.title }}</a></h2> {% endcomment %}
-            <p class="article-content">{{ review.product_id }}</p>
-            <p class="article-content">{{ review.product_name }}</p>
             <p class="article-content">{{ review.author }}</p>
             <p class="article-content">{{ review.is_recomended }}</p>
             <p class="article-content">{{ review.is_verified }}</p>
@@ -25,6 +23,6 @@
             <p class="article-content">{{ review.date_p }}</p>
           </div>
         </article>
-    {% endfor %}s
+    {% endfor %}
 
 {% endblock content %}

@@ -1,9 +1,9 @@
 from django.db import models
 
+
+
 class Reviews(models.Model):
     local_id = models.IntegerField()
-    product_id = models.CharField(max_length=50)
-    product_name = models.CharField(max_length=255)
     review_id = models.CharField(max_length=50, unique=True)
     author = models.CharField(max_length=50)
     is_recomended = models.BooleanField()
@@ -17,5 +17,12 @@ class Reviews(models.Model):
     pos_features = models.JSONField(default=list)
     neg_features = models.JSONField(default=list)
 
+    
+class Products(models.Model):
+    product_id = models.CharField(max_length=50, unique=True)
+    product_name = models.CharField(max_length=255)
+    reviews = models.ForeignKey(Reviews, on_delete=models.CASCADE)
+    
     def __str__(self):
-        return self.review_id
+        return self.product_id
+        

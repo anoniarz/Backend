@@ -29,6 +29,7 @@ def scrape(link):
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
+        print(doc)
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
         name = try_or(doc.find(
@@ -38,9 +39,11 @@ def scrape(link):
             l_id += 1
             # review Id
             review_id = try_or(content[i].get("data-entry-id"))
+
             # Author
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
+
             # Recomendation
             if try_or(content[i].find(
                 class_="recommended")):
