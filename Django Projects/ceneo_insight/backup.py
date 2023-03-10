@@ -52,17 +52,16 @@ def scrape(link):
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
             # Recomendation
-            try:
-                if content[i].find(
-                        class_="recommended").find("em").string == "Polecam":
-                    is_recomended = True
-                elif content[i].find(
-                        class_="not-recommended").find("em").string == "Nie polecam":
-                    is_recomended = False
-                else:
-                    is_recomended = None
-            except:
-                pass
+
+            if len(try_or(content[i].find_all(
+                    class_="recommended")[0])) > 1:
+                is_recomended = True
+            elif len(try_or(content[i].find_all(
+                    class_="not-recommended")[0])) > 1:
+                is_recomended = False
+            else:
+                is_recomended = None
+
             # No. stars
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)

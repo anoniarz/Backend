@@ -52,11 +52,13 @@ def scrape(link):
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
             # Recomendation
-            if try_or(content[i].find(
-                    class_="recommended")):
-                recomendation = True
-            else:
-                recomendation = False
+            try:
+                is_recomended = "True" if content[i].find(
+                    class_="user-post__author-recomendation").find("em").string == "Polecam" else "False"
+            except:
+                is_recomended = "None"
+                pass
+
             # No. stars
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)
@@ -106,7 +108,7 @@ def scrape(link):
                 "product_name": product_name,
                 "review_id": review_id,
                 "author": author,
-                "is_recomended": recomendation,
+                "is_recomended": is_recomended,
                 "is_verified": is_verified,
                 "stars": stars,
                 "date_p": date_p,

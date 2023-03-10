@@ -18,7 +18,7 @@ class Review(models.Model):
     review_id = models.CharField(
         max_length=36)
     author = models.CharField(max_length=255)
-    is_recomended = models.CharField(max_length=20)
+    is_recomended = models.CharField(max_length=255)
     is_verified = models.BooleanField()
     stars = models.CharField(max_length=255)
     date_p = models.DateTimeField()
