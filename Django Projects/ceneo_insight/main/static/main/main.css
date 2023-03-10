@@ -20,7 +20,14 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--font-2);
+    color: var(--font-1);
+}
+
+.green {
+    color: green;
+}
+.red {
+    color: rgb(175, 73, 73);
 }
 
 .navbar-dark{
@@ -55,7 +62,7 @@ ul {
 }
 
 .article-title {
-    color: #444444;
+    color: var(--font-2);
 }
 
 a.article-title:hover {

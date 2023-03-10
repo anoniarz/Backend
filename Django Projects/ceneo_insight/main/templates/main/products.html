@@ -1,0 +1,20 @@
+{% extends "main/base.html" %}
+{% block content %}
+
+
+<article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+    <h2><a class="article-title" href="{% url 'add_product' %}">Add Product</a></h2> 
+  </div></div>
+</article>
+
+    {% for product in products %}
+        <article class="media content-section">
+          <div class="media-body">
+            <h2><a class="article-title" href="{% url 'product_reviews' product.pk %}">{{ product.product_name }}</a></h2> 
+          </div>
+        </article>
+    {% endfor %}
+
+{% endblock content %}

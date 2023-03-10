@@ -1,11 +1,15 @@
 from django.shortcuts import render
+from django.http import HttpResponseRedirect
 from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f
 
+
+from django.views.generic import DetailView
 # Scraper
 import requests
 import re
+import json
 from bs4 import BeautifulSoup as bs
 
 
@@ -122,31 +126,39 @@ def scrape(link):
             flag = False
         n += 1
 
-    for ceneo_id, reviews in data.items():
+    with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
+        json.dump(data, file, indent=4, ensure_ascii=False)
 
-        product_name = reviews[review_id].get('product_name')
-        product = Product.objects.create(
-            product_id=ceneo_id, product_name=product_name)
-        for review_id, review in reviews.items():
-            date_p = datetime.strptime(review['date_p'], '%Y-%m-%d %H:%M:%S')
-            date_b = datetime.strptime(review['date_b'], '%Y-%m-%d %H:%M:%S')
-            new_review = Review.objects.create(
-                product=product,
-                local_id=review['local_id'],
-                review_id=review['review_id'],
-                author=review['author'],
-                is_recomended=review['is_recomended'],
-                is_verified=review['is_verified'],
-                stars=review['stars'],
-                date_p=date_p,
-                date_b=date_b,
-                t_up=review['t_up'],
-                t_down=review['t_down'],
-                opinion=review['opinion'],
-                pos_features=review['pos_features'],
-                neg_features=review['neg_features'],
-            )
-            product.reviews.add(new_review)
+    if not Product.objects.filter(product_id=ceneo_id).exists():
+
+        for ceneo_id, reviews in data.items():
+            product_name = reviews[review_id].get('product_name')
+            product = Product.objects.create(
+                product_id=ceneo_id, product_name=product_name)
+
+        for ceneo_id, reviews in data.items():
+            for review_id, review in reviews.items():
+                date_p = datetime.strptime(
+                    review['date_p'], f'%Y-%m-%d %H:%M:%S')
+                date_b = datetime.strptime(
+                    review['date_b'], f'%Y-%m-%d %H:%M:%S')
+                new_review = Review.objects.create(
+                    product=product,
+                    local_id=review['local_id'],
+                    review_id=review['review_id'],
+                    author=review['author'],
+                    is_recomended=review['is_recomended'],
+                    is_verified=review['is_verified'],
+                    stars=review['stars'],
+                    date_p=date_p,
+                    date_b=date_b,
+                    t_up=review['t_up'],
+                    t_down=review['t_down'],
+                    opinion=review['opinion'],
+                    pos_features=review['pos_features'],
+                    neg_features=review['neg_features'],
+                )
+                product.reviews.add(new_review)
 
 
 # Adding Product
@@ -156,13 +168,24 @@ def add_product(request):
         if form.is_valid():
             url = form.cleaned_data['url_f']
             scrape(url)
+            return HttpResponseRedirect('/products')
+
     else:
         form = Url_f()
+    return render(request, 'main/add_product.html', {'form': form})
 
-    return render(request, 'main/home.html', {'form': form})
+
+def home(request):
+
+    return render(request, 'main/home.html')
 
 
-def home_p(request):
+def about(request):
+
+    return render(request, 'main/about.html')
+
+
+def products(request):
 
     if request.method == 'POST':
         form = Url_f(request.POST)
@@ -177,4 +200,9 @@ def home_p(request):
         "reviews": Review.objects.all()
     }
 
-    return render(request, 'main/home.html', context)
+    return render(request, 'main/products.html', context)
+
+
+class ProductDetailView(DetailView):
+    model = Product
+    paginate_by = 2

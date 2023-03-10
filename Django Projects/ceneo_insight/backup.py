@@ -1,17 +1,30 @@
-links = [
-    "https://www.ceneo.pl/94823130/opinie-9"
-]
+from django.shortcuts import render
+from django.http import HttpResponseRedirect
+from .models import Review, Product
+from datetime import datetime
+from .forms import Url_f
+
+
+from django.views.generic import DetailView
+# Scraper
+import requests
+import re
+import json
+from bs4 import BeautifulSoup as bs
 
 
 def link_to_id(adress):
-    import re
     return "".join(re.findall(r"\d{5,}", adress))
 
 
-def scrape(link):
-    import requests
-    from bs4 import BeautifulSoup as bs
+def try_or(f):
+    try:
+        return f
+    except:
+        return None
 
+
+def scrape(link):
     def try_or(f):
         try:
             return f
@@ -20,35 +33,36 @@ def scrape(link):
 
     flag = True
     n = 1
-    l_id = 0
+    local_id = 0
     ceneo_id = link_to_id(link)
     data = {f"{ceneo_id}": {}}
-
-    print(ceneo_id)
     while flag:
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
-        print(doc)
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
-        name = try_or(doc.find(
+
+        product_name = try_or(doc.find(
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+        # Scraping
         for i in range(len(content)):
-            # Local id
-            l_id += 1
-            # review id
+            local_id += 1
             review_id = try_or(content[i].get("data-entry-id"))
-            # Author
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
-
             # Recomendation
-            if try_or(content[i].find(
-                    class_="recommended")):
-                recomendation = True
-            else:
-                recomendation = False
+            try:
+                if content[i].find(
+                        class_="recommended").find("em").string == "Polecam":
+                    is_recomended = True
+                elif content[i].find(
+                        class_="not-recommended").find("em").string == "Nie polecam":
+                    is_recomended = False
+                else:
+                    is_recomended = None
+            except:
+                pass
             # No. stars
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)
@@ -93,12 +107,12 @@ def scrape(link):
                 pass
 
             data[ceneo_id][review_id] = {
-                "local_id": l_id,
+                "local_id": local_id,
                 "product_id": ceneo_id,
-                "product_name": name,
-                "review_Id": review_id,
+                "product_name": product_name,
+                "review_id": review_id,
                 "author": author,
-                "is_recomended": recomendation,
+                "is_recomended": is_recomended,
                 "is_verified": is_verified,
                 "stars": stars,
                 "date_p": date_p,
@@ -109,6 +123,7 @@ def scrape(link):
                 "pos_features": pos_features,
                 "neg_features": neg_features,
             }
+
         pagination = try_or(doc.find(class_="pagination"))
         try:
             if pagination.find(class_="pagination__item pagination__next") == None:
@@ -117,12 +132,83 @@ def scrape(link):
             flag = False
         n += 1
 
-    return data
-
-
-for link in links:
-    import json
-    ceneo_id = link_to_id(link)
-    data = scrape(ceneo_id)
-    with open(f'ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
+    with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
+
+    if not Product.objects.filter(product_id=ceneo_id).exists():
+
+        for ceneo_id, reviews in data.items():
+            product_name = reviews[review_id].get('product_name')
+            product = Product.objects.create(
+                product_id=ceneo_id, product_name=product_name)
+
+        for ceneo_id, reviews in data.items():
+            for review_id, review in reviews.items():
+                date_p = datetime.strptime(
+                    review['date_p'], f'%Y-%m-%d %H:%M:%S')
+                date_b = datetime.strptime(
+                    review['date_b'], f'%Y-%m-%d %H:%M:%S')
+                new_review = Review.objects.create(
+                    product=product,
+                    local_id=review['local_id'],
+                    review_id=review['review_id'],
+                    author=review['author'],
+                    is_recomended=review['is_recomended'],
+                    is_verified=review['is_verified'],
+                    stars=review['stars'],
+                    date_p=date_p,
+                    date_b=date_b,
+                    t_up=review['t_up'],
+                    t_down=review['t_down'],
+                    opinion=review['opinion'],
+                    pos_features=review['pos_features'],
+                    neg_features=review['neg_features'],
+                )
+                product.reviews.add(new_review)
+
+
+# Adding Product
+def add_product(request):
+    if request.method == 'POST':
+        form = Url_f(request.POST)
+        if form.is_valid():
+            url = form.cleaned_data['url_f']
+            scrape(url)
+            return HttpResponseRedirect('/products')
+
+    else:
+        form = Url_f()
+    return render(request, 'main/add_product.html', {'form': form})
+
+
+def home(request):
+
+    return render(request, 'main/home.html')
+
+
+def about(request):
+
+    return render(request, 'main/about.html')
+
+
+def products(request):
+
+    if request.method == 'POST':
+        form = Url_f(request.POST)
+        if form.is_valid():
+            url = form.cleaned_data['url_f']
+            scrape(url)
+    else:
+        form = Url_f()
+
+    context = {
+        "products": Product.objects.all(),
+        "reviews": Review.objects.all()
+    }
+
+    return render(request, 'main/products.html', context)
+
+
+class ProductDetailView(DetailView):
+    model = Product
+    paginate_by = 2
