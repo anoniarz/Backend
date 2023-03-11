@@ -1,11 +1,25 @@
 {% extends "main/base.html" %}
-
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 {% block content %}
 
   <article class="media content-section">
     <h2>{{ object.product_name }}</h2>
   </article>
   
+  <main role="main" class="container">
+    <div class="row">
+    <div class="col-md-4">
+        <div class="content-section">
+          Stars Chart
+          <canvas id="star_chart" width="100" height="100"></canvas>
+          &emsp;Recommendation Chart
+          <canvas id="recomendation_chart" width="100" height="100"></canvas>
+        </div>
+        
+      </div>
+    </main>
+
+
   {% for review in object.reviews.all %}
     <article class="media content-section">
       <div class="media-body">
@@ -30,12 +44,14 @@
         </div>
         <p>{{ review.opinion }}</p>
 
-        {% for pos_feature in review.pos_features %}
         <ul>
-          <i class="green fa-solid fa-plus">&nbsp;</i>
-          {{ pos_feature }}
-        {% endfor %}
-        </ul>
+          {% for pos_feature in review.pos_features %}
+              <li>
+                  <i class="green fa-solid fa-plus">&nbsp;</i>
+                  {{ pos_feature }}
+              </li>
+          {% endfor %}
+          </ul>
         {% for neg_feature in review.neg_features %}
         <ul>
         <i class="red fa-solid fa-minus">&nbsp;</i>
@@ -45,7 +61,6 @@
       </div>
     </article>
   {% endfor %}
-
 
   {% if is_paginated %}
 
@@ -67,7 +82,69 @@
     <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
   {% endif %}
 
+  
+
 {% endif %}
 
-    
-{% endblock content %}
+
+
+
+{% block scripts %}
+    <script>
+        var labels1 = {{ labels1|safe }};
+        var values1 = {{ values1|safe }};
+
+        var ctx = document.getElementById('star_chart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels1,
+                datasets: [{
+                    label: 'No. of Stars',
+                    data: values1,
+                    backgroundColor: ['green','red','orange'],
+                    borderColor: 'white',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+      </script>
+      <script>
+        var labels2 = {{ labels2|safe }};
+        var values2 = {{ values2|safe }};
+
+        var ctx = document.getElementById('recomendation_chart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: labels2,
+                datasets: [{
+                    label: 'Recommendation',
+                    data: values2,
+                    backgroundColor: ['green','red','orange'],
+                    borderColor: 'white',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+{% endblock %}
+{% endblock %}

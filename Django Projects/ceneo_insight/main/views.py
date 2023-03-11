@@ -143,9 +143,6 @@ def scrape(link):
     chart_stars = co.Counter(chart_stars)
     chart_recommendations = co.Counter(chart_recommendations)
 
-    print(chart_stars)
-    print(chart_recommendations)
-
     # Saving Data as Json
     with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
@@ -156,7 +153,7 @@ def scrape(link):
 
     product_name = data[ceneo_id][review_id].get('product_name')
     product = Product.objects.create(id=ceneo_id,
-                                     product_id=ceneo_id, product_name=product_name)
+                                     product_id=ceneo_id, product_name=product_name, chart_stars=chart_stars, chart_recommendations=chart_recommendations)
 
     for review_id, review in data[ceneo_id].items():
         date_p = datetime.strptime(
@@ -235,3 +232,12 @@ def products(request):
 
 class ProductDetailView(DetailView):
     model = Product
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        product = self.get_object()
+        context['labels1'] = list(product.chart_stars.keys())
+        context['values1'] = list(product.chart_stars.values())
+        context['labels2'] = list(product.chart_recommendations.keys())
+        context['values2'] = list(product.chart_recommendations.values())
+        return context

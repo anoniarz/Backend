@@ -5,6 +5,8 @@ class Product(models.Model):
     product_id = models.CharField(
         max_length=36)
     product_name = models.CharField(max_length=255)
+    chart_stars = models.JSONField()
+    chart_recommendations = models.JSONField()
     reviews = models.ManyToManyField('Review', related_name='reviews')
 
     def __str__(self):
