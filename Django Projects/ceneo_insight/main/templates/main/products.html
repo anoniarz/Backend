@@ -9,17 +9,21 @@
   </div></div>
 </article>
 
-    {% for product in products %}
-        <article class="media content-section">
-          <div class="media-body">
-            <h2><a class="article-title" href="{% url 'product_reviews' product.pk %}">{{ product.product_name }}</a>
-            <i class="green fa-solid fa-arrows-rotate"></i>
-            {% comment %} <button onclick="delete_button('{% url 'delete_product' product.pk %}')">
-              <i class="red fa-solid fa-trash"></i> {% endcomment %}
-            </button>
+{% for product in products %}
+    <article class="media content-section">
+        <div class="media-body">
+            <h2>
+                <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
+                    {{ product.product_name }}
+                </a>
+                <a href="{% url 'delete_product' pk=product.pk %}" class="float-right">
+                    <i class="red fa-solid fa-trash">&nbsp;</i>
+                </a>
+                <a href="{% url 'refresh_product' pk=product.pk %}" class="float-right">
+                    <i class="green fa-solid fa-arrows-rotate">&nbsp;</i>
+                </a>
             </h2>
-          </div>
-        </article>
-    {% endfor %}
-
+        </div>
+    </article>
+{% endfor %}
 {% endblock content %}

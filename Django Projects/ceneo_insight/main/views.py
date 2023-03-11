@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup as bs
 
 def delete_from_db(ceneo_id):
     Product.objects.filter(id=ceneo_id).delete()
-    
+
 
 def link_to_id(adress):
     return "".join(re.findall(r"\d{5,}", adress))
@@ -153,10 +153,10 @@ def scrape(link):
     # Adding Data to DataBase
     if Product.objects.filter(product_id=ceneo_id).exists():
         delete_from_db(ceneo_id)
-        
+
     product_name = data[ceneo_id][review_id].get('product_name')
-    product = Product.objects.create(id = ceneo_id,
-        product_id=ceneo_id, product_name=product_name)
+    product = Product.objects.create(id=ceneo_id,
+                                     product_id=ceneo_id, product_name=product_name)
 
     for review_id, review in data[ceneo_id].items():
         date_p = datetime.strptime(
@@ -203,22 +203,26 @@ def add_product(request):
         form = Url_f()
     return render(request, 'main/add_product.html', {'form': form})
 
+
 def home(request):
 
     return render(request, 'main/home.html')
+
 
 def about(request):
 
     return render(request, 'main/about.html')
 
-# def refresh_product(ceneo_id):
-#     scrape(ceneo_id)
-#     return redirect('products')
 
-# def delete_product(request, pk):
-#     product = Product.objects.get(pk=pk)
-#     product.delete()
-#     return redirect('products')
+def refresh_product(request, pk):
+    scrape(str(pk))
+    return redirect('products')
+
+
+def delete_product(request, pk):
+    delete_from_db(pk)
+    return redirect('products')
+
 
 def products(request):
 
@@ -227,5 +231,7 @@ def products(request):
     }
 
     return render(request, 'main/products.html', context)
+
+
 class ProductDetailView(DetailView):
     model = Product
