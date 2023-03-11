@@ -6,16 +6,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16532656",
             "author": "KrakuS",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-09-17 14:53:54",
             "date_b": "2022-09-17 14:53:54",
             "t_up": "1",
             "t_down": "0",
             "opinion": "Według mnie najlepszy procesor na rynku w cenie ok. tysiąca złotych. Fabryczne chłodzenie w zestawie jest większe i lepsze od chłodzeń intela, ale też troszkę głośniejsze. Temperatury utrzymywane przez ten procesor, są w normie, ale jak ktoś dużo wystawia procesor na \"stres\" lub chce go podkręcić (co przy tym procesorze jest bardzo proste i sam producent do tego zachęca) zalecam kupić lepsze chłodzenie.",
             "pos_features": [
-                "pobór prądu stabilność wydajność"
+                [
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -25,19 +29,25 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16865204",
             "author": "s...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-12-11 23:51:40",
             "date_b": "2022-12-11 23:51:40",
             "t_up": "1",
             "t_down": "0",
             "opinion": "bardzo dobry i wydajny procesor ale załączony wentylator to jakaś porażka (głośny, nieprzyjemny, metaliczny dźwięk) następnego dnia zmieniłem na SilentiumPC Fortis 5\nmogli by sobie w AMD darować dodawanie tego wentylatora (chociaż do wersji X) a za to obniżyć cenę o parę dolarów",
             "pos_features": [
-                "pobór prądu stabilność wydajność"
+                [
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": [
-                "głośność pracy"
+                [
+                    "głośność pracy"
+                ]
             ]
         },
         "13521192": {
@@ -46,9 +56,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13521192",
             "author": "p...c",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-07 20:18:46",
             "date_b": "2020-12-07 20:18:46",
             "t_up": "6",
@@ -63,16 +73,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16834414",
             "author": "j...8",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-05 19:56:59",
             "date_b": "2022-12-05 19:56:59",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Solidny i w dobrej cenie. U mnie wsadzony do Aorusa B450 v2 z RX 6600 działa serio dobrze. Chłodzenie fabryczne daje rade ale i tak polecam wymienić na coś lepszego.",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -82,16 +97,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14222858",
             "author": "m...m",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-02 12:12:01",
             "date_b": "2021-04-02 12:12:01",
             "t_up": "3",
             "t_down": "1",
             "opinion": "Bardzo dobry procesor, idealny do wejścia w świat AMD (lepszy od Inteli w tej półce cenowej).",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -101,9 +120,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16842729",
             "author": "m...y",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-07 10:27:45",
             "date_b": "2022-12-07 10:27:45",
             "t_up": "0",
@@ -118,16 +137,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16927109",
             "author": "a...t",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-24 17:18:58",
             "date_b": "2022-12-24 17:18:58",
             "t_up": "0",
             "t_down": "0",
             "opinion": "produkt najwyższej jakości, świetna wydajność. Co do sprzedawcy, POLECAM!!!. bardzo szybka dostawa, najniższa cena",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -137,19 +161,25 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16824876",
             "author": "m...h",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-12-02 16:50:07",
             "date_b": "2022-12-02 16:50:07",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Dobra wydajność jednak procesor wymaga undervoltingu lub wymiany radiatora dołączonego do zestawu (50C w idle).",
             "pos_features": [
-                "pobór prądu stabilność wydajność"
+                [
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": [
-                "głośność pracy"
+                [
+                    "głośność pracy"
+                ]
             ]
         },
         "14527776": {
@@ -158,16 +188,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14527776",
             "author": "k...9",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-05-28 10:00:33",
             "date_b": "2021-05-28 10:00:33",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Nieco za drogi ale mimo wszystko wart swojej ceny . Cichy , chłodny i wydajny . Polecam .",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -177,19 +211,25 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16169682",
             "author": "d...e",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-06-03 21:46:00",
             "date_b": "2022-06-03 21:46:00",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo wydajny i oszczędny procesor. Warto zainwestować w większe i ciche chłodzenie. ",
             "pos_features": [
-                "pobór prądu stabilność wydajność"
+                [
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": [
-                "głośność pracy"
+                [
+                    "głośność pracy"
+                ]
             ]
         },
         "16821934": {
@@ -198,9 +238,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16821934",
             "author": "p...3",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-02 09:34:25",
             "date_b": "2022-12-02 09:34:25",
             "t_up": "0",
@@ -215,16 +255,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14993286",
             "author": "m...l",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-09-24 10:01:36",
             "date_b": "2021-09-24 10:01:36",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Dobry procek jak za taką cenę pod gry absolutnie wystarczy jak dlamnie.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -234,16 +278,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16524690",
             "author": "a...0",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-09-15 12:03:06",
             "date_b": "2022-09-15 12:03:06",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Wydajny procesor w tej cenie. W trybie turbo osiąga 4.6 GHz. Polecam ",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -253,16 +302,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13562521",
             "author": "m...l",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-11 22:08:33",
             "date_b": "2020-12-11 22:08:33",
             "t_up": "2",
             "t_down": "9",
             "opinion": "Bardzo dobry procesor w tańszym segmencie, w końcu dzięki niemu moja karta graficzna dostała kopa",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -272,16 +325,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14711578",
             "author": "j...3",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-07-12 20:47:42",
             "date_b": "2021-07-12 20:47:42",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Grzał się przez pierwsze dni użytkowania ale przestal po tygodniu. ",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -291,16 +348,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13605604",
             "author": "kpedromonico",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-18 11:40:46",
             "date_b": "2020-12-18 11:40:46",
             "t_up": "4",
             "t_down": "5",
             "opinion": "Very good and reliable CPU. It's fast for either gaming or daily activities.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -310,16 +371,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14165467",
             "author": "s...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-03-23 21:19:19",
             "date_b": "2021-03-23 21:19:19",
             "t_up": "1",
             "t_down": "0",
             "opinion": "Procesor do moich zastosowan aż nadto wydajny ",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -329,16 +394,22 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17109017",
             "author": "l...z",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-02-06 13:13:39",
             "date_b": "2023-02-06 13:13:39",
             "t_up": "0",
             "t_down": "0",
             "opinion": "dobre osiągi, stabilna temperatura pracy, adekwatna cena",
             "pos_features": [
-                "cena głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "cena",
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -348,9 +419,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14390304",
             "author": "m...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-30 21:13:16",
             "date_b": "2021-04-30 21:13:16",
             "t_up": "1",
@@ -365,16 +436,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16428338",
             "author": "m...d",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-08-17 15:29:21",
             "date_b": "2022-08-17 15:29:21",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo dobry procesor ze średniej półki. Polecam.",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -384,16 +460,22 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15997728",
             "author": "t...v",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-22 20:40:44",
             "date_b": "2022-04-22 20:40:44",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super procesor w dobrej cenie, nie mam zastrzezen",
             "pos_features": [
-                "cena głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "cena",
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -403,16 +485,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16014098",
             "author": "a...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-27 12:57:20",
             "date_b": "2022-04-27 12:57:20",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Działa jak fabryka chciała a że fabryka ... :)",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -422,9 +509,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13717733",
             "author": "k...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-06 00:18:48",
             "date_b": "2021-01-06 00:18:48",
             "t_up": "3",
@@ -439,16 +526,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15641514",
             "author": "o...z",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-02-01 19:16:18",
             "date_b": "2022-02-01 19:16:18",
             "t_up": "0",
             "t_down": "0",
             "opinion": "doskonały procek, bije konkurencję na głowę",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -458,9 +550,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15191212",
             "author": "s...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-11-10 21:14:29",
             "date_b": "2021-11-10 21:14:29",
             "t_up": "0",
@@ -475,9 +567,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17022099",
             "author": "k...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2023-01-16 18:54:39",
             "date_b": "2023-01-16 18:54:39",
             "t_up": "0",
@@ -492,16 +584,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16812098",
             "author": "K...o",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-11-30 14:31:44",
             "date_b": "2022-11-30 14:31:44",
             "t_up": "0",
             "t_down": "0",
             "opinion": "bardzo oplacalny dobry procesor polecam",
             "pos_features": [
-                "pobór prądu stabilność wydajność"
+                [
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -511,9 +607,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13880191",
             "author": "sade55",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-02 10:38:09",
             "date_b": "2021-02-02 10:38:09",
             "t_up": "3",
@@ -528,9 +624,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16766542",
             "author": "d...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-11-18 21:41:33",
             "date_b": "2022-11-18 21:41:33",
             "t_up": "0",
@@ -545,16 +641,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15103445",
             "author": "m...o",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-10-20 16:18:03",
             "date_b": "2021-10-20 16:18:03",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Najlepszy procek w tej cenie.",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -564,16 +665,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17182237",
             "author": "Paweł",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-02-23 10:30:03",
             "date_b": "2023-02-23 10:30:03",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Procesor jak procesor działa",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -583,9 +689,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16983897",
             "author": "m...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-06 11:58:12",
             "date_b": "2023-01-06 11:58:12",
             "t_up": "0",
@@ -600,9 +706,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16900107",
             "author": "g...l",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-19 10:45:09",
             "date_b": "2022-12-19 10:45:09",
             "t_up": "0",
@@ -617,16 +723,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17015850",
             "author": "k...e",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-13 21:41:47",
             "date_b": "2023-01-13 21:41:47",
             "t_up": "0",
             "t_down": "0",
             "opinion": "wszystko ok",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -636,9 +746,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16856111",
             "author": "s...3",
-            "is_recomended": "3",
+            "recommendation": "None",
             "is_verified": true,
-            "stars": "3,5/5",
+            "stars": "3,5",
             "date_p": "2022-12-09 10:54:12",
             "date_b": "2022-12-09 10:54:12",
             "t_up": "0",
@@ -653,16 +763,19 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15829164",
             "author": "k...o",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-03-16 11:19:30",
             "date_b": "2022-03-16 11:19:30",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Sprzęt Oki",
             "pos_features": [
-                "głośność pracy stabilność"
+                [
+                    "głośność pracy",
+                    "stabilność"
+                ]
             ],
             "neg_features": []
         },
@@ -672,9 +785,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17040715",
             "author": "j...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-19 23:04:04",
             "date_b": "2023-01-19 23:04:04",
             "t_up": "0",
@@ -689,16 +802,18 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17149425",
             "author": "d...0",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-02-15 19:18:39",
             "date_b": "2023-02-15 19:18:39",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Polecam",
             "pos_features": [
-                "głośność pracy"
+                [
+                    "głośność pracy"
+                ]
             ],
             "neg_features": []
         },
@@ -708,16 +823,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14786779",
             "author": "k...1",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-07-30 19:59:10",
             "date_b": "2021-07-30 19:59:10",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Polecam",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -727,16 +846,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14567128",
             "author": "m...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-06-07 20:01:29",
             "date_b": "2021-06-07 20:01:29",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Świetny",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -746,16 +869,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13483398",
             "author": "k...7",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-01 22:14:00",
             "date_b": "2020-12-01 22:14:00",
             "t_up": "2",
             "t_down": "6",
             "opinion": "Świetny procesor, polecam!",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -765,9 +892,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17250080",
             "author": "o...r",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-03-10 11:17:00",
             "date_b": "2023-03-10 11:17:00",
             "t_up": "0",
@@ -782,9 +909,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16851190",
             "author": "b...i",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-08 13:12:49",
             "date_b": "2022-12-08 13:12:49",
             "t_up": "0",
@@ -799,9 +926,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16439576",
             "author": "D...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-08-20 14:01:54",
             "date_b": "2022-08-20 14:01:54",
             "t_up": "0",
@@ -816,16 +943,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16367737",
             "author": "c...0",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-07-29 10:37:09",
             "date_b": "2022-07-29 10:37:09",
             "t_up": "0",
             "t_down": "0",
             "opinion": "*****",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -835,16 +967,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "15226294",
             "author": "z...6",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-11-18 16:19:01",
             "date_b": "2021-11-18 16:19:01",
             "t_up": "0",
             "t_down": "0",
             "opinion": "super",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -854,16 +991,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "14795112",
             "author": "g...1",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-08-03 07:14:07",
             "date_b": "2021-08-03 07:14:07",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -873,16 +1014,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "17164769",
             "author": "d...7",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-02-19 17:39:51",
             "date_b": "2023-02-19 17:39:51",
             "t_up": "0",
             "t_down": "0",
             "opinion": "100%",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -892,16 +1038,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16860670",
             "author": "g...9",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-09 23:26:52",
             "date_b": "2022-12-09 23:26:52",
             "t_up": "0",
             "t_down": "0",
             "opinion": "git",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -911,9 +1062,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16853784",
             "author": "c...0",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-08 21:32:50",
             "date_b": "2022-12-08 21:32:50",
             "t_up": "0",
@@ -928,16 +1079,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16829647",
             "author": "t...7",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-03 22:21:54",
             "date_b": "2022-12-03 22:21:54",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Git",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -947,19 +1103,26 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16588857",
             "author": "Paweł",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-10-03 20:43:37",
             "date_b": "2022-10-03 20:43:37",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": [
-                "cena"
+                [
+                    "cena"
+                ]
             ]
         },
         "16563923": {
@@ -968,9 +1131,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16563923",
             "author": "Gabriela",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-09-27 07:58:13",
             "date_b": "2022-09-27 07:58:13",
             "t_up": "0",
@@ -985,16 +1148,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16502043",
             "author": "p...a",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-09-08 17:45:39",
             "date_b": "2022-09-08 17:45:39",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -1004,16 +1172,21 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "16496029",
             "author": "r...k",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-09-07 10:54:27",
             "date_b": "2022-09-07 10:54:27",
             "t_up": "0",
             "t_down": "0",
             "opinion": "ok",
             "pos_features": [
-                "głośność pracy pobór prądu stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "pobór prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -1023,16 +1196,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13512342",
             "author": "r...s",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-05 13:49:44",
             "date_b": "2020-12-05 13:49:44",
             "t_up": "1",
             "t_down": "4",
             "opinion": "13/10",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -1042,9 +1219,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13841524",
             "author": "k...z",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-26 19:08:26",
             "date_b": "2021-01-26 19:08:26",
             "t_up": "0",
@@ -1059,9 +1236,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13615513",
             "author": "D...i",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-19 15:03:51",
             "date_b": "2020-12-19 15:03:51",
             "t_up": "0",
@@ -1076,9 +1253,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13563583",
             "author": "c...1",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-12 02:17:00",
             "date_b": "2020-12-12 02:17:00",
             "t_up": "1",
@@ -1093,9 +1270,9 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13670844",
             "author": "r...i",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-29 13:17:37",
             "date_b": "2020-12-29 13:17:37",
             "t_up": "0",
@@ -1110,16 +1287,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13433826",
             "author": "d...i",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-11-24 07:59:39",
             "date_b": "2020-11-24 07:59:39",
             "t_up": "3",
             "t_down": "15",
             "opinion": "Super procesor za tą cenę, bije Intele.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -1129,16 +1310,20 @@
             "product_name": "AMD Ryzen 5 5600X 3,7GHz BOX (100-100000065BOX)",
             "review_id": "13589239",
             "author": "Norbert",
-            "is_recomended": "1",
+            "recommendation": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-16 12:08:10",
             "date_b": "2020-12-16 12:08:10",
             "t_up": "1",
             "t_down": "6",
             "opinion": "Perfect!",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         }

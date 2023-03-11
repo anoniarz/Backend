@@ -37,6 +37,8 @@ def scrape(link):
     local_id = 0
     ceneo_id = link_to_id(link)
     data = {f"{ceneo_id}": {}}
+    chart_stars = []
+    chart_recommendations = []
     while flag:
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
@@ -54,16 +56,17 @@ def scrape(link):
                 class_="user-post__author-name").string[1:])
             # Recomendation
             try:
-                is_recomended = "True" if content[i].find(
+                recommendation = "True" if content[i].find(
                     class_="user-post__author-recomendation").find("em").string == "Polecam" else "False"
             except:
-                is_recomended = "None"
+                recommendation = "None"
                 pass
-
+            chart_recommendations.append(recommendation)
             # No. stars
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)
             stars = re.split(r"/", stars)[0]
+            chart_stars.append(stars)
             # is_Verified
             try:
                 is_verified = True if content[i].find(
@@ -110,7 +113,7 @@ def scrape(link):
                 "product_name": product_name,
                 "review_id": review_id,
                 "author": author,
-                "is_recomended": is_recomended,
+                "recommendation": recommendation,
                 "is_verified": is_verified,
                 "stars": stars,
                 "date_p": date_p,
@@ -130,9 +133,18 @@ def scrape(link):
             flag = False
         n += 1
 
+    # Chart Data
+    chart_stars = co.Counter(chart_stars)
+    chart_recommendations = co.Counter(chart_recommendations)
+
+    print(chart_stars)
+    print(chart_recommendations)
+
+    # Saving Data as Json
     with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
+    # Adding Data to DataBase
     if Product.objects.filter(product_id=ceneo_id).exists():
         return "error"
 
@@ -152,7 +164,7 @@ def scrape(link):
                 local_id=review['local_id'],
                 review_id=review['review_id'],
                 author=review['author'],
-                recomendation=review["is_recomended"],
+                recommendation=review["recommendation"],
                 is_verified=review['is_verified'],
                 stars=review['stars'],
                 date_p=date_p,
