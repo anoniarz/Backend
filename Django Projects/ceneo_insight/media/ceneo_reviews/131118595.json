@@ -6,7 +6,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16821873",
             "author": "n...i",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-02 09:26:55",
@@ -15,7 +15,11 @@
             "t_down": "0",
             "opinion": "Procesor bestia! Szczególnie pokazuje pazury w wymagających grach jak symulatory/symulacje(Microsoft Flight Simulator, Factorio) i MMO(Star Citizen, New World).\n\nW ustawieniach fabrycznych grzeje się dość mocno, ale po małym undervoltingu i z w miarę solidnym chłodzeniem(osobiście posiadam Arctic AK620) temperatury są w porządku(maks 60-70 podczas grania). Undervolting bardzo zalecany(można znaleźć poradniki jak to zrobić prosto i bezpiecznie na youtube), gdyż może obniżyć temperatury nawet o 10 stopni przy jednoczesnym spadku poboru prądu i szybszym/stabilniejszym zegarze.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -25,7 +29,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16736741",
             "author": "Użytkownik Ceneo",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-11 14:27:14",
@@ -34,7 +38,11 @@
             "t_down": "0",
             "opinion": "Najlepszy procesor do gier w rozsądnej cenie! Super wydajność przy stosunkowo niskim poborze prądu (i wydzielanym cieple). Temperatura działania jest bardzo specyficzna (próbuje zawsze osiągnąć 90 stopni), przez co trzeba umiejętnie dobrać chłodzenie.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -44,7 +52,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16931009",
             "author": "K...l",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-27 03:54:03",
@@ -53,7 +61,11 @@
             "t_down": "0",
             "opinion": "praktycznie nie do zajechania. domyślne napięcie ustawiane przez płytę główną mogłoby być nieco niższe żeby zbić temperatury, które z powodu jednego CCD są dość wysokie",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -63,7 +75,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16734783",
             "author": "i...z",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-10 20:27:41",
@@ -80,7 +92,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16854560",
             "author": "s...9",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-08 23:57:11",
@@ -89,10 +101,15 @@
             "t_down": "0",
             "opinion": "W porównaniu do R5 3600xt temperatury wzrosły o 5-10 stopni, natomiast wydajność o około 30%",
             "pos_features": [
-                "stabilność wydajność"
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": [
-                "głośność pracy"
+                [
+                    "głośność pracy"
+                ]
             ]
         },
         "16759681": {
@@ -101,7 +118,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16759681",
             "author": "c...f",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-17 15:42:31",
@@ -110,7 +127,11 @@
             "t_down": "0",
             "opinion": "Fajny procesor, jeśli ktoś chce wycisnąć wszystko co możliwe  z am4. ",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -120,7 +141,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16742440",
             "author": "j...i",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-14 10:38:37",
@@ -129,7 +150,11 @@
             "t_down": "0",
             "opinion": "Procesor jest niesamowity, jestem w pełni zadowolony.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -139,7 +164,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16957902",
             "author": "pin",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-31 09:01:46",
@@ -148,7 +173,9 @@
             "t_down": "0",
             "opinion": "Temperatury trochę wyższe od 5800x, cache robi swoje",
             "pos_features": [
-                "wydajność"
+                [
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -158,7 +185,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "17039315",
             "author": "d...z",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2023-01-19 19:42:46",
@@ -175,7 +202,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "17040110",
             "author": "a...o",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2023-01-19 21:11:36",
@@ -192,7 +219,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16706691",
             "author": "I...i",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-03 11:41:12",
@@ -201,7 +228,10 @@
             "t_down": "0",
             "opinion": "najlepsze cpu na am4 do gier",
             "pos_features": [
-                "stabilność wydajność"
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -211,7 +241,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16787693",
             "author": "y...2",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-24 11:42:29",
@@ -228,7 +258,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "17057556",
             "author": "k...8",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2023-01-25 03:28:44",
@@ -237,7 +267,11 @@
             "t_down": "0",
             "opinion": "Zaje procesor do gier",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -247,7 +281,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16857900",
             "author": "z...4",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-09 15:06:24",
@@ -256,7 +290,11 @@
             "t_down": "0",
             "opinion": "Po prostu polecam.",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -266,7 +304,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "17049882",
             "author": "c...r",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2023-01-23 12:13:57",
@@ -275,7 +313,10 @@
             "t_down": "0",
             "opinion": "Polecam. ",
             "pos_features": [
-                "stabilność wydajność"
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -285,7 +326,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16870111",
             "author": "k...4",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-12-13 06:41:30",
@@ -294,7 +335,11 @@
             "t_down": "0",
             "opinion": "super!",
             "pos_features": [
-                "głośność pracy stabilność wydajność"
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         },
@@ -304,7 +349,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16748380",
             "author": "j...i",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-15 13:12:51",
@@ -321,7 +366,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16809863",
             "author": "p...x",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": true,
             "stars": "5/5",
             "date_p": "2022-11-30 09:54:55",
@@ -338,7 +383,7 @@
             "product_name": "AMD Ryzen 7 5800X3D 3,4GHz BOX (100100000651WOF)",
             "review_id": "16759870",
             "author": "imie",
-            "is_recomended": "True1",
+            "is_recomended": "True",
             "is_verified": false,
             "stars": "5/5",
             "date_p": "2022-11-17 16:44:58",
@@ -347,7 +392,9 @@
             "t_down": "1",
             "opinion": "W tej cenie to bardzo dobry procesor. Oszczędny, wydajny i w miarę przyszłościowy. Na kilka dobrych lat na pewno wystarczy. Jedyny minus to dość wysokie temperatury pracy, około 70-75 stopni w grach na chłodzeniu Noctua NH-D15. I trochę szkoda że nie da się go podkręcić do powiedzmy 4.7/4.8Ghz.",
             "pos_features": [
-                "wydajność"
+                [
+                    "wydajność"
+                ]
             ],
             "neg_features": []
         }

@@ -10,6 +10,7 @@ from django.views.generic import DetailView
 import requests
 import re
 import json
+import collections as co
 from bs4 import BeautifulSoup as bs
 
 
@@ -62,6 +63,7 @@ def scrape(link):
             # No. stars
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)
+            stars = re.split(r"/", stars)[0]
             # is_Verified
             try:
                 is_verified = True if content[i].find(
@@ -92,16 +94,16 @@ def scrape(link):
                     class_="review-feature__col")
                 if fea_list[0].find(
                         class_="review-feature__title review-feature__title--positives").string == "Zalety":
-                    pos_features.append(" ".join(x.string for x in fea_list[0].find_all(
-                        class_="review-feature__item")))
-                    neg_features.append(" ".join(x.string for x in fea_list[1].find_all(
-                        class_="review-feature__item")))
+                    pos_features.append([x.string for x in fea_list[0].find_all(
+                        class_="review-feature__item")])
+                    neg_features.append([x.string for x in fea_list[1].find_all(
+                        class_="review-feature__item")])
                 else:
-                    neg_features.append(" ".join(x.string for x in fea_list[0].find_all(
-                        class_="review-feature__item")))
+                    neg_features.append([x.string for x in fea_list[0].find_all(
+                        class_="review-feature__item")])
             except:
                 pass
-            print(is_recomended)
+
             data[ceneo_id][review_id] = {
                 "local_id": local_id,
                 "product_id": ceneo_id,
@@ -131,47 +133,55 @@ def scrape(link):
     with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
+    if Product.objects.filter(product_id=ceneo_id).exists():
+        return "error"
+
     if not Product.objects.filter(product_id=ceneo_id).exists():
 
-        for ceneo_id, reviews in data.items():
-            product_name = reviews[review_id].get('product_name')
-            product = Product.objects.create(
-                product_id=ceneo_id, product_name=product_name)
+        product_name = data[ceneo_id][review_id].get('product_name')
+        product = Product.objects.create(
+            product_id=ceneo_id, product_name=product_name)
 
-        for ceneo_id, reviews in data.items():
-            for review_id, review in reviews.items():
-                date_p = datetime.strptime(
-                    review['date_p'], f'%Y-%m-%d %H:%M:%S')
-                date_b = datetime.strptime(
-                    review['date_b'], f'%Y-%m-%d %H:%M:%S')
-                print(review["is_recomended"])
-                new_review = Review.objects.create(
-                    product=product,
-                    local_id=review['local_id'],
-                    review_id=review['review_id'],
-                    author=review['author'],
-                    recomendation=review["is_recomended"],
-                    is_verified=review['is_verified'],
-                    stars=review['stars'],
-                    date_p=date_p,
-                    date_b=date_b,
-                    t_up=review['t_up'],
-                    t_down=review['t_down'],
-                    opinion=review['opinion'],
-                    pos_features=review['pos_features'],
-                    neg_features=review['neg_features'],
-                )
-                product.reviews.add(new_review)
+        for review_id, review in data[ceneo_id].items():
+            date_p = datetime.strptime(
+                review['date_p'], f'%Y-%m-%d %H:%M:%S').date()
+            date_b = datetime.strptime(
+                review['date_b'], f'%Y-%m-%d %H:%M:%S').date()
+            new_review = Review.objects.create(
+                product=product,
+                local_id=review['local_id'],
+                review_id=review['review_id'],
+                author=review['author'],
+                recomendation=review["is_recomended"],
+                is_verified=review['is_verified'],
+                stars=review['stars'],
+                date_p=date_p,
+                date_b=date_b,
+                t_up=review['t_up'],
+                t_down=review['t_down'],
+                opinion=review['opinion'],
+                pos_features=review['pos_features'],
+                neg_features=review['neg_features'],
+            )
+            product.reviews.add(new_review)
+    return product.pk
 
+
+def error(request):
+    return render(request, 'main/error.html')
 
 # Adding Product
+
+
 def add_product(request):
     if request.method == 'POST':
         form = Url_f(request.POST)
         if form.is_valid():
             url = form.cleaned_data['url_f']
-            scrape(url)
-            return HttpResponseRedirect('/products')
+            product_pk = scrape(url)
+            if product_pk == "error":
+                return HttpResponseRedirect(f'/error')
+            return HttpResponseRedirect(f'/product/{product_pk}')
 
     else:
         form = Url_f()
@@ -208,4 +218,3 @@ def products(request):
 
 class ProductDetailView(DetailView):
     model = Product
-    paginate_by = 2

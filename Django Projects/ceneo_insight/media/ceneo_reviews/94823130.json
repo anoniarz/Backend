@@ -8,7 +8,7 @@
             "author": "Anna",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-29 23:44:49",
             "date_b": "2021-04-29 23:44:49",
             "t_up": "13",
@@ -25,17 +25,23 @@
             "author": "d...4",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-11 20:14:29",
             "date_b": "2022-04-11 20:14:29",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Rewelacyjny,  szybko piecze produkty, są chrupkie ,dobrze wysmażone. \nPo włączeniu odrazu piecze,nie trzeba czekać aż się nagrzeje jak piekarnik.  Teraz obiady po pracy stały się przyjemnością. ",
             "pos_features": [
-                "jakość wykonania pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "łatwość czyszczenia"
+                [
+                    "łatwość czyszczenia"
+                ]
             ]
         },
         "15360036": {
@@ -46,17 +52,29 @@
             "author": "k...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-12-14 09:42:29",
             "date_b": "2021-12-14 09:42:29",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Urządzenie dobrej jakości, naprawdę przydatne w kuchni, dania wychodzą smaczne, a czas przygotowania jest krótszy. Bardzo polecam!",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "14390316": {
@@ -67,14 +85,23 @@
             "author": "Anna",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-30 21:16:10",
             "date_b": "2021-04-30 21:16:10",
             "t_up": "2",
             "t_down": "6",
             "opinion": "Super produkt. Pyszne jedzenie. Eksperymentuje codziennie z przepisów z aplikacji ovi. Paczki zdrowe, mięso soczyste, frytki smaczne. Szczerze polecam",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -86,17 +113,25 @@
             "author": "Jarek",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-05-20 23:41:06",
             "date_b": "2021-05-20 23:41:06",
             "t_up": "2",
             "t_down": "1",
             "opinion": "Na razie się poznajemy ;) Frytki i kurczak wychodzą super na programie automatycznym. Zajmuje trochę dużo miejsca więc jest to raczej urządzenie stacjonarne. Ogrzewanie strumieniem gorącego powietrza jest bardziej efektywne niż w piekarniku wobec tego, lepiej skrócić czas przygotowania dania jeśli chodzi o czas podany dla piekarnika lub po prostu kontrolować stan podczas używania. Z pewnością będzie często używane zwłaszcza, że nie posiadam piekarnika. Aaaa.. pizza z pudełka niestety nie wchodzi podobnie jak zapiekanka (tą trzeba podzielić na pół) :/",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "14202358": {
@@ -107,14 +142,23 @@
             "author": "Użytkownik Ceneo",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-03-30 13:34:30",
             "date_b": "2021-03-30 13:34:30",
             "t_up": "0",
             "t_down": "3",
             "opinion": "Intuicyjny w obsłudze, ładnie prezentuje się, duży plus za możliwość czyszczenia w zmywarce",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -126,14 +170,18 @@
             "author": "k...o",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-02 21:41:02",
             "date_b": "2021-02-02 21:41:02",
             "t_up": "3",
             "t_down": "4",
             "opinion": "Super urządzenie,  oprócz  frytek Super nadaje się  do ryb, mięs, owoców morza , również do pogrzewania potraw",
             "pos_features": [
-                "jakość wykonania pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -145,14 +193,23 @@
             "author": "n...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-08-24 10:13:37",
             "date_b": "2022-08-24 10:13:37",
             "t_up": "1",
             "t_down": "0",
             "opinion": "O zakupie Ovi myślałam już dawno, niestety cena mnie trochę odstraszała. Na szczęście rodzinka zrobiła zrzutkę na urodziny i tak to właśnie jestem szczęśliwą posiadaczką. Teraz będę kompletować akcesoria. Do tej pory zdążyłam zrobić kilkukrotnie frytki, podudzia z kurczaka oraz upiec filety do sałatki. Wszystko było chrupiące i pyszne. Zdarzyło się mi odgrzewać krokiety z pieczarkami i serem - lepsze niż świeże - niebo w gębie. Dużym plusem Ovi jest także czas przyrządzania, nie musi się do tego rozgrzewać tak długo jak piekarnik. No cóż, Wszystkim życzę takich prezentów jeśli chodzi o taki drobny sprzęt :)  Liczę na to ze będzie wiernie służył :)",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -164,17 +221,29 @@
             "author": "Ewa",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-06-08 09:20:11",
             "date_b": "2022-06-08 09:20:11",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo ładnie wykonane urządzenie. Szybko się piecze i nie przypala. Nie wiem do czego odnosi się pojemność 7 litrów,  piekłam sernik z 1 kg sera. To wszystko co się tam zmieści. Ta pojemność może być problemem przy gotowaniu dla dużej liczby osób. Można  upiec 4 kawałki ryby. Plusem jest to, że szybko się nagrzewa i jak potrzeba można upiec drugą porcję. Dużym minusem są drogie akcesoria! Można używać zwykłych foremek do ciasta.  Urządzenie jest głośne, pewnie ze względu na dużą moc. Pomimo tych niedogodności jestem bardzo zadowolona. Nie zamieniłam bym na normalny piekarnik. Mam urządzenie, które jest mniejsze od piekarnika i nieużywane mogę schować. Mogę też zabrać na wakacje.",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "13963493": {
@@ -185,14 +254,22 @@
             "author": "r...r",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-16 11:59:47",
             "date_b": "2021-02-16 11:59:47",
             "t_up": "3",
             "t_down": "1",
             "opinion": "Super urządzenie bardzo uniwersalne. Szybko się nagrzewa, ma dużą pojemność, równomiernie piecze potrawy, dobrze dobiera czas pieczenia do wagi. Frytki wychodzą przepyszne ze świeżych jak i z mrożonych ziemniaków. Pałki z kurczaka czy też cały kurczak naprawdę bardzo dobrze przypieczony i soczysty w środku. Wypróbowane jeszcze dania to: babeczki, warzywa grilowane, steki mięsne, hotdogi, zapiekanki, pizza, papryka faszerowana, grzanki. Ogólnie warte polecenia urządzenie. Jedyny minus to cena samego urządzenia oraz akcesoriów do niego.",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -204,14 +281,19 @@
             "author": "d...r",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-09 23:28:15",
             "date_b": "2021-02-09 23:28:15",
             "t_up": "5",
             "t_down": "1",
             "opinion": "Najlepiej wychodzą frytki mrożone, bo są chrupkie i smaczne. Podobinie np. podudzia kruczaka, czy też same warzywa (marchew, cukinia, papryka surowa, cebula czerwona), trochę posolone, popieprzone i polane olejem i następnie wrzucone do kosza. Od miesiąca używam i bardzo sobie chwalę.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -223,14 +305,19 @@
             "author": "Marek",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2021-02-16 21:52:19",
             "date_b": "2021-02-16 21:52:19",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Jakość wykonania to absolutnie TOP jeżeli chodzi o AGD . Bardzo ładnie się prezentuje. Używamy dopiero 2 tygodnie ale wstępna ocena jest BARDZO POZYTYWNA. Doskonałe frytki ( dzięki małej ilości dodanego oleju frytownica nie dymi ) , Świetne udka z kurczaka, soczyste ( w tym wypadku dymu było sporo ). ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -242,14 +329,19 @@
             "author": "m...s",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-05-08 21:32:35",
             "date_b": "2021-05-08 21:32:35",
             "t_up": "4",
             "t_down": "0",
             "opinion": "Rewelacja. Mam 3 dzieci najmłodsze 11 lat. Wszyscy pokochali to urządzenie. Kupiłem frytki, nuggety, i inne mrożonki. Jestem spokojny. Dzieci nie są głodne. Wyciągają mrożonki z zamrażarki wkładają do urządzenia. jednen przycisk i po temacie. RE - WE - LA CJA",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -261,17 +353,25 @@
             "author": "p...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4/5",
+            "stars": "4",
             "date_p": "2022-06-30 12:26:15",
             "date_b": "2022-06-30 12:26:15",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Urządzenie działa. Frytki są naprawdę dobre. Jeśli chodzi o opcje, ustawienia urządzenia to szału nie ma ale jest jeszcze za wcześnie aby oceniać inne funkcjonalności \"maszyny\". Poza tym stare dobre przysłowie mówi: \"nie chwal dnia przed zachodem słońca\" ...",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "13423752": {
@@ -282,7 +382,7 @@
             "author": "a...4",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-11-21 19:25:11",
             "date_b": "2020-11-21 19:25:11",
             "t_up": "4",
@@ -299,14 +399,23 @@
             "author": "d...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-11-22 12:34:10",
             "date_b": "2022-11-22 12:34:10",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Produkt posiadam kilka dni, a już się w nim zakochałam. Kurczak pieczony z tego urządzenia jest rewelacyjny. Póki co wszystkie potrawy wykonane w tym urządzeniu są super. Polecam PHILIPS Ovi Smart XXL HD9867/90 wszystkim niezdecydowanym.",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -318,14 +427,19 @@
             "author": "Paulina",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4/5",
+            "stars": "4",
             "date_p": "2021-12-22 22:52:03",
             "date_b": "2021-12-22 22:52:03",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Przyjemne urządzenie. Określiłabym że pomiędzy  mikrofalą a piecykiem. Jeśli chodzi o frytki trzeba wypracować sobie własne ustawienia. Z resztą programy nie koniecznie są potrzebne tym bardziej że się często nie sprawdzają.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -337,17 +451,29 @@
             "author": "r...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-01-31 23:38:56",
             "date_b": "2022-01-31 23:38:56",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Produkt super wszystko wychodzi pyszne, ale niestety zamówiony u konkurencji ponieważ nonet kazał mi czekać ponad 2tyg I produkt cały czas był w zamówieniu niezrealizowanym..... ",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "16155898": {
@@ -358,14 +484,19 @@
             "author": "w...l",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-06-01 10:35:35",
             "date_b": "2022-06-01 10:35:35",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Genialny. Wszystko pyszne. W podstawowym wyposażeniu   też można zapiec kanapkę czy np. faszerowane pieczarki. Udka gotowe w 30 min. Łatwo się rozmontowuje do mycia.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -377,7 +508,7 @@
             "author": "h...l",
             "is_recomended": "False",
             "is_verified": true,
-            "stars": "2/5",
+            "stars": "2",
             "date_p": "2021-03-01 19:33:50",
             "date_b": "2021-03-01 19:33:50",
             "t_up": "6",
@@ -394,14 +525,19 @@
             "author": "k...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-07 10:56:00",
             "date_b": "2021-04-07 10:56:00",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super działa, aplikacja z przepisami ma super przepisy do tego frajera. Sporo miejsca zajmuje ale warto. Pizza odgrzana w nim kurde jest pyszna nawet 2 dni później.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -413,14 +549,19 @@
             "author": "d...0",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-12 14:53:05",
             "date_b": "2021-01-12 14:53:05",
             "t_up": "0",
             "t_down": "3",
             "opinion": "Zbyt krótki okres,aby ocenić całościowo urządzenie.Wygląda bardzo ładnie.Wykonany jest z dobrych materiałów.Frytki są smaczne.Uważam,że dalej będzie podobnie.olecam.Andrzej.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -432,14 +573,23 @@
             "author": "Wiesław",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-05 23:27:31",
             "date_b": "2022-12-05 23:27:31",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo dobre urządzenie. Bałem się, że frytki będą niesmaczne, ale są przedobre. Inne potrawy również super. Polecam wszystkim niezdecydowanym jeszcze. ",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -451,14 +601,19 @@
             "author": "Andrzej",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-14 15:59:49",
             "date_b": "2021-01-14 15:59:49",
             "t_up": "2",
             "t_down": "0",
             "opinion": "jakość z górnej półki ,dobry dla zdrowia ,mała ilość oleju a potrawy b.smaczne",
             "pos_features": [
-                "b.dobry desing łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -470,7 +625,7 @@
             "author": "b...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2021-03-03 22:44:28",
             "date_b": "2021-03-03 22:44:28",
             "t_up": "2",
@@ -487,14 +642,22 @@
             "author": "b...l",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-17 08:14:42",
             "date_b": "2021-02-17 08:14:42",
             "t_up": "0",
             "t_down": "1",
             "opinion": "Rewelacja!!! \nPosiadam produkt od dwóch tygodni i jestem mega zadowolona🤩. Wszystko smaczne, zdrowe i chrupiące. Spełnił moje oczekiwania!",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -506,17 +669,23 @@
             "author": "k...2",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2020-10-27 22:43:15",
             "date_b": "2020-10-27 22:43:15",
             "t_up": "3",
             "t_down": "0",
             "opinion": "Bardzo wygodny, szybki. Dużym plusem jest aplikacja z przepisami. Objętość dobra dla dwóch osób.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "pojemność"
+                [
+                    "pojemność"
+                ]
             ]
         },
         "15467928": {
@@ -527,7 +696,7 @@
             "author": "k...2",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-12-29 13:12:48",
             "date_b": "2021-12-29 13:12:48",
             "t_up": "0",
@@ -544,14 +713,23 @@
             "author": "a...8",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-01-27 19:33:31",
             "date_b": "2022-01-27 19:33:31",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Moja druga zona hehe. Mega przydatny, działa swietnie a jedzonko petarda. Dajnie zjesc sobie grilla w srodku zimy ",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -563,14 +741,21 @@
             "author": "Sławomir",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-03-09 11:07:27",
             "date_b": "2021-03-09 11:07:27",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo ładnie się prezentuje, rewelacyjnie skraca czas pieczenia. Na razie się uczę jego obsługi.",
             "pos_features": [
-                "b.dobry desing jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -582,14 +767,19 @@
             "author": "s...z",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-27 09:32:08",
             "date_b": "2023-01-27 09:32:08",
             "t_up": "0",
             "t_down": "0",
             "opinion": "super produkt, bardzo fajnie wykonany, wszystko dobrze działa, przygotowanie posiłków superowe",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -601,14 +791,19 @@
             "author": "s...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-03 22:51:40",
             "date_b": "2021-02-03 22:51:40",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Urządzenie świetne i polecam każdemu komu zależy na zdrowym przygotowywaniu swoich posiłków !",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -620,14 +815,19 @@
             "author": "j...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-23 23:03:11",
             "date_b": "2020-12-23 23:03:11",
             "t_up": "2",
             "t_down": "0",
             "opinion": "Fryteczki super, pałki z kurczaka również. Jestem zadowolona z zakupu ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -639,14 +839,21 @@
             "author": "s...r",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2020-08-08 08:39:02",
             "date_b": "2020-08-08 08:39:02",
             "t_up": "3",
             "t_down": "0",
             "opinion": "Bardzo pomocne. Szybkość gotowania, pieczenia imponujące.",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -658,14 +865,19 @@
             "author": "k...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-08 21:47:10",
             "date_b": "2020-12-08 21:47:10",
             "t_up": "1",
             "t_down": "0",
             "opinion": "Świetny produkt dla zapracowanych, chcących zjeść szybko i zdrowo :) polecam ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -677,14 +889,22 @@
             "author": "RAFAŁ",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-21 08:17:09",
             "date_b": "2021-02-21 08:17:09",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Świetne urządzenie,jak na razie zrobione frytki,skrydełka,kanapki na ciepło,Rewelacja,",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -696,14 +916,19 @@
             "author": "l...4",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-15 19:02:16",
             "date_b": "2021-02-15 19:02:16",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Polecam wszystkim jakość wykonania na wysokim poziomie. Sprawuje się bardzo dobrze. ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -715,14 +940,21 @@
             "author": "z...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-11-03 11:48:48",
             "date_b": "2020-11-03 11:48:48",
             "t_up": "3",
             "t_down": "0",
             "opinion": "Szczerze polecam. Przyjemnie się z niego korzysta.",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -734,7 +966,7 @@
             "author": "a...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-10-08 20:52:15",
             "date_b": "2020-10-08 20:52:15",
             "t_up": "1",
@@ -751,17 +983,29 @@
             "author": "a...3",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-10-12 11:50:18",
             "date_b": "2022-10-12 11:50:18",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super produkt ,bardzo smaczne potrawy oraz różnorodne, szczerze polecam.",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "cena drogie akcesoria"
+                [
+                    "cena",
+                    "drogie akcesoria"
+                ]
             ]
         },
         "13687864": {
@@ -772,14 +1016,21 @@
             "author": "i...k",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-31 08:01:43",
             "date_b": "2020-12-31 08:01:43",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo dobre wykonanie , sprawiło radość  całej rodzinie .",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -791,17 +1042,25 @@
             "author": "j...8",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2020-12-03 21:36:43",
             "date_b": "2020-12-03 21:36:43",
             "t_up": "2",
             "t_down": "1",
             "opinion": "Wszystko super, tylko pojemność trochę mała...",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "pojemność"
+                [
+                    "pojemność"
+                ]
             ]
         },
         "13221807": {
@@ -812,14 +1071,19 @@
             "author": "e...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-10-15 21:08:59",
             "date_b": "2020-10-15 21:08:59",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Potrawy chrupiące na zewnątrz i delikatne w środku.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -831,14 +1095,19 @@
             "author": "s...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-09-08 13:21:10",
             "date_b": "2020-09-08 13:21:10",
             "t_up": "1",
             "t_down": "0",
             "opinion": "Bardzo elegancki i zgrabny super kolory.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -850,14 +1119,19 @@
             "author": "p...9",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-10-21 09:37:01",
             "date_b": "2020-10-21 09:37:01",
             "t_up": "1",
             "t_down": "0",
             "opinion": "Produkt bardzo łatwy w obsłudze.",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -869,14 +1143,23 @@
             "author": "a...s",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-05-24 08:06:19",
             "date_b": "2021-05-24 08:06:19",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo przydatny w kuchni osoby pracujacej",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -888,7 +1171,7 @@
             "author": "d...i",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-12-24 07:03:46",
             "date_b": "2022-12-24 07:03:46",
             "t_up": "0",
@@ -905,14 +1188,18 @@
             "author": "j...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-12-01 22:46:16",
             "date_b": "2021-12-01 22:46:16",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Nowoczesny design,przydatny w kuchni ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -924,7 +1211,7 @@
             "author": "w...6",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-08-20 23:11:33",
             "date_b": "2022-08-20 23:11:33",
             "t_up": "0",
@@ -941,14 +1228,19 @@
             "author": "a...7",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-03-29 08:35:22",
             "date_b": "2022-03-29 08:35:22",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Rewelacyjny produkt gorąco polecam",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -960,7 +1252,7 @@
             "author": "i...j",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-02-09 00:27:47",
             "date_b": "2022-02-09 00:27:47",
             "t_up": "0",
@@ -977,14 +1269,21 @@
             "author": "b...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-09-23 11:55:32",
             "date_b": "2020-09-23 11:55:32",
             "t_up": "0",
             "t_down": "0",
             "opinion": "super smacznie, szybko i zdrowo",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -996,7 +1295,7 @@
             "author": "h...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-08-25 19:50:05",
             "date_b": "2022-08-25 19:50:05",
             "t_up": "0",
@@ -1013,14 +1312,22 @@
             "author": "s...b",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-02-13 22:05:44",
             "date_b": "2022-02-13 22:05:44",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super, polecam wszystkim.",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1032,14 +1339,19 @@
             "author": "b...2",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-02-20 20:17:10",
             "date_b": "2022-02-20 20:17:10",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Spełnia moje oczekiwania",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1051,14 +1363,19 @@
             "author": "d...6",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-27 17:00:31",
             "date_b": "2022-04-27 17:00:31",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Jak najbardziej polecam",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1070,14 +1387,19 @@
             "author": "g...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-15 20:52:52",
             "date_b": "2020-12-15 20:52:52",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Produkt godny polecenia",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1089,14 +1411,19 @@
             "author": "r...2",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-11 14:56:39",
             "date_b": "2021-01-11 14:56:39",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Eleganckie, praktyczne",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1108,14 +1435,19 @@
             "author": "e...k",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-27 20:26:02",
             "date_b": "2021-01-27 20:26:02",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo fajna maszyna",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1127,14 +1459,23 @@
             "author": "j...r",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-04-01 09:10:33",
             "date_b": "2021-04-01 09:10:33",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Bardzo przydatny.\n",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1146,14 +1487,19 @@
             "author": "i...3",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-20 11:13:15",
             "date_b": "2023-01-20 11:13:15",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super urządzenie",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1165,14 +1511,19 @@
             "author": "p...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-01-31 16:16:10",
             "date_b": "2022-01-31 16:16:10",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Żona zadowolona!",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1184,14 +1535,19 @@
             "author": "b...4",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-05-10 19:00:41",
             "date_b": "2022-05-10 19:00:41",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Wszystko super",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1203,7 +1559,7 @@
             "author": "o...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-01-11 07:56:43",
             "date_b": "2022-01-11 07:56:43",
             "t_up": "0",
@@ -1220,7 +1576,7 @@
             "author": "K...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2021-11-08 10:09:08",
             "date_b": "2021-11-08 10:09:08",
             "t_up": "0",
@@ -1237,7 +1593,7 @@
             "author": "a...z",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-01-25 14:33:27",
             "date_b": "2022-01-25 14:33:27",
             "t_up": "0",
@@ -1254,14 +1610,19 @@
             "author": "m...6",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-27 10:08:24",
             "date_b": "2021-02-27 10:08:24",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Polecam !!!",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1273,14 +1634,18 @@
             "author": "lucynahayek1*****",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-02-10 12:08:01",
             "date_b": "2022-02-10 12:08:01",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Rewolucja ",
             "pos_features": [
-                "łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1292,14 +1657,19 @@
             "author": "j...z",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-04 22:40:14",
             "date_b": "2020-12-04 22:40:14",
             "t_up": "0",
             "t_down": "0",
             "opinion": "OK.Polecam",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1311,14 +1681,23 @@
             "author": "Artur-es1*****",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2022-04-29 12:53:53",
             "date_b": "2022-04-29 12:53:53",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Doskonały",
             "pos_features": [
-                "b.dobry desing efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność różnorodność potraw szybkość nagrzewania"
+                [
+                    "b.dobry desing",
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "różnorodność potraw",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1330,14 +1709,19 @@
             "author": "r...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-03 19:35:16",
             "date_b": "2021-02-03 19:35:16",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Jest ok",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1349,7 +1733,7 @@
             "author": "o...l",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-22 07:54:48",
             "date_b": "2020-12-22 07:54:48",
             "t_up": "0",
@@ -1366,14 +1750,19 @@
             "author": "s...b",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-12-01 11:14:39",
             "date_b": "2020-12-01 11:14:39",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super ",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1385,7 +1774,7 @@
             "author": "r...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-02-02 22:38:05",
             "date_b": "2021-02-02 22:38:05",
             "t_up": "0",
@@ -1402,14 +1791,21 @@
             "author": "t...a",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-10-15 06:37:44",
             "date_b": "2020-10-15 06:37:44",
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1421,7 +1817,7 @@
             "author": "j...1",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-02-16 11:18:04",
             "date_b": "2023-02-16 11:18:04",
             "t_up": "0",
@@ -1438,7 +1834,7 @@
             "author": "p...z",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-28 14:18:47",
             "date_b": "2022-04-28 14:18:47",
             "t_up": "0",
@@ -1455,17 +1851,29 @@
             "author": "d...h",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2021-11-19 00:07:59",
             "date_b": "2021-11-19 00:07:59",
             "t_up": "0",
             "t_down": "0",
             "opinion": "...",
             "pos_features": [
-                "jakość wykonania pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": [
-                "b.dobry desing cena drogie akcesoria efektywność komfort użytkowania łatwość czyszczenia różnorodność potraw"
+                [
+                    "b.dobry desing",
+                    "cena",
+                    "drogie akcesoria",
+                    "efektywność",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "różnorodność potraw"
+                ]
             ]
         },
         "17010719": {
@@ -1476,7 +1884,7 @@
             "author": "u...l",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2023-01-12 21:24:25",
             "date_b": "2023-01-12 21:24:25",
             "t_up": "0",
@@ -1493,14 +1901,19 @@
             "author": "s...w",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2022-04-07 10:30:19",
             "date_b": "2022-04-07 10:30:19",
             "t_up": "0",
             "t_down": "0",
             "opinion": "OK",
             "pos_features": [
-                "jakość wykonania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "jakość wykonania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         },
@@ -1512,7 +1925,7 @@
             "author": "e...9",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-08-17 11:10:30",
             "date_b": "2021-08-17 11:10:30",
             "t_up": "0",
@@ -1529,7 +1942,7 @@
             "author": "l...3",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2021-01-02 00:34:46",
             "date_b": "2021-01-02 00:34:46",
             "t_up": "0",
@@ -1546,7 +1959,7 @@
             "author": "l...o",
             "is_recomended": "True",
             "is_verified": true,
-            "stars": "4,5/5",
+            "stars": "4,5",
             "date_p": "2020-10-01 11:32:09",
             "date_b": "2020-10-01 11:32:09",
             "t_up": "0",
@@ -1563,14 +1976,21 @@
             "author": "Użytkownik Ceneo",
             "is_recomended": "True",
             "is_verified": false,
-            "stars": "5/5",
+            "stars": "5",
             "date_p": "2020-08-23 15:29:24",
             "date_b": "2020-08-23 15:29:24",
             "t_up": "7",
             "t_down": "2",
             "opinion": "Kupilam i nie żałuję, genialne urządzenie warte swojej ceny! Skrzydełka i udka - chrupiąca skórka, soczysty w środku.. Frytki robilam raz i wcale nie są suche jeśli wcześniej są dobrze wymieszane z oliwą i przyprawami, wyszły przepyszne i może nawet lepsze niż ze zwykłej frytownicy 😊\nJedynie trzeba pilnować żeby nie było wody w środku, wszystko musi być osuszone, bo inaczej może trochę zadymić kuchnię ;) ",
             "pos_features": [
-                "efektywność jakość wykonania komfort użytkowania łatwość czyszczenia pojemność szybkość nagrzewania"
+                [
+                    "efektywność",
+                    "jakość wykonania",
+                    "komfort użytkowania",
+                    "łatwość czyszczenia",
+                    "pojemność",
+                    "szybkość nagrzewania"
+                ]
             ],
             "neg_features": []
         }

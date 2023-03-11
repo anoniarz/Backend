@@ -11,24 +11,37 @@
       <div class="media-body">
         <div class="article-metadata">
           <a class="mr-2">{{ review.author }} - {{ review.review_id }}</a>
-          <small class="text-muted">{{ review.date_p }}</small>
+          <small class="text-muted">{{ review.date_p|date:"F j, Y" }}&nbsp;</small>
+          <small class="text-muted"> {{ review.stars }}\5 <i class="yellow fa-solid fa-star"></i>&nbsp;</small>
           {% if review.recomendation == "True" %}
-          <small class="text-muted">Recomended: <i class="green fa-solid fa-check"></i></small>
+          <small class="text-muted">Recomended: <i class="green fa-solid fa-check"></i>&nbsp;</small>
           {% elif review.recomendation == "False" %}
-          <small class="text-muted">Recomended: <i class="red fa-solid fa-xmark"></i></small>
+          <small class="text-muted">Recomended: <i class="red fa-solid fa-xmark"></i>&nbsp;</small>
           {% elif review.recomendation == "None" %}
-          <small class="text-muted">Recomended: <i class="red fa-solid fa-question"></i></small>
+          <small class="text-muted">Recomended: <i class="red fa-solid fa-question"></i>&nbsp;</small>
           {% endif %}
           {% if review.is_verified == True %}
-          <small class="text-muted">Verified: <i class="green fa-solid fa-check"></i></small>
+          <small class="text-muted">Verified: <i class="green fa-solid fa-check"></i>&nbsp;</small>
           {% elif review.is_verified == False %}
-          <small class="text-muted">Verified: <i class="red fa-solid fa-xmark"></i></small>
+          <small class="text-muted">Verified: <i class="red fa-solid fa-xmark"></i>&nbsp;</small>
           {% endif %}
-           <i class="green fa-solid fa-thumbs-up"></i> <small class="text-muted">{{ review.t_up }}</small>
+           <i class="green fa-solid fa-thumbs-up"></i> <small class="text-muted">{{ review.t_up }}&nbsp;</small>
            <i class="red fa-solid fa-thumbs-down"></i> <small class="text-muted">{{ review.t_down }}</small>
         </div>
         <p>{{ review.opinion }}</p>
-        <p>{{ review.stars }} stars</p>
+
+        {% for pos_feature in review.pos_features %}
+        <ul>
+          <i class="green fa-solid fa-plus">&nbsp;</i>
+          {{ pos_feature }}
+        {% endfor %}
+        </ul>
+        {% for neg_feature in review.neg_features %}
+        <ul>
+        <i class="red fa-solid fa-minus">&nbsp;</i>
+        {{ neg_feature }}
+        {% endfor %}
+        </ul>
       </div>
     </article>
   {% endfor %}
