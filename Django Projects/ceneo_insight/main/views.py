@@ -101,7 +101,7 @@ def scrape(link):
                         class_="review-feature__item")))
             except:
                 pass
-
+            print(is_recomended)
             data[ceneo_id][review_id] = {
                 "local_id": local_id,
                 "product_id": ceneo_id,
@@ -144,12 +144,13 @@ def scrape(link):
                     review['date_p'], f'%Y-%m-%d %H:%M:%S')
                 date_b = datetime.strptime(
                     review['date_b'], f'%Y-%m-%d %H:%M:%S')
+                print(review["is_recomended"])
                 new_review = Review.objects.create(
                     product=product,
                     local_id=review['local_id'],
                     review_id=review['review_id'],
                     author=review['author'],
-                    is_recomended=review['is_recomended'],
+                    recomendation=review["is_recomended"],
                     is_verified=review['is_verified'],
                     stars=review['stars'],
                     date_p=date_p,
