@@ -12,7 +12,12 @@
     {% for product in products %}
         <article class="media content-section">
           <div class="media-body">
-            <h2><a class="article-title" href="{% url 'product_reviews' product.pk %}">{{ product.product_name }}</a></h2> 
+            <h2><a class="article-title" href="{% url 'product_reviews' product.pk %}">{{ product.product_name }}</a>
+            <i class="green fa-solid fa-arrows-rotate"></i>
+            {% comment %} <button onclick="delete_button('{% url 'delete_product' product.pk %}')">
+              <i class="red fa-solid fa-trash"></i> {% endcomment %}
+            </button>
+            </h2>
           </div>
         </article>
     {% endfor %}

@@ -1,5 +1,5 @@
-from django.shortcuts import render
-from django.http import HttpResponseRedirect
+from django.shortcuts import render, redirect
+from django.contrib import messages
 from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f
@@ -13,6 +13,10 @@ import json
 import collections as co
 from bs4 import BeautifulSoup as bs
 
+
+def delete_from_db(ceneo_id):
+    Product.objects.filter(id=ceneo_id).delete()
+    
 
 def link_to_id(adress):
     return "".join(re.findall(r"\d{5,}", adress))
@@ -45,6 +49,8 @@ def scrape(link):
         doc = bs(page.text, "html.parser")
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
+        if content == []:
+            return "error: 1"
 
         product_name = try_or(doc.find(
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
@@ -146,36 +152,34 @@ def scrape(link):
 
     # Adding Data to DataBase
     if Product.objects.filter(product_id=ceneo_id).exists():
-        return "error"
+        delete_from_db(ceneo_id)
+        
+    product_name = data[ceneo_id][review_id].get('product_name')
+    product = Product.objects.create(id = ceneo_id,
+        product_id=ceneo_id, product_name=product_name)
 
-    if not Product.objects.filter(product_id=ceneo_id).exists():
-
-        product_name = data[ceneo_id][review_id].get('product_name')
-        product = Product.objects.create(
-            product_id=ceneo_id, product_name=product_name)
-
-        for review_id, review in data[ceneo_id].items():
-            date_p = datetime.strptime(
-                review['date_p'], f'%Y-%m-%d %H:%M:%S').date()
-            date_b = datetime.strptime(
-                review['date_b'], f'%Y-%m-%d %H:%M:%S').date()
-            new_review = Review.objects.create(
-                product=product,
-                local_id=review['local_id'],
-                review_id=review['review_id'],
-                author=review['author'],
-                recommendation=review["recommendation"],
-                is_verified=review['is_verified'],
-                stars=review['stars'],
-                date_p=date_p,
-                date_b=date_b,
-                t_up=review['t_up'],
-                t_down=review['t_down'],
-                opinion=review['opinion'],
-                pos_features=review['pos_features'],
-                neg_features=review['neg_features'],
-            )
-            product.reviews.add(new_review)
+    for review_id, review in data[ceneo_id].items():
+        date_p = datetime.strptime(
+            review['date_p'], f'%Y-%m-%d %H:%M:%S').date()
+        date_b = datetime.strptime(
+            review['date_b'], f'%Y-%m-%d %H:%M:%S').date()
+        new_review = Review.objects.create(
+            product=product,
+            local_id=review['local_id'],
+            review_id=review['review_id'],
+            author=review['author'],
+            recommendation=review["recommendation"],
+            is_verified=review['is_verified'],
+            stars=review['stars'],
+            date_p=date_p,
+            date_b=date_b,
+            t_up=review['t_up'],
+            t_down=review['t_down'],
+            opinion=review['opinion'],
+            pos_features=review['pos_features'],
+            neg_features=review['neg_features'],
+        )
+        product.reviews.add(new_review)
     return product.pk
 
 
@@ -191,42 +195,37 @@ def add_product(request):
         if form.is_valid():
             url = form.cleaned_data['url_f']
             product_pk = scrape(url)
-            if product_pk == "error":
-                return HttpResponseRedirect(f'/error')
-            return HttpResponseRedirect(f'/product/{product_pk}')
-
+            if product_pk == "error: 1":
+                messages.warning(request, "Wrong ID/URL")
+                return redirect('add_product')
+            return redirect('product_reviews', product_pk)
     else:
         form = Url_f()
     return render(request, 'main/add_product.html', {'form': form})
-
 
 def home(request):
 
     return render(request, 'main/home.html')
 
-
 def about(request):
 
     return render(request, 'main/about.html')
 
+# def refresh_product(ceneo_id):
+#     scrape(ceneo_id)
+#     return redirect('products')
+
+# def delete_product(request, pk):
+#     product = Product.objects.get(pk=pk)
+#     product.delete()
+#     return redirect('products')
 
 def products(request):
 
-    if request.method == 'POST':
-        form = Url_f(request.POST)
-        if form.is_valid():
-            url = form.cleaned_data['url_f']
-            scrape(url)
-    else:
-        form = Url_f()
-
     context = {
         "products": Product.objects.all(),
-        "reviews": Review.objects.all()
     }
 
     return render(request, 'main/products.html', context)
-
-
 class ProductDetailView(DetailView):
     model = Product
