@@ -25,6 +25,12 @@ ul.no-bullets {
     float: right;
 }
 
+.pagination {
+
+    display: flex;
+    justify-content: right;
+}
+
 .btn-outline-secondary {
 
     background-color: #3a5288;

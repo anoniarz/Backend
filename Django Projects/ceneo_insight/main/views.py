@@ -77,7 +77,8 @@ def scrape(link):
             stars = try_or(content[i].find(
                 class_="user-post__score-count").string)
             stars = re.split(r"/", stars)[0]
-            chart_stars.append(stars)
+            stars = re.sub(',', '.', stars)
+            chart_stars.append(float(stars))
             # is_Verified
             try:
                 is_verified = True if content[i].find(
@@ -269,13 +270,13 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('-date_p')
         elif sorter == 'oldest':
             reviews = reviews.order_by('date_p')
-        elif sorter == 'highest_stars':
+        elif sorter == 'highest_rated':
             reviews = reviews.order_by('-stars')
-        elif sorter == 'lowest_stars':
+        elif sorter == 'lowest_rated':
             reviews = reviews.order_by('stars')
-        elif sorter == 'highest_t_up':
+        elif sorter == 'most_liked':
             reviews = reviews.order_by('-t_up')
-        elif sorter == 'highest_t_down':
+        elif sorter == 'most_disliked':
             reviews = reviews.order_by('-t_down')
 
         paginator = Paginator(reviews, self.paginate_by)
@@ -294,8 +295,8 @@ class ProductDetailView(DetailView):
             'Oldest': reverse('product_reviews', args=[product.pk]) + '?sort=oldest',
             'Highest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=highest_rated',
             'Lowest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=lowest_rated',
-            'Most_liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
-            'Most_disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
+            'Most_Liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
+            'Most_Disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
         }
 
         return context
