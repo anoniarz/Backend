@@ -7,12 +7,10 @@
 
   <div class="sorting-section">
     {% for label, link in sort_links.items %}
-      <a class="btn btn-outline-secondary mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>&nbsp;
+      <a class="btn btn-outline-warning mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>&nbsp;&nbsp;
     {% endfor %}
   </div>
   
-
-
   {% for review in reviews %}
     <article class="media content-section">
       <div class="media-body">
@@ -35,7 +33,7 @@
            <i class="green fa-solid fa-thumbs-up"></i> <small class="text-muted">{{ review.t_up }}&nbsp;</small>
            <i class="red fa-solid fa-thumbs-down"></i> <small class="text-muted">{{ review.t_down }}</small>
         </div>
-        <p>{{ review.opinion }}</p>
+        <p>&emsp;&nbsp;{{ review.opinion }}</p>
 
         {% for pos_feature in review.pos_features %}
         {% for f in pos_feature %}

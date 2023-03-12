@@ -1,16 +1,18 @@
+
 :root {
-    --font-1: #f8f9fa;
-    --font-2: #ced4da;
-    --font-3: #6c757d;
-    --bg-1: #495057;
-    --bg-2: #6c757d;
+    --palette-1: #FFFFFF;
+    --palette-2: #E5E5E5;
+    --palette-3: #ff6300;
+    --palette-4: #14213D;
+    --palette-5: #233358;
+    --palette-6: #000000;
 }
 
 body {
-    background: radial-gradient(circle, #ff6300 10%, transparent 11%), radial-gradient(circle at bottom left, #ff6300 5%, transparent 6%), radial-gradient(circle at bottom right, #ff6300 5%, transparent 6%), radial-gradient(circle at top left, #ff6300 5%, transparent 6%), radial-gradient(circle at top right, #ff6300 5%, transparent 6%);
+    background: radial-gradient(circle, var(--palette-3) 10%, transparent 11%), radial-gradient(circle at bottom left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at bottom right, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top right, var(--palette-3) 5%, transparent 6%);
     background-size: 6em 6em;
-    background-color: #14213de0;
-    color: var(--font-1);
+    background-color: var(--palette-4);
+    color: var(--palette-2);
     margin-top: 5rem;
 }
 
@@ -30,12 +32,15 @@ ul.no-bullets {
     display: flex;
     justify-content: right;
 }
+.btn-outline-warning {
+    background-color: var(--palette-5); 
+    color: var(--palette-2);
+}
 
-.btn-outline-secondary {
+.btn-outline-warning:active{
+    background-color: var(--palette-5); 
 
-    background-color: #3a5288;
-    outline-color: #3a5288;
-    color: white;
+    color: var(--palette-2);
 }
 
 h1,
@@ -44,8 +49,21 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--font-1);
+    color: var(--palette-2);
 }
+.ceneo {
+    color: var(--palette-3);
+    font-size: larger;
+    font-weight: bolder;
+}
+.ceneo:hover {
+    text-decoration: none;
+    color: var(--palette-3);
+    opacity: 70%;
+
+}
+
+
 .green {
     color: green;
 }
@@ -81,8 +99,7 @@ h6 {
 }
 
 .navbar-dark{
-
-    color: #ff6300;
+    color: var(--palette-2);
 }
 
 ul {
@@ -90,7 +107,7 @@ ul {
 }
 
 .bg-steel {
-    background-color: #3a5288;
+    background-color: var(--palette-5);
 }
 
 .site-header .navbar-nav .nav-link {
@@ -98,7 +115,7 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
+    color: var(--palette-3);
 }
 
 .site-header .navbar-nav .nav-link.active {
@@ -106,7 +123,7 @@ ul {
 }
 
 .content-section {
-    background: #3a5288;
+    background: var(--palette-5);
     padding: 10px 20px;
     margin-bottom: 20px;
 }
@@ -120,18 +137,19 @@ ul {
 }
 
 .chart {
-    background: #3a5288;
+    background: var(--palette-5);
     padding: 10px 20px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .article-title {
-    color: var(--font-2);
+    color: var(--palette-2);
 }
 
 a.article-title:hover {
-    color: var(--bg-1);
+    color: var(--palette-3);
+    opacity: 70%;
     text-decoration: none;
 }
 

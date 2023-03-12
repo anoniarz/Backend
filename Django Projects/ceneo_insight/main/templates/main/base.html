@@ -17,7 +17,7 @@
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="{% url 'home' %}">Ceneo Insight</a>
+          <a class="ceneo mr-4" href="{% url 'home' %}">Ceneo Insight</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -69,6 +69,9 @@
     </main>
 
     <script>
+      Chart.defaults.borderColor = '#36A2EB';
+      Chart.defaults.color = 'white';
+
       var labels1 = {{ labels1|safe }};
       var values1 = {{ values1|safe }};
 
@@ -80,20 +83,11 @@
               datasets: [{
                   label: 'No. of Stars',
                   data: values1,
-                  backgroundColor: ['green','red','orange'],
+                  backgroundColor: ['#FFE15D','#F49D1A','#DC3535','#B01E68'],
                   borderColor: 'white',
                   borderWidth: 1
               }]
           },
-          options: {
-              scales: {
-                  yAxes: [{
-                      ticks: {
-                          beginAtZero: true
-                      }
-                  }]
-              }
-          }
       });
     </script>
     <script>
@@ -102,7 +96,7 @@
 
       var ctx = document.getElementById('recomendation_chart').getContext('2d');
       var myChart = new Chart(ctx, {
-          type: 'pie',
+          type: 'doughnut',
           data: {
               labels: labels2,
               datasets: [{
@@ -113,15 +107,6 @@
                   borderWidth: 1
               }]
           },
-          options: {
-              scales: {
-                  yAxes: [{
-                      ticks: {
-                          beginAtZero: true
-                      }
-                  }]
-              }
-          }
       });
   </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
