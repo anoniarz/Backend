@@ -59,6 +59,7 @@ def scrape(link):
 
         product_name = try_or(doc.find(
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+        rating = try_or(doc.find(class_="product-review").find(class_="product-review__score").get('content'))
         # Scraping
         for i in range(len(content)):
             local_id += 1
@@ -160,7 +161,7 @@ def scrape(link):
 
     product_name = data[ceneo_id][review_id].get('product_name')
     product = Product.objects.create(id=ceneo_id,
-                                     product_id=ceneo_id, product_name=product_name, chart_stars=chart_stars, chart_recommendations=chart_recommendations)
+                                     product_id=ceneo_id, product_name=product_name, chart_stars=chart_stars, chart_recommendations=chart_recommendations, rating=rating)
 
     for review_id, review in data[ceneo_id].items():
         date_p = datetime.strptime(

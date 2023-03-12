@@ -1,0 +1,3128 @@
+{
+    "128999982": {
+        "16532673": {
+            "local_id": 1,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16532673",
+            "author": "s...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-09-17 15:15:15",
+            "date_b": "2022-09-17 15:15:15",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Stosunek ceny do jakości i wydajności 5/5. Doskonały wybór do pary z grafikami 2080, 3060ti, 3070. Na boxowym chłodzeniu temperatury są wysokie (idle 40°C / stress 80°C), z bardziej konkretnym coolerem jest o niebo lepiej (idle 30°C / stress 60°C) przy totalnej ciszy na Fortis HE1425v2 (btw. trzeba dokupić do niego AM4 upgrade kit) z jeszcze nie wygrzaną pastą MX-2. Doskonały wybór do zastosowań domowych. Pół punkta z oceny odjęte za boxowe chłodzenie, wolałbym mieć opcję zakupu bez niego, bez szukania ofert typu \"tray\" czy \"multipack\". Bez karty graficznej ze stajni AMD nie ma również aktualnie większego uzasadnienia do dopłacania 20% ceny do wersji 5600X. Ogólnie - polecam! :-)",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16698657": {
+            "local_id": 2,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16698657",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-01 20:00:38",
+            "date_b": "2022-11-01 20:00:38",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Porównanie w stosunku do starego i5 4440: w pewnej grze strzelance na \"F\" niestabilne 60 vs stabilne 120fps. Oczywiście zmiana dotyczyła też pamięci RAM, ale wszystko działało na starym rx580 i w rozdzielczości 2k. Ogólnie cały komputer przyspieszył mocno w każdej aplikacji. Dla mnie to spokój na kolejnych kilka lat. \n\nTylko jedna bardzo ważna uwaga przy montowaniu stockowego chłodzenia amd. Na wiatraczku jest wypustka z logo AMD. Pamiętać, żeby ta wypustka nie była zamontowana od strony slotów pamięci bo może te sloty zasłonić. Ja na szczęście zamontowałem od razu dobrze ale dopiero po fakcie zobaczyłem, że miałem więcej szczęścia niż rozumu.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16746060": {
+            "local_id": 3,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16746060",
+            "author": "v...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 01:56:49",
+            "date_b": "2022-11-15 01:56:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Stepping B2 bardzo dobrze kreci sie sam procesor w PBO +200 MHz i -30 CO na wszystkich rdzeniach, chociaz lepiej mi dziala na -25. Moze na 30 jest jakas mala niestabilnosc, ale roznice sa tak male ze juz bardziej nie chcialo mi sie sprawdzac.\nJedyne rozczarowanie to taktowanie InfinityFabric. Robi tyle ile ma robic czyli 3600, ale czego bym nie zrobil wystepuje niestabilnosc na kazdym wyzszym taktowaniu. Z tydzien sie z tym meczylem mialem nawet 3666 1:1 z ramem, ale testowanie pamieci zawsze po paru godzinach wywalalo blad. Jak zmienilem na 3600 - skala, moglem nawet mocno zmniejszyc timingi i ostatecznie zejsc ponizej 60ns opoznienia.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16745239": {
+            "local_id": 4,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16745239",
+            "author": "v...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 21:15:13",
+            "date_b": "2022-11-14 21:15:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Korzystam z niego 2 tygodnie i jestem naprawdę zadowolony. Przesiadłem się z ryzena 5 2600 i czuję wyraźną różnicę. Jedynym minusem jest stockowe chłodzenie, które ma problem z chłodzeniem tego modelu, a w dodatku jest bardzo głośne. Temperatury wynosiły od 42-43 stopni w idle do 85-86 pod pełnym obciążeniem. Po zmianie chłodzenia na spc fera5 temperatury spadły do 32-33 stopni w idle i 54-55 pod pełnym obciążeniem, w dodatku jest ciche, niesłyszalne. Na koniec chciałbym dodać, że model 5600 jest bardzo łatwo podkręcić do poziomu modelu 5600x, więc nie warto dopłacać do modelu z literą \"X\". Szczerze polecam ten model procesora firmy AMD.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16804610": {
+            "local_id": 5,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16804610",
+            "author": "marcinas1983",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-29 10:27:03",
+            "date_b": "2022-11-29 10:27:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Po zmianie karty graficznej z GTX 1050ti na RX6600 okazało się, że poprzedni procesor Ryzen 5 1600AF ( ustawienia standardowe ) dostawał zadyszki w grach procesorowych a karta graficzna się nudziła nie generując odpowiedniej liczby fps. Było odczuwalne rwanie, szarpanie obrazu. Po zamontowaniu Ryzena 5 5600 minimalny fps skoczył o połowę zniknęły objawy szarpania/rwania obrazu a i karta graficzna ma co robić po odgłosie jakie wydają wentylatory na jej chłodzeniu. Jak dla mnie 5/5 za wydajność/cena. Boxowego chłodzenia nie montowałem mam zamontowanego Gelid Phantom Black.",
+            "pos_features": [
+                [
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16769724": {
+            "local_id": 6,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16769724",
+            "author": "d...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-20 21:29:21",
+            "date_b": "2022-11-20 21:29:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor, po przesiadce z Ryzen 5 3600 zauważalna różnica wydajności (chociaż nie jest to jakiś wielki przeskok), niższe napięcie, nieco mniej się grzeje (oba pracowały na Spartan 3 Pro HE1024, nie sprawdzałem na chłodzeniu boxowym), w grach do 60C z RX 6600, z jakimś RX6800/RTX 3080 pewnie mógłby jeszcze kilka stopni się rozgrzać. Generalnie w pieniądzach poniżej 700 złotych bardzo dobry wybór, moim zdaniem nie warto dopłacać do wersji z \"X\", bo to takie same procesory, jedynie różnią się taktowaniem. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16791807": {
+            "local_id": 7,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16791807",
+            "author": "b...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 08:21:35",
+            "date_b": "2022-11-25 08:21:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procek, jak ktoś przechodzi z 1600 AF, to zdecydowanie warto. Aha, prosty trik powoduje, że jest chłodniejszy o 10 stopni na chłodzeniu fabrycznym - w BIOS-ie wyłączyć PBO i dać korekty na -30. Dodatkowo po zmianie chłodzenia na Fera 5 jest cicho, zegary boost na wszystkich rdzeniach trzymają 4,4 GHz i temperatura, to maks 62 stopnie. BOX-owe chłodzenie działa, ale kultura pracy jest łagodnie rzecz ujmując - słaba.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16729659": {
+            "local_id": 8,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16729659",
+            "author": "buziak a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-09 19:39:17",
+            "date_b": "2022-11-09 19:39:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "CPU rewelacja w cenie do 700 PLN dla kogoś kto chce coś jeszcze zyskać na platformie AM4. Chyba najlepszy stosunek cena/wydajność. Ja posiadając płytę na B450 (ASUS B450 TUF Gaming II - dużo lepszy niż wersja jeden, w cenie 350 PLN za nówkę) uważam, że warto było zmienić z R5 3600. Średnio od 15-20% więcej i o 10C chłodniej a jeszcze nie robiłem OC. Choć teraz bardziej interesuje mnie UV niż OC.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16762189": {
+            "local_id": 9,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16762189",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-17 23:18:50",
+            "date_b": "2022-11-17 23:18:50",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "\nProcesor zakupiłem 2 listopada a 3 już był do odebrania w paczkomacie. Bardzo szybka wysyłka, bardzo dobrze zabezpieczona. Procesor w rewizji B2. Został zamontowany w miejsce procesora Ryzen 1600af na płycie B450 (po uprzedniej aktualizacji BIOS płyty). Procesor Ryzen 5 5600 dał bardzo duży wzrost wydajności całej jednostki. Polecam ten zakup w tym sklepie. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16945033": {
+            "local_id": 10,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16945033",
+            "author": "k...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-29 08:16:01",
+            "date_b": "2022-12-29 08:16:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wybrany na podstawie ocen i testów w necie -procesor zainstalowany i działa już cały 1 dzień -został włożony na  5 letnią płytę MSI x370 Gaming Plus i jestem zadowolony -różnicę w grach oraz lepszej pracy karty graficznej widzę.Dodatkowo potwierdzam informację z testó  ,że temperatura procesora nawet w crash teście na poziomie 50-60 stopni",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16248632": {
+            "local_id": 11,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16248632",
+            "author": "E...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-24 20:00:16",
+            "date_b": "2022-06-24 20:00:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo rozsądna opcja dla osób które już posiadają platformę AM4 i procesor pierwszej bądź drugiej generacji ZEN. W wypadku składania nowego zestawu warto się już jednak zastanowić nad platformą intela która będzie szybsza w tym przedziale cenowym. Ale jako upgrade dla starszego PC na platformie AM4 nie ma bardziej opłacalnej opcji.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16742848": {
+            "local_id": 12,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16742848",
+            "author": "l...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 11:25:15",
+            "date_b": "2022-11-14 11:25:15",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Zalety R5 5600:\n+ Dobra Wydajność (Multi-Core oraz Single-Core)\n+ Niski Pobór energii (Litografia 7nm)\n+ Współczynnik TDP procesora na poziomie 65W\n+ Odblokowany mnożnik do ułatwionego podkręcania procesora\n+ Dobra Cena w stosunku do jakości\nMinus R5 5600:\n-Brak zintegrowanego układu graficznego w procesorze.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16869513": {
+            "local_id": 13,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16869513",
+            "author": "Oskar",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-12 22:05:40",
+            "date_b": "2022-12-12 22:05:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny stosunek wydajności do ceny.  Zaznaczam że używam sprzętu głównie do rozrywki: gry, filmy i internet, dlatego kupując mocniejszy procesor nie odczułbym większej różnicy, poza tą w portfelu.  Gra dołączona do procesora dodatkowo zachęciła mnie do zakupu, póki co nie żałuję i szczerze polecam. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16711087": {
+            "local_id": 14,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16711087",
+            "author": "l...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 10:34:25",
+            "date_b": "2022-11-04 10:34:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor bez problemu robi OC 4,8 GHz na napięciu 1,25V na 4,9 jest mało stabilny nawet przy 1.35V. Jest nieco szybszy od mojego poprzedniego ryzena 3600, którego kręciłem do 4,6 GHz. Tutaj jest z 20% mocniejszy pojedynczy rdzeń no i technologia robi swoje.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16774723": {
+            "local_id": 15,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16774723",
+            "author": "p...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-22 08:09:12",
+            "date_b": "2022-11-22 08:09:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przejście z I5 2500K. Powiem tyle ze warto było\nDodatkowo platforma z SSD M2 i już jest duuuzo szybciej - seryjnego chłodzenia nie użyłem tylko grandisa i procesor zimniutki. Brak integry to dla mnie plus - te które miałem z integra bardziej się grzaly.",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16581469": {
+            "local_id": 16,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16581469",
+            "author": "m...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-30 19:25:46",
+            "date_b": "2022-09-30 19:25:46",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najbardziej rozsądny wybór na chwilę obecną od AMD - nie ma sensu dopłacać do droższego 5600X, gdyż w chwilę w UEFI ustawiamy takie same zegary jak 5600X, a wspomniany 5600X kosztuje 250 zł więcej.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "brak integry"
+                ]
+            ]
+        },
+        "17146938": {
+            "local_id": 17,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17146938",
+            "author": "c...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-15 10:59:26",
+            "date_b": "2023-02-15 10:59:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor w przystępnej cenie, u mnie pracuje na chłodzeniu wodnym 240 mm zamontowanym na górze obudowy, temperatury min. 38 stopni przy przeglądaniu stron internetowych do 68 stopni przy najbardziej wymagających grach.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16862649": {
+            "local_id": 18,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16862649",
+            "author": "h...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-10 16:57:14",
+            "date_b": "2022-12-10 16:57:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor w swojej cenie. Dodatkowo dostałem uncharted. Chłodzenie słabe i mega upierdliwe. Podczas grania i tak mam słuchawki a podczas pracy przestawiam tryb zasilania. Jak wymienię chłodzenie itx to będzie bajka.",
+            "pos_features": [
+                [
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy",
+                    "niezłe oc"
+                ]
+            ]
+        },
+        "16652595": {
+            "local_id": 19,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16652595",
+            "author": "a...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-19 21:11:30",
+            "date_b": "2022-10-19 21:11:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bezproblemowy upgrade z Ryzena 5 2600 na płycie B450, wydajność i w testach, i w grach podniesiona o prawie równo 50%. \nZa takie pieniądze to świetna propozycja, a z bieżącą promocją na dodawaną grę - bardzo się opłaca.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16801302": {
+            "local_id": 20,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16801302",
+            "author": "j...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-28 15:05:17",
+            "date_b": "2022-11-28 15:05:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wymiata , kupiony w Sferis kręci się  lepiej niż 5600x 4,85 GHZ 1,26 V .Na przeciętnym chłodzeniu a pomimo to w 3DMark Time Spy kręci wynik Legendarny razem z moja RTX 3080 od Gigabyte Vision .Polecam serie B2 ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16518677": {
+            "local_id": 21,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16518677",
+            "author": "s...g",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-09-14 09:51:13",
+            "date_b": "2022-09-14 09:51:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kupiony za ok 850zł (09.2022). Oszczędzone 150zł względem 5600x. Cpu podkręcone na 4,5ghz. Gdyby na tamten moment był o stówkę tańszy, dostałby 5 gwiazdek. Przesiadka z i7 4790k. Potwór ;)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16853920": {
+            "local_id": 22,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16853920",
+            "author": "r...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 21:48:15",
+            "date_b": "2022-12-08 21:48:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor, wszystko działa jak należy idealnie współgra z płyta główna Asus TUF B550 oraz RX 6600. Duży przeskok wydajnościowy po przesiadce  z i5 8400. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16659393": {
+            "local_id": 23,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16659393",
+            "author": "paweld88",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-21 09:05:07",
+            "date_b": "2022-10-21 09:05:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor pod płytę główną b450 mortar max. Przesiadka z Ryzen 5 1600 af przyniosła bardzo duży skok wydajności. Polecam wszystkim. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17194194": {
+            "local_id": 24,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17194194",
+            "author": "k...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-25 20:34:51",
+            "date_b": "2023-02-25 20:34:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "jak narazie dziala. do gier wystarczajacy. Gram na 1440p full ultra z radeonem 6700xt. dodatkowy plus za gierke company of heroes 3 w promocji.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16899068": {
+            "local_id": 25,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16899068",
+            "author": "g...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-18 21:57:21",
+            "date_b": "2022-12-18 21:57:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry i wydajny procesor. Nie ma sensu dopłacać do 5600X. W większości gier wydajność identyczna jak 5700X, a cena o 30% mniejsza.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16790231": {
+            "local_id": 26,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16790231",
+            "author": "w...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-24 20:36:09",
+            "date_b": "2022-11-24 20:36:09",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor jest świetny, bardzo dobry stosunek jakości, wydajności do ceny. Jak bym miał kupić znowu to ponownie wybrał bym Ryzena 5 5600",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16720659": {
+            "local_id": 27,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16720659",
+            "author": "p...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-07 18:04:44",
+            "date_b": "2022-11-07 18:04:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Stosunek ceny do jakości bardzo dobry, zwlaszcza po ostatnich obniżkach cen.\nDziała bez problemu no i gierka dodatkowo bardzo na plus.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16907430": {
+            "local_id": 28,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16907430",
+            "author": "p...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-20 17:09:38",
+            "date_b": "2022-12-20 17:09:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszystko w jak najlepszym porządku, tylko na grę trzeba było czekać 15dni , ciekawe czemu :D ale tak to jak najbardziej zakup na + .",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16729844": {
+            "local_id": 29,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16729844",
+            "author": "a...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-09 20:01:23",
+            "date_b": "2022-11-09 20:01:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super produkt w atrakcyjnej cenie,   procesor chłodny, poprawiony kontroler pamięci, atrakcyjna cena względem konkurencji, POLECAM ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16308144": {
+            "local_id": 30,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16308144",
+            "author": "g...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-07-12 16:12:21",
+            "date_b": "2022-07-12 16:12:21",
+            "t_up": "0",
+            "t_down": "2",
+            "opinion": "Przesiadłem się z ryzena 5 2600 na tej samej płycie głównej. Wszystko byłoby w porządku, gdyby nie fakt, że RAM mi zwolnił o 20%.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16721130": {
+            "local_id": 31,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16721130",
+            "author": "b...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-07 20:07:17",
+            "date_b": "2022-11-07 20:07:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przy chłodzeniu Fera 5 eleganckie temperatury. Od poprzednika ryzen 2600 o wiele lepiej. Zauważalna wydajność oraz więcej fps.",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16695338": {
+            "local_id": 32,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16695338",
+            "author": "Wojciech",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-31 12:02:12",
+            "date_b": "2022-10-31 12:02:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok, szybka przesyłka. Trafiła się wersja B2 także fajnie. Polecam. Najlepszy procesor w swojej klasie cenowej.",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17034359": {
+            "local_id": 33,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17034359",
+            "author": "j...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-18 21:24:08",
+            "date_b": "2023-01-18 21:24:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry produkt za rozsądne pieniądze, temperatura w mojej obudowie wynosi od 31 do 50 stopni podczas grania.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16539139": {
+            "local_id": 34,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16539139",
+            "author": "t...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-20 10:32:02",
+            "date_b": "2022-09-20 10:32:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W cenie poniżej 800 zł bardzo dobra propozycja, do leciwej płyty B450 . Mocy znów nie braknie do grania. Polecam ",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16818110": {
+            "local_id": 35,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16818110",
+            "author": "Filip",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-01 13:37:18",
+            "date_b": "2022-12-01 13:37:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor, który po podkręceniu osiąga wydajność na poziomie dużo droższego modelu z X w nazwie. ",
+            "pos_features": [
+                [
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16342444": {
+            "local_id": 36,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16342444",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-21 20:41:47",
+            "date_b": "2022-07-21 20:41:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor. Wydajność na poziomie 5600X w nieco niższej cenie. 32MB L3 cache robi robotę!",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16848123": {
+            "local_id": 37,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16848123",
+            "author": "s...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-12-07 23:29:22",
+            "date_b": "2022-12-07 23:29:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Cooler boxowy jest zbyt głośny. Polecam zainwestować w dobre chłodzenie. Dobrze się podkręca w auto oc. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16591837": {
+            "local_id": 38,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16591837",
+            "author": "v...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-04 12:52:11",
+            "date_b": "2022-10-04 12:52:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo wydajny procesor. Jest duży skok w minimalnym fps vs zen 2. Koszt zmiany niewielki w tej cenie\n",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16929500": {
+            "local_id": 39,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16929500",
+            "author": "s...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-26 17:56:57",
+            "date_b": "2022-12-26 17:56:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry produkt  w dobrej cenie. Chodzi bezproblemowo z płytą MSI Tomahawk b450 i pamięciami Kingston",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16220564": {
+            "local_id": 40,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16220564",
+            "author": "Mariusz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-17 12:25:12",
+            "date_b": "2022-06-17 12:25:12",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Mega dobry wybór, praktycznie bez różnicy do 5600X a udało mi się kupić dużo taniej!",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16665160": {
+            "local_id": 41,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16665160",
+            "author": "g...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-22 18:00:15",
+            "date_b": "2022-10-22 18:00:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajnościowo jest bardzo ok podoba mi się dużo FPS mam w grach jak na 65 watowy procesor.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16895664": {
+            "local_id": 42,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16895664",
+            "author": "m...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-17 08:13:03",
+            "date_b": "2022-12-17 08:13:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procek, tylko nie montujcie boxowego wentylatora! Strasznie głośne toto ;)",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy"
+                ]
+            ]
+        },
+        "16854203": {
+            "local_id": 43,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16854203",
+            "author": "w...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 22:24:56",
+            "date_b": "2022-12-08 22:24:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przesiadka z i7 4790k to kolosalna różnica w użytkowaniu codziennym, a także w grach",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16784812": {
+            "local_id": 44,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16784812",
+            "author": "m...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-23 22:16:52",
+            "date_b": "2022-11-23 22:16:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor bardzo wydajny, idealny do gier AAA. W tej cenie po prostu musisz go miec.",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16797326": {
+            "local_id": 45,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16797326",
+            "author": "m...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-26 17:59:55",
+            "date_b": "2022-11-26 17:59:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wystarczająca wydajność do gier, świetna cena, działa z tańszymi platformami AM4",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16758306": {
+            "local_id": 46,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16758306",
+            "author": "b...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-17 11:02:00",
+            "date_b": "2022-11-17 11:02:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor bardzo fajny u mnie na razie 4,7ghz na 1,3v więcej nie sprawdzałem ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16778224": {
+            "local_id": 47,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16778224",
+            "author": "f...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-22 20:13:40",
+            "date_b": "2022-11-22 20:13:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze wyceniony wydajny procek pod gry, nic więcej od niego nie oczekuje",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16721187": {
+            "local_id": 48,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16721187",
+            "author": "m...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-07 20:14:25",
+            "date_b": "2022-11-07 20:14:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jeden z najbardziej opłacalnych CPU na rynku patrząc wydajność per cena",
+            "pos_features": [
+                [
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16819744": {
+            "local_id": 49,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16819744",
+            "author": "w...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-01 20:09:31",
+            "date_b": "2022-12-01 20:09:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetna sztuka procesora, bez problemu 4,7GHz na niskich napięciach.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16797530": {
+            "local_id": 50,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16797530",
+            "author": "b...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-26 19:31:18",
+            "date_b": "2022-11-26 19:31:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor, szczególnie przy obecnej cenie poniżej 700zł.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16896246": {
+            "local_id": 51,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16896246",
+            "author": "Dawid",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-17 11:40:46",
+            "date_b": "2022-12-17 11:40:46",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry i szybki procesor. Wyraźnie szybszy od Ryzen 5 2600.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16721867": {
+            "local_id": 52,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16721867",
+            "author": "k...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-07 22:01:03",
+            "date_b": "2022-11-07 22:01:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nie ma co się rozpisywać. Stosunek cena/wydajność bardzo dobra. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16641505": {
+            "local_id": 53,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16641505",
+            "author": "d...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-17 16:06:13",
+            "date_b": "2022-10-17 16:06:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetna wydajność i stabilność, procek podkręcony do 4,4 GHz ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16797280": {
+            "local_id": 54,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16797280",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-26 17:41:00",
+            "date_b": "2022-11-26 17:41:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procek, nie odbiega od 5600X a jednak tańszy :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16749124": {
+            "local_id": 55,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16749124",
+            "author": "p...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 16:58:32",
+            "date_b": "2022-11-15 16:58:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "WOW!!! Przesiadka z FX-8350 to jak z poloneza do mercedesa. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16762923": {
+            "local_id": 56,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16762923",
+            "author": "n...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 09:10:07",
+            "date_b": "2022-11-18 09:10:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor w połączeniu z chłodzeniem Fera 5 działa idealnie ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16756390": {
+            "local_id": 57,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16756390",
+            "author": "r...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-16 23:16:51",
+            "date_b": "2022-11-16 23:16:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor. Po banalnym oc ta sama prędkość co 5600x",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16705986": {
+            "local_id": 58,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16705986",
+            "author": "Wlodzimierz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-03 10:14:12",
+            "date_b": "2022-11-03 10:14:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "To w tej chwili najlepszy procesor AMD w stosunku do ceny",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16689575": {
+            "local_id": 59,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16689575",
+            "author": "t...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-28 17:44:51",
+            "date_b": "2022-10-28 17:44:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Śmiga aż miło, wszystko przebiegło bez zarzutu, polecam.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16854301": {
+            "local_id": 60,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16854301",
+            "author": "n...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 22:41:23",
+            "date_b": "2022-12-08 22:41:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Fajny procesor wydajny, tylko chłodzenie lepsze kupić ",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy"
+                ]
+            ]
+        },
+        "16596697": {
+            "local_id": 61,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16596697",
+            "author": "W...B",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-05 12:47:54",
+            "date_b": "2022-10-05 12:47:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszytko ok rok produkcji 2216 tydzień, temperatury ok ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17157262": {
+            "local_id": 62,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17157262",
+            "author": "E...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-17 09:47:51",
+            "date_b": "2023-02-17 09:47:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo szybki procek stabilny po OC do 4.6 GHz",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16794504": {
+            "local_id": 63,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16794504",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 17:15:22",
+            "date_b": "2022-11-25 17:15:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super CPU,szybki,chlodny i do tego rewizja B2",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16828721": {
+            "local_id": 64,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16828721",
+            "author": "s...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-03 15:29:59",
+            "date_b": "2022-12-03 15:29:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Póki co wszystko ok, przed testami w \"boju\"",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16903244": {
+            "local_id": 65,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16903244",
+            "author": "w...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-19 21:48:57",
+            "date_b": "2022-12-19 21:48:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przesiadka z 1600x na 5600 bezproblemowa. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16077738": {
+            "local_id": 66,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16077738",
+            "author": "t...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-12 20:24:45",
+            "date_b": "2022-05-12 20:24:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa. Chlodzenie dołączone też jest ok. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17153062": {
+            "local_id": 67,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17153062",
+            "author": "Piotr",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-16 11:18:38",
+            "date_b": "2023-02-16 11:18:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry stosunek ceny do wydajności.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16710456": {
+            "local_id": 68,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16710456",
+            "author": "Piotr",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 09:09:57",
+            "date_b": "2022-11-04 09:09:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Idealny wybor pomiedzy mozliwosciami/cena",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16240669": {
+            "local_id": 69,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16240669",
+            "author": "r...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-22 21:35:37",
+            "date_b": "2022-06-22 21:35:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procesor w rozsądnych pieniądzach. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17149368": {
+            "local_id": 70,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17149368",
+            "author": "kartrait",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-15 19:05:35",
+            "date_b": "2023-02-15 19:05:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "transakcja przebiegła pomyślnie, polecam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16736423": {
+            "local_id": 71,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16736423",
+            "author": "a...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-11 11:24:21",
+            "date_b": "2022-11-11 11:24:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super w porównaniu do poprzednika 1600x.",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16733535": {
+            "local_id": 72,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16733535",
+            "author": "e...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-10 13:44:55",
+            "date_b": "2022-11-10 13:44:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Very fast process of order and delivery",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16731568": {
+            "local_id": 73,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16731568",
+            "author": "m...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-10 07:45:18",
+            "date_b": "2022-11-10 07:45:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor super. Daje radę we wszystkim",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16870942": {
+            "local_id": 74,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16870942",
+            "author": "y...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 10:11:46",
+            "date_b": "2022-12-13 10:11:46",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super procesor za rozsądne pieniądze",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16783279": {
+            "local_id": 75,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16783279",
+            "author": "m...v",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-23 19:10:13",
+            "date_b": "2022-11-23 19:10:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W tej cenie najlepszy wybór uważam. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16718004": {
+            "local_id": 76,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16718004",
+            "author": "p...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-06 22:06:18",
+            "date_b": "2022-11-06 22:06:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor za dobrą cenę ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17124061": {
+            "local_id": 77,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17124061",
+            "author": "r...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 11:06:54",
+            "date_b": "2023-02-09 11:06:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepsza cena w momencie zakupu. ",
+            "pos_features": [
+                [
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17034348": {
+            "local_id": 78,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17034348",
+            "author": "Marcin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-18 21:23:08",
+            "date_b": "2023-01-18 21:23:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spoko procek za rozsądne pieniądze",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16636009": {
+            "local_id": 79,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16636009",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-14 23:17:18",
+            "date_b": "2022-10-14 23:17:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry w swoich pieniądzach ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16739330": {
+            "local_id": 80,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16739330",
+            "author": "Bartosz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-12 14:30:59",
+            "date_b": "2022-11-12 14:30:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor spełnia swoje zadanie, ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16789590": {
+            "local_id": 81,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16789590",
+            "author": "w...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-24 18:43:35",
+            "date_b": "2022-11-24 18:43:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W tej cenie to najlepszy wybór.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16570566": {
+            "local_id": 82,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16570566",
+            "author": "d...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-28 14:47:26",
+            "date_b": "2022-09-28 14:47:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra promocja była na procesor",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16777294": {
+            "local_id": 83,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16777294",
+            "author": "o...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-22 15:43:19",
+            "date_b": "2022-11-22 15:43:19",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "na zawleczkę do kluczy ujdzie.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16701263": {
+            "local_id": 84,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16701263",
+            "author": "k...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-02 10:59:33",
+            "date_b": "2022-11-02 10:59:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Rewizja b2, działa jak złoto. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17140188": {
+            "local_id": 85,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17140188",
+            "author": "h...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-13 22:14:15",
+            "date_b": "2023-02-13 22:14:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procesor w dobrej cenie",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16853898": {
+            "local_id": 86,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16853898",
+            "author": "Maciej Lech",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-08 21:44:55",
+            "date_b": "2022-12-08 21:44:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "CEP OK.. z 6800xt śmiga w 2K",
+            "pos_features": [
+                [
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "niezłe oc"
+                ]
+            ]
+        },
+        "16801051": {
+            "local_id": 87,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16801051",
+            "author": "Maciej Lech",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-28 13:39:24",
+            "date_b": "2022-11-28 13:39:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "daje rade z 3070 i z 6800 xt",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "niezłe oc"
+                ]
+            ]
+        },
+        "16763712": {
+            "local_id": 88,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16763712",
+            "author": "j...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 10:45:21",
+            "date_b": "2022-11-18 10:45:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procesor za dobrą cenę",
+            "pos_features": [
+                [
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16711191": {
+            "local_id": 89,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16711191",
+            "author": "d...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 10:45:11",
+            "date_b": "2022-11-04 10:45:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Idealnie do nowego komputera",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17115819": {
+            "local_id": 90,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17115819",
+            "author": "j...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-07 21:23:15",
+            "date_b": "2023-02-07 21:23:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Na razie hula bez zarzutów.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17086440": {
+            "local_id": 91,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17086440",
+            "author": "p...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-31 22:22:15",
+            "date_b": "2023-01-31 22:22:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dość tani i całkiem szybki.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16861619": {
+            "local_id": 92,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16861619",
+            "author": "z...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-10 09:19:10",
+            "date_b": "2022-12-10 09:19:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ekstra i gra do kompletu :D",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16834516": {
+            "local_id": 93,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16834516",
+            "author": "e...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-05 20:14:35",
+            "date_b": "2022-12-05 20:14:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra wydajność w tej cenie",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17022523": {
+            "local_id": 94,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17022523",
+            "author": "Mariusz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-16 20:19:26",
+            "date_b": "2023-01-16 20:19:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procek śmiga jak dziki :-)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16820739": {
+            "local_id": 95,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16820739",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-01 22:17:22",
+            "date_b": "2022-12-01 22:17:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki i chłodny, ver b2. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16794516": {
+            "local_id": 96,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16794516",
+            "author": "v...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 17:17:49",
+            "date_b": "2022-11-25 17:17:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki i energooszczędny. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16745106": {
+            "local_id": 97,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16745106",
+            "author": "d...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 20:56:07",
+            "date_b": "2022-11-14 20:56:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszystko śmiga jak ta lala",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16756698": {
+            "local_id": 98,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16756698",
+            "author": "j...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-17 06:32:20",
+            "date_b": "2022-11-17 06:32:20",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spełnia moje oczekiwania.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16755522": {
+            "local_id": 99,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16755522",
+            "author": "y...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-16 21:20:15",
+            "date_b": "2022-11-16 21:20:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobry procek w tej cenie",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16715733": {
+            "local_id": 100,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16715733",
+            "author": "Kacper",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-05 13:40:53",
+            "date_b": "2022-11-05 13:40:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "REWELACJA w cenie 689 zł",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16875172": {
+            "local_id": 101,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16875172",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 22:07:13",
+            "date_b": "2022-12-13 22:07:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybko, sprawnie, ok.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "nie grzeje się",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "brak integry"
+                ]
+            ]
+        },
+        "16536173": {
+            "local_id": 102,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16536173",
+            "author": "p...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-19 13:41:02",
+            "date_b": "2022-09-19 13:41:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wydajny nawet na b350",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16854643": {
+            "local_id": 103,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16854643",
+            "author": "k...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-09 00:59:40",
+            "date_b": "2022-12-09 00:59:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajny i chłodny.",
+            "pos_features": [
+                [
+                    "nie grzeje się",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16713956": {
+            "local_id": 104,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16713956",
+            "author": "b...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 21:27:21",
+            "date_b": "2022-11-04 21:27:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Petarda. Polecam.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16745171": {
+            "local_id": 105,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16745171",
+            "author": "b...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 21:04:18",
+            "date_b": "2022-11-14 21:04:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super wydajność ",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy"
+                ]
+            ]
+        },
+        "16662364": {
+            "local_id": 106,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16662364",
+            "author": "s...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-21 19:39:40",
+            "date_b": "2022-10-21 19:39:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor",
+            "pos_features": [
+                [
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16547727": {
+            "local_id": 107,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16547727",
+            "author": "b...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-22 05:26:03",
+            "date_b": "2022-09-22 05:26:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Cena do jakości ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16965582": {
+            "local_id": 108,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16965582",
+            "author": "s...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-02 22:29:05",
+            "date_b": "2023-01-02 22:29:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super procesor ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16768730": {
+            "local_id": 109,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16768730",
+            "author": "a...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-20 09:39:44",
+            "date_b": "2022-11-20 09:39:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny sprzęt ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16745491": {
+            "local_id": 110,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16745491",
+            "author": "j...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 21:47:40",
+            "date_b": "2022-11-14 21:47:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procesor.",
+            "pos_features": [
+                [
+                    "brak integry",
+                    "głośność pracy",
+                    "niezłe oc",
+                    "odblokowany mnożnik",
+                    "pobiera mało prądu",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "nie grzeje się"
+                ]
+            ]
+        },
+        "17250578": {
+            "local_id": 111,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17250578",
+            "author": "k...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 12:10:17",
+            "date_b": "2023-03-10 12:10:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "700fps w cs ;)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16860877": {
+            "local_id": 112,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16860877",
+            "author": "k...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-10 00:32:10",
+            "date_b": "2022-12-10 00:32:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procesor",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy"
+                ]
+            ]
+        },
+        "16650458": {
+            "local_id": 113,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16650458",
+            "author": "e...g",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-19 13:13:42",
+            "date_b": "2022-10-19 13:13:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "świetne osiągi",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16535276": {
+            "local_id": 114,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16535276",
+            "author": "u...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-19 10:31:25",
+            "date_b": "2022-09-19 10:31:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super wydajny.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16946379": {
+            "local_id": 115,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16946379",
+            "author": "Никита",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-29 10:44:09",
+            "date_b": "2022-12-29 10:44:09",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobrze",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16766716": {
+            "local_id": 116,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16766716",
+            "author": "h...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 22:36:48",
+            "date_b": "2022-11-18 22:36:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa dobrze",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16745097": {
+            "local_id": 117,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16745097",
+            "author": "tourtan",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 20:54:52",
+            "date_b": "2022-11-14 20:54:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16796636": {
+            "local_id": 118,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16796636",
+            "author": "p...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-26 10:48:15",
+            "date_b": "2022-11-26 10:48:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spoko procek",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16730537": {
+            "local_id": 119,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16730537",
+            "author": "k...p",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-09 21:19:17",
+            "date_b": "2022-11-09 21:19:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16245956": {
+            "local_id": 120,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16245956",
+            "author": "r...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-24 00:43:34",
+            "date_b": "2022-06-24 00:43:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16265071": {
+            "local_id": 121,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16265071",
+            "author": "e...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-29 19:33:57",
+            "date_b": "2022-06-29 19:33:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszystko ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16121245": {
+            "local_id": 122,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16121245",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-05-24 10:43:59",
+            "date_b": "2022-05-24 10:43:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszysko ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16721499": {
+            "local_id": 123,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16721499",
+            "author": "m...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-07 20:52:24",
+            "date_b": "2022-11-07 20:52:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17007761": {
+            "local_id": 124,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17007761",
+            "author": "artcomp*****",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-12 11:22:43",
+            "date_b": "2023-01-12 11:22:43",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jest OK",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17005580": {
+            "local_id": 125,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17005580",
+            "author": "Ray",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-11 23:03:43",
+            "date_b": "2023-01-11 23:03:43",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra!",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16875249": {
+            "local_id": 126,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16875249",
+            "author": "kiedd",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 22:22:06",
+            "date_b": "2022-12-13 22:22:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki",
+            "pos_features": [
+                [
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17237994": {
+            "local_id": 127,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17237994",
+            "author": "d...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-08 10:39:33",
+            "date_b": "2023-03-08 10:39:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spoko",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17154120": {
+            "local_id": 128,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17154120",
+            "author": "z...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-16 14:51:33",
+            "date_b": "2023-02-16 14:51:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17056715": {
+            "local_id": 129,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17056715",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-24 21:07:10",
+            "date_b": "2023-01-24 21:07:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16846286": {
+            "local_id": 130,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16846286",
+            "author": "x...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-07 20:17:32",
+            "date_b": "2022-12-07 20:17:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16729798": {
+            "local_id": 131,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16729798",
+            "author": "g...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-09 19:56:15",
+            "date_b": "2022-11-09 19:56:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16718022": {
+            "local_id": 132,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16718022",
+            "author": "m...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-06 22:23:41",
+            "date_b": "2022-11-06 22:23:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Śmiga",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17144688": {
+            "local_id": 133,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17144688",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-14 21:24:27",
+            "date_b": "2023-02-14 21:24:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16954793": {
+            "local_id": 134,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16954793",
+            "author": "w...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-30 18:54:07",
+            "date_b": "2022-12-30 18:54:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Lux",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17246589": {
+            "local_id": 135,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17246589",
+            "author": "d...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-09 19:07:25",
+            "date_b": "2023-03-09 19:07:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17192427": {
+            "local_id": 136,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17192427",
+            "author": "m...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-25 07:48:48",
+            "date_b": "2023-02-25 07:48:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17163039": {
+            "local_id": 137,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17163039",
+            "author": "z...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-18 14:51:34",
+            "date_b": "2023-02-18 14:51:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "👍",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16838581": {
+            "local_id": 138,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16838581",
+            "author": "a...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-06 14:33:10",
+            "date_b": "2022-12-06 14:33:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16818490": {
+            "local_id": 139,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16818490",
+            "author": "d...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-01 15:03:00",
+            "date_b": "2022-12-01 15:03:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16793107": {
+            "local_id": 140,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16793107",
+            "author": "b...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 11:42:33",
+            "date_b": "2022-11-25 11:42:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": ":)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16529819": {
+            "local_id": 141,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16529819",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-16 15:17:49",
+            "date_b": "2022-09-16 15:17:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": ";(",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16300291": {
+            "local_id": 142,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "16300291",
+            "author": "s...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-09 21:15:48",
+            "date_b": "2022-07-09 21:15:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17175111": {
+            "local_id": 143,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17175111",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2023-02-22 06:22:11",
+            "date_b": "2023-02-22 06:22:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Realizacja zamówienia oraz dostawa przebiegła naprawdę szybko. Przesiadka z ryzen 3 2200g na R5 5600 dała mega kopa do tego ram 2x8 3600mhz.\nNaprawdę gorąco polecam.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność",
+                    "wydajny"
+                ]
+            ],
+            "neg_features": []
+        }
+    }
+}
