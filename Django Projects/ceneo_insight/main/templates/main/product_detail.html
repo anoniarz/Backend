@@ -4,6 +4,12 @@
   <article class="media content-section">
     <h4>{{ object.product_name }}</h4>
   </article>
+  <div class="sorting-section">
+    {% for label, link in sort_links.items %}
+      <a class="btn btn-outline-secondary mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>
+    {% endfor %}
+  </div>
+
 
   {% for review in reviews %}
     <article class="media content-section">

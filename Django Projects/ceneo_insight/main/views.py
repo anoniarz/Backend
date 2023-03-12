@@ -254,7 +254,6 @@ def products(request):
 
 
 class ProductDetailView(DetailView):
-
     model = Product
     paginate_by = 7
     template_name = 'main/product_detail.html'
@@ -263,7 +262,21 @@ class ProductDetailView(DetailView):
         context = super().get_context_data(**kwargs)
 
         product = self.get_object()
-        reviews = product.reviews.all().order_by('-date_p')
+        reviews = product.reviews.all()
+
+        sorter = self.request.GET.get('sort')
+        if sorter == 'newest':
+            reviews = reviews.order_by('-date_p')
+        elif sorter == 'oldest':
+            reviews = reviews.order_by('date_p')
+        elif sorter == 'highest_stars':
+            reviews = reviews.order_by('-stars')
+        elif sorter == 'lowest_stars':
+            reviews = reviews.order_by('stars')
+        elif sorter == 'highest_t_up':
+            reviews = reviews.order_by('-t_up')
+        elif sorter == 'highest_t_down':
+            reviews = reviews.order_by('-t_down')
 
         paginator = Paginator(reviews, self.paginate_by)
         page_number = self.request.GET.get('page')
@@ -274,4 +287,15 @@ class ProductDetailView(DetailView):
         context['labels2'] = list(product.chart_recommendations.keys())
         context['values2'] = list(product.chart_recommendations.values())
         context['reviews'] = page_obj
+        context['sorter'] = sorter
+
+        context['sort_links'] = {
+            'Newest': reverse('product_reviews', args=[product.pk]) + '?sort=newest',
+            'Oldest': reverse('product_reviews', args=[product.pk]) + '?sort=oldest',
+            'Highest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=highest_rated',
+            'Lowest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=lowest_rated',
+            'Most_liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
+            'Most_disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
+        }
+
         return context
