@@ -20,11 +20,11 @@ from bs4 import BeautifulSoup as bs
 
 
 def delete_from_db(ceneo_id):
-    Product.objects.filter(id=ceneo_id).delete()
+    Product.objects.filter(product_id=ceneo_id).delete()
 
 
 def link_to_id(adress):
-    return "".join(re.findall(r"\d{5,}", adress))
+    return "".join((re.findall(r"\d{5,}", adress))[0])
 
 
 def try_or(f):
@@ -160,7 +160,7 @@ def scrape(link):
         delete_from_db(ceneo_id)
 
     product_name = data[ceneo_id][review_id].get('product_name')
-    product = Product.objects.create(id=ceneo_id,
+    product = Product.objects.create(
                                      product_id=ceneo_id, product_name=product_name, chart_stars=chart_stars, chart_recommendations=chart_recommendations, rating=rating)
 
     for review_id, review in data[ceneo_id].items():
@@ -247,9 +247,24 @@ class DownloadFile(View):
 
 
 def products(request):
+    
+    sort_by = request.GET.get('sort_by')
+    products = Product.objects.all()
+
+    if sort_by == 'most_reviews':
+        products = sorted(products, key=lambda p: p.reviews.count(), reverse=True)
+    elif sort_by == 'least_reviews':
+        products = sorted(products, key=lambda p: p.reviews.count())
+    elif sort_by == 'highest_rating':
+        products = products.order_by('-rating')
+    elif sort_by == 'lowest_rating':
+        products = products.order_by('rating')
+        
+    request.session['sort_by'] = sort_by
 
     context = {
-        "products": Product.objects.all(),
+        "products": products,
+        "sort_by": sort_by,
     }
 
     return render(request, 'main/products.html', context)

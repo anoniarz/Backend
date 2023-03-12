@@ -3,7 +3,7 @@ from django.db import models
 # rm db.sqlite3    
 class Product(models.Model):
     product_id = models.CharField(
-        max_length=36)
+        max_length=36, primary_key=True)
     product_name = models.CharField(max_length=255)
     chart_stars = models.JSONField()
     chart_recommendations = models.JSONField()

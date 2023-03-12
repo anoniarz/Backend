@@ -1,0 +1,726 @@
+{
+    "112898936": {
+        "16180640": {
+            "local_id": 1,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16180640",
+            "author": "r...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-07 17:42:58",
+            "date_b": "2022-06-07 17:42:58",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "super",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16736609": {
+            "local_id": 2,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16736609",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-11 13:03:20",
+            "date_b": "2022-11-11 13:03:20",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Rewelacyjny procesor w dobrej cenie w stosunku do jakości. Wbudowana karta graficzna spokojnie wystarcza do moich potrzeb. Używam głównie do Photoshopa. Załączony wentylator duży i cichy, nie potrzeba innego jak w Intelach.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16921904": {
+            "local_id": 3,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16921904",
+            "author": "b...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-23 09:52:47",
+            "date_b": "2022-12-23 09:52:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Moim zdaniem Rewelacja w tym segmencie. Przesiadłem się z 3400G i widać duży przyrost mocy, a przy tym nie grzeje się. Wbudowana karta Vega spełnia swoją rolę. Plus Cena w Sferis była najlepsza w momencie kupna. Pozdrawiam",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17109721": {
+            "local_id": 4,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "17109721",
+            "author": "m...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-02-06 17:57:16",
+            "date_b": "2023-02-06 17:57:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajna wbudowana grafika (wystarcza go gry w WOT na średnich/wysokich ust. w FHD) jak i sam procesor, idealny na przeczekanie drogich cen kart graficznych, gdy nie ma się za wysokich wymagań pod względem grafiki w PC.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "14861607": {
+            "local_id": 5,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "14861607",
+            "author": "s...g",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2021-08-19 13:01:00",
+            "date_b": "2021-08-19 13:01:00",
+            "t_up": "1",
+            "t_down": "2",
+            "opinion": "Zadowalająca wydajność procesora. Szczególnie w tych czasach jest to dobry kompromis, aby przyoszczędzić na karcie grafiki. Szczególnie, jeżeli ktoś potrzebuje jedynie grafiki 2D.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16794520": {
+            "local_id": 6,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16794520",
+            "author": "v...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 17:18:51",
+            "date_b": "2022-11-25 17:18:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki i energooszczędny, fajnie że ma kartę graficzną. Wolę jego, niż wersję bez grafy. W sumie to wykręciłem go lepiej, niż brata 5600x.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17011438": {
+            "local_id": 7,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "17011438",
+            "author": "M...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-13 00:59:30",
+            "date_b": "2023-01-13 00:59:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procek do HTPC, przy płycie głównej ASRocka jednak trzeba pamiętać żeby mieć aktualny BIOS wspierający procesory z serii 5xx0G :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16192721": {
+            "local_id": 8,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16192721",
+            "author": "r...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-09 21:07:38",
+            "date_b": "2022-06-09 21:07:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry stosunek ceny do parametrów, zwłaszcza że odpada zakup karty graficznej, które o cenie są drogie i ciężko z ich dostępnością.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16836225": {
+            "local_id": 9,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16836225",
+            "author": "r...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-06 08:11:27",
+            "date_b": "2022-12-06 08:11:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jak na razie najbardziej opłacalny procesor ze zintegrowaną grafiką. Sprawdzi się w pracach biurowych jak i do grania. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16863137": {
+            "local_id": 10,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16863137",
+            "author": "B...A",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-10 19:40:27",
+            "date_b": "2022-12-10 19:40:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki procesor z zintegrowaną kartą. Polecam dokupić lepsze chłodzenie bo to w zestawie jest mało wydajne i głośne. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17073865": {
+            "local_id": 11,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "17073865",
+            "author": "g...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-27 23:09:30",
+            "date_b": "2023-01-27 23:09:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo wydajny procek idealny do gry WW3, oczywiście warto dokupić zwykłą kartę graficzną. ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16920628": {
+            "local_id": 12,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16920628",
+            "author": "syfon abc",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-23 00:23:48",
+            "date_b": "2022-12-23 00:23:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jest ok. Działa. To rewelacyjne chłodzenie może i jest wydajne ale coś za głośno pracuje.",
+            "pos_features": [
+                [
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": [
+                [
+                    "głośność pracy"
+                ]
+            ]
+        },
+        "16801681": {
+            "local_id": 13,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16801681",
+            "author": "Marcel",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-28 17:33:42",
+            "date_b": "2022-11-28 17:33:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Excelente product! It is even good for gaming! Price and service excelente too! Polecam!",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16811612": {
+            "local_id": 14,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16811612",
+            "author": "Vlad",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-30 13:06:12",
+            "date_b": "2022-11-30 13:06:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Zamówiłem procesor, jeszcze go nie testowałem, ale dostawa jest bardzo szybka",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16171748": {
+            "local_id": 15,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16171748",
+            "author": "w...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-04 17:55:54",
+            "date_b": "2022-06-04 17:55:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spoko procek w rozsądnej ostatnimi czasy cenie ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16986353": {
+            "local_id": 16,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16986353",
+            "author": "k...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-06 23:40:58",
+            "date_b": "2023-01-06 23:40:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko dobrze, przyszło, działa. Polecam. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15829964": {
+            "local_id": 17,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15829964",
+            "author": "Aleksander",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-16 13:20:42",
+            "date_b": "2022-03-16 13:20:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor do pracy biurowej",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16138790": {
+            "local_id": 18,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16138790",
+            "author": "Piotr",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-27 13:23:08",
+            "date_b": "2022-05-27 13:23:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super opcja do komputera domowego. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15862188": {
+            "local_id": 19,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15862188",
+            "author": "C...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-23 20:18:15",
+            "date_b": "2022-03-23 20:18:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "używam trzy dni jak na razie ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "15716489": {
+            "local_id": 20,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15716489",
+            "author": "Kaan",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-02-17 13:09:11",
+            "date_b": "2022-02-17 13:09:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jestem bardzo zadowolony.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16606868": {
+            "local_id": 21,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16606868",
+            "author": "d...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-07 15:18:58",
+            "date_b": "2022-10-07 15:18:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa bez zarzutu.",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16319993": {
+            "local_id": 22,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16319993",
+            "author": "m...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-15 09:47:38",
+            "date_b": "2022-07-15 09:47:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "szybki i stabilny",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "15746893": {
+            "local_id": 23,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15746893",
+            "author": "s...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-02-24 10:16:48",
+            "date_b": "2022-02-24 10:16:48",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Świetny procesor. Polecam!",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "14930455": {
+            "local_id": 24,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "14930455",
+            "author": "t...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-09-07 13:53:45",
+            "date_b": "2021-09-07 13:53:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Zgodny z opisem",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15563483": {
+            "local_id": 25,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15563483",
+            "author": "a...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-01-14 21:28:18",
+            "date_b": "2022-01-14 21:28:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok ",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16956984": {
+            "local_id": 26,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16956984",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-31 00:01:31",
+            "date_b": "2022-12-31 00:01:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16437953": {
+            "local_id": 27,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16437953",
+            "author": "A...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-19 21:25:30",
+            "date_b": "2022-08-19 21:25:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "17090975": {
+            "local_id": 28,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "17090975",
+            "author": "s...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-01 19:37:31",
+            "date_b": "2023-02-01 19:37:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "git",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16827776": {
+            "local_id": 29,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16827776",
+            "author": "g...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-03 08:53:55",
+            "date_b": "2022-12-03 08:53:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16826305": {
+            "local_id": 30,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16826305",
+            "author": "p...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-02 21:29:09",
+            "date_b": "2022-12-02 21:29:09",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16782684": {
+            "local_id": 31,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16782684",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-23 16:47:20",
+            "date_b": "2022-11-23 16:47:20",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "16336911": {
+            "local_id": 32,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16336911",
+            "author": "t...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-20 15:42:02",
+            "date_b": "2022-07-20 15:42:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16115490": {
+            "local_id": 33,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16115490",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-22 23:20:51",
+            "date_b": "2022-05-22 23:20:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16009865": {
+            "local_id": 34,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "16009865",
+            "author": "Andrzej",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-26 19:01:44",
+            "date_b": "2022-04-26 19:01:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        },
+        "15049862": {
+            "local_id": 35,
+            "product_id": "112898936",
+            "product_name": "AMD Ryzen 5 5600G 4,4GHz BOX (100100000252BOX)",
+            "review_id": "15049862",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-08 07:43:17",
+            "date_b": "2021-10-08 07:43:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                [
+                    "głośność pracy",
+                    "stabilność",
+                    "wydajność"
+                ]
+            ],
+            "neg_features": []
+        }
+    }
+}

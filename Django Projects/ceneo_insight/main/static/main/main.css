@@ -30,6 +30,23 @@ ul.no-bullets {
     justify-content: right;
 }
 
+#submit-btn.loading::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    /* adjust as needed */
+    width: 20px;
+    /* adjust as needed */
+    height: 20px;
+    /* adjust as needed */
+    background: url('/path/to/loading-icon.gif') no-repeat center center;
+}
+
+.list-group a {
+    margin-bottom: 10px;
+}
+
 .btn-outline-warning {
     background-color: var(--palette-5);
     border-color: var(--palette-3);
