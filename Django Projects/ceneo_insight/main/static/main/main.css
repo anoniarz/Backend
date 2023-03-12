@@ -110,16 +110,8 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: #3a5288;
     padding: 10px 20px;
-    margin-bottom: 20px;
-  }
-.sorting-section btn {
-    margin: 0 10px;
-    padding: 10px 20px;
-    display: inline-block;
-    vertical-align: middle;
-  }  
+}
 
 .chart {
     background: #3a5288;
