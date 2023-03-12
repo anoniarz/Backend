@@ -2,10 +2,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 {% block content %}
   <article class="media content-section">
-    <h4>{{ object.product_name }}</h4>
+    <h4>{{ object.product_name }}&nbsp;&nbsp;{{ product.rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h4>
   </article>
 
   <div class="sorting-section">
+    <i class="orange mb-4 fa-solid fa-filter fa-lg"></i>&nbsp;&nbsp;&nbsp;
     {% for label, link in sort_links.items %}
       <a class="btn btn-outline-warning mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>&nbsp;&nbsp;
     {% endfor %}
@@ -61,21 +62,21 @@
   {% if reviews.has_other_pages %}
   <div class="pagination">
       {% if reviews.has_previous %}
-          <a class="btn btn-outline-secondary mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
-          <a class="btn btn-outline-secondary mb-4" href="?sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
       {% endif %}
 
       {% for num in reviews.paginator.page_range %}
           {% if num == reviews.number %}
-          <a class="btn btn-secondary mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          <a class="btn btn-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% elif num > reviews.number|add:'-2' and num < reviews.number|add:'2' %}
-          <a class="btn btn-outline-secondary mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% endif %}
       {% endfor %}
 
       {% if reviews.has_next %}
-      <a class="btn btn-outline-secondary mb-4" href="?sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
-      <a class="btn btn-outline-secondary mb-4" href="?sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+      <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+      <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
       {% endif %}
   </div>
 {% endif %}
