@@ -3,26 +3,33 @@
 
 
 <article class="media content-section">
-  <div class="media-body">
-    <div class="article-metadata">
-    <h2><a class="article-title" href="{% url 'add_product' %}">Add Product</a></h2> 
-  </div></div>
+    <form method="POST" action="{% url 'add_product' %}">
+        {% csrf_token %}
+        <label for="url_f">Add Product:</label>
+        <input type="text" id="url_f" name="url_f">
+        <button type="submit">Submit</button>
+    </form>
 </article>
 
 {% for product in products %}
     <article class="media content-section">
         <div class="media-body">
-            <h2>
+            <h4>
                 <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
                     {{ product.product_name }}
                 </a>
-                <a href="{% url 'delete_product' pk=product.pk %}" class="float-right">
-                    <i class="red fa-solid fa-trash">&nbsp;</i>
+
+                
+                <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
+                    <i class="fa-solid fa-trash trash-icon">&nbsp;</i>
+                </a>
+                <a href="{% url 'download_json' product_id=product.pk %}" class="float-right">
+                    <i class="fa-solid fa-download download-icon">&nbsp;</i>
                 </a>
                 <a href="{% url 'refresh_product' pk=product.pk %}" class="float-right">
-                    <i class="green fa-solid fa-arrows-rotate">&nbsp;</i>
+                    <i class="fa-solid fa-arrows-rotate rotate-icon">&nbsp;</i>
                 </a>
-            </h2>
+            </h4>
         </div>
     </article>
 {% endfor %}

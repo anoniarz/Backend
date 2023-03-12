@@ -25,6 +25,13 @@ ul.no-bullets {
     float: right;
 }
 
+.btn-outline-secondary {
+
+    background-color: #3a5288;
+    outline-color: #3a5288;
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -33,7 +40,6 @@ h5,
 h6 {
     color: var(--font-1);
 }
-
 .green {
     color: green;
 }
@@ -45,6 +51,27 @@ h6 {
 }
 .yellow {
     color: yellow;
+}
+
+.trash-icon {
+    opacity: 80%;
+    color: rgb(189, 51, 51);
+}
+
+.download-icon {
+    opacity: 80%;
+    color: rgb(37, 37, 168);
+}
+
+.rotate-icon {
+    opacity: 80%;
+    color: rgb(32, 167, 32);
+}
+
+.trash-icon:hover,
+.download-icon:hover,
+.rotate-icon:hover {
+    opacity: 0.2;
 }
 
 .navbar-dark{
@@ -131,3 +158,4 @@ a.article-title:hover {
 .account-heading {
     font-size: 2.5rem;
 }
+

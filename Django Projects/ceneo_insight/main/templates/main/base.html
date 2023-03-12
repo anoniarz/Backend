@@ -57,12 +57,13 @@
         </div> 
       <div class="col-md-4">
           <div class="chart">
-              <h3>Stars Chart</h3>
-              <canvas id="star_chart" width="100" height="100"></canvas>
+              <h4>Stars Chart</h4>
+              <canvas id="star_chart" width="600" height="600"></canvas>
           </div> 
           <div class="chart">
-              <h3>Recommendations Chart</h3>
-              <canvas id="recomendation_chart" width="100" height="100"></canvas>
+              <h4>Recommendations Chart</h4>
+              <canvas id="recomendation_chart" width="600" height="600"></canvas>
+              <a href="{% url 'download_json' product_id=product.pk %}">Download JSON</a>
           </div>
         </div>
       </div>

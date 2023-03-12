@@ -1,12 +1,11 @@
 {% extends "main/base.html" %}
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 {% block content %}
-
   <article class="media content-section">
-    <h2>{{ object.product_name }}</h2>
+    <h4>{{ object.product_name }}</h4>
   </article>
 
-  {% for review in object.reviews.all %}
+  {% for review in reviews %}
     <article class="media content-section">
       <div class="media-body">
         <div class="article-metadata">
@@ -52,26 +51,27 @@
       </div>
     </article>
   {% endfor %}
+  
+  {% if reviews.has_other_pages %}
+  <div class="pagination d-flex justify-content-left">
+      {% if reviews.has_previous %}
+          <a class="btn btn-outline-secondary mb-4" href="?page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+          <a class="btn btn-outline-secondary mb-4" href="?page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+      {% endif %}
 
-  <!-- {% if is_paginated %}
+      {% for num in reviews.paginator.page_range %}
+          {% if num == reviews.number %}
+          <a class="btn btn-secondary mb-4" href="?page={{ num }}">{{ num }}</a>&nbsp;
+          {% elif num > reviews.number|add:'-2' and num < reviews.number|add:'2' %}
+          <a class="btn btn-outline-secondary mb-4" href="?page={{ num }}">{{ num }}</a>&nbsp;
+          {% endif %}
+      {% endfor %}
 
-  {% if page_obj.has_previous %}
-    <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
-    <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Previous</a>
-  {% endif %}
-
-  {% for num in page_obj.paginator.page_range %}
-    {% if page_obj.number == num %}
-      <a class="btn btn-info mb-4" href="?page={{ num }}">{{ num }}</a>
-    {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
-      <a class="btn btn-outline-info mb-4" href="?page={{ num }}">{{ num }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if page_obj.has_next %}
-    <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">Next</a>
-    <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Last</a>
-  {% endif %} -->
-<!-- {% endif %} -->
+      {% if reviews.has_next %}
+      <a class="btn btn-outline-secondary mb-4" href="?page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+      <a class="btn btn-outline-secondary mb-4" href="?page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+      {% endif %}
+  </div>
+{% endif %}
 
 {% endblock %}

@@ -1,12 +1,17 @@
 from django.shortcuts import render, redirect
+from django.core.paginator import Paginator
+from django.conf import settings
+from django.http import HttpResponse, Http404
+from django.urls import reverse
 from django.contrib import messages
 from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f
 
 
-from django.views.generic import DetailView
+from django.views.generic import DetailView, View
 # Scraper
+import os
 import requests
 import re
 import json
@@ -140,8 +145,9 @@ def scrape(link):
         n += 1
 
     # Chart Data
-    chart_stars = co.Counter(chart_stars)
-    chart_recommendations = co.Counter(chart_recommendations)
+    chart_stars = co.Counter(sorted(chart_stars, reverse=True))
+    chart_recommendations = co.Counter(
+        sorted(chart_recommendations, reverse=True))
 
     # Saving Data as Json
     with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
@@ -221,6 +227,23 @@ def delete_product(request, pk):
     return redirect('products')
 
 
+class DownloadFile(View):
+    def get(self, request, *args, **kwargs):
+        product_id = kwargs.get('product_id')
+        file_name = f'{product_id}.json'
+        file_path = os.path.join(
+            settings.MEDIA_ROOT, 'ceneo_reviews', file_name)
+
+        if os.path.exists(file_path):
+            with open(file_path, 'rb') as fh:
+                response = HttpResponse(
+                    fh.read(), content_type='application/json')
+                response['Content-Disposition'] = f'attachment; filename={file_name}'
+                return response
+
+        raise Http404
+
+
 def products(request):
 
     context = {
@@ -231,13 +254,24 @@ def products(request):
 
 
 class ProductDetailView(DetailView):
+
     model = Product
+    paginate_by = 7
+    template_name = 'main/product_detail.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+
         product = self.get_object()
+        reviews = product.reviews.all().order_by('-date_p')
+
+        paginator = Paginator(reviews, self.paginate_by)
+        page_number = self.request.GET.get('page')
+        page_obj = paginator.get_page(page_number)
+
         context['labels1'] = list(product.chart_stars.keys())
         context['values1'] = list(product.chart_stars.values())
         context['labels2'] = list(product.chart_recommendations.keys())
         context['values2'] = list(product.chart_recommendations.values())
+        context['reviews'] = page_obj
         return context
