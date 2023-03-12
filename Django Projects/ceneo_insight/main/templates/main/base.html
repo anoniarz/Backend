@@ -81,13 +81,19 @@
           data: {
               labels: labels1,
               datasets: [{
-                  label: 'No. of Stars',
                   data: values1,
                   backgroundColor: ['#FFE15D','#F49D1A','#DC3535','#B01E68'],
                   borderColor: 'white',
                   borderWidth: 1
               }]
           },
+          options: {
+            plugins: {
+              legend: {
+                display: false
+              }
+            }
+          }
       });
     </script>
     <script>

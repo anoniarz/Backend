@@ -2,11 +2,11 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 {% block content %}
   <article class="media content-section">
-    <h4>{{ object.product_name }}&nbsp;&nbsp;{{ product.rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h4>
+    <h5>{{ object.product_name }}&nbsp;&nbsp;{{ product.rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h5>
   </article>
 
   <div class="sorting-section">
-    <i class="orange mb-4 fa-solid fa-filter fa-lg"></i>&nbsp;&nbsp;&nbsp;
+    <i class="corange mb-4 fa-solid fa-filter fa-lg"></i>&nbsp;&nbsp;&nbsp;
     {% for label, link in sort_links.items %}
       <a class="btn btn-outline-warning mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>&nbsp;&nbsp;
     {% endfor %}
@@ -68,7 +68,7 @@
 
       {% for num in reviews.paginator.page_range %}
           {% if num == reviews.number %}
-          <a class="btn btn-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          <a class="btn btn-outline-warning mb-4 active" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% elif num > reviews.number|add:'-2' and num < reviews.number|add:'2' %}
           <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% endif %}
