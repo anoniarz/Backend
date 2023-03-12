@@ -14,6 +14,12 @@ body {
     margin-top: 5rem;
 }
 
+ul.no-bullets {
+    list-style-type: none;
+    padding: 0; 
+    margin: 0;
+  }
+
 .right {
 
     float: right;
@@ -70,6 +76,13 @@ ul {
     background: #3a5288;
     padding: 10px 20px;
     margin-bottom: 20px;
+}
+
+.chart {
+    background: #3a5288;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .article-title {
