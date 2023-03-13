@@ -37,7 +37,7 @@
            <i class="green fa-solid fa-thumbs-up"></i> <small class="text-muted">{{ review.t_up }}&nbsp;</small>
            <i class="red fa-solid fa-thumbs-down"></i> <small class="text-muted">{{ review.t_down }}</small>
         </div>
-        <p>&emsp;&nbsp;{{ review.opinion }}</p>
+        <p><i class="fa-solid fa-comment"></i>&nbsp;{{ review.opinion }}</p>
 
         {% for pos_feature in review.pos_features %}
         <ul class="no-bullets">

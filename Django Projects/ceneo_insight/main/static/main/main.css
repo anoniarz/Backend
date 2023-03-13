@@ -7,6 +7,10 @@
     --palette-6: #000000;
 }
 
+* {
+    zoom: 100%;
+}
+
 body {
     background: radial-gradient(circle, var(--palette-3) 10%, transparent 11%), radial-gradient(circle at bottom left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at bottom right, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top right, var(--palette-3) 5%, transparent 6%);
     background-size: 6em 6em;
@@ -217,29 +221,17 @@ a.article-title:hover {
     font-size: 2.5rem;
 }
 
-
-/* width */
-
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
-
-
-/* Track */
 
  ::-webkit-scrollbar-track {
     background: var(--palette-5);
 }
 
-
-/* Handle */
-
  ::-webkit-scrollbar-thumb {
     background: var(--palette-2);
 }
-
-
-/* Handle on hover */
 
  ::-webkit-scrollbar-thumb:hover {
     background: var(--palette-3);

@@ -6,8 +6,8 @@
     <form method="POST" action="{% url 'add_product' %}">
         {% csrf_token %}
         <label for="url_f">Add Product:&nbsp;</label>
-        <input type="text" id="url_f" name="url_f">
-        <button id="submit-btn" type="submit">Submit</button>
+        <input type="text" id="url_f" name="url_f">&nbsp;
+        <button type="submit">Submit</button>
     </form>
 </article>
 
@@ -53,13 +53,6 @@
     {% endif %}
 </div>
 {% endif %}
-
-
-
-<script>
-    document.getElementById('submit-btn').addEventListener('click', function() {
-        this.classList.add('loading');
-      });
-</script>    
+ 
 
 {% endblock content %}
