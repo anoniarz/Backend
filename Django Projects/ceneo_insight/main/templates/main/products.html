@@ -23,7 +23,7 @@
                 <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
                     <i class="fa-solid fa-trash trash-icon">&nbsp;</i>
                 </a>
-                <a href="{% url 'download_json' product_id=product.pk %}" class="float-right">
+                <a href="{% url 'download_json' pk=product.pk %}" class="float-right">
                     <i class="fa-solid fa-download download-icon">&nbsp;&nbsp;</i>
                 </a>
                 <a href="{% url 'refresh_product' pk=product.pk %}" class="float-right">

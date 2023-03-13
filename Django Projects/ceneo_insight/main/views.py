@@ -200,8 +200,6 @@ def error(request):
     return render(request, 'main/error.html')
 
 # Adding Product
-
-
 def add_product(request):
     if request.method == 'POST':
         form = Url_f(request.POST)
@@ -218,12 +216,10 @@ def add_product(request):
 
 
 def home(request):
-
     return render(request, 'main/home.html')
 
 
 def about(request):
-
     return render(request, 'main/about.html')
 
 
@@ -239,7 +235,7 @@ def delete_product(request, pk):
 
 class DownloadFile(View):
     def get(self, request, *args, **kwargs):
-        product_id = kwargs.get('product_id')
+        product_id = kwargs.get('pk')
         file_name = f'{product_id}.json'
         file_path = os.path.join(
             settings.MEDIA_ROOT, 'ceneo_reviews', file_name)
@@ -328,8 +324,6 @@ class ProductDetailView(DetailView):
         context['values3'] = list(days_used.values())
         context['reviews'] = page_obj
         context['sorter'] = sorter
-        
-        
 
         context['sort_links'] = {
             'Newest': reverse('product_reviews', args=[product.pk]) + '?sort=newest',
@@ -339,5 +333,4 @@ class ProductDetailView(DetailView):
             'Most_Liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
             'Most_Used': reverse('product_reviews', args=[product.pk]) + '?sort=most_used',
         }
-
         return context
