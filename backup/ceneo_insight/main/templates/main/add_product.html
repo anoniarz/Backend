@@ -1,0 +1,11 @@
+{% extends "main/sidebar.html" %}
+{% block content %}
+<article class="media content-section">
+  <form method="POST" action="{% url 'add_product' %}">
+    {% csrf_token %}
+    <label for="url_f">Enter Ceneo id/url:&nbsp;</label>
+    <input type="text" id="url_f" name="url_f">
+    <button type="submit">Submit</button>
+</form>
+</article>
+{% endblock content %}

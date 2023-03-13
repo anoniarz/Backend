@@ -1,0 +1,65 @@
+{% extends "main/sidebar.html" %}
+{% block content %}
+
+
+<article class="media content-section">
+    <form method="POST" action="{% url 'add_product' %}">
+        {% csrf_token %}
+        <label for="url_f">Add Product:&nbsp;</label>
+        <input type="text" id="url_f" name="url_f">
+        <button id="submit-btn" type="submit">Submit</button>
+    </form>
+</article>
+
+{% for product in products %}
+    <article class="media content-section">
+        <div class="media-body">
+            <h5>
+                <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
+                    {{ product.product_name }}&nbsp;&nbsp;{{ product.rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>
+                </a>
+                <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
+                    <i class="fa-solid fa-trash trash-icon">&nbsp;</i>
+                </a>
+                <a href="{% url 'download_json' pk=product.pk %}" class="float-right">
+                    <i class="fa-solid fa-download download-icon">&nbsp;&nbsp;</i>
+                </a>
+                <a href="{% url 'refresh_product' pk=product.pk %}" class="float-right">
+                    <i class="fa-solid fa-arrows-rotate rotate-icon">&nbsp;&nbsp;</i>
+                </a>
+            </h5>
+        </div>
+    </article>
+{% endfor %}
+
+{% if reviews.has_other_pages %}
+<div class="pagination">
+    {% if reviews.has_previous %}
+        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+    {% endif %}
+
+    {% for num in reviews.paginator.page_range %}
+        {% if num == reviews.number %}
+        <a class="btn btn-outline-warning mb-4 active" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+        {% elif num > reviews.number|add:'-2' and num < reviews.number|add:'2' %}
+        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+        {% endif %}
+    {% endfor %}
+
+    {% if reviews.has_next %}
+    <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+    <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+    {% endif %}
+</div>
+{% endif %}
+
+
+
+<script>
+    document.getElementById('submit-btn').addEventListener('click', function() {
+        this.classList.add('loading');
+      });
+</script>    
+
+{% endblock content %}
