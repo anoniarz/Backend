@@ -288,6 +288,19 @@ class ProductDetailView(DetailView):
 
         product = self.get_object()
         reviews = product.reviews.all()
+        days_used = []
+        for review in reviews:
+            if review.days_used <= 10:
+                days_used.append("1+")
+            elif review.days_used <= 20:
+                days_used.append("10+")
+            elif review.days_used <= 30:
+                days_used.append("20+")
+            elif review.days_used <= 40:
+                days_used.append("30+")
+            elif review.days_used > 40:
+                days_used.append("40+")
+        days_used = co.Counter(sorted(days_used))
 
         sorter = self.request.GET.get('sort')
         if sorter == 'newest':
@@ -311,8 +324,12 @@ class ProductDetailView(DetailView):
         context['values1'] = list(product.chart_stars.values())
         context['labels2'] = list(product.chart_recommendations.keys())
         context['values2'] = list(product.chart_recommendations.values())
+        context['labels3'] = list(days_used.keys())
+        context['values3'] = list(days_used.values())
         context['reviews'] = page_obj
         context['sorter'] = sorter
+        
+        
 
         context['sort_links'] = {
             'Newest': reverse('product_reviews', args=[product.pk]) + '?sort=newest',

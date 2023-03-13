@@ -64,6 +64,10 @@
               <h4>Recommendations Chart</h4>
               <canvas id="recomendation_chart" width="600" height="600"></canvas>
           </div>
+          <div class="chart">
+            <h4>Days Used Chart</h4>
+            <canvas id="days_chart" width="600" height="600"></canvas>
+        </div>
         </div>
       </div>
     </main>
@@ -114,6 +118,32 @@
               }]
           },
       });
+  </script>
+  <script>
+
+    var labels3 = {{ labels3|safe }};
+    var values3 = {{ values3|safe }};
+
+    var ctx = document.getElementById('days_chart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels3,
+            datasets: [{
+                data: values3,
+                backgroundColor: ['#FFE15D','#F49D1A','#DC3535','#B01E68'],
+                borderColor: 'white',
+                borderWidth: 1
+            }]
+        },
+        options: {
+          plugins: {
+            legend: {
+              display: false
+            }
+          }
+        }
+    });
   </script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

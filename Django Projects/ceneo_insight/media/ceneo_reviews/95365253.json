@@ -15,16 +15,14 @@
             "t_down": "2",
             "opinion": "Jak wszystkie produkty z Xiaomi ma nowoczesny, minimalistyczny design. Jest łatwa w obsłudze. Aplikacja mogłaby być trochę lepsza, ale sam produkt high class. Cena nie duża, a w mi-store można trafić na dobre promocje. Hulajnoga lekka, ładuje się szybciutko. To co mnie mile zaskoczyło: nie jest głośna w trakcie jazdy, a oświetlenie naprawde przystosowane do nocnych podróży. Przeznaczyłam dla niej miejsce w garażu, ale jest tak zgrabna i dobrze wygląda, że ostatecznie mieszka w przedpokoju. :D . Początkowo byłam sceptyczna, no bo jak za taką cenę można kupić dobry produk? A jednak można. Do tego mi-store oferuje kompresor do kół i to będzie mój kolejny zakup... oraz oświetlenie odkurzacz, oczyszczacz powietrza. Żeby nie było, że wszystko jest jak w wiadomościach w pewnej telewizji to dodam, że są straty w ludziach. Tak się podjarałam tym zakupem, że jeździłam po nocach i się rozchorowałam. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -43,12 +41,10 @@
             "t_down": "1",
             "opinion": "Dobra jakośc bateria szybko się ładuje ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -67,12 +63,10 @@
             "t_down": "1",
             "opinion": "Bardzo fajna hulajnoga:)",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -125,9 +119,7 @@
             "t_down": "0",
             "opinion": "Spełnia oczekiwania większego dziecka jak i dorosłego. Przy 100kg wyciąga w trybie sport prawie 25km/h. Zasięg sporo większy niż w Essential. Jedyny problem to sparowanie hulajnogi z aplikacją, udało się dopiero na trzecim urządzeniu (powinno to działać bezproblemowo, a tak nie jest). Polecam. Przejechane 100km i dziecko zachwycone.",
             "pos_features": [
-                [
-                    "wygląd"
-                ]
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -146,18 +138,16 @@
             "t_down": "1",
             "opinion": "Nie mam zastrzeżeń do jakości, używam intensywnie już ponad dwa tygodnie i jestem zadowolony. Może mniej z zasięgu, bo przy wadze 97Kg robię ok 17km na jednym ładowaniu, prędkości 25km/h też nie osiągnąłem ale 18km/h w trybie D lub 21km/h w trybie S na razie mi wystarcza. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "porządny produkt",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd",
-                    "wygoda"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "porządny produkt",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd",
+                "wygoda"
             ],
             "neg_features": []
         },
@@ -176,12 +166,10 @@
             "t_down": "0",
             "opinion": "Hulajnoga super ciągnie dobrze światło świeci mocno hamulce działają od strzału, wpierw mieliśmy hulajnogę firmy skymaster niby lepsze parametry a nie chciało to jechać światło ledwo świeciło a hamulec taki że jak zachamowales jechałeś dalej zwróciliśmy ja natychmiast ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -234,10 +222,8 @@
             "t_down": "0",
             "opinion": "Jeździ, śmiga, trochę irytuje jak hamuje jadąc z górki, ale można zdjąć limity prędkości i jest lepiej. Minus za problem z podjechaniem pod większa górkę, trzeba pomagać noga. W tej cenie super produkt",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -256,12 +242,10 @@
             "t_down": "1",
             "opinion": "Hulajnoga elegancka i dobrze wykonana (nie wygląda na tandetę). Siostrzeniec mega zadowolony z prezentu komunijnego, to był strzał w 10. Sam chyba sobie zakupię, bo warto. Polecam!",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -280,16 +264,14 @@
             "t_down": "0",
             "opinion": "Solidnie wykonana ale zasięg znacznie mniejsze niż deklarowane przez producenta. Mój egzemplarz posiadał możliwość aktywacji tempomatu z poziomu aplikacji. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -325,12 +307,10 @@
             "t_down": "0",
             "opinion": "To moja druga Xiaomi w pierwszej największym minusem były szczypiące się dętki, zrobiłem na niej 1100km i sprzedałem... Przyszedł czas następną ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -349,11 +329,9 @@
             "t_down": "1",
             "opinion": "Hulajnogę kupiłem siostrze wiek 11 lat jest bardzo zadowolona zasięg jest taki jak podaje producent, zapasowa opona w zestawie tez jest na plus. Polecam ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -372,12 +350,10 @@
             "t_down": "0",
             "opinion": "Bardzo dobrze wykonana, super wygląd. Nie mogę się wypowiedzieć na temat zasięgu bo mam ją dwa dni. Myślę że zasięg 30 km jest trochę zawyżony.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -396,10 +372,8 @@
             "t_down": "0",
             "opinion": "Hulajnoga dobrze wykonana ,działa bez problemu aczkolwiek przy uruchomieniu z aplikacji są problemy, nie komunikuje się z każdym telefonem.\n",
             "pos_features": [
-                [
-                    "jak działa jest super",
-                    "wygląd"
-                ]
+                "jak działa jest super",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -435,21 +409,17 @@
             "t_down": "5",
             "opinion": "Nie osiąga takich osiągów jak w opisie. Tryb S zablokowany na 20 km/h, zgodnie z najnowszym prawem. Przy wadze 80 kg realny zasięg to góra 15 km. Raczej się zawiodłem. Choć trochę zgodzę się z innym komentarzem: \"fajna zabawka\", ponieważ inaczej niż zabawką nie należy tego nazywać.",
             "pos_features": [
-                [
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "prezentuje się bardzo dobrze",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "prezentuje się bardzo dobrze",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "polecam",
-                    "porządny produkt",
-                    "wygoda"
-                ]
+                "extra dojazdy do pracy",
+                "polecam",
+                "porządny produkt",
+                "wygoda"
             ]
         },
         "13288147": {
@@ -501,11 +471,9 @@
             "t_down": "0",
             "opinion": "Hulajnoga bardzo solidnie wykonana, estetycznie dobrze spasowane części, brak zastrzeżeń, wizualnie też może się podobać.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -524,10 +492,8 @@
             "t_down": "0",
             "opinion": "Po jednym dniu użytkowania mogę powiedzieć, że sprzęt jest super, bardzo dobra jakość wykonania, syn jest przezadowolony.",
             "pos_features": [
-                [
-                    "jak działa jest super",
-                    "wygląd"
-                ]
+                "jak działa jest super",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -563,16 +529,14 @@
             "t_down": "0",
             "opinion": "XIAOMI Mi Electric Scooter jest dobrym pojazdem dla nastolatka. Pamięajcie by w kasku jeździć!",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -591,13 +555,11 @@
             "t_down": "0",
             "opinion": "Dobrze wykonana, brakuje tempomatu, ale ogólnie bardzo dobrze spełnia swoją funkcje (dojazdy do pracy).",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "fajna hulajnoga nie ma co",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam"
-                ]
+                "extra dojazdy do pracy",
+                "fajna hulajnoga nie ma co",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam"
             ],
             "neg_features": []
         },
@@ -633,16 +595,14 @@
             "t_down": "0",
             "opinion": "Xiaomi w stosunku ceny do jakości zawsze zwycieza. Troche mulasty gdy stanie ktos o dużej masie",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -661,12 +621,10 @@
             "t_down": "0",
             "opinion": "Hulajnoga rewelacja. Zarówno dla kobiety jak i dla mężczyzny. Nie ma się do czego doczepić. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -685,11 +643,9 @@
             "t_down": "0",
             "opinion": "Sprzęt idealny na dojazdy do pracy (8km w jedna stronę u po 17 minutach jestem na miejscu) ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -725,16 +681,14 @@
             "t_down": "0",
             "opinion": "Fajna rzecz po zainstalowaniu apki fajnie przyśpiesza na razie zadowoleni jesteśmy",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -753,24 +707,22 @@
             "t_down": "0",
             "opinion": "Córka bardzo zadowolona. Jakość wykonania bardzo dobra wszystko sprawnie działa. ",
             "pos_features": [
-                [
-                    "cena",
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jakość",
-                    "jest łatwa w obsłudze",
-                    "moc",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "tempomat",
-                    "trwałość",
-                    "wszędzie można zabrać",
-                    "wygląd",
-                    "wygoda"
-                ]
+                "cena",
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jakość",
+                "jest łatwa w obsłudze",
+                "moc",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "tempomat",
+                "trwałość",
+                "wszędzie można zabrać",
+                "wygląd",
+                "wygoda"
             ],
             "neg_features": []
         },
@@ -789,12 +741,10 @@
             "t_down": "0",
             "opinion": "wygląda solidnie, naprawiono błędy z przeszłości, czas pokaże jak się sprawuje",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -813,12 +763,10 @@
             "t_down": "0",
             "opinion": "Dobry sprzęt, nie powiem że nie, bardzo fajnie śmiga i dobry dla małolata ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -837,10 +785,8 @@
             "t_down": "0",
             "opinion": "Predkosc do 20 km, ciezko przekroczyc. Solidny sprzet, fajna zabawa.",
             "pos_features": [
-                [
-                    "nieźle z górki i na równym zasuwa",
-                    "wygląd"
-                ]
+                "nieźle z górki i na równym zasuwa",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -859,20 +805,18 @@
             "t_down": "0",
             "opinion": "Ładna i porzadnie wykonana hulajnoga, na + podłączenie do aplikacji",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "fajna hulajnoga nie ma co",
-                    "fajny wygląd że napatrzeć się nie można",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "fajna hulajnoga nie ma co",
+                "fajny wygląd że napatrzeć się nie można",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -925,13 +869,11 @@
             "t_down": "0",
             "opinion": "Spełnia nasze oczekiwania produkt godny polecenia ",
             "pos_features": [
-                [
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "polecam",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "polecam",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -967,16 +909,14 @@
             "t_down": "0",
             "opinion": "Produkt zgodny z opisem, starannie zapakowany.",
             "pos_features": [
-                [
-                    "cena",
-                    "jakość",
-                    "jest łatwa w obsłudze",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "cena",
+                "jakość",
+                "jest łatwa w obsłudze",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -995,20 +935,18 @@
             "t_down": "0",
             "opinion": "Bardzo dobra hulajnoga na codzienne dojazdy.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "fajna hulajnoga nie ma co",
-                    "fajny wygląd że napatrzeć się nie można",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "fajna hulajnoga nie ma co",
+                "fajny wygląd że napatrzeć się nie można",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1044,32 +982,30 @@
             "t_down": "0",
             "opinion": "Świetna hulajnoga córka bardzo zadowolona.",
             "pos_features": [
-                [
-                    "cena",
-                    "dostęp do części zamiennych",
-                    "extra dojazdy do pracy",
-                    "fajna hulajnoga nie ma co",
-                    "fajny wygląd że napatrzeć się nie można",
-                    "jak działa jest super",
-                    "jakość",
-                    "jest łatwa w obsłudze",
-                    "moc",
-                    "nieźle z górki i na równym zasuwa",
-                    "pod górkę jedzie wolniej choć daje radę",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "przyciąga uwagę",
-                    "serwis",
-                    "stabilna konstrukcja",
-                    "super moc po wgraniu nowego oprogramowan",
-                    "tempomat",
-                    "trwałość",
-                    "wszędzie można zabrać",
-                    "wygląd",
-                    "wygoda",
-                    "zasięg"
-                ]
+                "cena",
+                "dostęp do części zamiennych",
+                "extra dojazdy do pracy",
+                "fajna hulajnoga nie ma co",
+                "fajny wygląd że napatrzeć się nie można",
+                "jak działa jest super",
+                "jakość",
+                "jest łatwa w obsłudze",
+                "moc",
+                "nieźle z górki i na równym zasuwa",
+                "pod górkę jedzie wolniej choć daje radę",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "przyciąga uwagę",
+                "serwis",
+                "stabilna konstrukcja",
+                "super moc po wgraniu nowego oprogramowan",
+                "tempomat",
+                "trwałość",
+                "wszędzie można zabrać",
+                "wygląd",
+                "wygoda",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -1088,10 +1024,8 @@
             "t_down": "0",
             "opinion": "Estetyczna i solidna. Polecam serdecznie",
             "pos_features": [
-                [
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1110,10 +1044,8 @@
             "t_down": "0",
             "opinion": "OKEJ Wszystko dobrze i okej szybki nawet",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1149,12 +1081,10 @@
             "t_down": "0",
             "opinion": "Bardzo dobry w swojej cenie",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1173,12 +1103,10 @@
             "t_down": "0",
             "opinion": "Fajna hulajnoga, za przyzwoitą cenę.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1214,12 +1142,10 @@
             "t_down": "0",
             "opinion": "super hulajnoga, zgodna z opisem",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1255,12 +1181,10 @@
             "t_down": "1",
             "opinion": "Nie wiem nie testowałem jeszcze",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1279,12 +1203,10 @@
             "t_down": "0",
             "opinion": "Fajna ale nie dostałem produktu",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1303,12 +1225,10 @@
             "t_down": "0",
             "opinion": "Polecam Wszystko dobrze i super",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1327,12 +1247,10 @@
             "t_down": "0",
             "opinion": "Polecam Wszystko dobrze i super",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1351,10 +1269,8 @@
             "t_down": "0",
             "opinion": "Polecam Wszystko dobrze i super",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1390,12 +1306,10 @@
             "t_down": "0",
             "opinion": "Wszystko SUPER .dostawa expres.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1414,16 +1328,14 @@
             "t_down": "0",
             "opinion": "Zgodna z opisem, rewelacyjna!",
             "pos_features": [
-                [
-                    "jakość",
-                    "jest łatwa w obsłudze",
-                    "moc",
-                    "polecam",
-                    "stabilna konstrukcja",
-                    "trwałość",
-                    "wygląd",
-                    "zasięg"
-                ]
+                "jakość",
+                "jest łatwa w obsłudze",
+                "moc",
+                "polecam",
+                "stabilna konstrukcja",
+                "trwałość",
+                "wygląd",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -1442,10 +1354,8 @@
             "t_down": "0",
             "opinion": "Fajna hulajnoga. Solidna. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1464,11 +1374,9 @@
             "t_down": "0",
             "opinion": "Jak na razie wszystko ok. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1504,12 +1412,10 @@
             "t_down": "0",
             "opinion": "HULAJNOGA SUPER. POLECAM",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1528,12 +1434,10 @@
             "t_down": "0",
             "opinion": "Produkt godny polecenia",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1552,20 +1456,18 @@
             "t_down": "0",
             "opinion": "Bardzo fajna hulajnoga.",
             "pos_features": [
-                [
-                    "cena",
-                    "jakość",
-                    "jest łatwa w obsłudze",
-                    "moc",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "porządny produkt",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "trwałość",
-                    "wygląd",
-                    "zasięg"
-                ]
+                "cena",
+                "jakość",
+                "jest łatwa w obsłudze",
+                "moc",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "porządny produkt",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "trwałość",
+                "wygląd",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -1584,9 +1486,7 @@
             "t_down": "0",
             "opinion": "Dobra jakość wykonania",
             "pos_features": [
-                [
-                    "wygląd"
-                ]
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1622,9 +1522,7 @@
             "t_down": "0",
             "opinion": "Bardzo fajna hulajnoga",
             "pos_features": [
-                [
-                    "wygląd"
-                ]
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1643,12 +1541,10 @@
             "t_down": "0",
             "opinion": "Dobra jest, za te cene",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1667,12 +1563,10 @@
             "t_down": "0",
             "opinion": "Mega zabawka! Polecam",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1691,12 +1585,10 @@
             "t_down": "0",
             "opinion": "Syn bardzo zadowolony",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1732,10 +1624,8 @@
             "t_down": "0",
             "opinion": "Nawet nawet może być/",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1771,12 +1661,10 @@
             "t_down": "0",
             "opinion": "Spełnia oczekiwania",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1795,16 +1683,14 @@
             "t_down": "0",
             "opinion": "Wspaniały produkt",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1840,12 +1726,10 @@
             "t_down": "0",
             "opinion": "Super hulajnoga. ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1864,12 +1748,10 @@
             "t_down": "0",
             "opinion": "Świetna rzecz ! ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1888,12 +1770,10 @@
             "t_down": "0",
             "opinion": "Wszystko dobrze ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1912,16 +1792,14 @@
             "t_down": "0",
             "opinion": "Wszystko super ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1940,16 +1818,14 @@
             "t_down": "0",
             "opinion": "Super hulajnoga",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1968,12 +1844,10 @@
             "t_down": "0",
             "opinion": "Super produkt.",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -1992,12 +1866,10 @@
             "t_down": "0",
             "opinion": "Solidny sprzęt",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2016,12 +1888,10 @@
             "t_down": "0",
             "opinion": "Jest super ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2040,12 +1910,10 @@
             "t_down": "0",
             "opinion": "Rewelacja",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2115,10 +1983,8 @@
             "t_down": "0",
             "opinion": "polecam ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2137,16 +2003,14 @@
             "t_down": "0",
             "opinion": "Polecam ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2165,12 +2029,10 @@
             "t_down": "0",
             "opinion": "Polecam",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2223,12 +2085,10 @@
             "t_down": "0",
             "opinion": "Polecam",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2366,10 +2226,8 @@
             "t_down": "0",
             "opinion": "Ok. ",
             "pos_features": [
-                [
-                    "jak działa jest super",
-                    "wygląd"
-                ]
+                "jak działa jest super",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2422,10 +2280,8 @@
             "t_down": "0",
             "opinion": "ok",
             "pos_features": [
-                [
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2444,10 +2300,8 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2466,12 +2320,10 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2490,12 +2342,10 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2514,12 +2364,10 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2606,17 +2454,15 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "polecam",
-                    "porządny produkt",
-                    "prezentuje się bardzo dobrze",
-                    "stabilna konstrukcja",
-                    "wygląd",
-                    "wygoda"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "polecam",
+                "porządny produkt",
+                "prezentuje się bardzo dobrze",
+                "stabilna konstrukcja",
+                "wygląd",
+                "wygoda"
             ],
             "neg_features": []
         },
@@ -2669,16 +2515,14 @@
             "t_down": "0",
             "opinion": "ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "jak działa jest super",
-                    "jest łatwa w obsłudze",
-                    "nieźle z górki i na równym zasuwa",
-                    "polecam",
-                    "przyciąga uwagę",
-                    "stabilna konstrukcja",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "jak działa jest super",
+                "jest łatwa w obsłudze",
+                "nieźle z górki i na równym zasuwa",
+                "polecam",
+                "przyciąga uwagę",
+                "stabilna konstrukcja",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2697,10 +2541,8 @@
             "t_down": "0",
             "opinion": "ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2719,12 +2561,10 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2743,12 +2583,10 @@
             "t_down": "0",
             "opinion": "Ok",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
@@ -2818,12 +2656,10 @@
             "t_down": "0",
             "opinion": "hulajnoga swietna jezdze nia codziennie ",
             "pos_features": [
-                [
-                    "extra dojazdy do pracy",
-                    "nieźle z górki i na równym zasuwa",
-                    "przyciąga uwagę",
-                    "wygląd"
-                ]
+                "extra dojazdy do pracy",
+                "nieźle z górki i na równym zasuwa",
+                "przyciąga uwagę",
+                "wygląd"
             ],
             "neg_features": []
         },
