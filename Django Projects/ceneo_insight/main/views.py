@@ -254,8 +254,6 @@ def products(request):
     sort_by = request.GET.get('sort_by')
     products = Product.objects.all()
 
-
-
     if sort_by == 'a-z':
         products = products.order_by('product_name')
     elif sort_by == 'z-a':
@@ -314,6 +312,8 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('stars')
         elif sorter == 'most_liked':
             reviews = reviews.order_by('-t_up')
+        elif sorter == 'most_disliked':
+            reviews = reviews.order_by('-t_down')
         elif sorter == 'most_used':
             reviews = reviews.order_by('-days_used')
 
@@ -336,6 +336,7 @@ class ProductDetailView(DetailView):
             'Highest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=highest_rated',
             'Lowest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=lowest_rated',
             'Most_Liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
+            'Most_Disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
             'Most_Used': reverse('product_reviews', args=[product.pk]) + '?sort=most_used',
         }
         return context
