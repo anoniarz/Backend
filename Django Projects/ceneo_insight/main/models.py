@@ -26,6 +26,7 @@ class Review(models.Model):
     is_verified = models.BooleanField()
     date_p = models.DateTimeField()
     date_b = models.DateTimeField()
+    days_used = models.IntegerField()
     t_up = models.IntegerField()
     t_down = models.IntegerField()
     opinion = models.TextField()

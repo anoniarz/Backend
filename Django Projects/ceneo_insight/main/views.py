@@ -5,7 +5,7 @@ from django.http import HttpResponse, Http404
 from django.urls import reverse
 from django.contrib import messages
 from .models import Review, Product
-from datetime import datetime
+from datetime import datetime, timedelta
 from .forms import Url_f
 
 
@@ -91,8 +91,11 @@ def scrape(link):
             date_p = try_or(content[i].find(
                 class_="user-post__published").find_all("time")[0].get("datetime"))
             # Date Bought
-            date_b = try_or(content[i].find(
-                class_="user-post__published").find_all("time")[0].get("datetime"))
+            try:
+                date_b = content[i].find(class_="user-post__published")
+                date_b = date_b.find_all("time")[1].get("datetime")
+            except:
+                date_b = date_p
             # No. positive
             t_up = try_or(content[i].find(
                 class_="vote-yes js_product-review-vote js_vote-yes").get("data-total-vote"))
@@ -168,6 +171,10 @@ def scrape(link):
             review['date_p'], f'%Y-%m-%d %H:%M:%S').date()
         date_b = datetime.strptime(
             review['date_b'], f'%Y-%m-%d %H:%M:%S').date()
+        
+        time_diff = date_p - date_b
+        days_used = time_diff.days
+  
         new_review = Review.objects.create(
             product=product,
             local_id=review['local_id'],
@@ -178,6 +185,7 @@ def scrape(link):
             stars=review['stars'],
             date_p=date_p,
             date_b=date_b,
+            days_used = days_used,
             t_up=review['t_up'],
             t_down=review['t_down'],
             opinion=review['opinion'],
@@ -292,8 +300,8 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('stars')
         elif sorter == 'most_liked':
             reviews = reviews.order_by('-t_up')
-        elif sorter == 'most_disliked':
-            reviews = reviews.order_by('-t_down')
+        elif sorter == 'most_used':
+            reviews = reviews.order_by('-days_used')
 
         paginator = Paginator(reviews, self.paginate_by)
         page_number = self.request.GET.get('page')
@@ -312,7 +320,7 @@ class ProductDetailView(DetailView):
             'Highest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=highest_rated',
             'Lowest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=lowest_rated',
             'Most_Liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
-            'Most_Disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
+            'Most_Used': reverse('product_reviews', args=[product.pk]) + '?sort=most_used',
         }
 
         return context

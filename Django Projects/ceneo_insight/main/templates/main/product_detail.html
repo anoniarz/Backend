@@ -6,7 +6,7 @@
   </article>
 
   <div class="sorting-section">
-    <i class="corange mb-4 fa-solid fa-filter fa-lg"></i>&nbsp;&nbsp;&nbsp;
+    <i class="corange mb-4 fa-solid fa-arrow-down-wide-short fa-lg"></i>&nbsp;&nbsp;&nbsp;
     {% for label, link in sort_links.items %}
       <a class="btn btn-outline-warning mb-4 {% if sorter == label|lower %}active{% endif %}" href="{{ link }}">{{ label }}</a>&nbsp;&nbsp;
     {% endfor %}
@@ -27,7 +27,7 @@
           <small class="text-muted">Recomended: <i class="red fa-solid fa-question"></i>&nbsp;</small>
           {% endif %}
           {% if review.is_verified == True %}
-          <small class="text-muted">Verified: <i class="green fa-solid fa-check"></i>&nbsp;</small>
+          <small class="text-muted">Verified:&nbsp;<i class="green fa-solid fa-calendar-day"></i> {{ review.days_used }}&nbsp;</small>
           {% elif review.is_verified == False %}
           <small class="text-muted">Verified: <i class="red fa-solid fa-xmark"></i>&nbsp;</small>
           {% endif %}
