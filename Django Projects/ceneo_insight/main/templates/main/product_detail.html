@@ -37,23 +37,21 @@
         <p>&emsp;&nbsp;{{ review.opinion }}</p>
 
         {% for pos_feature in review.pos_features %}
-        {% for f in pos_feature %}
         <ul class="no-bullets">
         <i class="green fa-solid fa-plus">&nbsp;</i>
-        {{ f }}
+        {{ pos_feature }}
         </ul>
         {% endfor %}
-        {% endfor %}
+
 
 
         {% for neg_feature in review.neg_features %}
-        {% for n in neg_feature %}
         <ul class="no-bullets">
         <i class="red fa-solid fa-minus">&nbsp;</i>
-        {{ n }}
+        {{ neg_feature }}
         </ul>
         {% endfor %}
-        {% endfor %}
+
 
       </div>
     </article>

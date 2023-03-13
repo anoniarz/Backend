@@ -15,13 +15,11 @@
             "t_down": "0",
             "opinion": "Jestem bardzo zadowolony z zakupu tego modelu hulajnogi, zasięg max do 30 km, prędkość max 25 km/h przy mojej wadze 85 kg, super sobie radzi z krawężnikami, nierównościami, starymi chodnikami z uwagi na 10 calowe koła, idealna hulajnoga miejska do pracy, na uczelnię i na zakupy, lepsza od Xiaomi bo to polska hulajnoga 👍 ",
             "pos_features": [
-                [
-                    "cena",
-                    "jakość wykonania",
-                    "koła",
-                    "waga",
-                    "zasięg"
-                ]
+                "cena",
+                "jakość wykonania",
+                "koła",
+                "waga",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -40,16 +38,12 @@
             "t_down": "1",
             "opinion": "Jeździ się dobrze. Zasięg na jednym ładowaniu przy mojej wadze to ok 26km. Minusem jest dzwonek, który się rozwala gdy chcę zadzwonić.",
             "pos_features": [
-                [
-                    "cena",
-                    "koła",
-                    "zasięg"
-                ]
+                "cena",
+                "koła",
+                "zasięg"
             ],
             "neg_features": [
-                [
-                    "dzwonek się rozwala"
-                ]
+                "dzwonek się rozwala"
             ]
         },
         "15202746": {
@@ -67,9 +61,7 @@
             "t_down": "0",
             "opinion": "Jak za tą cenę?! Super. Dojeżdżam do pracy 2.5 km i śmigam moment. Co do zasięgu to myślę że więcej jak 15 km nie zrobię. Ważę 85 i po drodze są górki itp. wiatr też hamuje. Ogólnie fajny sprzęt, oby długo służył",
             "pos_features": [
-                [
-                    "cena"
-                ]
+                "cena"
             ],
             "neg_features": []
         },
@@ -88,13 +80,11 @@
             "t_down": "0",
             "opinion": "Wykonanie bardzo dobre, wszystko solidne przy mojej wadze 110 kg nic nie trzeszczy, piszczy i się nie gnie. Można w pełni cieszyć się jazdą. Polecam",
             "pos_features": [
-                [
-                    "cena",
-                    "jakość wykonania",
-                    "koła",
-                    "waga",
-                    "zasięg"
-                ]
+                "cena",
+                "jakość wykonania",
+                "koła",
+                "waga",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -113,16 +103,12 @@
             "t_down": "0",
             "opinion": "Jest fajna ale na Brenną nie daje rady 30 km... Może 15 ale tu są góry więc nie dziwię się \nPo za tym nie mam zastrzeżeń ",
             "pos_features": [
-                [
-                    "cena",
-                    "koła"
-                ]
+                "cena",
+                "koła"
             ],
             "neg_features": [
-                [
-                    "dzwonek się rozwala",
-                    "zasięg"
-                ]
+                "dzwonek się rozwala",
+                "zasięg"
             ]
         },
         "15468728": {
@@ -140,16 +126,12 @@
             "t_down": "0",
             "opinion": "Polecam super wykonanie i komfort jazdy",
             "pos_features": [
-                [
-                    "cena",
-                    "koła",
-                    "zasięg"
-                ]
+                "cena",
+                "koła",
+                "zasięg"
             ],
             "neg_features": [
-                [
-                    "dzwonek się rozwala"
-                ]
+                "dzwonek się rozwala"
             ]
         },
         "14919948": {
@@ -167,11 +149,9 @@
             "t_down": "0",
             "opinion": "Bezpieczna,koła duże,fajnie się jedzie.",
             "pos_features": [
-                [
-                    "cena",
-                    "koła",
-                    "zasięg"
-                ]
+                "cena",
+                "koła",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -258,12 +238,10 @@
             "t_down": "0",
             "opinion": "bardzo fajna hulajnoga",
             "pos_features": [
-                [
-                    "cena",
-                    "koła",
-                    "waga",
-                    "zasięg"
-                ]
+                "cena",
+                "koła",
+                "waga",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -282,10 +260,8 @@
             "t_down": "0",
             "opinion": "Polecam wszystkim ",
             "pos_features": [
-                [
-                    "cpykanie\" ramy",
-                    "design"
-                ]
+                "cpykanie\" ramy",
+                "design"
             ],
             "neg_features": []
         },
@@ -304,12 +280,10 @@
             "t_down": "0",
             "opinion": "Wygląda solidnie ",
             "pos_features": [
-                [
-                    "cena",
-                    "koła",
-                    "waga",
-                    "zasięg"
-                ]
+                "cena",
+                "koła",
+                "waga",
+                "zasięg"
             ],
             "neg_features": []
         },
@@ -328,15 +302,11 @@
             "t_down": "0",
             "opinion": "Jest ok",
             "pos_features": [
-                [
-                    "koła"
-                ]
+                "koła"
             ],
             "neg_features": [
-                [
-                    "waga",
-                    "zasięg"
-                ]
+                "waga",
+                "zasięg"
             ]
         },
         "14832767": {
@@ -371,14 +341,10 @@
             "t_down": "0",
             "opinion": "Do pracy w sam raz 8km w obie strony i bateria wytrzymuje.  W  jesiennych temperaturach nawet z rana  16km i zostaje jeszcze niespełna 2 na 5  kreski baterii także cena adekwatna do sprzętu   na plus Design hulajki",
             "pos_features": [
-                [
-                    "design"
-                ]
+                "design"
             ],
             "neg_features": [
-                [
-                    "cpykanie\" ramy"
-                ]
+                "cpykanie\" ramy"
             ]
         },
         "14587609": {

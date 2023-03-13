@@ -113,13 +113,13 @@ def scrape(link):
                     class_="review-feature__col")
                 if fea_list[0].find(
                         class_="review-feature__title review-feature__title--positives").string == "Zalety":
-                    pos_features.append([x.string for x in fea_list[0].find_all(
-                        class_="review-feature__item")])
-                    neg_features.append([x.string for x in fea_list[1].find_all(
-                        class_="review-feature__item")])
+                    pos_features = [x.string for x in fea_list[0].find_all(
+                        class_="review-feature__item")]
+                    neg_features = [x.string for x in fea_list[1].find_all(
+                        class_="review-feature__item")]
                 else:
-                    neg_features.append([x.string for x in fea_list[0].find_all(
-                        class_="review-feature__item")])
+                    neg_features = [x.string for x in fea_list[0].find_all(
+                        class_="review-feature__item")]
             except:
                 pass
 
