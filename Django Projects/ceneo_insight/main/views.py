@@ -251,11 +251,16 @@ class DownloadFile(View):
 
 
 def products(request):
-    
     sort_by = request.GET.get('sort_by')
     products = Product.objects.all()
 
-    if sort_by == 'most_reviews':
+
+
+    if sort_by == 'a-z':
+        products = products.order_by('product_name')
+    elif sort_by == 'z-a':
+        products = products.order_by('-product_name')
+    elif sort_by == 'most_reviews':
         products = sorted(products, key=lambda p: p.reviews.count(), reverse=True)
     elif sort_by == 'least_reviews':
         products = sorted(products, key=lambda p: p.reviews.count())

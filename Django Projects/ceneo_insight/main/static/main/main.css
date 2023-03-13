@@ -21,6 +21,12 @@ ul.no-bullets {
     margin: 0;
 }
 
+li.no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .right {
     float: right;
 }

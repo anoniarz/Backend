@@ -49,6 +49,8 @@
             <h3>Sort by:</h3>
             <p class='text-muted'>
               <ul class="list-group">
+                <a class="btn btn-outline-warning {% if sort_by == 'a-z' %}active{% endif %}" href="?sort_by=a-z">A-Z</a>
+                <a class="btn btn-outline-warning {% if sort_by == 'z-a' %}active{% endif %}" href="?sort_by=z-a">Z-A</a>
                 <a class="btn btn-outline-warning {% if sort_by == 'highest_rating' %}active{% endif %}" href="?sort_by=highest_rating">highest_rating</a>
                 <a class="btn btn-outline-warning {% if sort_by == 'lowest_rating' %}active{% endif %}" href="?sort_by=lowest_rating">lowest_rating</a>
                 <a class="btn btn-outline-warning {% if sort_by == 'most_reviews' %}active{% endif %}" href="?sort_by=most_reviews">most_reviews</a>
