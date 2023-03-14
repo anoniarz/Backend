@@ -2,7 +2,7 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 {% block content %}
   <article class="media content-section">
-    <h4>{{ object.product_name }}&nbsp;&nbsp;{{ product.rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h4>
+    <h4>{{ product.product_name }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h4>
   </article>
   <div class="row">
       <div class="mx-auto text-center">
@@ -83,24 +83,5 @@
       {% endif %}
   </div>
 {% endif %}
-
-
-<script>
-  // Get all the plus icons
-  const plusIcons = document.querySelectorAll('.fa-plus');
-
-  // Add a click event to each plus icon
-  plusIcons.forEach(icon => {
-    icon.addEventListener('click', () => {
-      // Get the ul element next to the clicked icon
-      const ul = icon.nextElementSibling;
-      // Toggle the display of the ul element
-      ul.style.display = ul.style.display === 'none' ? 'block' : 'none';
-      // Change the icon to minus if the ul is visible, or plus if it's hidden
-      icon.classList.toggle('fa-minus');
-      icon.classList.toggle('fa-plus');
-    });
-  });
-</script>
 
 {% endblock %}

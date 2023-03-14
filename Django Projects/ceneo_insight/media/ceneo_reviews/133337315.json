@@ -1,9 +1,6 @@
 {
     "133337315": {
         "15755971": {
-            "local_id": 1,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "15755971",
             "author": "tester",
             "recommendation": "True",
@@ -24,9 +21,6 @@
             "neg_features": []
         },
         "14799041": {
-            "local_id": 2,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14799041",
             "author": "c...6",
             "recommendation": "True",
@@ -47,9 +41,6 @@
             ]
         },
         "15202746": {
-            "local_id": 3,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "15202746",
             "author": "k...i",
             "recommendation": "True",
@@ -66,9 +57,6 @@
             "neg_features": []
         },
         "16080036": {
-            "local_id": 4,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16080036",
             "author": "r...1",
             "recommendation": "True",
@@ -89,9 +77,6 @@
             "neg_features": []
         },
         "14834087": {
-            "local_id": 5,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14834087",
             "author": "k...8",
             "recommendation": "True",
@@ -112,9 +97,6 @@
             ]
         },
         "15468728": {
-            "local_id": 6,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "15468728",
             "author": "p...8",
             "recommendation": "True",
@@ -135,9 +117,6 @@
             ]
         },
         "14919948": {
-            "local_id": 7,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14919948",
             "author": "e...c",
             "recommendation": "True",
@@ -156,9 +135,6 @@
             "neg_features": []
         },
         "16047926": {
-            "local_id": 8,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16047926",
             "author": "s...l",
             "recommendation": "True",
@@ -173,9 +149,6 @@
             "neg_features": []
         },
         "16870685": {
-            "local_id": 9,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16870685",
             "author": "j...r",
             "recommendation": "True",
@@ -190,9 +163,6 @@
             "neg_features": []
         },
         "16511700": {
-            "local_id": 10,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16511700",
             "author": "a...e",
             "recommendation": "False",
@@ -207,9 +177,6 @@
             "neg_features": []
         },
         "14714400": {
-            "local_id": 11,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14714400",
             "author": "j...2",
             "recommendation": "True",
@@ -224,9 +191,6 @@
             "neg_features": []
         },
         "16135922": {
-            "local_id": 12,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16135922",
             "author": "m...5",
             "recommendation": "True",
@@ -246,9 +210,6 @@
             "neg_features": []
         },
         "16832645": {
-            "local_id": 13,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16832645",
             "author": "m...a",
             "recommendation": "True",
@@ -266,9 +227,6 @@
             "neg_features": []
         },
         "15907312": {
-            "local_id": 14,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "15907312",
             "author": "k...1",
             "recommendation": "True",
@@ -288,9 +246,6 @@
             "neg_features": []
         },
         "16153588": {
-            "local_id": 15,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16153588",
             "author": "g...z",
             "recommendation": "True",
@@ -310,9 +265,6 @@
             ]
         },
         "14832767": {
-            "local_id": 16,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14832767",
             "author": "s...a",
             "recommendation": "True",
@@ -327,9 +279,6 @@
             "neg_features": []
         },
         "16646386": {
-            "local_id": 17,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "16646386",
             "author": "Mikołaj",
             "recommendation": "True",
@@ -348,9 +297,6 @@
             ]
         },
         "14587609": {
-            "local_id": 18,
-            "product_id": "133337315",
-            "product_name": "Motus Scooty 10 Lite Turkusowa",
             "review_id": "14587609",
             "author": "Użytkownik Ceneo",
             "recommendation": "True",

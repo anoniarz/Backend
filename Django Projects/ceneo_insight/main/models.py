@@ -1,13 +1,14 @@
 from django.db import models
 
-# rm db.sqlite3    
+# rm db.sqlite3
+
+
 class Product(models.Model):
     product_id = models.CharField(
         max_length=36, primary_key=True)
     product_name = models.CharField(max_length=255)
-    chart_stars = models.JSONField()
-    chart_recommendations = models.JSONField()
-    rating = models.CharField(max_length=10)
+    product_rating = models.CharField(max_length=10)
+    product_category = models.CharField(max_length=50)
     reviews = models.ManyToManyField('Review', related_name='reviews')
 
     def __str__(self):
@@ -17,9 +18,8 @@ class Product(models.Model):
 class Review(models.Model):
     product = models.ForeignKey(
         Product, on_delete=models.CASCADE, related_name='products_reviews')
-    local_id = models.IntegerField()
     review_id = models.CharField(
-        max_length=36)
+        max_length=36, primary_key=True)
     author = models.CharField(max_length=255)
     stars = models.CharField(max_length=255)
     recommendation = models.CharField(max_length=255)
