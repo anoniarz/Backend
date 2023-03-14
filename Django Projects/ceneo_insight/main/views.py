@@ -22,11 +22,14 @@ from bs4 import BeautifulSoup as bs
 def delete_from_db(ceneo_id):
     Product.objects.filter(product_id=ceneo_id).delete()
 
-
 def link_to_id(adress):
-    return "".join((re.findall(r"\d{5,}", adress))[0])
-
-
+    ceneo_id = "error: 1"
+    try:
+        ceneo_id = "".join((re.findall(r"\d{5,}", adress))[0])
+    except:
+        pass
+    return ceneo_id
+    
 def try_or(f):
     try:
         return f
@@ -35,16 +38,19 @@ def try_or(f):
 
 
 def scrape(link):
+    
     def try_or(f):
         try:
             return f
         except:
             return None
-
+    
     flag = True
     n = 1
     local_id = 0
     ceneo_id = link_to_id(link)
+    if ceneo_id == "error: 1":
+        return "error: 1"
     data = {f"{ceneo_id}": {}}
     chart_stars = []
     chart_recommendations = []
@@ -208,11 +214,11 @@ def add_product(request):
             product_pk = scrape(url)
             if product_pk == "error: 1":
                 messages.warning(request, "Wrong ID/URL")
-                return redirect('add_product')
+                return redirect('products')
             return redirect('product_reviews', product_pk)
     else:
         form = Url_f()
-    return render(request, 'main/add_product.html', {'form': form})
+    return render(request, 'main/products.html', {'form': form})
 
 
 def home(request):
@@ -273,11 +279,16 @@ def products(request):
         products = products.order_by('rating')
         
     request.session['sort_by'] = sort_by
+    
+    paginator = Paginator(products, 2)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
     context = {
         "products": products,
         "sort_by": sort_by,
         'user_favourites_list': user_favourites_list,
+        'page_obj': page_obj,
     }
 
     return render(request, 'main/products.html', context)

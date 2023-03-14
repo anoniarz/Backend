@@ -37,7 +37,7 @@
     </article>
 {% endfor %}
 
-{% if reviews.has_other_pages %}
+{% if page_obj.has_other_pages %}
 <div class="pagination">
     {% if reviews.has_previous %}
         <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
@@ -58,7 +58,5 @@
     {% endif %}
 </div>
 {% endif %}
-
-
 
 {% endblock content %}

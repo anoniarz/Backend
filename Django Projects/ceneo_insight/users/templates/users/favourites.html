@@ -5,7 +5,13 @@
   {% if favourites.count < 1 %}
   <article class="media content-section">
     <div class="media-body">
-      <h5>Nothing in Favourites</h5>
+      <h3>No Products in Favourites</h3>
+    </div>
+    </article>
+  {% else %}
+  <article class="media content-section">
+    <div class="media-body">
+      <h3>Favourite Products:</h3>
     </div>
     </article>
   {% endif %}

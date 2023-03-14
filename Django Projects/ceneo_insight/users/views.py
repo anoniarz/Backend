@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect, get_object_or_404, HttpResponseRedirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import logout
 from .forms import UserRegisterForm
 from .models import Profile
 from main.views import Product
@@ -61,3 +62,10 @@ def remove_from_favourites(request, pk):
     profile = get_object_or_404(Profile, user=request.user)
     profile.favourites.remove(product)
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+@login_required
+def logout_view(request):
+    
+    logout(request)
+    messages.success(request, "You have been logged out")
+    return redirect('login')
