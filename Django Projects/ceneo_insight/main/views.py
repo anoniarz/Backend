@@ -5,7 +5,7 @@ from django.http import HttpResponse, Http404
 from django.urls import reverse
 from django.contrib import messages
 from .models import Review, Product
-from datetime import datetime, timedelta
+from datetime import datetime
 from .forms import Url_f
 
 
@@ -297,7 +297,7 @@ def products(request):
 class ProductDetailView(DetailView):
     model = Product
     paginate_by = 7
-    template_name = 'main/product_detail.html'
+    template_name = 'main/product_reviews.html'
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
