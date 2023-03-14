@@ -64,10 +64,14 @@ def scrape(link):
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
         rating = try_or(doc.find(
             class_="product-review").find(class_="product-review__score").get('content'))
-        price = "0"
+
         price = try_or(
             doc.find(class_="price-format nowrap").find(class_="value").string)
-        price += " PLN"
+        rest = try_or(
+            doc.find(class_="price-format nowrap").find(class_="penny").string)
+        price = re.sub(' ', '', price)
+        rest = re.sub(',', '.', rest)
+        price = price+rest
 
         # Scraping
         for i in range(len(content)):

@@ -1,0 +1,18 @@
+{
+    "123423040": {
+        "16219834": {
+            "review_id": "16219834",
+            "author": "a...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-17 10:11:03",
+            "date_b": "2022-06-03 10:48:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

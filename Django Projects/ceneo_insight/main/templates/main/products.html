@@ -4,21 +4,23 @@
 
 <article class="media content-section">
     <form method="POST" action="{% url 'add_product' %}">
+        <div class="container">
         {% csrf_token %}
         <div style="display: flex;">
-        <label for="url_f">Add Product:&nbsp;</label>
+        <h2><label for="url_f">Add Product:&nbsp;</label>
         <input type="text" id="url_f" name="url_f" required style="display: inline-block;">&nbsp;
         <button class="btn btn-outline-warning btn-sm" type="submit" style="display: inline-block;">Submit</button>
-        </div>
+        </div></h2></div>
     </form>
 </article>
 
 {% for product in products %}
     <article class="media content-section">
         <div class="media-body">
-            <h5>
+            <h3>
+                <div class="container">
                 <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
-                    {{ product.product_name }} - {{ product.product_price }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>
+                    {{ product.product_name }}
                 </a>
                 <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
                     <i class="fa-solid fa-trash trash-icon">&nbsp;</i>
@@ -34,7 +36,15 @@
                     <i class="yellow star-icon {% if product.product_id in user_favourites_list %}fa-solid{% else %}fa-regular{% endif %} fa-star">&nbsp;&nbsp;</i>
                 </a>
                 {% endif %}
-            </h5>
+
+
+                <a class="float-right">
+                {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                </a>
+                </div>
+
+
+            </h3>
         </div>
     </article>
 {% endfor %}

@@ -11,6 +11,10 @@
     max-width: 80vw;
 }
 
+pln {
+    color: var(--palette-3);
+}
+
 body {
     background: radial-gradient(circle, var(--palette-3) 10%, transparent 11%), radial-gradient(circle at bottom left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at bottom right, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top right, var(--palette-3) 5%, transparent 6%);
     background-size: 6em 6em;
@@ -31,8 +35,14 @@ li.no-bullets {
     margin: 0;
 }
 
-.right {
+.float-right {
     float: right;
+    margin-left: 10px;
+  }
+  
+.fa-solid {
+display: inline-block;
+vertical-align: middle;
 }
 
 .pagination {

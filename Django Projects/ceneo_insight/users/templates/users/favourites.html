@@ -38,6 +38,10 @@
                 <i class="star-icon fa-solid fa-star">&nbsp;&nbsp;</i>
             </a>
             {% endif %}
+
+            <a class="float-right">
+              {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>&emsp;&emsp;&emsp;&emsp;
+            </a>
         </h5>
     </div>
 </article>

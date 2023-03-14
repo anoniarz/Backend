@@ -42,24 +42,24 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-1">
           <div class="content-section">
             <h3>Sort by:</h3>
             <p class='text-muted'>
               <ul class="list-group">
                 <a class="btn btn-outline-warning {% if sort_by == 'a-z' %}active{% endif %}" href="?sort_by=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
                 <a class="btn btn-outline-warning {% if sort_by == 'z-a' %}active{% endif %}" href="?sort_by=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
+                <a class="btn btn-outline-warning {% if sort_by == 'highest_price' %}active{% endif %}" href="?sort_by=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+                <a class="btn btn-outline-warning {% if sort_by == 'lowest_price' %}active{% endif %}" href="?sort_by=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
                 <a class="btn btn-outline-warning {% if sort_by == 'highest_rating' %}active{% endif %}" href="?sort_by=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
                 <a class="btn btn-outline-warning {% if sort_by == 'lowest_rating' %}active{% endif %}" href="?sort_by=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
                 <a class="btn btn-outline-warning {% if sort_by == 'most_reviews' %}active{% endif %}" href="?sort_by=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
                 <a class="btn btn-outline-warning {% if sort_by == 'least_reviews' %}active{% endif %}" href="?sort_by=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'highest_price' %}active{% endif %}" href="?sort_by=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'lowest_price' %}active{% endif %}" href="?sort_by=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
               </ul>
             </p>
           </div>
         </div>
-        <div class="col-md-10">
+        <div class="col-md-11">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">
