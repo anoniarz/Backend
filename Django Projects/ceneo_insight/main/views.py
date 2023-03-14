@@ -228,11 +228,9 @@ def home(request):
 def about(request):
     return render(request, 'main/about.html')
 
-
 def refresh_product(request, pk):
     scrape(str(pk))
     return redirect('products')
-
 
 def delete_product(request, pk):
     delete_from_db(pk)

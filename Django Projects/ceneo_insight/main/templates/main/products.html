@@ -5,9 +5,11 @@
 <article class="media content-section">
     <form method="POST" action="{% url 'add_product' %}">
         {% csrf_token %}
+        <div style="display: flex;">
         <label for="url_f">Add Product:&nbsp;</label>
-        <input type="text" id="url_f" name="url_f">&nbsp;
-        <button type="submit">Submit</button>
+        <input type="text" id="url_f" name="url_f" required style="display: inline-block;">&nbsp;
+        <button class="btn btn-outline-warning btn-sm" type="submit" style="display: inline-block;">Submit</button>
+        </div>
     </form>
 </article>
 

@@ -1488,8 +1488,25 @@
             ],
             "neg_features": []
         },
-        "16733535": {
+        "17261964": {
             "local_id": 72,
+            "product_id": "128999982",
+            "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
+            "review_id": "17261964",
+            "author": "z...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-13 22:21:25",
+            "date_b": "2023-02-21 21:32:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry, najlepszy w swej cenie :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16733535": {
+            "local_id": 73,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16733535",
@@ -1506,7 +1523,7 @@
             "neg_features": []
         },
         "16731568": {
-            "local_id": 73,
+            "local_id": 74,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16731568",
@@ -1528,7 +1545,7 @@
             "neg_features": []
         },
         "16870942": {
-            "local_id": 74,
+            "local_id": 75,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16870942",
@@ -1545,7 +1562,7 @@
             "neg_features": []
         },
         "16783279": {
-            "local_id": 75,
+            "local_id": 76,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16783279",
@@ -1567,7 +1584,7 @@
             "neg_features": []
         },
         "16718004": {
-            "local_id": 76,
+            "local_id": 77,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16718004",
@@ -1589,7 +1606,7 @@
             "neg_features": []
         },
         "17124061": {
-            "local_id": 77,
+            "local_id": 78,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17124061",
@@ -1608,7 +1625,7 @@
             "neg_features": []
         },
         "17034348": {
-            "local_id": 78,
+            "local_id": 79,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17034348",
@@ -1625,7 +1642,7 @@
             "neg_features": []
         },
         "16636009": {
-            "local_id": 79,
+            "local_id": 80,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16636009",
@@ -1642,7 +1659,7 @@
             "neg_features": []
         },
         "16739330": {
-            "local_id": 80,
+            "local_id": 81,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16739330",
@@ -1659,7 +1676,7 @@
             "neg_features": []
         },
         "16789590": {
-            "local_id": 81,
+            "local_id": 82,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16789590",
@@ -1681,7 +1698,7 @@
             "neg_features": []
         },
         "16570566": {
-            "local_id": 82,
+            "local_id": 83,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16570566",
@@ -1702,7 +1719,7 @@
             "neg_features": []
         },
         "16777294": {
-            "local_id": 83,
+            "local_id": 84,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16777294",
@@ -1719,7 +1736,7 @@
             "neg_features": []
         },
         "16701263": {
-            "local_id": 84,
+            "local_id": 85,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16701263",
@@ -1736,7 +1753,7 @@
             "neg_features": []
         },
         "17140188": {
-            "local_id": 85,
+            "local_id": 86,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17140188",
@@ -1758,7 +1775,7 @@
             "neg_features": []
         },
         "16853898": {
-            "local_id": 86,
+            "local_id": 87,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16853898",
@@ -1785,7 +1802,7 @@
             ]
         },
         "16801051": {
-            "local_id": 87,
+            "local_id": 88,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16801051",
@@ -1813,7 +1830,7 @@
             ]
         },
         "16763712": {
-            "local_id": 88,
+            "local_id": 89,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16763712",
@@ -1835,7 +1852,7 @@
             "neg_features": []
         },
         "16711191": {
-            "local_id": 89,
+            "local_id": 90,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16711191",
@@ -1857,7 +1874,7 @@
             "neg_features": []
         },
         "17115819": {
-            "local_id": 90,
+            "local_id": 91,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17115819",
@@ -1874,7 +1891,7 @@
             "neg_features": []
         },
         "17086440": {
-            "local_id": 91,
+            "local_id": 92,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17086440",
@@ -1891,7 +1908,7 @@
             "neg_features": []
         },
         "16861619": {
-            "local_id": 92,
+            "local_id": 93,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16861619",
@@ -1908,7 +1925,7 @@
             "neg_features": []
         },
         "16834516": {
-            "local_id": 93,
+            "local_id": 94,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16834516",
@@ -1930,7 +1947,7 @@
             "neg_features": []
         },
         "17022523": {
-            "local_id": 94,
+            "local_id": 95,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17022523",
@@ -1947,7 +1964,7 @@
             "neg_features": []
         },
         "16820739": {
-            "local_id": 95,
+            "local_id": 96,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16820739",
@@ -1964,7 +1981,7 @@
             "neg_features": []
         },
         "16794516": {
-            "local_id": 96,
+            "local_id": 97,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16794516",
@@ -1981,7 +1998,7 @@
             "neg_features": []
         },
         "16745106": {
-            "local_id": 97,
+            "local_id": 98,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16745106",
@@ -2003,7 +2020,7 @@
             "neg_features": []
         },
         "16756698": {
-            "local_id": 98,
+            "local_id": 99,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16756698",
@@ -2020,7 +2037,7 @@
             "neg_features": []
         },
         "16755522": {
-            "local_id": 99,
+            "local_id": 100,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16755522",
@@ -2047,7 +2064,7 @@
             "neg_features": []
         },
         "16715733": {
-            "local_id": 100,
+            "local_id": 101,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16715733",
@@ -2069,7 +2086,7 @@
             "neg_features": []
         },
         "16875172": {
-            "local_id": 101,
+            "local_id": 102,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16875172",
@@ -2097,7 +2114,7 @@
             ]
         },
         "16536173": {
-            "local_id": 102,
+            "local_id": 103,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16536173",
@@ -2118,7 +2135,7 @@
             "neg_features": []
         },
         "16854643": {
-            "local_id": 103,
+            "local_id": 104,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16854643",
@@ -2140,7 +2157,7 @@
             "neg_features": []
         },
         "16713956": {
-            "local_id": 104,
+            "local_id": 105,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16713956",
@@ -2162,7 +2179,7 @@
             "neg_features": []
         },
         "16745171": {
-            "local_id": 105,
+            "local_id": 106,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16745171",
@@ -2185,7 +2202,7 @@
             ]
         },
         "16662364": {
-            "local_id": 106,
+            "local_id": 107,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16662364",
@@ -2205,7 +2222,7 @@
             "neg_features": []
         },
         "16547727": {
-            "local_id": 107,
+            "local_id": 108,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16547727",
@@ -2222,7 +2239,7 @@
             "neg_features": []
         },
         "16965582": {
-            "local_id": 108,
+            "local_id": 109,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16965582",
@@ -2244,7 +2261,7 @@
             "neg_features": []
         },
         "16768730": {
-            "local_id": 109,
+            "local_id": 110,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16768730",
@@ -2266,7 +2283,7 @@
             "neg_features": []
         },
         "16745491": {
-            "local_id": 110,
+            "local_id": 111,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16745491",
@@ -2294,7 +2311,7 @@
             ]
         },
         "17250578": {
-            "local_id": 111,
+            "local_id": 112,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17250578",
@@ -2311,7 +2328,7 @@
             "neg_features": []
         },
         "16860877": {
-            "local_id": 112,
+            "local_id": 113,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16860877",
@@ -2334,7 +2351,7 @@
             ]
         },
         "16650458": {
-            "local_id": 113,
+            "local_id": 114,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16650458",
@@ -2351,7 +2368,7 @@
             "neg_features": []
         },
         "16535276": {
-            "local_id": 114,
+            "local_id": 115,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16535276",
@@ -2372,7 +2389,7 @@
             "neg_features": []
         },
         "16946379": {
-            "local_id": 115,
+            "local_id": 116,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16946379",
@@ -2389,7 +2406,7 @@
             "neg_features": []
         },
         "16766716": {
-            "local_id": 116,
+            "local_id": 117,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16766716",
@@ -2409,7 +2426,7 @@
             "neg_features": []
         },
         "16745097": {
-            "local_id": 117,
+            "local_id": 118,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16745097",
@@ -2431,7 +2448,7 @@
             "neg_features": []
         },
         "16796636": {
-            "local_id": 118,
+            "local_id": 119,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16796636",
@@ -2448,7 +2465,7 @@
             "neg_features": []
         },
         "16730537": {
-            "local_id": 119,
+            "local_id": 120,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16730537",
@@ -2465,7 +2482,7 @@
             "neg_features": []
         },
         "16245956": {
-            "local_id": 120,
+            "local_id": 121,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16245956",
@@ -2486,7 +2503,7 @@
             "neg_features": []
         },
         "16265071": {
-            "local_id": 121,
+            "local_id": 122,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16265071",
@@ -2503,7 +2520,7 @@
             "neg_features": []
         },
         "16121245": {
-            "local_id": 122,
+            "local_id": 123,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16121245",
@@ -2524,7 +2541,7 @@
             "neg_features": []
         },
         "16721499": {
-            "local_id": 123,
+            "local_id": 124,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16721499",
@@ -2546,7 +2563,7 @@
             "neg_features": []
         },
         "17007761": {
-            "local_id": 124,
+            "local_id": 125,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17007761",
@@ -2568,7 +2585,7 @@
             "neg_features": []
         },
         "17005580": {
-            "local_id": 125,
+            "local_id": 126,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17005580",
@@ -2585,7 +2602,7 @@
             "neg_features": []
         },
         "16875249": {
-            "local_id": 126,
+            "local_id": 127,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16875249",
@@ -2604,7 +2621,7 @@
             "neg_features": []
         },
         "17237994": {
-            "local_id": 127,
+            "local_id": 128,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17237994",
@@ -2621,7 +2638,7 @@
             "neg_features": []
         },
         "17154120": {
-            "local_id": 128,
+            "local_id": 129,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17154120",
@@ -2638,7 +2655,7 @@
             "neg_features": []
         },
         "17056715": {
-            "local_id": 129,
+            "local_id": 130,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17056715",
@@ -2655,7 +2672,7 @@
             "neg_features": []
         },
         "16846286": {
-            "local_id": 130,
+            "local_id": 131,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16846286",
@@ -2677,7 +2694,7 @@
             "neg_features": []
         },
         "16729798": {
-            "local_id": 131,
+            "local_id": 132,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16729798",
@@ -2694,7 +2711,7 @@
             "neg_features": []
         },
         "16718022": {
-            "local_id": 132,
+            "local_id": 133,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16718022",
@@ -2711,7 +2728,7 @@
             "neg_features": []
         },
         "17144688": {
-            "local_id": 133,
+            "local_id": 134,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17144688",
@@ -2733,7 +2750,7 @@
             "neg_features": []
         },
         "16954793": {
-            "local_id": 134,
+            "local_id": 135,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16954793",
@@ -2750,7 +2767,7 @@
             "neg_features": []
         },
         "17246589": {
-            "local_id": 135,
+            "local_id": 136,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17246589",
@@ -2772,7 +2789,7 @@
             "neg_features": []
         },
         "17192427": {
-            "local_id": 136,
+            "local_id": 137,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17192427",
@@ -2789,7 +2806,7 @@
             "neg_features": []
         },
         "17163039": {
-            "local_id": 137,
+            "local_id": 138,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17163039",
@@ -2811,7 +2828,7 @@
             "neg_features": []
         },
         "16838581": {
-            "local_id": 138,
+            "local_id": 139,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16838581",
@@ -2828,7 +2845,7 @@
             "neg_features": []
         },
         "16818490": {
-            "local_id": 139,
+            "local_id": 140,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16818490",
@@ -2850,7 +2867,7 @@
             "neg_features": []
         },
         "16793107": {
-            "local_id": 140,
+            "local_id": 141,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16793107",
@@ -2867,7 +2884,7 @@
             "neg_features": []
         },
         "16529819": {
-            "local_id": 141,
+            "local_id": 142,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16529819",
@@ -2884,7 +2901,7 @@
             "neg_features": []
         },
         "16300291": {
-            "local_id": 142,
+            "local_id": 143,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "16300291",
@@ -2905,7 +2922,7 @@
             "neg_features": []
         },
         "17175111": {
-            "local_id": 143,
+            "local_id": 144,
             "product_id": "128999982",
             "product_name": "Amd Ryzen 5 5600 3,5GHz BOX (100100000927BOX)",
             "review_id": "17175111",
