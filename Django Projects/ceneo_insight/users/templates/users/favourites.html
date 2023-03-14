@@ -2,6 +2,14 @@
 {% load crispy_forms_tags %}
 {% block content %}
   
+  {% if favourites.count < 1 %}
+  <article class="media content-section">
+    <div class="media-body">
+      <h5>Nothing in Favourites</h5>
+    </div>
+    </article>
+  {% endif %}
+
   {% for product in favourites %}
 
   <article class="media content-section">
