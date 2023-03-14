@@ -8,7 +8,7 @@
 }
 
 .container {
-    max-width: 70vw;
+    max-width: 80vw;
 }
 
 body {
@@ -115,6 +115,10 @@ h6 {
 .rotate-icon {
     opacity: 70%;
     color: green;
+}
+
+.star-icon {
+    color: yellow;
 }
 
 .trash-icon:hover,

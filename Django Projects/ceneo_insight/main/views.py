@@ -253,6 +253,11 @@ class DownloadFile(View):
 def products(request):
     sort_by = request.GET.get('sort_by')
     products = Product.objects.all()
+    user = request.user
+    user_favourites_list = []
+    if user.is_authenticated:
+        user_favourites = request.user.profile.favourites.all()
+        user_favourites_list = [product.product_id for product in user_favourites]
 
     if sort_by == 'a-z':
         products = products.order_by('product_name')
@@ -272,6 +277,7 @@ def products(request):
     context = {
         "products": products,
         "sort_by": sort_by,
+        'user_favourites_list': user_favourites_list,
     }
 
     return render(request, 'main/products.html', context)

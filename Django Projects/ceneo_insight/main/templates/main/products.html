@@ -27,6 +27,11 @@
                 <a href="{% url 'refresh_product' pk=product.pk %}" class="float-right">
                     <i class="fa-solid fa-arrows-rotate rotate-icon">&nbsp;&nbsp;</i>
                 </a>
+                {% if user.is_authenticated %}
+                <a href="{% if product.product_id in user_favourites_list %}{% url 'remove_from_favourites' pk=product.pk %}{% else %}{% url 'add_to_favourites' pk=product.pk %}{% endif %}" class="float-right">
+                    <i class="yellow star-icon {% if product.product_id in user_favourites_list %}fa-solid{% else %}fa-regular{% endif %} fa-star">&nbsp;&nbsp;</i>
+                </a>
+                {% endif %}
             </h5>
         </div>
     </article>
