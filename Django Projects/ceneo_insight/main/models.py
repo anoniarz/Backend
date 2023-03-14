@@ -9,6 +9,7 @@ class Product(models.Model):
     product_name = models.CharField(max_length=255)
     product_rating = models.CharField(max_length=10)
     product_category = models.CharField(max_length=50)
+    product_price = models.CharField(max_length=20)
     reviews = models.ManyToManyField('Review', related_name='reviews')
 
     def __str__(self):

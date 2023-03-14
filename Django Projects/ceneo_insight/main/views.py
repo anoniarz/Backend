@@ -64,12 +64,15 @@ def scrape(link):
             class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
         rating = try_or(doc.find(
             class_="product-review").find(class_="product-review__score").get('content'))
+        price = "0"
+        price = try_or(
+            doc.find(class_="price-format nowrap").find(class_="value").string)
+        price += " PLN"
 
         # Scraping
         for i in range(len(content)):
 
             review_id = try_or(content[i].get("data-entry-id"))
-            print(review_id)
             author = try_or(content[i].find(
                 class_="user-post__author-name").string[1:])
             # Recomendation
@@ -159,7 +162,7 @@ def scrape(link):
         delete_from_db(ceneo_id)
 
     product = Product.objects.create(
-        product_id=ceneo_id, product_category=category, product_name=name, product_rating=rating)
+        product_id=ceneo_id, product_category=category, product_name=name, product_rating=rating, product_price=price)
 
     for review_id, review in data[ceneo_id].items():
         date_p = datetime.strptime(
@@ -269,6 +272,10 @@ def products(request):
         products = products.order_by('-product_rating')
     elif sort_by == 'lowest_rating':
         products = products.order_by('product_rating')
+    elif sort_by == 'highest_price':
+        products = products.order_by('-product_price')
+    elif sort_by == 'lowest_price':
+        products = products.order_by('product_price')
 
     paginator = Paginator(products, 10)
     page_number = request.GET.get('page')

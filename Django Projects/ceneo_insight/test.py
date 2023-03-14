@@ -7,12 +7,11 @@ import collections as co
 from bs4 import BeautifulSoup as bs
 
 
-URL = f"https://www.ceneo.pl/133337315/opinie-2"
+URL = f"https://www.ceneo.pl/98430083/opinie-2"
 page = requests.get(URL)
 doc = bs(page.text, "html.parser")
 
-category = doc.find(class_="js_breadcrumbs breadcrumbs").find_all(
-    class_="js_breadcrumbs__item breadcrumbs__item link")[-1].text.split()
+price = doc.find(class_="price-format nowrap").find(class_="value").string
 
 
-print(" ".join(category))
+print(price)

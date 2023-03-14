@@ -41,6 +41,11 @@ def favourites(request):
         favourites = favourites.order_by('-product_rating')
     elif sort_by == 'lowest_rating':
         favourites = favourites.order_by('product_rating')
+    elif sort_by == 'highest_price':
+        favourites = favourites.order_by('-product_price')
+    elif sort_by == 'lowest_price':
+        favourites = favourites.order_by('product_price')
+
     request.session['sort_by'] = sort_by
 
     context = {

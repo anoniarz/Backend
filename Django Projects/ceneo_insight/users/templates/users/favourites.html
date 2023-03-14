@@ -22,7 +22,7 @@
     <div class="media-body">
         <h5>
             <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
-                {{ product.product_name }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>
+                {{ product.product_name }} - {{ product.product_price }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>
             </a>
             <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
                 <i class="fa-solid fa-trash trash-icon">&nbsp;</i>
