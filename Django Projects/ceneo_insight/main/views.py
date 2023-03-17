@@ -2,13 +2,10 @@ from django.shortcuts import render, redirect
 from django.core.paginator import Paginator
 from django.conf import settings
 from django.http import HttpResponse, Http404
-from django.urls import reverse
 from django.contrib import messages
 from .models import Review, Product
-from datetime import datetime, timedelta
+from datetime import datetime
 from .forms import Url_f
-
-
 from django.views.generic import DetailView, View
 # Scraper
 import os
@@ -60,8 +57,17 @@ def scrape(link):
         category = try_or(doc.find(class_="js_breadcrumbs breadcrumbs").find_all(
             class_="js_breadcrumbs__item breadcrumbs__item link")[-1].text.split())
         category = " ".join(category)
-        name = try_or(doc.find(
-            class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+        try:
+            name = try_or(doc.find(
+                class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+        except:
+            name = try_or(doc.find(
+                class_="product-top__product-info__name long-name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+
+        if len(name) > 55:
+            name = name.split(" ")
+            name = " ".join(name[:7])
+
         rating = try_or(doc.find(
             class_="product-review").find(class_="product-review__score").get('content'))
 
@@ -71,7 +77,7 @@ def scrape(link):
             doc.find(class_="price-format nowrap").find(class_="penny").string)
         price = re.sub(' ', '', price)
         rest = re.sub(',', '.', rest)
-        price = price+rest
+        price = float(price+rest)
 
         # Scraping
         for i in range(len(content)):
@@ -228,12 +234,14 @@ def about(request):
 
 def refresh_product(request, pk):
     scrape(str(pk))
-    return redirect('products')
+    previous_page = request.META.get('HTTP_REFERER')
+    return redirect(previous_page)
 
 
 def delete_product(request, pk):
     delete_from_db(pk)
-    return redirect('products')
+    previous_page = request.META.get('HTTP_REFERER')
+    return redirect(previous_page)
 
 
 class DownloadFile(View):
@@ -254,42 +262,52 @@ class DownloadFile(View):
 
 
 def products(request):
-    sort_by = request.GET.get('sort_by')
+
+    category = request.GET.get('category')
+    sorter = request.GET.get('sort')
     products = Product.objects.all()
     user = request.user
     user_favourites_list = []
+
     if user.is_authenticated:
         user_favourites = request.user.profile.favourites.all()
         user_favourites_list = [
             product.product_id for product in user_favourites]
 
-    if sort_by == 'a-z':
+    if category != "None" and category != "All":
+        products = products.filter(product_category=category)
+
+    if sorter == 'a-z':
         products = products.order_by('product_name')
-    elif sort_by == 'z-a':
+    elif sorter == 'z-a':
         products = products.order_by('-product_name')
-    elif sort_by == 'most_reviews':
+    elif sorter == 'most_reviews':
         products = sorted(
             products, key=lambda p: p.reviews.count(), reverse=True)
-    elif sort_by == 'least_reviews':
+    elif sorter == 'least_reviews':
         products = sorted(products, key=lambda p: p.reviews.count())
-    elif sort_by == 'highest_rating':
+    elif sorter == 'highest_rating':
         products = products.order_by('-product_rating')
-    elif sort_by == 'lowest_rating':
+    elif sorter == 'lowest_rating':
         products = products.order_by('product_rating')
-    elif sort_by == 'highest_price':
+    elif sorter == 'highest_price':
         products = products.order_by('-product_price')
-    elif sort_by == 'lowest_price':
+    elif sorter == 'lowest_price':
         products = products.order_by('product_price')
 
     paginator = Paginator(products, 10)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
+    categories = Product.objects.values_list(
+        'product_category', flat=True).distinct()
+
     context = {
-        "products": products,
-        "sort_by": sort_by,
+        "products": page_obj,
+        "sorter": sorter,
         'user_favourites_list': user_favourites_list,
-        'page_obj': page_obj,
+        "categories": categories,
+        "selected_category": category,
     }
 
     return render(request, 'main/products.html', context)
@@ -307,18 +325,23 @@ class ProductDetailView(DetailView):
         reviews = product.reviews.all()
         days_used = []
         for review in reviews:
-
-            if review.days_used <= 10:
-                days_used.append("1+")
-            elif review.days_used <= 20:
-                days_used.append("10+")
-            elif review.days_used <= 30:
-                days_used.append("20+")
-            elif review.days_used <= 40:
-                days_used.append("30+")
-            elif review.days_used > 40:
-                days_used.append("40+")
-        days_used = co.Counter(sorted(days_used))
+            days_used.append(review.days_used)
+            # if review.days_used <= 5:
+            #     days_used.append(1)
+            # elif review.days_used <= 10:
+            #     days_used.append(5)
+            # elif review.days_used <= 15:
+            #     days_used.append(10)
+            # elif review.days_used <= 20:
+            #     days_used.append(15)
+            # elif review.days_used > 25:
+            #     days_used.append(20)
+            # elif review.days_used <= 30:
+            #     days_used.append(25)
+            # elif review.days_used <= 35:
+            #     days_used.append(30)
+            # elif review.days_used > 35:
+            #     days_used.append(35)
 
         sorter = self.request.GET.get('sort')
         if sorter == 'newest':
@@ -344,23 +367,18 @@ class ProductDetailView(DetailView):
             sorted([x.stars for x in reviews], reverse=True))
         chart_recommendations = co.Counter(
             sorted([x.recommendation for x in reviews], reverse=True))
+        days_used = co.Counter(sorted(days_used))
 
-        context['labels1'] = list(chart_stars.keys())
-        context['values1'] = list(chart_stars.values())
-        context['labels2'] = list(chart_recommendations.keys())
-        context['values2'] = list(chart_recommendations.values())
-        context['labels3'] = list(days_used.keys())
-        context['values3'] = list(days_used.values())
-        context['reviews'] = page_obj
-        context['sorter'] = sorter
-
-        context['sort_links'] = {
-            'Newest': reverse('product_reviews', args=[product.pk]) + '?sort=newest',
-            'Oldest': reverse('product_reviews', args=[product.pk]) + '?sort=oldest',
-            'Highest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=highest_rated',
-            'Lowest_Rated': reverse('product_reviews', args=[product.pk]) + '?sort=lowest_rated',
-            'Most_Liked': reverse('product_reviews', args=[product.pk]) + '?sort=most_liked',
-            'Most_Disliked': reverse('product_reviews', args=[product.pk]) + '?sort=most_disliked',
-            'Most_Used': reverse('product_reviews', args=[product.pk]) + '?sort=most_used',
+        context = {
+            'labels1': list(chart_stars.keys()),
+            'values1': list(chart_stars.values()),
+            'labels2': list(chart_recommendations.keys()),
+            'values2': list(chart_recommendations.values()),
+            'labels3': list(days_used.keys()),
+            'values3': list(days_used.values()),
+            'product': product,
+            'reviews': page_obj,
+            'sorter': sorter,
         }
+
         return context

@@ -1,0 +1,379 @@
+{
+    "123630045": {
+        "17192006": {
+            "review_id": "17192006",
+            "author": "J...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-24 23:44:43",
+            "date_b": "2023-02-18 13:59:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepszy procesor do gier w stosunku cena/wydajność . Z płytą b660 spisuje się super w wymagających grach użycie procesora nie przekracza 50%",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17035035": {
+            "review_id": "17035035",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-18 22:44:57",
+            "date_b": "2023-01-01 23:33:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra cena (przed podwyżką), szybki w grach. Fabryczny wentylator bardzo głośny pod obciążeniem.",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "16296286": {
+            "review_id": "16296286",
+            "author": "b...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-08 13:04:22",
+            "date_b": "2022-06-15 11:38:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobry, szybki, stockowe chłodzenie wystarczające, jedynie mocowanie chłodzenia niezbyt stabilne ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16499954": {
+            "review_id": "16499954",
+            "author": "WinMax",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-08 09:15:57",
+            "date_b": "2022-08-31 15:25:27",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Procesor działa :) zaskakujące turbo po przesiadce z i5-4460 :)",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16392774": {
+            "review_id": "16392774",
+            "author": "y...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-05 17:26:30",
+            "date_b": "2022-07-27 00:11:42",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Nowy sprawny wg oczekiwań aby polatał jak najdłużej.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16652344": {
+            "review_id": "16652344",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-19 20:45:34",
+            "date_b": "2022-10-09 22:27:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "najbardziej opłacalny 6-rdzeniowy procek w październiku 2022",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16471222": {
+            "review_id": "16471222",
+            "author": "a...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-30 21:41:47",
+            "date_b": "2022-08-04 23:09:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "System operacyjny bomba.\nPolecam sklep ,obsługę i produkty ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16830405": {
+            "review_id": "16830405",
+            "author": "Kowolik",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-04 14:31:30",
+            "date_b": "2022-11-24 17:32:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "działa zgodnie z oczekiwaniami ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16323177": {
+            "review_id": "16323177",
+            "author": "i...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-15 22:06:27",
+            "date_b": "2022-07-09 08:53:28",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry produkt :) ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16697253": {
+            "review_id": "16697253",
+            "author": "p...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-01 07:32:02",
+            "date_b": "2022-10-17 22:12:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko w porządku.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17256710": {
+            "review_id": "17256710",
+            "author": "d...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-12 11:12:40",
+            "date_b": "2023-03-03 23:59:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "śmiga jak trzeba",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16821540": {
+            "review_id": "16821540",
+            "author": "m...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-02 08:10:37",
+            "date_b": "2022-11-28 20:50:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Robi robotę.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16432668": {
+            "review_id": "16432668",
+            "author": "m...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-18 13:58:16",
+            "date_b": "2022-08-10 15:22:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobre",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15985901": {
+            "review_id": "15985901",
+            "author": "e...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-20 22:04:39",
+            "date_b": "2022-04-10 23:59:38",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Wszystko w porządku",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16880092": {
+            "review_id": "16880092",
+            "author": "m...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-14 19:14:02",
+            "date_b": "2022-11-23 22:07:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15932713": {
+            "review_id": "15932713",
+            "author": "k...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-07 20:50:45",
+            "date_b": "2022-03-24 18:54:17",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15790065": {
+            "review_id": "15790065",
+            "author": "a...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-07 19:35:19",
+            "date_b": "2022-02-26 10:57:35",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "godny polecenia",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16802966": {
+            "review_id": "16802966",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-28 21:50:40",
+            "date_b": "2022-11-06 18:30:20",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "200%",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16945701": {
+            "review_id": "16945701",
+            "author": "D...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-29 09:44:29",
+            "date_b": "2022-12-21 12:55:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bdb",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16531025": {
+            "review_id": "16531025",
+            "author": "w...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-16 21:05:21",
+            "date_b": "2022-09-03 17:12:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Oka",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16892700": {
+            "review_id": "16892700",
+            "author": "p...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-16 16:55:15",
+            "date_b": "2022-11-26 10:33:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16673797": {
+            "review_id": "16673797",
+            "author": "Tomasz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-10-25 15:38:32",
+            "date_b": "2022-09-27 15:35:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16140515": {
+            "review_id": "16140515",
+            "author": "c...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-27 20:48:19",
+            "date_b": "2022-05-13 14:04:11",
+            "t_up": "0",
+            "t_down": "2",
+            "opinion": "ok",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        }
+    }
+}

@@ -48,25 +48,24 @@
         </div>
     </article>
 {% endfor %}
-
-{% if page_obj.has_other_pages %}
+{% if products.has_other_pages %}
 <div class="pagination">
-    {% if page_obj.has_previous %}
-        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
-        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ page_obj.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+    {% if products.has_previous %}
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ products.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
     {% endif %}
 
-    {% for num in page_obj.paginator.page_range %}
-        {% if num == page_obj.number %}
-        <a class="btn btn-outline-warning mb-4 active" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
-        {% elif num > page_obj.number|add:'-2' and num < page_obj.number|add:'2' %}
-        <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+    {% for num in products.paginator.page_range %}
+        {% if num == products.number %}
+        <a class="btn btn-outline-warning mb-4 active" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+        {% elif num > products.number|add:'-3' and num < products.number|add:'3' %}
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
         {% endif %}
     {% endfor %}
 
-    {% if page_obj.has_next %}
-    <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ page_obj.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
-    <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ page_obj.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+    {% if products.has_next %}
+    <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ products.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+    <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ products.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
     {% endif %}
 </div>
 {% endif %}

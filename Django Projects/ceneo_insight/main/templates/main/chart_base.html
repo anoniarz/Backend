@@ -24,7 +24,7 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
-              <a class="nav-item nav-link" href="{% url 'products' %}">Products</a>
+              <a class="nav-item nav-link" href="{% url 'products' %}?category=All">Products</a>
             </div>
             <!-- Navbar !-->
             <div class="navbar-nav">
@@ -42,8 +42,25 @@
     </header>
 
     <main role="main" class="container">
-      <div class="row">
-               <div class="col-md-9">
+    
+    <div class="row"> 
+
+      <div class="col-md-1.5">
+        <div class="content-section">
+        <h3 style="margin-bottom: 10px;">Sort by:</h3>
+        <ul class="list-group" style="margin-top: 10px;">
+        <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'highest_rated' %}active{% endif %}" href="?sort=highest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-up-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        </ul>
+        </div>
+      </div>
+
+      <div class="col-md-9">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">
@@ -52,8 +69,8 @@
             {% endfor %}
           {% endif %}
             {% block content %}{% endblock %}
-        </div> 
-      <div class="col-md-3">
+      </div> 
+      <div class="col-md-2">
           <div class="chart">
               <h4>Stars</h4>
               <canvas id="star_chart" width="600" height="600"></canvas>
@@ -135,6 +152,11 @@
             }]
         },
         options: {
+          ticks: {
+                  autoSkip: true,
+                  maxTicksLimit: 5,
+              },
+          tension: 0.2,
           plugins: {
             legend: {
               display: false

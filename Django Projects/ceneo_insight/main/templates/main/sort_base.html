@@ -24,7 +24,7 @@
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
               <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
-              <a class="nav-item nav-link" href="{% url 'products' %}">Products</a>
+              <a class="nav-item nav-link" href="{% url 'products' %}?category=All">Products</a>
             </div>
             <!-- Navbar !-->
             <div class="navbar-nav">
@@ -42,24 +42,37 @@
     </header>
     <main role="main" class="container">
       <div class="row">
-      <div class="col-md-1">
+      <div class="col-md-2">
           <div class="content-section">
             <h3>Sort by:</h3>
             <p class='text-muted'>
-              <ul class="list-group">
-                <a class="btn btn-outline-warning {% if sort_by == 'a-z' %}active{% endif %}" href="?sort_by=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'z-a' %}active{% endif %}" href="?sort_by=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'highest_price' %}active{% endif %}" href="?sort_by=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'lowest_price' %}active{% endif %}" href="?sort_by=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'highest_rating' %}active{% endif %}" href="?sort_by=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'lowest_rating' %}active{% endif %}" href="?sort_by=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'most_reviews' %}active{% endif %}" href="?sort_by=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
-                <a class="btn btn-outline-warning {% if sort_by == 'least_reviews' %}active{% endif %}" href="?sort_by=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
-              </ul>
+
+          <ul class="list-group" style="margin-top: 10px;">
+          <div class="dropdown" style="margin-bottom: 10px;">
+            <button class="btn btn-warning dropdown-toggle" type="button" id="categoryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {% if selected_category %}<i class="fa-solid fa-filter">&nbsp;</i>{{ selected_category }}{% else %}<i class="fa-solid fa-filter">&nbsp;</i>All{% endif %}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="categoryDropdown" style="height: 200px; overflow-y: scroll;">
+              <a class="dropdown-item {% if not selected_category %}active{% endif %}" href="{% url 'products' %}?category=All&sort={{ sorter }}">All</a>
+              {% for category in categories %}
+                <a class="dropdown-item {% if selected_category == category %}active{% endif %}" href="{% url 'products' %}?category={{ category }}&sort={{ sorter }}"><i class="fa-solid fa-filter">&nbsp;</i>{{ category }}</a>
+              {% endfor %}
+            </div>
+          </div>  
+
+          <a class="btn btn-outline-warning {% if sorter == 'a-z' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'z-a' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'most_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'least_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          </ul>
             </p>
           </div>
         </div>
-        <div class="col-md-11">
+        <div class="col-md-10">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">

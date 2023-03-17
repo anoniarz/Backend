@@ -1,0 +1,542 @@
+{
+    "129364847": {
+        "16937193": {
+            "review_id": "16937193",
+            "author": "k...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-28 00:33:00",
+            "date_b": "2022-12-07 07:52:15",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Świetny procesor w tej cenie (poniżej 1000zł), wszedł na miejsce 1600x na x370 (opłacało się być cierpliwym i czekać na bios). W grach które bardziej leżą na procesorze różnica ogromna, przykład z Anno 1701 (1600X: Min - 58.4FPS, Avr - 99.2FPS, Max - 187.2FPS / 5700X: Min - 141FPS, Avr - 209FPS, Max - 294.7FPS), w innych grach też przyrost ale mniejszy, w każdym razie różnica widoczna. Niższe TDP od poprzednika. Temperatura delikatnie niższa ale to też przez automatyczny undervolting w Ryzen Master. Sekcja zasilania ok 10 stopni mniej a zegary dochodzą do 4650MHZ na procesorze. Nie widzę żadnych minusów, same plusy więc polecam. ",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16844384": {
+            "review_id": "16844384",
+            "author": "s...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-07 13:54:12",
+            "date_b": "2022-11-27 09:35:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Na początek grudnia 2022 jeden z najlepszych stusunkow price/perf. Niskie TDP, niskie temperatury, wysoka wydajność multi (8 rdzeni/16watkow), sprawdzona i stabilna platforma AM4. Odpada troska o potencjalnie wyginający się CPU przy niektórych coolerach, a zatem nie trzeba kombinować z dodatkowymi podstawkami/dystansami  (jak w niektórych konkurencyjnych rozwiązaniach ). Polecam. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16225744": {
+            "review_id": "16225744",
+            "author": "m...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-19 16:32:55",
+            "date_b": "2022-05-12 10:21:50",
+            "t_up": "3",
+            "t_down": "0",
+            "opinion": "Niski pobór mocy = mniejsze wydzielanie ciepła = cichsza praca. Przesiadka z AMD FX więc nie będę porównywał jak bardzo da się odczuć różnicę w wydajności. Procek godny polecenia",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17023746": {
+            "review_id": "17023746",
+            "author": "m...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-17 00:06:44",
+            "date_b": "2022-12-23 11:02:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Trochę wysokie temperatury pod obciążeniem, ok. 80C pomimo be quiet pure rock 2 który szacowany jest na 150W TDP. Ale może to wina obudowy.\nReszta tylko na plus, 16 wątków w blender super sobie daje radę. W grach już nie robi bottleneck względem RX 6700XT.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16446061": {
+            "review_id": "16446061",
+            "author": "dziki wielblad",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-23 10:51:28",
+            "date_b": "2022-07-25 15:53:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Sensowna wydajność w grach oraz w aplikacjach\nSzeroka kompatybilność z płytami głównymi (w tym z chipsetami serii 300, po odblokowaniu wsparcia przez AMD)\nNiskie temperatury\nOdblokowane podkręcanie CPU\nBardzo dobra efektywność energetyczna CPU",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16314573": {
+            "review_id": "16314573",
+            "author": "luke210",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-13 22:19:59",
+            "date_b": "2022-06-29 11:21:56",
+            "t_up": "3",
+            "t_down": "0",
+            "opinion": "Po 5 latach zastapil podkreconego do 3.8 GHz Ryzena 7 1700. Na razie bez OC, mniejszy pobor pradu, wydajnosc (w stosunku do podkreconego 1700: jednowatkowa +50%, wielowatkowa +35%. Warto.",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17085119": {
+            "review_id": "17085119",
+            "author": "m...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-31 18:50:04",
+            "date_b": "2023-01-13 14:58:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor stanowi postęp względem poprzedniego Ryzen 5 3600. W praktycznych zastosowaniach gdy oprócz głównego programu w tle pracuje Discord, Twitch i antywirus nie czuć jakichkolwiek spowolnień, co  wcześniej się zdarzało",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16956622": {
+            "review_id": "16956622",
+            "author": "k...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-30 22:52:47",
+            "date_b": "2022-12-09 16:58:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko zgodne z opisem. Procesor zakupiony na promce z grą Uncharted. Chłodzony krakenem, b550, 16 ram 3600, rx 6800 xt - większość w 3440-1440 na ultra bez problemów. Temperatury w grach do max 66 stopni. Polecam",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16999764": {
+            "review_id": "16999764",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-10 23:53:58",
+            "date_b": "2022-12-28 03:03:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor, przy wykorzystaniu PBO osiąga znacznie wyższe osiągi niż znamionowe przy znacznie niższych napięciach co tylko przełoży się na jego dłuższą, bezawaryjną pracę.\n",
+            "pos_features": [
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17016950": {
+            "review_id": "17016950",
+            "author": "Marek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-14 12:57:01",
+            "date_b": "2022-12-25 22:56:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procek ok, podobno ma potencjał do OC, ale nie sprawdzałem. Uwaga - wersja box nie ma w zestawie coolera, trzeba coś osobno dokupić.",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17081733": {
+            "review_id": "17081733",
+            "author": "l...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-31 03:19:38",
+            "date_b": "2023-01-24 06:27:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor. Wysoka wydajność i dobre temperatury, nawet chyba lepsze od Ryzena 3600, którego miałem przed nim.",
+            "pos_features": [
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17132856": {
+            "review_id": "17132856",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-10 23:34:02",
+            "date_b": "2023-01-30 16:35:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przesiadka z Ryzena 7 1700 na Ryzena 7 5700x jest jak najbardziej odczuwalna. Temperatury są również niższe",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16311319": {
+            "review_id": "16311319",
+            "author": "f...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-13 10:20:31",
+            "date_b": "2022-06-23 16:15:19",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Przesiadłem się z Ryzen 5 1600 , widać i czuć różnicę pomiędzy nimi.",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16922392": {
+            "review_id": "16922392",
+            "author": "d...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-23 12:21:16",
+            "date_b": "2022-12-02 11:32:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok. Może poza zwiększonymi temperaturami, ale to pewnie kwestia mojego chłodzenia :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16975792": {
+            "review_id": "16975792",
+            "author": "h...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-04 20:37:14",
+            "date_b": "2022-12-21 18:29:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor świetny do pracy i gier, nie grzeje się i nie bierze dużo prądu. Starczy na lata",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17067578": {
+            "review_id": "17067578",
+            "author": "j...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-26 20:07:20",
+            "date_b": "2023-01-03 20:35:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Posiadam od dwóch tygodni. Póki co, wszystko w jak najlepszym porządku.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17028858": {
+            "review_id": "17028858",
+            "author": "Damian",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-17 22:50:23",
+            "date_b": "2022-12-28 21:31:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przesiadka z 3600x dużo mi dała w grach multiplayer jak Battle Royale",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17074889": {
+            "review_id": "17074889",
+            "author": "c...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-28 11:51:29",
+            "date_b": "2023-01-16 21:53:09",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajny, przy cenie poniżej tysiąca, bardzo opłacalny wybór.",
+            "pos_features": [
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16960645": {
+            "review_id": "16960645",
+            "author": "rad k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-01 17:50:47",
+            "date_b": "2022-12-02 00:14:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki, chłodny, energooszczędny procesor, polecam",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17110589": {
+            "review_id": "17110589",
+            "author": "n...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-06 21:08:59",
+            "date_b": "2023-01-17 22:50:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor. Nic dodać nic ująć :-)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17182031": {
+            "review_id": "17182031",
+            "author": "b...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-23 10:11:29",
+            "date_b": "2023-02-02 10:48:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "no hula. ale chyba intel lepszy.",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16441429": {
+            "review_id": "16441429",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-08-21 21:27:41",
+            "date_b": "2022-08-06 23:21:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry procek w dobrej cenie",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16877017": {
+            "review_id": "16877017",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-14 10:31:34",
+            "date_b": "2022-12-08 00:31:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Fajny dość chłodny procek.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17004302": {
+            "review_id": "17004302",
+            "author": "z...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-11 20:24:14",
+            "date_b": "2022-12-29 13:10:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny w swojej cenie.\n",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17026825": {
+            "review_id": "17026825",
+            "author": "Solarin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-17 16:25:11",
+            "date_b": "2023-01-17 09:48:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Towaru nie dostalem",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16894410": {
+            "review_id": "16894410",
+            "author": "e...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-16 21:52:13",
+            "date_b": "2022-12-03 23:15:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Suuuupeeer ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17002187": {
+            "review_id": "17002187",
+            "author": "r...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-11 13:00:37",
+            "date_b": "2022-12-27 19:57:39",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "The best",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16894414": {
+            "review_id": "16894414",
+            "author": "u...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-16 21:52:46",
+            "date_b": "2022-11-27 18:04:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "++",
+            "pos_features": [
+                "głośność pracy",
+                "niski pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16246673": {
+            "review_id": "16246673",
+            "author": "d...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-24 10:11:09",
+            "date_b": "2022-06-17 14:00:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16229956": {
+            "review_id": "16229956",
+            "author": "b...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-20 20:26:54",
+            "date_b": "2022-06-07 18:31:09",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "super ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17103438": {
+            "review_id": "17103438",
+            "author": "t...2",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "1",
+            "date_p": "2023-02-03 21:39:47",
+            "date_b": "2023-01-17 09:41:52",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Anulowane zamówienie przez sklep \n",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17104875": {
+            "review_id": "17104875",
+            "author": "m...1",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "1",
+            "date_p": "2023-02-04 11:35:32",
+            "date_b": "2023-01-17 08:39:40",
+            "t_up": "0",
+            "t_down": "2",
+            "opinion": "..",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

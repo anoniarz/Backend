@@ -1,0 +1,363 @@
+{
+    "106230239": {
+        "16548670": {
+            "review_id": "16548670",
+            "author": "c...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-22 09:59:34",
+            "date_b": "2022-09-17 11:31:58",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Karta bardzo dobra, cicha. Zaleta sterowniki serii PRO dla tych którzy zajmują się pracą w systemach CAD lub zajmują się edycją filmów wideo.Karta jest szybka w porównaniu do GTX 1660 wyraźnie lepiej pracuje się w środowisku CAD obiekty \"łatwiej się chwyta z dalszej odległości\".  Dla pracujących w Solidworks, CATII duży plus. W wolnych chwilach spokojnie można pograć nawet w wymagające tytuły. Gdybym miał wybierać wybrałbym ją ponownie. Idealna karta graficzna dla budżetowej stacji roboczej będącej jednocześnie komputerem domowym.",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17230168": {
+            "review_id": "17230168",
+            "author": "s...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-06 20:52:46",
+            "date_b": "2023-02-21 11:54:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Produkt solidny. Na pewno jest to duża karta, ledwo zmieściła mi się do obudowy. Bardzo wydajne chłodzenie. Na plus na pewno oprogramowanie do sterowania kartą od Asusa, czyli GPU Tweak III. Jeśli chodzi o relacje cena/wydajność to jest on świetny, nie dostaniemy za tą cenę lepsze karty. Sama karta pod względem wydajności leży między RTX 3060 TI, a RTX 3070, przy czym od tej pierwszej z GDDR6X jest lepsza i tańsza o 200 złoty. Pod obciążeniem jest troszkę głośna",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17166850": {
+            "review_id": "17166850",
+            "author": "PwOp",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-20 11:49:08",
+            "date_b": "2023-02-14 14:51:20",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Karta ma domyślnie ustawione wiatraki na najwyższych obrotach przy niskich temperaturach, na tych ustawieniach w NZXT H510 (obudowa o najwyższej przeciętnym obiegu powietrza) temperatura nie przekracza 54°C. \n\nSoftware AMD pozwala to łatwo zmienić, na 40% obrotów, gdy karta jest ledwo słyszalna temperatura nie przekracza 71°C, co osobiście uważam za bardzo dobry wynik. Nie mogę więc narzekać na głośność pracy.\n\nPoza tym nie widzę żadnych potencjalnych problemów.",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17245074": {
+            "review_id": "17245074",
+            "author": "Jarek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-09 12:45:55",
+            "date_b": "2023-03-03 13:34:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kartę używam od kilku dni i jest wszystko ok. Jest cicha i nic nie świszczy. Benchmarki zgadzają się z tymi na Youtube. Trochę się grzeje do około 80C ale to pewnie przez złą wentylację w obudowie, zakupiłem kilka wentylatorów i powinno być ok po montażu. Ma ładny cienki pasek RGB, ani duży ani mały, nie denerwuje a wygląda stylowo. Ogólnie pozytywny zakup i polecam innym.",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17225218": {
+            "review_id": "17225218",
+            "author": "r...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-03-05 08:25:51",
+            "date_b": "2023-02-27 20:09:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra karta. Domyślna krzywa wentylatorów zła. Trzeba poprawiać w programie, żeby nie karta nie wyła. Domyślnie to przy temperaturach ok 60 stopni wentylatory pracują z prędkością aż 60%. Wystarczy 40% przy temperaturze 70 stopni  i 30 % przy 50 stopni. Przy takiej krzywej temperatury nie przekraczają 70 stopni i karta pracuje cicho.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16731004": {
+            "review_id": "16731004",
+            "author": "e...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-09 22:40:06",
+            "date_b": "2022-10-20 12:58:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kartą wydajna i radzi sobie bez problemów z obecnymi grami w rozdzialce Full HD.\nMinusem jest domyślna krzywa obrotów wentylatorów ustawionych na karcie.Powoduje to nadmierny hałas.Można to zmienić za pomocą programu MSI Afterburner.Po tym zabiegu kartą ciszej pracuje i temperatury nie są wysokie.",
+            "pos_features": [
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "16764010": {
+            "review_id": "16764010",
+            "author": "k...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 11:17:18",
+            "date_b": "2022-11-14 18:15:20",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Produkt bardzo dobry. Solidna karta oraz chłodzenia na bardzo dobrym poziomie. W stresie mocnym karta nie pokazała więcej niż 62C. Głośność pracy może troszkę przeszkadzać gdyż mocno załączają się wiatraki na dosyć głośnym poziomie. Póki co nie słyszałem dźwięku cewek za co karta bardzo plusuje.",
+            "pos_features": [
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "17014443": {
+            "review_id": "17014443",
+            "author": "Marcin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-13 15:16:37",
+            "date_b": "2022-12-30 13:44:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Używam dopiero kilka dni, więc trudno rzetelnie opisać.  Ogólnie wrażenie wykonania dobre. Wsadzona do kompa, działa więc ok ;-)",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16979583": {
+            "review_id": "16979583",
+            "author": "k...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-01-05 12:19:37",
+            "date_b": "2023-01-01 17:56:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa. Dobra jakość i wydajność. Brak sterowników dla systemu Linux.",
+            "pos_features": [
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "17035034": {
+            "review_id": "17035034",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-18 22:44:57",
+            "date_b": "2023-01-01 23:33:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki, podwójny BIOS, cewki nie piszczą. Głośny pod obciążeniem.",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "16566917": {
+            "review_id": "16566917",
+            "author": "s...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-27 20:26:44",
+            "date_b": "2022-09-14 08:59:16",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Karta graficzna petarda - duża, wielką ale się zmiescila",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16571836": {
+            "review_id": "16571836",
+            "author": "c...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-28 20:23:37",
+            "date_b": "2022-09-15 11:16:28",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Bardzo wydajna i cicha karta w przystępnej cenie.",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17262084": {
+            "review_id": "17262084",
+            "author": "c...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-13 22:52:26",
+            "date_b": "2023-02-21 17:29:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Cicha, dobra kultura pracy",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17279327": {
+            "review_id": "17279327",
+            "author": "t...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-16 20:42:54",
+            "date_b": "2023-03-12 23:00:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok, polecam.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16760727": {
+            "review_id": "16760727",
+            "author": "s...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-17 19:58:55",
+            "date_b": "2022-10-26 22:19:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super Rakieta tip top",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17199348": {
+            "review_id": "17199348",
+            "author": "m...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-27 20:27:50",
+            "date_b": "2023-02-14 12:47:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa. Jest cicha. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17255747": {
+            "review_id": "17255747",
+            "author": "Paweł",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-11 18:18:44",
+            "date_b": "2023-03-04 19:48:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bardzo dobra karta",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15042192": {
+            "review_id": "15042192",
+            "author": "l...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-06 19:05:32",
+            "date_b": "2021-10-03 12:07:40",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Bardzo dobra jakosc",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16755641": {
+            "review_id": "16755641",
+            "author": "g...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-16 21:27:36",
+            "date_b": "2022-11-09 19:15:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super",
+            "pos_features": [
+                "głośność pracy",
+                "wydajność",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17232464": {
+            "review_id": "17232464",
+            "author": "t...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-07 10:51:45",
+            "date_b": "2023-03-01 16:23:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "👍🏼",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15326277": {
+            "review_id": "15326277",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2021-12-08 11:53:14",
+            "date_b": "2021-12-08 11:53:14",
+            "t_up": "1",
+            "t_down": "2",
+            "opinion": "Kilka dni temu zamówiłem dokładnie ten egzemplarz Radeona. Mając już 17lat doświadczenia w branży wiedziałem, że mogę śmiało liczyć na co najmniej dobra karte graficzną :) Jednak dobra karta to zdecydowanie zbyt mało powiedziane. Karta jest wręcz rewelacyjna! Mega chłodna, mega cicha i do tego ma zdecydowana przewagę wydajności nad moim poprzednim GPU - RTX 2080 oc AMP. Choćbym bardzo chciał, to nie widzę żadnego minusa :))))) POLECAM!!! ",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

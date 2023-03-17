@@ -1,0 +1,488 @@
+{
+    "98430382": {
+        "13463083": {
+            "review_id": "13463083",
+            "author": "m...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-11-27 21:30:32",
+            "date_b": "2020-11-17 19:43:04",
+            "t_up": "4",
+            "t_down": "25",
+            "opinion": "Bardzo wydajny procesor jednak wydaje mi się, ze większość popularnych AIO ma problemy z kontaktem przez co temperatura skacze z 50 do 80 w sekundę. Mimo wszystko polecam",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "16577918": {
+            "review_id": "16577918",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-29 23:50:18",
+            "date_b": "2022-09-12 10:21:02",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Demon prędkości. Przesiadka z Ryzen X1700 na 5900X dał mocnego kopa. Poszedł nawet na płycie X370 ale jednak wyminilem płyte na B550 Gaming Plus. Śmiga na niej aż miło. Podkręcony do 4,75 Ghz przy 75 stopniach , myślę że rewelacja. Idealnie nadaje się do renderingu i montażu wideo. Polecam tego potwora ! ",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16790067": {
+            "review_id": "16790067",
+            "author": "l...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-24 20:14:34",
+            "date_b": "2022-11-13 13:54:50",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "w pełni jeszcze nie przetestowalem, chlodzony cieczą all in one, nie jest goracy, pobór prądu w idle nie odbiega za bardzo od 3600x, natomiast w peak'u jest sporo wiekszy, ponad 30w na pewno. Natomiast na pewno mega wydajny, bede uzywal w wirtalualizacji, na pewno liczba rdzeni ma znaczenie dla mnie.",
+            "pos_features": [
+                "cena",
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15072837": {
+            "review_id": "15072837",
+            "author": "tulio",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-13 17:49:04",
+            "date_b": "2021-09-12 20:19:17",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Z moich testów wynika, że jest od 1,5 do 2,5 razy szybszy od poprzednika Ryzen 7 2700X, który i tak jest bardzo dobrym procesorem.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13739086": {
+            "review_id": "13739086",
+            "author": "a...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-01-08 20:27:29",
+            "date_b": "2021-01-04 13:41:31",
+            "t_up": "4",
+            "t_down": "2",
+            "opinion": "Rewelecyjna wydajnosc pozostawiajaca procesory Intel daleko w tyle.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13671274": {
+            "review_id": "13671274",
+            "author": "s...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-29 14:18:44",
+            "date_b": "2020-12-21 14:54:17",
+            "t_up": "3",
+            "t_down": "1",
+            "opinion": "Bardzo przydatny przy pracy wykorzystującej duża ilość rdzeni jak i nadający się do gier",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16923983": {
+            "review_id": "16923983",
+            "author": "r...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-23 18:31:51",
+            "date_b": "2022-11-23 13:14:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nieźle podbija zegary bez kombinowania na x570. Pod obciążeniem też sobie nieźle daje radę, propsy",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15176403": {
+            "review_id": "15176403",
+            "author": "g...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-11-07 10:37:56",
+            "date_b": "2021-10-05 17:09:45",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Po przesiadce z poczciwego i7 skok wydajności jest ogromny. Polecam zdecydowanie !",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14567178": {
+            "review_id": "14567178",
+            "author": "o...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-06-07 20:11:26",
+            "date_b": "2021-06-01 05:22:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajność jednowątkowa i wielowątkowa zachwyca",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14825437": {
+            "review_id": "14825437",
+            "author": "a...k",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "2.5",
+            "date_p": "2021-08-10 21:42:53",
+            "date_b": "2021-07-12 20:59:05",
+            "t_up": "1",
+            "t_down": "19",
+            "opinion": "Produkt mocno przereklamowany. Przesiadłem się z i7 6700k, i właściwie to nie odczułem różnicy pod względem wydajności. Natomiast o czym nie pisze się w recenzjach: procesor dość mocno się grzeje, względem takiego i7 6700k kultura pracy NOWOŚCI od AMD jest nieakceptowalna. W idlu na wodzie (AIO RYUJIN 240) osiąga 40stopni i skacze nawet 50. Rozgrzanie do 70 stopni nie jest problemem. Zatem temperatury o 20 stopni wyższe niż osiągał wspomniany i7, w konsekwencji wentylatory wbijają na wyższe obroty i robi się dość głośno. Jak za cenę dwukrotnie wyższą niż za wspomniane i7 jestem rozczarowany. Według windowsowego menedżera zadań zegary nie schodzą poniżej 3,6Ghz w idlu więc ani Cool ani Quiet, Ryzen Master niby pokazuje zejście do 1100MHz. DWA WNIOSKI NA KONIEC: 5800X pewnie byłby nie gorszym wyborem, a na pewno tańszym. Jak ktoś ma i7 6generacji bądź nowszy i nie wykorzystuje intensywnie do jakiegoś renderingu, to zmiana jeszcze nie ma najmniejszego sensu.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14493930": {
+            "review_id": "14493930",
+            "author": "fitasny",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2021-05-21 11:48:49",
+            "date_b": "2021-05-12 21:05:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jeden z najlepszych procesorów od lat.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13789840": {
+            "review_id": "13789840",
+            "author": "j...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2021-01-18 11:21:03",
+            "date_b": "2021-01-07 16:33:36",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Świetny procesor AMD bije Intelowski ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16040930": {
+            "review_id": "16040930",
+            "author": "s...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-04 16:21:19",
+            "date_b": "2022-04-27 01:03:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry i wydajny procesor. ",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16521879": {
+            "review_id": "16521879",
+            "author": "e...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-09-14 21:03:54",
+            "date_b": "2022-09-04 15:01:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wszystko w jak najlepszej opcji",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność"
+            ],
+            "neg_features": []
+        },
+        "14498662": {
+            "review_id": "14498662",
+            "author": "fitasny",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-22 12:21:23",
+            "date_b": "2021-05-12 15:07:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepszy procesor od lat.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16931597": {
+            "review_id": "16931597",
+            "author": "Łukasz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-27 09:14:13",
+            "date_b": "2022-12-20 15:59:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny procesor na AM4.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15772153": {
+            "review_id": "15772153",
+            "author": "j...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-02 23:12:29",
+            "date_b": "2022-02-13 18:54:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Rewelacja polecam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15048446": {
+            "review_id": "15048446",
+            "author": "p...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-07 21:50:10",
+            "date_b": "2021-09-17 20:35:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "śmiga w AE",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13540844": {
+            "review_id": "13540844",
+            "author": "1...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-09 20:09:10",
+            "date_b": "2020-11-25 17:31:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "jest mooc",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16688516": {
+            "review_id": "16688516",
+            "author": "p...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-28 12:23:35",
+            "date_b": "2022-10-24 17:41:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [
+                "cena",
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16329515": {
+            "review_id": "16329515",
+            "author": "B...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-18 21:16:28",
+            "date_b": "2022-07-06 04:23:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wydajny",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16269274": {
+            "review_id": "16269274",
+            "author": "d...b",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-30 15:34:39",
+            "date_b": "2022-05-22 16:52:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Śmiga",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15249733": {
+            "review_id": "15249733",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-11-24 06:23:09",
+            "date_b": "2021-11-11 17:02:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13522754": {
+            "review_id": "13522754",
+            "author": "b...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-07 22:45:28",
+            "date_b": "2020-11-25 09:49:56",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Top product!",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15609051": {
+            "review_id": "15609051",
+            "author": "k...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-01-25 18:40:32",
+            "date_b": "2022-01-20 00:14:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "głośność pracy",
+                "pobór prądu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14698471": {
+            "review_id": "14698471",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-07-08 15:29:04",
+            "date_b": "2021-06-18 17:18:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13461163": {
+            "review_id": "13461163",
+            "author": "zajkowskipiotr",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-11-27 16:45:15",
+            "date_b": "2020-11-25 15:22:42",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Super !!!",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13503668": {
+            "review_id": "13503668",
+            "author": "a...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-04 10:13:14",
+            "date_b": "2020-11-17 18:36:53",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Super ",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

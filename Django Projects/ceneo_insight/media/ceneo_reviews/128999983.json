@@ -1,0 +1,322 @@
+{
+    "128999983": {
+        "15972701": {
+            "review_id": "15972701",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-18 09:02:40",
+            "date_b": "2022-04-05 19:51:29",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Procesor pracuje bez zarzutu, stabilnie i szybko.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16825839": {
+            "review_id": "16825839",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-02 20:21:56",
+            "date_b": "2022-11-20 17:03:27",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Wydajny procesor do podstawowych zastosowań i pogrania w gry. Stosunek jakośći do ceny rewelacyjny. Bez problemu radzi sobie z kilkoma zadaniami na raz. Sześć rdzeni pozawala na granie  podczas gdy w tle uruchomina jest przegladarka lub inna aplikacja (obciązenie procesora ok 30% przy kilkunastu otwartych kartach podczas gry) polecam.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17020613": {
+            "review_id": "17020613",
+            "author": "a...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-16 11:33:08",
+            "date_b": "2022-12-15 20:27:34",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Przede wszystkim energooszczędny procesor. Po UV pobiera 15-25W w grach, przy stresstestach niewiele ponad 50W. Przy czym\nosiąga fabryczne zegary na wszystkich rdzeniach (4.2GHZ) na nominale spokojne 4.5GHZ może więcej, ale ja potrzebowałem czegoś \"ekonomicznego\". Na chłodzeniu BOX ciężko przekroczyć 60C.",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17015783": {
+            "review_id": "17015783",
+            "author": "Marcin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-13 21:27:18",
+            "date_b": "2022-12-27 19:24:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor kupiony za 431 zł z grą Uncharted na steama gratis. Działa świetnie, widać wzrost wydajności względem mojego poprzedniego ryzena 3100, a zapłaciłem za niego mniej niż za trójeczkę 2 lata temu. Zdecydowanie cena/jakość świetnie",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17222905": {
+            "review_id": "17222905",
+            "author": "Łukasz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-03-03 23:33:37",
+            "date_b": "2023-02-24 07:50:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo fajny i tani procek. Tańsza alternatywa dla Ryzena 5600. Minusem tylko brak PCIe 4.0 i mniejszy cache, ale do budżetowego zestawu jak najbardziej ok. ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16752968": {
+            "review_id": "16752968",
+            "author": "d...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-16 12:55:34",
+            "date_b": "2022-11-10 14:59:42",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Żadnych problemów, wszystko nowe i zapakowane",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17173250": {
+            "review_id": "17173250",
+            "author": "p...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-21 19:14:53",
+            "date_b": "2023-02-08 19:40:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor od AMD daje rady i cena ok",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17146790": {
+            "review_id": "17146790",
+            "author": "p...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-02-15 10:43:48",
+            "date_b": "2023-01-31 12:48:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Mam zamiar ograć Risena na Ryzenie",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17022200": {
+            "review_id": "17022200",
+            "author": "z...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-16 19:24:02",
+            "date_b": "2022-12-14 21:41:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobry stosunek cena/wydajność",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16971919": {
+            "review_id": "16971919",
+            "author": "l...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-04 09:45:17",
+            "date_b": "2022-12-28 12:11:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra jakość w dobrej cenie. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16385797": {
+            "review_id": "16385797",
+            "author": "H...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-04 00:27:13",
+            "date_b": "2022-07-18 19:40:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super sprzedawca, polecam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16302833": {
+            "review_id": "16302833",
+            "author": "b...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-11 10:46:35",
+            "date_b": "2022-06-25 12:28:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra cena co do jakości",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17268899": {
+            "review_id": "17268899",
+            "author": "j...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-15 08:36:49",
+            "date_b": "2023-02-08 09:11:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "działa jak trzeba :-)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17066487": {
+            "review_id": "17066487",
+            "author": "e...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-26 15:23:34",
+            "date_b": "2023-01-11 21:18:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa jak powinno:)",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16889114": {
+            "review_id": "16889114",
+            "author": "a...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-16 07:05:14",
+            "date_b": "2022-12-06 19:45:28",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepszy",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17088701": {
+            "review_id": "17088701",
+            "author": "p...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-01 11:27:38",
+            "date_b": "2023-01-29 18:50:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "świetny ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16847978": {
+            "review_id": "16847978",
+            "author": "j...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-07 22:58:01",
+            "date_b": "2022-11-19 00:58:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "świetny",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16517409": {
+            "review_id": "16517409",
+            "author": "n...7",
+            "recommendation": "None",
+            "is_verified": true,
+            "stars": "3",
+            "date_p": "2022-09-13 21:38:58",
+            "date_b": "2022-08-22 12:21:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor raczej do nowych płyt głównych, ze starą płytą nie zadziałał pomimo nowego i niby zgodnego biosu.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16887416": {
+            "review_id": "16887416",
+            "author": "rar",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-15 20:30:26",
+            "date_b": "2022-12-04 14:03:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16248771": {
+            "review_id": "16248771",
+            "author": "humman07",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2022-06-24 20:26:23",
+            "date_b": "2022-06-24 20:26:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przy pełnym obciążeniu wszystkie rdzenie są na 4.2GHz przy temperaturze tylko 64^C na starym spartanie, dużo szybszy niż Ryzen 1600, do tego jest zauważalnie tańszy od 5600, na zbliżonej cenie i wydajności jak i5 11400 ale nie trzeba sie kłopotać z wymianą płyty jak ktoś ma taką AM4",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        }
+    }
+}

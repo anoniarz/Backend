@@ -1,0 +1,185 @@
+{
+    "113305226": {
+        "17035062": {
+            "review_id": "17035062",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-18 22:50:15",
+            "date_b": "2023-01-01 23:33:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dual rank, 3600 MT i CL16. Kingston, więc oficjalnie wspierana przez wiele płyt głównych. Zero problemów i wyszło taniej, niż tańszy model Fury Beast. Najlepsza pamięć w tym zakresie cenowym. :-)",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16733252": {
+            "review_id": "16733252",
+            "author": "Paweł",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-10 12:27:57",
+            "date_b": "2022-11-07 02:33:00",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Spodziewałem się kości Samsunga, są Hynix DJR ale xmp działa. Póki co więcej nie kreciłem. Ale co miało być to jest",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17167939": {
+            "review_id": "17167939",
+            "author": "k...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-20 17:16:36",
+            "date_b": "2023-02-09 10:50:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta MSI tomahawk Z390, tak, ze ma ponad 3lata, bios oryginalny bez upgrade , mimo to ram dziala na 3600MHz VL16 bez zarzutu",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17067573": {
+            "review_id": "17067573",
+            "author": "j...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-26 20:07:03",
+            "date_b": "2023-01-03 20:35:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Posiadam od dwóch tygodni. Póki co, wszystko w jak najlepszym porządku.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16221083": {
+            "review_id": "16221083",
+            "author": "u...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-17 15:08:21",
+            "date_b": "2022-06-09 22:17:40",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Optymalna pamięć dla procesora ze zintegrowaną grafiką",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17005566": {
+            "review_id": "17005566",
+            "author": "p...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-11 22:58:57",
+            "date_b": "2022-11-22 11:35:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Z kośćmi wszystko w jak najlepszym porządku.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15695381": {
+            "review_id": "15695381",
+            "author": "g...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-02-12 20:25:46",
+            "date_b": "2022-01-31 00:29:08",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Wyglądają ładnie, działają jak należy.",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15634999": {
+            "review_id": "15634999",
+            "author": "k...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-01-31 14:12:45",
+            "date_b": "2022-01-05 12:56:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobre i stabilne.",
+            "pos_features": [
+                "stabilność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16600274": {
+            "review_id": "16600274",
+            "author": "w...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-06 08:38:48",
+            "date_b": "2022-09-21 11:14:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Żadnych problemów.",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15527617": {
+            "review_id": "15527617",
+            "author": "h...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-01-09 23:38:37",
+            "date_b": "2021-12-16 15:34:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super Kości! ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15464144": {
+            "review_id": "15464144",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "4.5",
+            "date_p": "2019-10-27 00:00:00",
+            "date_b": "2019-10-27 00:00:00",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "4,5/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}
