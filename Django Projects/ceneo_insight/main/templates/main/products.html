@@ -7,17 +7,17 @@
         <div class="container">
         {% csrf_token %}
         <div style="display: flex;">
-        <h2><label for="url_f">Add Product:&nbsp;</label>
+        <label for="url_f">Add Product:&nbsp;</label>
         <input type="text" id="url_f" name="url_f" required style="display: inline-block;">&nbsp;
         <button class="btn btn-outline-warning btn-sm" type="submit" style="display: inline-block;">Submit</button>
-        </div></h2></div>
+        </div></div>
     </form>
 </article>
 
 {% for product in products %}
     <article class="media content-section">
         <div class="media-body">
-            <h3>
+            
                 <div class="container">
                 <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
                     {{ product.product_name }}
@@ -44,7 +44,7 @@
                 </div>
 
 
-            </h3>
+            
         </div>
     </article>
 {% endfor %}
