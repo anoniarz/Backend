@@ -1,0 +1,41 @@
+{% include 'main/head.html' %}
+    <main role="main" class="container">
+      <div class="row">
+      <div class="col-md-2">
+          <div class="content-section">
+            <h3>Sort by:</h3>
+            <p class='text-muted'>
+
+          <ul class="list-group" style="margin-top: 10px;">
+          <a class="btn btn-outline-warning {% if sorter == 'a-z' %}active{% endif %}" href="{% url 'favourites' %}?sort=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'z-a' %}active{% endif %}" href="{% url 'favourites' %}?sort=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_price' %}active{% endif %}" href="{% url 'favourites' %}?sort=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_price' %}active{% endif %}" href="{% url 'favourites' %}?sort=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_rating' %}active{% endif %}" href="{% url 'favourites' %}?sort=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_rating' %}active{% endif %}" href="{% url 'favourites' %}?sort=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'most_reviews' %}active{% endif %}" href="{% url 'favourites' %}?sort=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'least_reviews' %}active{% endif %}" href="{% url 'favourites' %}?sort=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+          {% block content %}{% endblock %}
+        </div>
+        
+      </div>
+    </main>
+
+   
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

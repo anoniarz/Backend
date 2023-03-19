@@ -6,18 +6,19 @@
     <form method="POST" action="{% url 'add_product' %}">
         <div class="container">
         {% csrf_token %}
+        <h4>
         <div style="display: flex;">
-        <label for="url_f">Add Product:&nbsp;</label>
+        <label for="url_f">Extract Product:&nbsp;</label>
         <input type="text" id="url_f" name="url_f" required style="display: inline-block;">&nbsp;
         <button class="btn btn-outline-warning btn-sm" type="submit" style="display: inline-block;">Submit</button>
-        </div></div>
+        </div></div></h4>
     </form>
 </article>
 
 {% for product in products %}
     <article class="media content-section">
         <div class="media-body">
-            
+            <h4>
                 <div class="container">
                 <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
                     {{ product.product_name }}
@@ -42,7 +43,7 @@
                 {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                 </a>
                 </div>
-
+            </h4>
 
             
         </div>

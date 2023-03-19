@@ -50,6 +50,23 @@ vertical-align: middle;
     justify-content: right;
 }
 
+.list-group-item {
+    background-color: var(--palette-5);
+    border: 1px solid var(--palette-3);
+
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: var(--palette-2);
+}
+
+.list-group-item a:hover{
+    text-decoration: none;
+    color: var(--palette-3);
+}
+
+
 .list-group a {
     margin-bottom: 10px;
 }

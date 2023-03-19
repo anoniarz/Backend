@@ -18,7 +18,6 @@
               {% endfor %}
             </div>
           </div>  
-
           <a class="btn btn-outline-warning {% if sorter == 'a-z' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
           <a class="btn btn-outline-warning {% if sorter == 'z-a' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
           <a class="btn btn-outline-warning {% if sorter == 'highest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>

@@ -326,22 +326,6 @@ class ProductDetailView(DetailView):
         days_used = []
         for review in reviews:
             days_used.append(review.days_used)
-            # if review.days_used <= 5:
-            #     days_used.append(1)
-            # elif review.days_used <= 10:
-            #     days_used.append(5)
-            # elif review.days_used <= 15:
-            #     days_used.append(10)
-            # elif review.days_used <= 20:
-            #     days_used.append(15)
-            # elif review.days_used > 25:
-            #     days_used.append(20)
-            # elif review.days_used <= 30:
-            #     days_used.append(25)
-            # elif review.days_used <= 35:
-            #     days_used.append(30)
-            # elif review.days_used > 35:
-            #     days_used.append(35)
 
         sorter = self.request.GET.get('sort')
         if sorter == 'newest':
