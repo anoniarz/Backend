@@ -18,7 +18,7 @@
 {% for product in products %}
 <article class="media content-section">
     <div class="media-body">
-        <h4>
+        <h6>
             <div class="container">
                 <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
                     {{ product.product_name }}
@@ -41,7 +41,7 @@
                     {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-sm fa-star" style="vertical-align: middle;"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-sm fa-comment" style="vertical-align: middle;"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                 </a>
             </div>
-        </h4>
+        </h6>
     </div>
 </article>
 

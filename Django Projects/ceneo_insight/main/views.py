@@ -41,13 +41,20 @@ def scrape(link):
     flag = True
     n = 1
     ceneo_id = link_to_id(link)
+    
     if ceneo_id == "error: 1":
         return "error: 1"
+
     data = {f"{ceneo_id}": {}}
     while flag:
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
+        
+        with open("doc.html", "w", encoding="UTF-8") as fil:
+            fil.write(doc.text)
+        
+        
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
         if content == []:
@@ -221,7 +228,7 @@ def add_product(request):
             return redirect('product_reviews', product_id)
     else:
         form = Url_f()
-    return render(request, 'main/products.html', {'form': form})
+    return redirect('products')
 
 
 def home(request):
@@ -273,7 +280,7 @@ def products(request):
         user_favourites = request.user.profile.favourites.all()
         user_favourites_list = [
             product.product_id for product in user_favourites]
-
+        
     if category != "None" and category != "All":
         products = products.filter(product_category=category)
 

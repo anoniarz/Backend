@@ -44,6 +44,29 @@
         </h5>
     </div>
 </article>
-  {% endfor %}
+
+{% endfor %}
+
+{% if favourites.has_other_pages %}
+<div class="pagination">
+    {% if favourites.has_previous %}
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ favourites.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+    {% endif %}
+
+    {% for num in favourites.paginator.page_range %}
+        {% if num == favourites.number %}
+        <a class="btn btn-outline-warning mb-4 active" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+        {% elif num > favourites.number|add:'-3' and num < favourites.number|add:'3' %}
+        <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+        {% endif %}
+    {% endfor %}
+
+    {% if favourites.has_next %}
+    <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ favourites.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+    <a class="btn btn-outline-warning mb-4" href="?category={{ selected_category }}&sort={{ sorter }}&page={{ favourites.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+    {% endif %}
+</div>
+{% endif %}
 
 {% endblock content %}

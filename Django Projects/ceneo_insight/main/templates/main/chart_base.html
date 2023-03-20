@@ -11,7 +11,7 @@
         <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'highest_rated' %}active{% endif %}" href="?sort=highest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-up-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="col-md-9">
+      <div class="col-md-8">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">

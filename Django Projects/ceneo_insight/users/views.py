@@ -4,6 +4,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import logout
 from .forms import UserRegisterForm
 from .models import Profile
+from django.core.paginator import Paginator
 from main.views import Product
 
 
@@ -46,10 +47,12 @@ def favourites(request):
     elif sorter == 'lowest_price':
         favourites = favourites.order_by('product_price')
 
-    request.session['sorter'] = sorter
+    paginator = Paginator(favourites, 10)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
     context = {
-        'favourites': favourites,
+        'favourites': page_obj,
         "sorter": sorter,
     }
 
