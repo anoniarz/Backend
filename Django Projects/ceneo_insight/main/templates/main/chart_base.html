@@ -56,7 +56,7 @@
           <label for="id_neg_features">Negative features:</label><br>
           <input type="text" id="id_neg_features" name="neg_features" maxlength="100"><br>
       
-          <button type="submit">Filter</button>
+          <button class="btn btn-warning"type="submit">Filter</button>
         </form>
       </div>
       <div class="row"> 
@@ -67,13 +67,13 @@
         <button class="btn btn-warning" id="filter-btn">Filter</button>
 
         <ul class="list-group" style="margin-top: 10px;">
-        <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'highest_rated' %}active{% endif %}" href="?sort=highest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
-        <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'highest_rated' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=highest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         </ul>
         </div>
       </div>

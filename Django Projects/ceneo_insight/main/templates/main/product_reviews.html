@@ -51,25 +51,25 @@
       </div>
     </article>
   {% endfor %}
-  {{ actual_url }}
+
   {% if reviews.has_other_pages %}
   <div class="pagination">
       {% if reviews.has_previous %}
-          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
-          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
       {% endif %}
 
       {% for num in reviews.paginator.page_range %}
           {% if num == reviews.number %}
-          <a class="btn btn-outline-warning mb-4 active" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          <a class="btn btn-outline-warning mb-4 active" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% elif num > reviews.number|add:'-3' and num < reviews.number|add:'3' %}
-          <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
           {% endif %}
       {% endfor %}
 
       {% if reviews.has_next %}
-      <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
-      <a class="btn btn-outline-warning mb-4" href="?sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+      <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+      <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
       {% endif %}
   </div>
 {% endif %}
