@@ -7,6 +7,8 @@ from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f, ReviewFilterForm
 from django.views.generic import DetailView, View
+from django.db.models import Q
+
 # Scraper
 import os
 import requests
@@ -320,10 +322,7 @@ def products(request):
 
 
 
-from django.shortcuts import render
-from django.db.models import Q
-from .forms import ReviewFilterForm
-from .models import Review
+
 
 
 def filtered_reviews(request, product_id):
@@ -373,8 +372,13 @@ class ProductDetailView(DetailView):
 
         product = self.get_object()
         reviews = filtered_reviews(self.request, product.product_id)
-        days_used = []
-
+        
+        
+        filter_form = ReviewFilterForm(self.request.GET or None)
+        
+        filters = 'xx'
+        
+    
         sorter = self.request.GET.get('sort')
 
         if sorter == 'newest':
@@ -413,7 +417,8 @@ class ProductDetailView(DetailView):
             'product': product,
             'reviews': page_obj,
             'sorter': sorter,
-            'filter_form': ReviewFilterForm(self.request.GET or None),
+            'filters':  filters,
+            'filter_form': filter_form,
         }
 
         return context
