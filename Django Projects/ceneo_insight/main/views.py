@@ -5,7 +5,7 @@ from django.http import HttpResponse, Http404
 from django.contrib import messages
 from .models import Review, Product
 from datetime import datetime
-from .forms import Url_f
+from .forms import Url_f, ReviewFilterForm
 from django.views.generic import DetailView, View
 # Scraper
 import os
@@ -70,10 +70,9 @@ def scrape(link):
         except:
             name = try_or(doc.find(
                 class_="product-top__product-info__name long-name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
-
         if len(name) > 55:
             name = name.split(" ")
-            name = " ".join(name[:7])
+            name = " ".join(name[:6])
 
         rating = try_or(doc.find(
             class_="product-review").find(class_="product-review__score").get('content'))
@@ -283,7 +282,7 @@ def products(request):
         
     if category != "None" and category != "All":
         products = products.filter(product_category=category)
-
+        
     if sorter == 'a-z':
         products = products.order_by('product_name')
     elif sorter == 'z-a':
@@ -302,7 +301,7 @@ def products(request):
     elif sorter == 'lowest_price':
         products = products.order_by('product_price')
 
-    paginator = Paginator(products, 10)
+    paginator = Paginator(products, 9)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -320,21 +319,64 @@ def products(request):
     return render(request, 'main/products.html', context)
 
 
+
+from django.shortcuts import render
+from django.db.models import Q
+from .forms import ReviewFilterForm
+from .models import Review
+
+
+def filtered_reviews(request, product_id):
+    
+    queryset = Review.objects.filter(product_id = product_id)
+    form = ReviewFilterForm(request.GET or None)
+
+    if form.is_valid():
+        data = form.cleaned_data
+        stars = data.get('stars')
+        recommendation = data.get('recommendation')
+        is_verified = data.get('is_verified')
+        days_used = data.get('days_used')
+        t_up = data.get('t_up')
+        t_down = data.get('t_down')
+        pos_features = data.get('pos_features')
+        neg_features = data.get('neg_features')
+
+        if stars:
+            queryset = queryset.filter(stars=stars)
+        if recommendation:
+            queryset = queryset.filter(recommendation=recommendation)
+        if is_verified:
+            queryset = queryset.filter(is_verified=is_verified)
+        if days_used:
+            queryset = queryset.filter(days_used=days_used)
+        if t_up:
+            queryset = queryset.filter(t_up=t_up)
+        if t_down:
+            queryset = queryset.filter(t_down=t_down)
+        if pos_features:
+            queryset = queryset.filter(Q(pos_features__icontains=pos_features) |
+                                    Q(pos_features__iregex=r'\b{}\b'.format(pos_features)))
+        if neg_features:
+            queryset = queryset.filter(Q(neg_features__icontains=neg_features) |
+                 Q(neg_features__iregex=r'\b{}\b'.format(neg_features))) 
+               
+    return queryset
+
 class ProductDetailView(DetailView):
     model = Product
-    paginate_by = 7
     template_name = 'main/product_reviews.html'
 
     def get_context_data(self, **kwargs):
+        
         context = super().get_context_data(**kwargs)
 
         product = self.get_object()
-        reviews = product.reviews.all()
+        reviews = filtered_reviews(self.request, product.product_id)
         days_used = []
-        for review in reviews:
-            days_used.append(review.days_used)
 
         sorter = self.request.GET.get('sort')
+
         if sorter == 'newest':
             reviews = reviews.order_by('-date_p')
         elif sorter == 'oldest':
@@ -349,8 +391,9 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('-t_down')
         elif sorter == 'most_used':
             reviews = reviews.order_by('-days_used')
+                    
 
-        paginator = Paginator(reviews, self.paginate_by)
+        paginator = Paginator(reviews, 7)
         page_number = self.request.GET.get('page')
         page_obj = paginator.get_page(page_number)
 
@@ -358,7 +401,7 @@ class ProductDetailView(DetailView):
             sorted([x.stars for x in reviews], reverse=True))
         chart_recommendations = co.Counter(
             sorted([x.recommendation for x in reviews], reverse=True))
-        days_used = co.Counter(sorted(days_used))
+        days_used = co.Counter(sorted([x.days_used for x in reviews]))
 
         context = {
             'labels1': list(chart_stars.keys()),
@@ -370,6 +413,7 @@ class ProductDetailView(DetailView):
             'product': product,
             'reviews': page_obj,
             'sorter': sorter,
+            'filter_form': ReviewFilterForm(self.request.GET or None),
         }
 
         return context

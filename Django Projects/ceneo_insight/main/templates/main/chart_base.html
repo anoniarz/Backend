@@ -3,10 +3,18 @@
     <main role="main" class="container">
     
     <div class="row"> 
-
-      <div class="col-md-1.5">
+      <div id="filter-form" style="display: none;">
+        <form method="get">
+          {{ filter_form.as_p }}
+          <button type="submit">Filter</button>
+        </form>
+      </div>
+      <div class="col-md-2">
         <div class="content-section">
         <h3 style="margin-bottom: 10px;">Sort by:</h3>
+
+        <button class="btn btn-warning" id="filter-btn">Filter</button>
+
         <ul class="list-group" style="margin-top: 10px;">
         <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
@@ -19,7 +27,7 @@
         </div>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-7">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">
@@ -29,7 +37,7 @@
           {% endif %}
             {% block content %}{% endblock %}
       </div> 
-      <div class="col-md-2">
+      <div class="col-md-3">
           <div class="chart">
               <h4>Stars</h4>
               <canvas id="star_chart" width="600" height="600"></canvas>
@@ -47,6 +55,19 @@
     </main>
 
     <script>
+
+    const filterBtn = document.getElementById('filter-btn');
+    const filterForm = document.getElementById('filter-form');
+
+    filterBtn.addEventListener('click', () => {
+
+      if (filterForm.style.display === 'none') {
+        filterForm.style.display = 'block';
+      } else {
+        filterForm.style.display = 'none';
+      }
+    });
+
       Chart.defaults.borderColor = '#36A2EB';
       Chart.defaults.color = 'white';
 
@@ -115,7 +136,7 @@
                   autoSkip: true,
                   maxTicksLimit: 5,
               },
-          tension: 0.2,
+          tension: 0.5,
           plugins: {
             legend: {
               display: false
