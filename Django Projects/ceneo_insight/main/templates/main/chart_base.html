@@ -2,13 +2,64 @@
 
     <main role="main" class="container">
     
-    <div class="row"> 
+    
       <div id="filter-form" style="display: none;">
         <form method="get">
-          {{ filter_form.as_p }}
+          <label>Stars:</label><br>
+<input type="checkbox" id="id_stars0" name="stars" value="0.0">
+<label for="id_stars0">0.0</label><br>
+<input type="checkbox" id="id_stars1" name="stars" value="0.5">
+<label for="id_stars1">0.5</label><br>
+<input type="checkbox" id="id_stars2" name="stars" value="1.0">
+<label for="id_stars2">1.0</label><br>
+<input type="checkbox" id="id_stars3" name="stars" value="1.5">
+<label for="id_stars3">1.5</label><br>
+<input type="checkbox" id="id_stars4" name="stars" value="2.0">
+<label for="id_stars4">2.0</label><br>
+<input type="checkbox" id="id_stars5" name="stars" value="2.5">
+<label for="id_stars5">2.5</label><br>
+<input type="checkbox" id="id_stars6" name="stars" value="3.0">
+<label for="id_stars6">3.0</label><br>
+<input type="checkbox" id="id_stars7" name="stars" value="3.5">
+<label for="id_stars7">3.5</label><br>
+<input type="checkbox" id="id_stars8" name="stars" value="4.0">
+<label for="id_stars8">4.0</label><br>
+<input type="checkbox" id="id_stars9" name="stars" value="4.5">
+<label for="id_stars9">4.5</label><br>
+<input type="checkbox" id="id_stars10" name="stars" value="5.0">
+<label for="id_stars10">5.0</label><br>
+      
+          <label for="id_recommendation">Recommendation:</label><br>
+          <input type="checkbox" id="id_recommendation" name="recommendation" value="True">
+          <label for="id_recommendation">Yes</label><br>
+          <input type="checkbox" id="id_recommendation" name="recommendation" value="False">
+          <label for="id_recommendation">No</label><br>
+      
+          <label for="id_is_verified">Verified:</label><br>
+          <input type="checkbox" id="id_is_verified" name="is_verified" value="True">
+          <label for="id_is_verified">Yes</label><br>
+          <input type="checkbox" id="id_is_verified" name="is_verified" value="False">
+          <label for="id_is_verified">No</label><br>
+      
+          <label for="id_days_used">Days used:</label><br>
+          <input type="number" id="id_days_used" name="days_used" min="0" step="1"><br>
+      
+          <label for="id_t_up">Thumbs up:</label><br>
+          <input type="number" id="id_t_up" name="t_up" min="0" step="1"><br>
+      
+          <label for="id_t_down">Thumbs down:</label><br>
+          <input type="number" id="id_t_down" name="t_down" min="0" step="1"><br>
+      
+          <label for="id_pos_features">Positive features:</label><br>
+          <input type="text" id="id_pos_features" name="pos_features" maxlength="100"><br>
+      
+          <label for="id_neg_features">Negative features:</label><br>
+          <input type="text" id="id_neg_features" name="neg_features" maxlength="100"><br>
+      
           <button type="submit">Filter</button>
         </form>
       </div>
+      <div class="row"> 
       <div class="col-md-2">
         <div class="content-section">
         <h3 style="margin-bottom: 10px;">Sort by:</h3>

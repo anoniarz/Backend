@@ -35,6 +35,24 @@ li.no-bullets {
     margin: 0;
 }
 
+
+.hidden {
+  display: none;
+}
+
+#filter-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  z-index: 9999;
+}
+
+
+
 .float-right {
     float: right;
     margin-left: 10px;

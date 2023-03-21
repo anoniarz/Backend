@@ -320,49 +320,6 @@ def products(request):
     return render(request, 'main/products.html', context)
 
 
-def filtered_reviews(request, product_id):
-
-    queryset = Review.objects.filter(product_id=product_id)
-    form = ReviewFilterForm(request.GET or None)
-
-    if form.is_valid():
-        data = form.cleaned_data
-        stars = data.get('stars')
-        recommendation = data.get('recommendation')
-        is_verified = data.get('is_verified')
-        days_used = data.get('days_used')
-        t_up = data.get('t_up')
-        t_down = data.get('t_down')
-        pos_features = data.get('pos_features')
-        neg_features = data.get('neg_features')
-
-        if stars:
-            for i in range(len(stars)):
-                if float(stars[i]) % 1 == 0:
-                    stars[i] = str(stars[i])[0]
-            print(stars)
-            queryset = queryset.filter(stars__in=stars)
-
-        if recommendation:
-            queryset = queryset.filter(recommendation=recommendation)
-        if is_verified:
-            queryset = queryset.filter(is_verified=is_verified)
-        if days_used:
-            queryset = queryset.filter(days_used=days_used)
-        if t_up:
-            queryset = queryset.filter(t_up=t_up)
-        if t_down:
-            queryset = queryset.filter(t_down=t_down)
-        if pos_features:
-            queryset = queryset.filter(Q(pos_features__icontains=pos_features) |
-                                       Q(pos_features__iregex=r'\b{}\b'.format(pos_features)))
-        if neg_features:
-            queryset = queryset.filter(Q(neg_features__icontains=neg_features) |
-                                       Q(neg_features__iregex=r'\b{}\b'.format(neg_features)))
-
-    return queryset
-
-
 class ProductDetailView(DetailView):
     model = Product
     template_name = 'main/product_reviews.html'
@@ -370,13 +327,43 @@ class ProductDetailView(DetailView):
     def get_context_data(self, **kwargs):
 
         context = super().get_context_data(**kwargs)
-
+        actual_url = self.request.path
         product = self.get_object()
-        reviews = filtered_reviews(self.request, product.product_id)
+        reviews = Review.objects.filter(product_id=product.product_id)
+        form = ReviewFilterForm(self.request.GET or None)
 
-        filter_form = ReviewFilterForm(self.request.GET or None)
+        if form.is_valid():
+            data = form.cleaned_data
+            stars = data.get('stars')
+            recommendation = data.get('recommendation')
+            is_verified = data.get('is_verified')
+            days_used = data.get('days_used')
+            t_up = data.get('t_up')
+            t_down = data.get('t_down')
+            pos_features = data.get('pos_features')
+            neg_features = data.get('neg_features')
 
-        filters = 'xx'
+            if stars:
+                for i in range(len(stars)):
+                    if float(stars[i]) % 1 == 0:
+                        stars[i] = str(stars[i])[0]
+                reviews = reviews.filter(stars__in=stars)
+
+            if recommendation:
+                reviews = reviews.filter(recommendation__in=recommendation)
+            if is_verified:
+                reviews = reviews.filter(is_verified=is_verified)
+            if days_used:
+                reviews = reviews.filter(days_used=days_used)
+            if t_up:
+                reviews = reviews.filter(t_up=t_up)
+            if t_down:
+                reviews = reviews.filter(t_down=t_down)
+            if pos_features:
+                reviews = reviews.filter()
+            if neg_features:
+                reviews = reviews.filter(Q(neg_features__icontains=neg_features) |
+                                         Q(neg_features__iregex=r'\b{}\b'.format(neg_features)))
 
         sorter = self.request.GET.get('sort')
 
@@ -415,8 +402,8 @@ class ProductDetailView(DetailView):
             'product': product,
             'reviews': page_obj,
             'sorter': sorter,
-            'filters':  filters,
-            'filter_form': filter_form,
+            'filter_form': form,
+            'actual_url': actual_url,
         }
 
         return context
