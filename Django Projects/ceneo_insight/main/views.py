@@ -334,8 +334,11 @@ class ProductDetailView(DetailView):
         recommend_options = sorted(set([x.recommendation for x in reviews]))
 
         form = ReviewFilterForm(self.request.GET or None)
+
         if form.is_valid():
+
             data = form.cleaned_data
+
             stars = data.get('stars')
             recommendation = data.get('recommendation')
             is_verified = data.get('is_verified')
@@ -356,17 +359,17 @@ class ProductDetailView(DetailView):
             if is_verified:
                 reviews = reviews.filter(is_verified=is_verified)
             if days_used:
-                reviews = reviews.filter(days_used=days_used)
+                reviews = reviews.filter(days_used__gte=days_used)
             if t_up:
                 reviews = reviews.filter(t_up=t_up)
             if t_down:
                 reviews = reviews.filter(t_down=t_down)
             if pos_features:
-                reviews = [r for r in reviews if len(
-                    r.pos_features) >= pos_features]
+                reviews = reviews.filter(
+                    Q(pos_features__size__gte=pos_features))
             if neg_features:
-                reviews = [r for r in reviews if len(
-                    r.neg_features) <= neg_features]
+                reviews = reviews.filter(
+                    Q(neg_features__size__lte=neg_features))
 
         sorter = self.request.GET.get('sort')
 
@@ -384,6 +387,12 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('-t_down')
         elif sorter == 'most_used':
             reviews = reviews.order_by('-days_used')
+        elif sorter == 'pos_features':
+            reviews = sorted(
+                reviews, key=lambda p: len(p.pos_features), reverse=True)
+        elif sorter == 'neg_features':
+            reviews = sorted(
+                reviews, key=lambda p: len(p.neg_features), reverse=True)
 
         paginator = Paginator(reviews, 7)
         page_number = self.request.GET.get('page')

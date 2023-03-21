@@ -1,55 +1,55 @@
 {% include 'main/head.html' %}
 
-<div id="filter-form" style="display: none;">
-  <form method="get">
-    <h5><label><i class="fa-solid fa-filter">&nbsp;</i>Filter by:</label><br></h5>
-
-    <label>Stars:</label><br>
-    {% for number in stars_numbers %}
-          <input type="checkbox" id="id_stars{{ number }}" name="stars" value="{{ number }}">
-          <label for="id_stars{{ number }}">{{ number }}</label>
-          {% if forloop.counter0 == 2 %}<br>{% endif %}
-          {% if forloop.counter0 == 5 %}<br>{% endif %}
-          {% if forloop.counter0 == 8 %}<br>{% endif %}
-    {% endfor %}<br>
-    
-    <label for="id_recommendation">Does Recommend:</label><br>
-
-    {% for option in recommend_options %}
-    <label for="id_recommendation">{{ option }}</label>
-    <input type="checkbox" id="id_recommendation" name="recommendation" value='{{ option }}'>&nbsp;&nbsp;
-    {% endfor %}<br><br>
-    
-    <label for="id_is_verified">Verified</label>
-    <input type="checkbox" id="id_is_verified" name="is_verified" value="True"><br><br>
-
-    <label for="id_days_used">Min Days used:</label>
-    <input type="number" id="id_days_used" name="days_used" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
-
-    <label for="id_t_up">Min Thumbs up:</label>
-    <input type="number" id="id_t_up" name="t_up" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
-
-    <label for="id_t_down">Max Thumbs down:</label>
-    <input type="number" id="id_t_down" name="t_down" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
-
-    <label for="id_pos_features">Min Positive features:</label>
-    <input type="number" id="id_pos_features" name="pos_features" style="max-width: 20%;" class="float-right"><br><br>
-
-    <label for="id_neg_features">Max Negative features:</label>
-    <input type="number" id="id_neg_features" name="neg_features" style="max-width: 20%;" class="float-right"><br><br>
-
-    <button class="btn btn-warning"type="submit">Filter</button>
-  </form>
-</div>
-
     <main role="main" class="container">
 
-      <div class="row"> 
-      <div class="col-md-1">
-        <div class="content-section" style="position: fixed;">
-        <h3 style="margin-bottom: 10px;">Sort by:</h3>
+      <div id="filter-form" style="display: none;">
+        <form method="get">
+          <h5><label><i class="fa-solid fa-filter">&nbsp;</i>Filter by:</label><br></h5>
+      
+          <label>Stars:</label><br>
+          {% for number in stars_numbers %}
+                <input type="checkbox" id="id_stars{{ number }}" name="stars" value="{{ number }}">
+                <label for="id_stars{{ number }}">{{ number }}</label>
+                {% if forloop.counter0 == 2 %}<br>{% endif %}
+                {% if forloop.counter0 == 5 %}<br>{% endif %}
+                {% if forloop.counter0 == 8 %}<br>{% endif %}
+          {% endfor %}<br>
+          
+          <label for="id_recommendation">Does Recommend:</label><br>
+      
+          {% for option in recommend_options %}
+          <label for="id_recommendation">{{ option }}</label>
+          <input type="checkbox" id="id_recommendation" name="recommendation" value='{{ option }}'>&nbsp;&nbsp;
+          {% endfor %}<br><br>
+          
+          <label for="id_is_verified">Verified</label>
+          <input type="checkbox" id="id_is_verified" name="is_verified" value="True"><br><br>
+      
+          <label for="id_days_used">Min Days used:</label>
+          <input type="number" id="id_days_used" name="days_used" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_t_up">Min Thumbs up:</label>
+          <input type="number" id="id_t_up" name="t_up" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_t_down">Max Thumbs down:</label>
+          <input type="number" id="id_t_down" name="t_down" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_pos_features">Min Positive features:</label>
+          <input type="number" id="id_pos_features" name="pos_features" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_neg_features">Max Negative features:</label>
+          <input type="number" id="id_neg_features" name="neg_features" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <button class="btn btn-warning"type="submit">Filter</button>
+        </form>
+      </div>
 
-        <button class="btn btn-warning" id="filter-btn">Filters</button>
+      <div class="row"> 
+      <div class="col-md-2">
+        <div class="content-section" >
+        <h3 style="margin-bottom: 10px;">Sort by:</h3>
+        <button class="btn btn-warning" id="filter-btn"><i class="fa-solid fa-filter">&nbsp;</i>Filters</button>
+        <a class="btn btn-outline-warning float-right" href="{% url 'product_reviews' product.pk %}?sort={{ sorter }}">Reset&nbsp;<i class="fa-solid fa-filter"></i></a>
 
         <ul class="list-group" style="margin-top: 10px;">
         <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
@@ -59,6 +59,8 @@
         <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'pos_features' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=pos_features">Positive Features&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'neg_features' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=neg_features">Negative Features&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
         </ul>
         </div>
       </div>
@@ -73,7 +75,7 @@
           {% endif %}
             {% block content %}{% endblock %}
       </div> 
-      <div class="col-md-3">
+      <div class="col-md-2">
           <div class="chart">
               <h4>Stars</h4>
               <canvas id="star_chart" width="600" height="600"></canvas>
