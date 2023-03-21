@@ -3,14 +3,17 @@ from django import forms
 
 class Url_f(forms.Form):
     url_f = forms.CharField(label="Enter your string", max_length=55)
-    
-    
+
+
 class ReviewFilterForm(forms.Form):
-    stars = forms.IntegerField(required=False)
-    recommendation = forms.ChoiceField(choices=[(True, 'Yes'), (False, 'No')], required=False)
-    is_verified = forms.ChoiceField(choices=[(True, 'Yes'), (False, 'No')], required=False)
+    STARS_CHOICES = [(i/2, f"{i/2}") for i in range(0, 11)]
+    stars = forms.MultipleChoiceField(
+        choices=STARS_CHOICES, required=False, widget=forms.CheckboxSelectMultiple)
+    recommendation = forms.MultipleChoiceField(
+        choices=[('True', 'Yes'), ('False', 'No'), ('None', 'None')], required=False, widget=forms.CheckboxSelectMultiple)
+    is_verified = forms.BooleanField(required=False)
     days_used = forms.IntegerField(required=False)
     t_up = forms.IntegerField(required=False)
     t_down = forms.IntegerField(required=False)
-    pos_features = forms.CharField(max_length=100, required=False)
-    neg_features = forms.CharField(max_length=100, required=False)
+    pos_features = forms.IntegerField(required=False)
+    neg_features = forms.IntegerField(required=False)

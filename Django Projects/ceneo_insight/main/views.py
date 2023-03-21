@@ -43,7 +43,7 @@ def scrape(link):
     flag = True
     n = 1
     ceneo_id = link_to_id(link)
-    
+
     if ceneo_id == "error: 1":
         return "error: 1"
 
@@ -52,11 +52,10 @@ def scrape(link):
         URL = f"https://www.ceneo.pl/{ceneo_id}/opinie-{n}"
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
-        
+
         with open("doc.html", "w", encoding="UTF-8") as fil:
             fil.write(doc.text)
-        
-        
+
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
         if content == []:
@@ -281,10 +280,10 @@ def products(request):
         user_favourites = request.user.profile.favourites.all()
         user_favourites_list = [
             product.product_id for product in user_favourites]
-        
+
     if category != "None" and category != "All":
         products = products.filter(product_category=category)
-        
+
     if sorter == 'a-z':
         products = products.order_by('product_name')
     elif sorter == 'z-a':
@@ -321,13 +320,9 @@ def products(request):
     return render(request, 'main/products.html', context)
 
 
-
-
-
-
 def filtered_reviews(request, product_id):
-    
-    queryset = Review.objects.filter(product_id = product_id)
+
+    queryset = Review.objects.filter(product_id=product_id)
     form = ReviewFilterForm(request.GET or None)
 
     if form.is_valid():
@@ -342,7 +337,12 @@ def filtered_reviews(request, product_id):
         neg_features = data.get('neg_features')
 
         if stars:
-            queryset = queryset.filter(stars=stars)
+            for i in range(len(stars)):
+                if float(stars[i]) % 1 == 0:
+                    stars[i] = str(stars[i])[0]
+            print(stars)
+            queryset = queryset.filter(stars__in=stars)
+
         if recommendation:
             queryset = queryset.filter(recommendation=recommendation)
         if is_verified:
@@ -355,30 +355,29 @@ def filtered_reviews(request, product_id):
             queryset = queryset.filter(t_down=t_down)
         if pos_features:
             queryset = queryset.filter(Q(pos_features__icontains=pos_features) |
-                                    Q(pos_features__iregex=r'\b{}\b'.format(pos_features)))
+                                       Q(pos_features__iregex=r'\b{}\b'.format(pos_features)))
         if neg_features:
             queryset = queryset.filter(Q(neg_features__icontains=neg_features) |
-                 Q(neg_features__iregex=r'\b{}\b'.format(neg_features))) 
-               
+                                       Q(neg_features__iregex=r'\b{}\b'.format(neg_features)))
+
     return queryset
+
 
 class ProductDetailView(DetailView):
     model = Product
     template_name = 'main/product_reviews.html'
 
     def get_context_data(self, **kwargs):
-        
+
         context = super().get_context_data(**kwargs)
 
         product = self.get_object()
         reviews = filtered_reviews(self.request, product.product_id)
-        
-        
+
         filter_form = ReviewFilterForm(self.request.GET or None)
-        
+
         filters = 'xx'
-        
-    
+
         sorter = self.request.GET.get('sort')
 
         if sorter == 'newest':
@@ -395,7 +394,6 @@ class ProductDetailView(DetailView):
             reviews = reviews.order_by('-t_down')
         elif sorter == 'most_used':
             reviews = reviews.order_by('-days_used')
-                    
 
         paginator = Paginator(reviews, 7)
         page_number = self.request.GET.get('page')
