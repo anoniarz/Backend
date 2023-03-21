@@ -41,17 +41,19 @@ li.no-bullets {
 }
 
 #filter-form {
+  position: sticky;
+  margin-top: 29px;
+    top: 29.7%;
+  left: 5.2%;
   position: fixed;
-  top: 43%;
-  left: 5%;
+
   transform: translate(-50%, -50%);
   background-color: var(--palette-5);
   border: 1px solid var(--palette-3);
   padding: 20px;
   z-index: 9999;
+  max-width: 260px;
 }
-
-
 
 .float-right {
     float: right;

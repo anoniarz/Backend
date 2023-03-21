@@ -327,11 +327,13 @@ class ProductDetailView(DetailView):
     def get_context_data(self, **kwargs):
 
         context = super().get_context_data(**kwargs)
-        actual_url = self.request.path
         product = self.get_object()
         reviews = Review.objects.filter(product_id=product.product_id)
-        form = ReviewFilterForm(self.request.GET or None)
 
+        stars_numbers = sorted(set([float(x.stars) for x in reviews]))
+        recommend_options = sorted(set([x.recommendation for x in reviews]))
+
+        form = ReviewFilterForm(self.request.GET or None)
         if form.is_valid():
             data = form.cleaned_data
             stars = data.get('stars')
@@ -360,10 +362,11 @@ class ProductDetailView(DetailView):
             if t_down:
                 reviews = reviews.filter(t_down=t_down)
             if pos_features:
-                reviews = reviews.filter()
+                reviews = [r for r in reviews if len(
+                    r.pos_features) >= pos_features]
             if neg_features:
-                reviews = reviews.filter(Q(neg_features__icontains=neg_features) |
-                                         Q(neg_features__iregex=r'\b{}\b'.format(neg_features)))
+                reviews = [r for r in reviews if len(
+                    r.neg_features) <= neg_features]
 
         sorter = self.request.GET.get('sort')
 
@@ -403,7 +406,8 @@ class ProductDetailView(DetailView):
             'reviews': page_obj,
             'sorter': sorter,
             'filter_form': form,
-            'actual_url': actual_url,
+            'stars_numbers': stars_numbers,
+            'recommend_options': recommend_options,
         }
 
         return context

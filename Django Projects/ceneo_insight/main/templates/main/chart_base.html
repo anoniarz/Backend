@@ -1,70 +1,55 @@
 {% include 'main/head.html' %}
 
+<div id="filter-form" style="display: none;">
+  <form method="get">
+    <h5><label><i class="fa-solid fa-filter">&nbsp;</i>Filter by:</label><br></h5>
+
+    <label>Stars:</label><br>
+    {% for number in stars_numbers %}
+          <input type="checkbox" id="id_stars{{ number }}" name="stars" value="{{ number }}">
+          <label for="id_stars{{ number }}">{{ number }}</label>
+          {% if forloop.counter0 == 2 %}<br>{% endif %}
+          {% if forloop.counter0 == 5 %}<br>{% endif %}
+          {% if forloop.counter0 == 8 %}<br>{% endif %}
+    {% endfor %}<br>
+    
+    <label for="id_recommendation">Does Recommend:</label><br>
+
+    {% for option in recommend_options %}
+    <label for="id_recommendation">{{ option }}</label>
+    <input type="checkbox" id="id_recommendation" name="recommendation" value='{{ option }}'>&nbsp;&nbsp;
+    {% endfor %}<br><br>
+    
+    <label for="id_is_verified">Verified</label>
+    <input type="checkbox" id="id_is_verified" name="is_verified" value="True"><br><br>
+
+    <label for="id_days_used">Min Days used:</label>
+    <input type="number" id="id_days_used" name="days_used" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+
+    <label for="id_t_up">Min Thumbs up:</label>
+    <input type="number" id="id_t_up" name="t_up" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+
+    <label for="id_t_down">Max Thumbs down:</label>
+    <input type="number" id="id_t_down" name="t_down" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+
+    <label for="id_pos_features">Min Positive features:</label>
+    <input type="number" id="id_pos_features" name="pos_features" style="max-width: 20%;" class="float-right"><br><br>
+
+    <label for="id_neg_features">Max Negative features:</label>
+    <input type="number" id="id_neg_features" name="neg_features" style="max-width: 20%;" class="float-right"><br><br>
+
+    <button class="btn btn-warning"type="submit">Filter</button>
+  </form>
+</div>
+
     <main role="main" class="container">
-    
-    
-      <div id="filter-form" style="display: none;">
-        <form method="get">
-          <label>Stars:</label><br>
-<input type="checkbox" id="id_stars0" name="stars" value="0.0">
-<label for="id_stars0">0.0</label><br>
-<input type="checkbox" id="id_stars1" name="stars" value="0.5">
-<label for="id_stars1">0.5</label><br>
-<input type="checkbox" id="id_stars2" name="stars" value="1.0">
-<label for="id_stars2">1.0</label><br>
-<input type="checkbox" id="id_stars3" name="stars" value="1.5">
-<label for="id_stars3">1.5</label><br>
-<input type="checkbox" id="id_stars4" name="stars" value="2.0">
-<label for="id_stars4">2.0</label><br>
-<input type="checkbox" id="id_stars5" name="stars" value="2.5">
-<label for="id_stars5">2.5</label><br>
-<input type="checkbox" id="id_stars6" name="stars" value="3.0">
-<label for="id_stars6">3.0</label><br>
-<input type="checkbox" id="id_stars7" name="stars" value="3.5">
-<label for="id_stars7">3.5</label><br>
-<input type="checkbox" id="id_stars8" name="stars" value="4.0">
-<label for="id_stars8">4.0</label><br>
-<input type="checkbox" id="id_stars9" name="stars" value="4.5">
-<label for="id_stars9">4.5</label><br>
-<input type="checkbox" id="id_stars10" name="stars" value="5.0">
-<label for="id_stars10">5.0</label><br>
-      
-          <label for="id_recommendation">Recommendation:</label><br>
-          <input type="checkbox" id="id_recommendation" name="recommendation" value="True">
-          <label for="id_recommendation">Yes</label><br>
-          <input type="checkbox" id="id_recommendation" name="recommendation" value="False">
-          <label for="id_recommendation">No</label><br>
-      
-          <label for="id_is_verified">Verified:</label><br>
-          <input type="checkbox" id="id_is_verified" name="is_verified" value="True">
-          <label for="id_is_verified">Yes</label><br>
-          <input type="checkbox" id="id_is_verified" name="is_verified" value="False">
-          <label for="id_is_verified">No</label><br>
-      
-          <label for="id_days_used">Days used:</label><br>
-          <input type="number" id="id_days_used" name="days_used" min="0" step="1"><br>
-      
-          <label for="id_t_up">Thumbs up:</label><br>
-          <input type="number" id="id_t_up" name="t_up" min="0" step="1"><br>
-      
-          <label for="id_t_down">Thumbs down:</label><br>
-          <input type="number" id="id_t_down" name="t_down" min="0" step="1"><br>
-      
-          <label for="id_pos_features">Positive features:</label><br>
-          <input type="text" id="id_pos_features" name="pos_features" maxlength="100"><br>
-      
-          <label for="id_neg_features">Negative features:</label><br>
-          <input type="text" id="id_neg_features" name="neg_features" maxlength="100"><br>
-      
-          <button class="btn btn-warning"type="submit">Filter</button>
-        </form>
-      </div>
+
       <div class="row"> 
-      <div class="col-md-2">
-        <div class="content-section">
+      <div class="col-md-1">
+        <div class="content-section" style="position: fixed;">
         <h3 style="margin-bottom: 10px;">Sort by:</h3>
 
-        <button class="btn btn-warning" id="filter-btn">Filter</button>
+        <button class="btn btn-warning" id="filter-btn">Filters</button>
 
         <ul class="list-group" style="margin-top: 10px;">
         <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
@@ -78,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-md-7">
+      <div class="col-md-8">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">
