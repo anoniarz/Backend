@@ -18,6 +18,29 @@
             ],
             "neg_features": []
         },
+        "17301031": {
+            "review_id": "17301031",
+            "author": "arek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-22 08:55:51",
+            "date_b": "2023-03-08 10:10:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor AMD Ryzen 5 5600 jest świetnym wyborem dla osób szukających wydajnego procesora do użytku domowego, pracy biurowej oraz do grania. Zegar podbija do 4,45 GHz oraz 6 rdzeni i 12 wątków zapewniają bardzo dobrą wydajność.",
+            "pos_features": [
+                "głośność pracy",
+                "nie grzeje się",
+                "niezłe oc",
+                "odblokowany mnożnik",
+                "pobiera mało prądu",
+                "stabilność",
+                "wydajność",
+                "wydajny"
+            ],
+            "neg_features": []
+        },
         "16698657": {
             "review_id": "16698657",
             "author": "m...1",

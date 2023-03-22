@@ -2325,6 +2325,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "17297740": {
+            "review_id": "17297740",
+            "author": "g...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-21 16:55:10",
+            "date_b": "2023-03-07 18:45:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bezproblemowa aktywacja",
+            "pos_features": [],
+            "neg_features": []
+        },
         "17201031": {
             "review_id": "17201031",
             "author": "r...k",
@@ -2451,6 +2465,20 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "według opisu sprzedawcy",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17297938": {
+            "review_id": "17297938",
+            "author": "s...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-03-21 17:48:01",
+            "date_b": "2023-03-07 22:06:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Profesjonalny program ",
             "pos_features": [],
             "neg_features": []
         },
@@ -2681,6 +2709,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "17057485": {
+            "review_id": "17057485",
+            "author": "a...k",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "0.5",
+            "date_p": "2023-01-25 00:04:57",
+            "date_b": "2023-01-01 13:22:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Produkt niestety już był wykorzystany, musiałam aktualizować telefonicznie, a dodzwonić się do Microsoft nie jest łatwo.",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16569527": {
             "review_id": "16569527",
             "author": "k...a",
@@ -2710,20 +2752,6 @@
                 "najnowsze",
                 "wygodne"
             ],
-            "neg_features": []
-        },
-        "17057485": {
-            "review_id": "17057485",
-            "author": "a...k",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "0.5",
-            "date_p": "2023-01-25 00:04:57",
-            "date_b": "2023-01-01 13:22:51",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "Produkt niestety już był wykorzystany, musiałam aktualizować telefonicznie, a dodzwonić się do Microsoft nie jest łatwo.",
-            "pos_features": [],
             "neg_features": []
         },
         "17211425": {
@@ -2973,6 +3001,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "16895702": {
+            "review_id": "16895702",
+            "author": "k...r",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "0.5",
+            "date_p": "2022-12-17 08:30:36",
+            "date_b": "2022-12-03 09:20:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kody nie do wykorzystania. Są to kody już wykorzystane wcześniej. Brak informacji w trakcie zamawiania. Nie polecam. ",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16839999": {
             "review_id": "16839999",
             "author": "l...i",
@@ -2998,20 +3040,6 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "Wszystko jest Ok ",
-            "pos_features": [],
-            "neg_features": []
-        },
-        "16895702": {
-            "review_id": "16895702",
-            "author": "k...r",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "0.5",
-            "date_p": "2022-12-17 08:30:36",
-            "date_b": "2022-12-03 09:20:32",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "Kody nie do wykorzystania. Są to kody już wykorzystane wcześniej. Brak informacji w trakcie zamawiania. Nie polecam. ",
             "pos_features": [],
             "neg_features": []
         },
@@ -3519,6 +3547,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "17293238": {
+            "review_id": "17293238",
+            "author": "k...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-03-20 20:50:55",
+            "date_b": "2023-02-20 22:50:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok \n",
+            "pos_features": [],
+            "neg_features": []
+        },
         "17254196": {
             "review_id": "17254196",
             "author": "o...k",
@@ -3687,6 +3729,20 @@
             ],
             "neg_features": []
         },
+        "16741393": {
+            "review_id": "16741393",
+            "author": "s...k",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "1",
+            "date_p": "2022-11-13 23:32:52",
+            "date_b": "2022-10-23 12:20:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Niestety tak jak przypuszczałem , licencja do wyrzucenia , nie ma możliwości rejestracji telefonicznej pakietu . ",
+            "pos_features": [],
+            "neg_features": []
+        },
         "17233742": {
             "review_id": "17233742",
             "author": "z...k",
@@ -3726,20 +3782,6 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "bardzo dobry",
-            "pos_features": [],
-            "neg_features": []
-        },
-        "16741393": {
-            "review_id": "16741393",
-            "author": "s...k",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "1",
-            "date_p": "2022-11-13 23:32:52",
-            "date_b": "2022-10-23 12:20:35",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "Niestety tak jak przypuszczałem , licencja do wyrzucenia , nie ma możliwości rejestracji telefonicznej pakietu . ",
             "pos_features": [],
             "neg_features": []
         },
@@ -3895,6 +3937,24 @@
             "t_down": "0",
             "opinion": "Niesamowity.",
             "pos_features": [],
+            "neg_features": []
+        },
+        "17293862": {
+            "review_id": "17293862",
+            "author": "Jurek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-03-20 22:35:27",
+            "date_b": "2023-03-08 20:31:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko OK",
+            "pos_features": [
+                "chyba oryginalnie",
+                "tanio",
+                "wygodne"
+            ],
             "neg_features": []
         },
         "17212588": {
@@ -4237,6 +4297,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "16655941": {
+            "review_id": "16655941",
+            "author": "m...y",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "1",
+            "date_p": "2022-10-20 13:10:09",
+            "date_b": "2022-10-10 17:52:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dzień dobry, niestety nie udało mi się zalogować. \nObecnie przebywam za granicą. Skontaktuje się z Państwem. ",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16926826": {
             "review_id": "16926826",
             "author": "r79",
@@ -4290,20 +4364,6 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super. ",
-            "pos_features": [],
-            "neg_features": []
-        },
-        "16655941": {
-            "review_id": "16655941",
-            "author": "m...y",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "1",
-            "date_p": "2022-10-20 13:10:09",
-            "date_b": "2022-10-10 17:52:37",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "Dzień dobry, niestety nie udało mi się zalogować. \nObecnie przebywam za granicą. Skontaktuje się z Państwem. ",
             "pos_features": [],
             "neg_features": []
         },
@@ -4504,6 +4564,25 @@
             "t_down": "0",
             "opinion": "Działa ",
             "pos_features": [],
+            "neg_features": []
+        },
+        "17293618": {
+            "review_id": "17293618",
+            "author": "Robert",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-20 21:40:42",
+            "date_b": "2023-02-27 18:49:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa",
+            "pos_features": [
+                "chyba oryginalnie",
+                "najnowsze",
+                "tanio",
+                "wygodne"
+            ],
             "neg_features": []
         },
         "17255038": {
@@ -4789,6 +4868,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "17024606": {
+            "review_id": "17024606",
+            "author": "p...r",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "0.5",
+            "date_p": "2023-01-17 09:52:28",
+            "date_b": "2023-01-02 10:12:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "produkt zakupiony nie działa, uzywany i instalowany na innym sprzecie. Na wiadomosci nikt nie odpowiada. ",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16997648": {
             "review_id": "16997648",
             "author": "t...a",
@@ -4856,20 +4949,6 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "Super",
-            "pos_features": [],
-            "neg_features": []
-        },
-        "17024606": {
-            "review_id": "17024606",
-            "author": "p...r",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "0.5",
-            "date_p": "2023-01-17 09:52:28",
-            "date_b": "2023-01-02 10:12:30",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "produkt zakupiony nie działa, uzywany i instalowany na innym sprzecie. Na wiadomosci nikt nie odpowiada. ",
             "pos_features": [],
             "neg_features": []
         },
@@ -5279,6 +5358,62 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "oky",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17299649": {
+            "review_id": "17299649",
+            "author": "l...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-21 22:09:49",
+            "date_b": "2023-03-12 20:00:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17298767": {
+            "review_id": "17298767",
+            "author": "Robert",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-21 20:36:39",
+            "date_b": "2023-02-28 23:30:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17295769": {
+            "review_id": "17295769",
+            "author": "v...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-21 11:06:38",
+            "date_b": "2023-03-18 12:54:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "aa",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17292598": {
+            "review_id": "17292598",
+            "author": "s...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-20 19:20:16",
+            "date_b": "2023-02-27 22:02:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
             "pos_features": [],
             "neg_features": []
         },
@@ -6709,6 +6844,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "16580828": {
+            "review_id": "16580828",
+            "author": "f...f",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "0.5",
+            "date_p": "2022-09-30 15:50:37",
+            "date_b": "2022-09-29 16:40:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nie otrzymałem towaru",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16621990": {
             "review_id": "16621990",
             "author": "g...p",
@@ -6723,17 +6872,17 @@
             "pos_features": [],
             "neg_features": []
         },
-        "16580828": {
-            "review_id": "16580828",
-            "author": "f...f",
-            "recommendation": "False",
-            "is_verified": true,
-            "stars": "0.5",
-            "date_p": "2022-09-30 15:50:37",
-            "date_b": "2022-09-29 16:40:45",
+        "17078276": {
+            "review_id": "17078276",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2023-01-30 10:23:46",
+            "date_b": "2023-01-30 10:23:46",
             "t_up": "0",
             "t_down": "0",
-            "opinion": "Nie otrzymałem towaru",
+            "opinion": "Działa poprawnie. POLECAM. wystarczy postepowac dokladnie tak jak w instrukcji",
             "pos_features": [],
             "neg_features": []
         },
@@ -6846,20 +6995,6 @@
             "t_up": "0",
             "t_down": "0",
             "opinion": "ściema i oszustwo maja moze licencje jedną na kilka komputerów i działa taki klucz moze 3 miesiące aż klucz nie zostanie przepisany do następnego urządzenia. Wtedy nowy klient nabywa dostęp do programu a stary klient traci dostęp i tak sprzedaje się ten sam klucz ludziom cały czas. Niby na całe źycie a tak naprawde aż ktoś nowy nie dopisze sie do listy. A wtedy twoj komputer zostanie usunięty z listy a ty stracisz dostęp.",
-            "pos_features": [],
-            "neg_features": []
-        },
-        "17078276": {
-            "review_id": "17078276",
-            "author": "Użytkownik Ceneo",
-            "recommendation": "True",
-            "is_verified": false,
-            "stars": "5",
-            "date_p": "2023-01-30 10:23:46",
-            "date_b": "2023-01-30 10:23:46",
-            "t_up": "0",
-            "t_down": "0",
-            "opinion": "Działa poprawnie. POLECAM. wystarczy postepowac dokladnie tak jak w instrukcji",
             "pos_features": [],
             "neg_features": []
         },

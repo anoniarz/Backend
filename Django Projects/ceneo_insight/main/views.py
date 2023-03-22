@@ -224,11 +224,12 @@ def add_product(request):
             product_id = scrape(url)
             if product_id == "error: 1":
                 messages.warning(request, "Wrong ID/URL")
-                return redirect('products')
+                previous_page = request.META.get('HTTP_REFERER')
+                return redirect(previous_page)
             return redirect('product_reviews', product_id)
     else:
         form = Url_f()
-    return redirect('products')
+    return redirect(previous_page)
 
 
 def home(request):
@@ -345,8 +346,8 @@ class ProductDetailView(DetailView):
             days_used = data.get('days_used')
             t_up = data.get('t_up')
             t_down = data.get('t_down')
-            pos_features = data.get('pos_features')
-            neg_features = data.get('neg_features')
+            pos_feat = data.get('pos_features')
+            neg_feat = data.get('neg_features')
 
             if stars:
                 for i in range(len(stars)):
@@ -364,12 +365,12 @@ class ProductDetailView(DetailView):
                 reviews = reviews.filter(t_up=t_up)
             if t_down:
                 reviews = reviews.filter(t_down=t_down)
-            if pos_features:
+            if pos_feat:
                 reviews = reviews.filter(
-                    Q(pos_features__size__gte=pos_features))
-            if neg_features:
+                    pos_features = pos_feat)
+            if neg_feat:
                 reviews = reviews.filter(
-                    Q(neg_features__size__lte=neg_features))
+                    neg_features = neg_feat)
 
         sorter = self.request.GET.get('sort')
 
