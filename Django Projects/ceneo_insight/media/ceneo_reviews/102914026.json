@@ -1,0 +1,338 @@
+{
+    "102914026": {
+        "17055599": {
+            "review_id": "17055599",
+            "author": "a...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-24 17:54:08",
+            "date_b": "2022-12-24 21:05:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Używam jako dodatkowy dysk na dane. na razie bez problemów. Zamieszczam wyniki testów, ale trzeba brać pod uwagę, że dysk był wpięty przez adapter na PCIe 2.0, co ograniczało wydajność.",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "17230525": {
+            "review_id": "17230525",
+            "author": "d...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-06 21:43:34",
+            "date_b": "2023-02-14 04:30:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobrze wykonany, działa z adapterem ugreen na pcie 3.0 nie mam się czego przyczepić. Prędkości bardzo zbliżone do innego dysku też na m2 nvme ale za to 1/3 ceny tamtego. Bardzo dobry wybór pod gry lub pliki torrent.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17086244": {
+            "review_id": "17086244",
+            "author": "m...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-31 21:50:51",
+            "date_b": "2023-01-16 15:18:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Udało mi się go wyrwać z kuponem promocyjnym w dobrej cenie, chyba najlepszy wybór w tym przedziale cenowym.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17249956": {
+            "review_id": "17249956",
+            "author": "s...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 11:05:05",
+            "date_b": "2023-03-03 11:35:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Cena jak na Allegro, najszybszy mozżiwy zakup we Wrocławiu,",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17166531": {
+            "review_id": "17166531",
+            "author": "M7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-02-20 10:57:41",
+            "date_b": "2023-02-14 10:31:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Brak w zestawie śrubek do przykrecenia w PC ",
+            "pos_features": [
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16830958": {
+            "review_id": "16830958",
+            "author": "Karol",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-04 20:01:38",
+            "date_b": "2022-11-27 12:31:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "To mój drugi dysk NM620 i spełnia moje oczekiwania.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17134216": {
+            "review_id": "17134216",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-11 15:52:22",
+            "date_b": "2023-01-24 18:30:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry stosunek jakość / cena\n",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": [
+                "trwałość"
+            ]
+        },
+        "16820722": {
+            "review_id": "16820722",
+            "author": "b...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-01 22:15:09",
+            "date_b": "2022-11-09 11:15:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jestem zadowolona z produktu.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17270422": {
+            "review_id": "17270422",
+            "author": "Jeka",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-03-15 11:41:27",
+            "date_b": "2023-03-11 13:30:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bardzo dobry za te pieniądze",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16704751": {
+            "review_id": "16704751",
+            "author": "s...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-02 23:58:27",
+            "date_b": "2022-10-03 15:02:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo szybki dysk. Polecam.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16387509": {
+            "review_id": "16387509",
+            "author": "s...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-04 12:17:31",
+            "date_b": "2022-07-13 09:28:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny dysk w tej cenie",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16972345": {
+            "review_id": "16972345",
+            "author": "j...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-04 10:26:34",
+            "date_b": "2022-12-28 22:43:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry polecam ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16766545": {
+            "review_id": "16766545",
+            "author": "d...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 21:41:45",
+            "date_b": "2022-11-11 18:18:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki i tani dysk",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17022346": {
+            "review_id": "17022346",
+            "author": "d...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-16 19:52:50",
+            "date_b": "2023-01-01 13:15:39",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Godny polecenia. ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17117608": {
+            "review_id": "17117608",
+            "author": "p...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-08 10:13:20",
+            "date_b": "2023-02-01 22:25:28",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Cena jakość ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16816498": {
+            "review_id": "16816498",
+            "author": "d...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-01 10:07:41",
+            "date_b": "2022-11-25 13:54:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W porządku",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17190827": {
+            "review_id": "17190827",
+            "author": "o...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-24 20:21:37",
+            "date_b": "2023-02-10 19:36:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam\n",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16656943": {
+            "review_id": "16656943",
+            "author": "d...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-20 18:28:11",
+            "date_b": "2022-10-10 22:23:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17154009": {
+            "review_id": "17154009",
+            "author": "Wiesław",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-16 14:24:57",
+            "date_b": "2023-02-11 14:40:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17253265": {
+            "review_id": "17253265",
+            "author": "T...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 21:38:07",
+            "date_b": "2023-02-17 09:52:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "9l",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15462154": {
+            "review_id": "15462154",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2019-04-30 00:00:00",
+            "date_b": "2019-04-30 00:00:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "5,0/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

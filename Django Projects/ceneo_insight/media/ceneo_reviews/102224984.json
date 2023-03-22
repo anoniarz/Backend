@@ -1,0 +1,189 @@
+{
+    "102224984": {
+        "16532671": {
+            "review_id": "16532671",
+            "author": "s...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-09-17 15:15:13",
+            "date_b": "2022-09-12 16:55:29",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Jakość wykonania bardzo dobra, ale nie jest to poziom AORUSa. Doskonały wybór, jeśli ktoś nie lubi wodotrysków wizualnych wewnątrz komputera :-) Na plus zaskakująco chłodna sekcja zasilania w parze z zasilaczem GX650 Seasonica. Testowana z Ryzenami 5600 i 5700x działa zgodnie z oczekiwaniami. BIOS czytelny z obsługą j. polskiego (nie wszystkie opisy są przetłumaczone). Solidne 4,5/5",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17036717": {
+            "review_id": "17036717",
+            "author": "s...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-19 10:29:00",
+            "date_b": "2023-01-13 22:57:43",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra płyta w tej cenie, ładnie startuje z Ryzen 5000.\nCzytelny BIOS, duża ilość złączy m2 i PCIE, trochę dziwne ułożenie złączy do wentylatorów i złączy sata. Reszta bdb, klasyczny ciemny backplatr idealny do czerwonego RGB LED",
+            "pos_features": [
+                "bios",
+                "ilość złączy",
+                "jakość",
+                "łatwość montażu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": [
+                "złącza wentylatorów"
+            ]
+        },
+        "17074885": {
+            "review_id": "17074885",
+            "author": "c...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-28 11:49:28",
+            "date_b": "2023-01-16 21:53:09",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry stosunek ceny do jakości i możliwości, polecam.",
+            "pos_features": [
+                "bios",
+                "jakość",
+                "łatwość montażu",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17068900": {
+            "review_id": "17068900",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-27 01:13:13",
+            "date_b": "2023-01-15 23:47:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jeszcze nie uruchomiliśmy.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16433732": {
+            "review_id": "16433732",
+            "author": "d...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-18 20:27:13",
+            "date_b": "2022-08-07 17:27:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "***** sprzęt ",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16585966": {
+            "review_id": "16585966",
+            "author": "d...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-03 00:35:02",
+            "date_b": "2022-09-13 12:46:14",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17154112": {
+            "review_id": "17154112",
+            "author": "z...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-16 14:50:47",
+            "date_b": "2023-02-07 09:06:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16829644": {
+            "review_id": "16829644",
+            "author": "t...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-03 22:21:54",
+            "date_b": "2022-11-01 13:23:19",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Git",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16502044": {
+            "review_id": "16502044",
+            "author": "p...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-08 17:45:47",
+            "date_b": "2022-08-26 17:40:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16496031": {
+            "review_id": "16496031",
+            "author": "r...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-07 10:54:27",
+            "date_b": "2022-08-23 20:59:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15455349": {
+            "review_id": "15455349",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "4.5",
+            "date_p": "2019-05-12 00:00:00",
+            "date_b": "2019-05-12 00:00:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "4,5/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

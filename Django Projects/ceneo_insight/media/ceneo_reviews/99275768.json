@@ -1,0 +1,544 @@
+{
+    "99275768": {
+        "14758609": {
+            "review_id": "14758609",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-07-23 15:52:58",
+            "date_b": "2021-07-17 14:17:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jakość wykonania na zadowalającym poziomie. Msi tomahawk wykonana lepiej. Do ryzenów 5 jest w porządku, z ryzenem 7 2700 sobie niestety nie radzi(grzeje się sekcja zasilania) , ale nie jest to mobo z górnej półki, więc nie widzę powodu, żeby odbierać mu gwiazdkę za niewydolność w przypadku sparowania z procesorem z wyzszego segmentu. Jesli ktoś kupuje tę płytę dla RGB to NIE polecam. Przy zakończeniu cyklu świetlnego podswietlenie wyłącza się na sekunde, następnie cykl rozpoczyna się od nowa. \n\nPodsumowując fajna płytka do procesorów ze średniej półki, z dobrym statycznym podświetleniem",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16930995": {
+            "review_id": "16930995",
+            "author": "m...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-27 02:04:08",
+            "date_b": "2022-12-08 17:06:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Elegancka płyta ",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17096271": {
+            "review_id": "17096271",
+            "author": "r...v",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-02 17:53:48",
+            "date_b": "2023-01-13 18:38:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14647712": {
+            "review_id": "14647712",
+            "author": "a...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-06-25 19:08:01",
+            "date_b": "2021-06-09 17:27:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16852474": {
+            "review_id": "16852474",
+            "author": "j...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 18:25:21",
+            "date_b": "2022-11-23 10:50:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrej jakości płyta główna. Ma wbudowane oświetlenie, które można modyfikować po pobraniu sterowników ze strony producenta o czym nie byłem świadomy dopóki nie poczytałem o niej trochę. Ogółem bardzo polecam.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16946440": {
+            "review_id": "16946440",
+            "author": "b...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-29 10:49:38",
+            "date_b": "2022-12-24 11:36:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Idealna budżetowa płyta do ryzenów, jeśli ktoś chce podpiąć więcej dysków (po 2 szt. m.2 oraz SATA). Do tego ma łatwy w obsłudze BIOS i obsługuje profil XMP w kościach RAM.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14560636": {
+            "review_id": "14560636",
+            "author": "n...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-06-05 10:57:21",
+            "date_b": "2021-05-15 21:42:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobra płyta główna w tej cenie.\nPlusy: socket AM4, podświetlenie RGB, naklejki i można tak dalej wymieniać...\nMinusy: póki co nie widać minusów",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17052643": {
+            "review_id": "17052643",
+            "author": "f...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-24 07:25:02",
+            "date_b": "2023-01-11 19:37:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nie mam zastrzeżeń, świetna płyta główna. Duży plus za dołączony radiator na dysk m2.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16978798": {
+            "review_id": "16978798",
+            "author": "p...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-05 10:34:54",
+            "date_b": "2022-12-16 14:20:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta główna dostarczona bardzo szybko, Atrakcyjna cena, dobra jakość",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14458341": {
+            "review_id": "14458341",
+            "author": "e...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-14 11:51:56",
+            "date_b": "2021-04-27 21:58:45",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Dobry kawałek krzemu z zadziwiająco dobrymi temperaturami na grandis 3.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17045616": {
+            "review_id": "17045616",
+            "author": "d...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-20 22:50:32",
+            "date_b": "2023-01-10 12:34:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobra płyta w tej cenie, ładne podswietlenie",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16108954": {
+            "review_id": "16108954",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-05-20 11:47:44",
+            "date_b": "2022-05-04 17:57:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry kompromis między jakościa a ceną.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16917473": {
+            "review_id": "16917473",
+            "author": "j...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-22 10:42:12",
+            "date_b": "2022-12-19 12:10:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Znakomita płyta w budżetowej cenie.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14866970": {
+            "review_id": "14866970",
+            "author": "Strix",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2021-08-20 14:19:12",
+            "date_b": "2021-07-29 17:44:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "brakuje trochę jednego wiecej usb",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14628593": {
+            "review_id": "14628593",
+            "author": "Miłosława",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-06-22 08:27:48",
+            "date_b": "2021-06-10 09:27:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta godna swojej ceny. Polecam.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14205283": {
+            "review_id": "14205283",
+            "author": "v...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2021-03-30 22:03:56",
+            "date_b": "2021-03-09 16:52:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepsza płyta z 2x M2",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14443784": {
+            "review_id": "14443784",
+            "author": "Gustaw",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-12 12:30:02",
+            "date_b": "2021-05-05 22:04:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ma solidną sekcje zasilania",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16736612": {
+            "review_id": "16736612",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-11 13:04:28",
+            "date_b": "2022-10-26 23:23:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super płyta w dobrej cenie",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14928200": {
+            "review_id": "14928200",
+            "author": "panbober1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-09-06 22:25:10",
+            "date_b": "2021-08-11 14:16:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spełnia oczekiwania",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15308955": {
+            "review_id": "15308955",
+            "author": "s...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-12-05 10:14:08",
+            "date_b": "2021-11-25 19:37:35",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobra płyta",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14171572": {
+            "review_id": "14171572",
+            "author": "s...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-24 13:47:37",
+            "date_b": "2021-03-09 19:47:44",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "polecam",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16749121": {
+            "review_id": "16749121",
+            "author": "p...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 16:58:25",
+            "date_b": "2022-10-31 12:37:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wygląda spoko. ",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15383970": {
+            "review_id": "15383970",
+            "author": "h...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-12-17 09:26:59",
+            "date_b": "2021-11-30 15:21:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Fajny design",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15070688": {
+            "review_id": "15070688",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-13 11:14:26",
+            "date_b": "2021-10-05 06:32:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bardzo dobra",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15392667": {
+            "review_id": "15392667",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-12-18 19:46:00",
+            "date_b": "2021-12-09 17:57:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko OK",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16778510": {
+            "review_id": "16778510",
+            "author": "b...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-22 20:43:07",
+            "date_b": "2022-11-17 21:10:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14695142": {
+            "review_id": "14695142",
+            "author": "p...g",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-07-07 22:21:10",
+            "date_b": "2021-06-16 14:31:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "..",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14464414": {
+            "review_id": "14464414",
+            "author": "k...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-15 21:53:17",
+            "date_b": "2021-04-21 19:23:06",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "13810446": {
+            "review_id": "13810446",
+            "author": "a...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-01-20 23:06:22",
+            "date_b": "2020-12-28 11:06:34",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14042398": {
+            "review_id": "14042398",
+            "author": "Dariusz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-02 11:20:28",
+            "date_b": "2021-02-23 15:33:00",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13918246": {
+            "review_id": "13918246",
+            "author": "t...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2021-02-08 16:59:21",
+            "date_b": "2021-02-01 15:45:19",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13618112": {
+            "review_id": "13618112",
+            "author": "Krzysztof",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-20 12:52:36",
+            "date_b": "2020-12-14 10:00:35",
+            "t_up": "1",
+            "t_down": "3",
+            "opinion": "OK",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

@@ -2,10 +2,10 @@
 
     <main role="main" class="container">
       <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2">
           <div class="content-section">
             <h3>Sidebar</h3>
-              <ul class="list-group">
+              <ul class="list-group text-center">
                 <h5>
                 <li class="list-group-item"><a href="{% url 'products' %}">Extract Opinon</a>
                 <li class="list-group-item"><a href="{% url 'products' %}?category=All">Products List</a>
@@ -15,7 +15,7 @@
               </ul>
           </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
           {% if messages %}
             {% for message in messages %}
               <div class="alert alert-{{ message.tags }}">

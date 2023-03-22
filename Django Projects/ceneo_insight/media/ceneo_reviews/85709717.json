@@ -1,0 +1,135 @@
+{
+    "85709717": {
+        "12494665": {
+            "review_id": "12494665",
+            "author": "Alan",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-05-22 11:59:18",
+            "date_b": "2020-05-20 08:31:16",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Dobrze wykonany i stabilny RAM. Kompatybilny z X570 - wystarczy włączyć profil OC w UEFI i pamięci wstają \"od pierwszego strzału\". Moje dotychczasowe RAM-y Patriot Viper 3400 MHz na X570 niestety działały maks. na 3200 MHz (płyta nie wstawała po włączeniu profilu OC ani po ręcznym ustawieniu taktowania na 3400 i timingów).",
+            "pos_features": [
+                "kompatybilne z x570",
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "14516715": {
+            "review_id": "14516715",
+            "author": "p...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-26 14:58:41",
+            "date_b": "2021-05-19 13:58:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetna jakość wykonania ",
+            "pos_features": [
+                "kompatybilne z x570",
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15442801": {
+            "review_id": "15442801",
+            "author": "s...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2021-12-28 19:44:27",
+            "date_b": "2021-11-27 21:57:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Windows 10. Na Intel(R) Core(TM) i9-9820X CPU i ASUS PRIME II DELUXE po ostatniej aktualizacji BIOS działają w trybie XMP. Nie zaobserwowałem problemów z stabilnością",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "11999278": {
+            "review_id": "11999278",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-03-27 11:20:03",
+            "date_b": "2020-03-23 15:21:50",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Świetny produkt. Polecam.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13603388": {
+            "review_id": "13603388",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-18 00:37:39",
+            "date_b": "2020-12-03 12:55:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Prędkość, wygląd i bezawaryjność ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14248441": {
+            "review_id": "14248441",
+            "author": "g...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-04-07 21:42:53",
+            "date_b": "2021-03-08 17:13:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobre wykonanie szybka praca ",
+            "pos_features": [
+                "kompatybilne z x570",
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "14525119": {
+            "review_id": "14525119",
+            "author": "j...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-05-27 21:26:33",
+            "date_b": "2021-05-15 20:48:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13945574": {
+            "review_id": "13945574",
+            "author": "k...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-02-12 11:53:57",
+            "date_b": "2021-02-05 09:50:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "10/10",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

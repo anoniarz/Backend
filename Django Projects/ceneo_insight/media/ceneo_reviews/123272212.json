@@ -1,0 +1,224 @@
+{
+    "123272212": {
+        "16086469": {
+            "review_id": "16086469",
+            "author": "k...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-15 08:49:59",
+            "date_b": "2022-05-02 22:01:55",
+            "t_up": "2",
+            "t_down": "0",
+            "opinion": "Jeśli masz na tej płcie BIOSA poniżej F5 - koniecznie go zaktualizuj! Dopiero od wersji F5 procesor jest prawidłowo obsługiwany inaczej wydajność - 30% na multiwątku.\n\nKupiłem Gigabyte B660M DS3H dla i3 12100. Dostałem go z biosem F3, więc od razu zaktualizowałem go do najnowszego - F6b. Od tego czasu zarówno wydajność multi, jak i single thread w normie\n\n\nNa windows 10 wydajność poprawia trochę oprócz tego wyłączenie opcji oszczędzania energii procesora w BIOS-ie  (Tweaker; Adv CPU Settings: CPU EIST, Race To Halt, Energy Efficient Turbo- wszystkie wyłączone). Na Windows 11 zabawa z ustawieniami w BIOSie nic nie daje. Chyba, że masz i5, to koniecznie wyłącz Power limity. Powiedziałbym, że są dwa opłacalne podejścia do tematu intel gen 12: i3 + Gigabyte B660M DS3H (ze zaktualizowanym BIOS-em) oraz i5 + MSI PRO B660M-A.",
+            "pos_features": [
+                "cena",
+                "funkcje",
+                "wyposażenie"
+            ],
+            "neg_features": []
+        },
+        "16870248": {
+            "review_id": "16870248",
+            "author": "Damian",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 07:49:13",
+            "date_b": "2022-11-25 12:00:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jak na razie płyta sprawuje się bez zarzutu. Bezproblemowo zaktualizował się BIOS. Na stracie rozpoznaje I5-12400F. Bałem się przed zakupem piszczenia o którym można poczytać w sieci ale moja sztuka jest wolna od tego problemu. ",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17248444": {
+            "review_id": "17248444",
+            "author": "d...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 06:47:05",
+            "date_b": "2023-02-20 23:43:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta do 500 zł, dla mnie bez wad, taka miała być. Za te pieniądze B660 i 4 gniazda na pamięci DDR4 to rzadkość.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16404665": {
+            "review_id": "16404665",
+            "author": "r...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-09 22:56:13",
+            "date_b": "2022-07-26 14:45:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Chyba obecnie najlepsza płyta główna do i3-12100f łatwo wszystko do niej wchodzi i działa jak należy ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16403974": {
+            "review_id": "16403974",
+            "author": "Bartek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-09 20:50:39",
+            "date_b": "2022-08-01 21:22:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "produkt bardzo dobrej jakości jak na swoją cenę",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17123533": {
+            "review_id": "17123533",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 10:18:33",
+            "date_b": "2023-02-02 19:12:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra jakość i stabilność ",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16892702": {
+            "review_id": "16892702",
+            "author": "p...j",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-16 16:56:32",
+            "date_b": "2022-11-26 10:33:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "działa poprawnie",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16606580": {
+            "review_id": "16606580",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-07 13:42:46",
+            "date_b": "2022-10-01 09:24:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry produkt",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16794462": {
+            "review_id": "16794462",
+            "author": "z...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 17:04:32",
+            "date_b": "2022-10-25 19:58:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16583398": {
+            "review_id": "16583398",
+            "author": "w...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-01 10:24:13",
+            "date_b": "2022-09-21 22:40:19",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok.\n",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16531026": {
+            "review_id": "16531026",
+            "author": "w...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-16 21:05:34",
+            "date_b": "2022-09-03 17:12:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Oka",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16748217": {
+            "review_id": "16748217",
+            "author": "Robert",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 12:35:44",
+            "date_b": "2022-11-04 00:30:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16655480": {
+            "review_id": "16655480",
+            "author": "k...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-20 11:34:39",
+            "date_b": "2022-10-17 16:01:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "cena",
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        }
+    }
+}

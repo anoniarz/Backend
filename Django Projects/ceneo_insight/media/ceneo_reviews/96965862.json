@@ -1,0 +1,125 @@
+{
+    "96965862": {
+        "14132164": {
+            "review_id": "14132164",
+            "author": "g...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-17 16:26:41",
+            "date_b": "2021-03-08 17:32:17",
+            "t_up": "4",
+            "t_down": "0",
+            "opinion": "Wysoka jakość i przemyślana konstrukcja bez zbędnych wodotrysków. Panel boczny z hartowanego szkła jest znacznie przyciemniony, co nadaje obudowie nowoczesnego, stonowanego wyglądu, ale może nie do końca odpowiadać osobom, którym zależy na mocnym wyeksponowaniu wnętrza. Obudowa jest dobrze spasowana i minimalizuje wibracje, ale nie jest wyciszona, więc poziom hałasu będzie zależał od jakości wentylatorów i wysterowania ich obrotów.\nMuszę zaznaczyć, że obudowa nie jest najlepszym wyborem przy montażu radiatora pod górnym panelem - nie ma na to zbyt wiele przestrzeni. W większości przypadków sprowadzałoby się to do estetyki (nachodzenie w obszar płyty głównej), ale możliwy jest też konflikt z wysokimi pamięciami RAM. Nie zmniejszam oceny, ponieważ miałem tego świadomość przy zakupie i od początku byłem zdecydowany na montaż jedynego radiatora w zestawie z przodu obudowy.\nCorsair 4000D Airflow nie była moim pierwszym wyborem - planowałem kupić Fractal Design Meshify 2 Compact, jednak była ona świeżo wprowadzona na rynek i czas oczekiwania na realizację zamówienia był zbyt długi. Po zbudowaniu systemu w 4000D Airflow już bym tej obudowy  na Meshify 2 nie zamienił.\nDla mnie okazała się obudową idealną: bardzo dobra i filtrowana wentylacja, kompaktowe wymiary dla ATX (i brak zatok 2.5\"/3.5\"), wygodne zarządzanie okablowaniem, brak podnoszących cenę dodatków (RGB, huby), bardzo solidna jakość wykonania i elegancka estetyka.",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17136083": {
+            "review_id": "17136083",
+            "author": "j...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-02-12 19:51:31",
+            "date_b": "2023-01-11 19:25:15",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra i przemyślana obudowa, montaż wentylatorów na przód wszystko ok, góra - tu minus za zbyt mocny filtr przeciwkurzową ograniczający przepływ powietrza, ale zawsze można zdjąć gdy obciążamy mocno PC ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14636292": {
+            "review_id": "14636292",
+            "author": "i...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-06-23 16:08:27",
+            "date_b": "2021-06-09 19:21:54",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Towar zgodny z opisem, wentylatory są bardzo ciche. Bardzo dobra obudowa w rozsądnej cenie. Plus dla sprzedawcy za szybką przesyłkę.",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16433010": {
+            "review_id": "16433010",
+            "author": "p...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-08-18 16:05:58",
+            "date_b": "2022-08-08 12:47:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobra obudowa duża dobrze chłodzi, ale dodatkowe wiatraki mile widziane . Polecam",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16247907": {
+            "review_id": "16247907",
+            "author": "Dominik",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-24 14:59:19",
+            "date_b": "2022-06-10 18:29:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze wykonana",
+            "pos_features": [
+                "jakość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16752016": {
+            "review_id": "16752016",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-16 11:09:13",
+            "date_b": "2022-11-13 22:40:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Elegancko",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15650892": {
+            "review_id": "15650892",
+            "author": "p...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-02-03 11:00:30",
+            "date_b": "2022-01-23 18:41:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "polecam",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        }
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "123630051": {
+        "16971663": {
+            "review_id": "16971663",
+            "author": "p...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-04 09:13:59",
+            "date_b": "2022-12-13 11:19:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Śmiga bezproblemowo, lecz polecam wymienić boxowy cooler, bo jest dość głośny przy większych temperaturach, pasta termoprzewodząca od producenta nie jest najwyższej jakości, więc polecam wymienić.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17248443": {
+            "review_id": "17248443",
+            "author": "d...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 06:47:05",
+            "date_b": "2023-02-20 23:43:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Za 500 zł to naprawdę dobry wybór ale trzeba dysponować kartą graficzną w przeciwnym razie konieczny zakup droższej wersji ze zintegrowaną grafiką",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16192210": {
+            "review_id": "16192210",
+            "author": "K...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-09 19:45:26",
+            "date_b": "2022-05-31 12:05:55",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Polecam, uważam ze słuszny wybór do gier w tej cenie ",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16807017": {
+            "review_id": "16807017",
+            "author": "1...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-29 18:50:08",
+            "date_b": "2022-11-16 23:40:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry procesor i tani spisuję się rewelacyjnie",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16737582": {
+            "review_id": "16737582",
+            "author": "s...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-11 20:22:41",
+            "date_b": "2022-10-27 14:25:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa bez zarzutu",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17123534": {
+            "review_id": "17123534",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 10:18:33",
+            "date_b": "2023-02-02 19:12:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wydajny i szybki ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16404727": {
+            "review_id": "16404727",
+            "author": "k...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-09 23:26:00",
+            "date_b": "2022-07-26 08:44:27",
+            "t_up": "1",
+            "t_down": "1",
+            "opinion": "Wszystko OK",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16794460": {
+            "review_id": "16794460",
+            "author": "z...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-25 17:04:22",
+            "date_b": "2022-10-25 19:58:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16583397": {
+            "review_id": "16583397",
+            "author": "w...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-01 10:24:08",
+            "date_b": "2022-09-21 22:40:19",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17302173": {
+            "review_id": "17302173",
+            "author": "s...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-22 11:20:02",
+            "date_b": "2023-03-07 01:24:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "--",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17111209": {
+            "review_id": "17111209",
+            "author": "z...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-02-07 00:36:52",
+            "date_b": "2023-01-18 20:58:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16748218": {
+            "review_id": "16748218",
+            "author": "Robert",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 12:35:55",
+            "date_b": "2022-11-04 00:30:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

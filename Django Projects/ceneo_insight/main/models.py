@@ -20,7 +20,7 @@ class Review(models.Model):
     product = models.ForeignKey(
         Product, on_delete=models.CASCADE, related_name='products_reviews')
     review_id = models.CharField(
-        max_length=36, primary_key=True)
+        max_length=36)
     author = models.CharField(max_length=255)
     stars = models.CharField(max_length=255)
     recommendation = models.CharField(max_length=255)

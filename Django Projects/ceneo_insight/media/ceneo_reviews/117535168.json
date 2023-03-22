@@ -1,0 +1,127 @@
+{
+    "117535168": {
+        "16853140": {
+            "review_id": "16853140",
+            "author": "p...b",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-08 20:24:44",
+            "date_b": "2022-11-27 01:39:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny produkt. Na plus jakość wykonania, otwory pod montaż coolera LGA 1200 i funkcjonalność, minisem brak przycisku do bios flashu",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15868723": {
+            "review_id": "15868723",
+            "author": "Rafał",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-24 21:55:43",
+            "date_b": "2022-03-07 23:23:24",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "rewelacja wiadomo Asus",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16836081": {
+            "review_id": "16836081",
+            "author": "n...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-06 07:24:16",
+            "date_b": "2022-11-28 21:45:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam dobra porządna płyta.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16321909": {
+            "review_id": "16321909",
+            "author": "m...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-15 16:20:08",
+            "date_b": "2022-06-22 14:26:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra płyta",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16828830": {
+            "review_id": "16828830",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-03 16:27:17",
+            "date_b": "2022-11-16 19:00:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15400460": {
+            "review_id": "15400460",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "3",
+            "date_p": "2021-12-20 22:24:17",
+            "date_b": "2021-12-20 22:24:17",
+            "t_up": "0",
+            "t_down": "10",
+            "opinion": "Przesiadka z Gigabyte z wielkimi oczekiwaniami i troche lipa. \nNie mogę wejść do biosu na monitorze połączonym po DP, \nXMP nie działa (na mojej poprzedniej płycie nie było problemu), \na obsługa wentylatorów z lepszą aplikacją jedynie w wersjach ROG (chciałem spiąć jeden z wentylatorów z temp. karty graficznej). \n\nWisieńka na torcie AI overclocking zawodzi przy wielu próbach (12700KF)...\nSporo wyrzeczeń... Drugi raz bym już nie kupił a znajomym odradzał. ",
+            "pos_features": [
+                "jakość",
+                "wydajność"
+            ],
+            "neg_features": [
+                "stabilność"
+            ]
+        },
+        "16701237": {
+            "review_id": "16701237",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "False",
+            "is_verified": false,
+            "stars": "2",
+            "date_p": "2022-11-02 10:54:29",
+            "date_b": "2022-11-02 10:54:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Realtek 897 w płycie za prawie 1400 zl to lekkie przegięcie jest ! ",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

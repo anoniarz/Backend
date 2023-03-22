@@ -1,0 +1,68 @@
+{
+    "117389714": {
+        "16869924": {
+            "review_id": "16869924",
+            "author": "j...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 00:10:07",
+            "date_b": "2022-11-30 19:49:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra jakość wykonania ładne oświetlenie praca bez zarzutu ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17038934": {
+            "review_id": "17038934",
+            "author": "Michał",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-19 18:06:53",
+            "date_b": "2023-01-08 15:59:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra cena, świetny wygląd, wszystko OK",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15654460": {
+            "review_id": "15654460",
+            "author": "d...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-02-03 22:45:41",
+            "date_b": "2022-01-27 23:22:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16228215": {
+            "review_id": "16228215",
+            "author": "Krzysztof",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2022-06-20 12:13:08",
+            "date_b": "2022-06-20 12:13:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Pamięci są bardzo szybkie, solidne i po prostu piękne! Kupiłem 3 miesiące temu i nie żałuje :D Polecam każdemu !\n",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        }
+    }
+}

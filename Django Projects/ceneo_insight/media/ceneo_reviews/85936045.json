@@ -1,0 +1,435 @@
+{
+    "85936045": {
+        "15376831": {
+            "review_id": "15376831",
+            "author": "t...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-12-16 10:25:48",
+            "date_b": "2021-12-09 08:23:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze wykonany, robi wrażenie sprzętu o wiele droższego niż segment w którym się znajduje.",
+            "pos_features": [
+                "filtry na magnes",
+                "jakość",
+                "rgb",
+                "rozmiar",
+                "szkło na froncie oraz boku",
+                "wielkość",
+                "wygląd",
+                "wykonanie"
+            ],
+            "neg_features": [
+                "zaślepka portu c"
+            ]
+        },
+        "16427787": {
+            "review_id": "16427787",
+            "author": "a...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-17 12:30:30",
+            "date_b": "2022-08-11 13:10:58",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Prezencja niesamowita, dużo więcej miejsca niż w poprzedniku (Zalman z1 neo), gdzie obie to przeceiż midi tower. Jest to też pierwsza jaką mam z tzw. piwnica na zasilacz i łooooj nie wiedziałem jak mi takowej trza było :) W tym budżecie (króry bardziej 'zerkłem' niż szczegółowo przeanalizowałem) wydaje mi siię, że ciężko będzie jej znaleźć oponenta równego kalibru :) Polecam!",
+            "pos_features": [
+                "filtry na magnes",
+                "jakość",
+                "rgb",
+                "rozmiar",
+                "szkło na froncie oraz boku",
+                "wielkość",
+                "wygląd",
+                "wykonanie"
+            ],
+            "neg_features": []
+        },
+        "13187813": {
+            "review_id": "13187813",
+            "author": "t...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-10-10 13:26:57",
+            "date_b": "2020-10-01 20:51:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Obudowa o jakiej zawsze marzyłem, w standardzie 4 wiatraki ( ogromny plus) , obudowa jest spora , bez problemu zmieści nawet największe karty",
+            "pos_features": [
+                "filtry na magnes",
+                "jakość",
+                "rgb",
+                "rozmiar",
+                "szkło na froncie oraz boku",
+                "wielkość",
+                "wygląd",
+                "wykonanie"
+            ],
+            "neg_features": [
+                "zaślepka portu c"
+            ]
+        },
+        "13551276": {
+            "review_id": "13551276",
+            "author": "p...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-10 18:58:04",
+            "date_b": "2020-11-09 20:45:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra jakość i bardzo fajnie się prezentuje. Niestety brak możliwości zmian koloru ledów ani ich wyłączenia mimo przycisku \"RGB\".",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "11594743": {
+            "review_id": "11594743",
+            "author": "SC",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-01-16 23:24:31",
+            "date_b": "2020-01-08 22:09:51",
+            "t_up": "2",
+            "t_down": "1",
+            "opinion": "Super, Dodatkowe 4 wentylatory ( ws umie 8 ).",
+            "pos_features": [
+                "jakość",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16543148": {
+            "review_id": "16543148",
+            "author": "d...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-21 09:27:17",
+            "date_b": "2022-09-17 09:22:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Produk za tą cenę bardzo fajny. Wentylatory rgb dla mnie świecą nieźle. ",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13852543": {
+            "review_id": "13852543",
+            "author": "Paweł",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-01-27 23:21:16",
+            "date_b": "2021-01-13 01:12:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super ale brakuje sterowania kolorami wentylatorów",
+            "pos_features": [
+                "filtry na magnes",
+                "jakość",
+                "rozmiar",
+                "szkło na froncie oraz boku",
+                "wielkość",
+                "wygląd",
+                "wykonanie"
+            ],
+            "neg_features": [
+                "rgb",
+                "zaślepka portu c"
+            ]
+        },
+        "12722989": {
+            "review_id": "12722989",
+            "author": "9...u",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-06-26 20:51:43",
+            "date_b": "2020-06-15 23:39:59",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Jak za tą cenę idealnie. Polecam ",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "14150915": {
+            "review_id": "14150915",
+            "author": "m...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-20 09:46:45",
+            "date_b": "2021-02-26 12:44:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super obudowa. Za tą cenę nie",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13570026": {
+            "review_id": "13570026",
+            "author": "Arkadiusz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-14 07:39:27",
+            "date_b": "2020-12-03 13:23:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry stosunek cena jakość.",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13682725": {
+            "review_id": "13682725",
+            "author": "n...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-30 17:52:44",
+            "date_b": "2020-12-25 20:01:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko poszło sprawnie ",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15243196": {
+            "review_id": "15243196",
+            "author": "marek hyjek1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-11-23 00:55:30",
+            "date_b": "2021-10-15 10:40:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry produkt ",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15517516": {
+            "review_id": "15517516",
+            "author": "r...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-01-07 10:34:25",
+            "date_b": "2022-01-03 13:01:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "wart swojej ceny\n",
+            "pos_features": [
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": [
+                "jakość"
+            ]
+        },
+        "12463518": {
+            "review_id": "12463518",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-05-19 18:30:21",
+            "date_b": "2020-04-02 10:44:01",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Czekam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "12713982": {
+            "review_id": "12713982",
+            "author": "s...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-06-25 14:10:45",
+            "date_b": "2020-05-31 15:46:41",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "<3",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13147500": {
+            "review_id": "13147500",
+            "author": "w...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-09-30 22:26:52",
+            "date_b": "2020-09-09 15:14:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepszy ",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "12989725": {
+            "review_id": "12989725",
+            "author": "r...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-08-21 21:46:22",
+            "date_b": "2020-08-16 20:31:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Pozytywna",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13039626": {
+            "review_id": "13039626",
+            "author": "ROMAN",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-09-02 23:13:50",
+            "date_b": "2020-08-18 10:10:10",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "POLECAM",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13146314": {
+            "review_id": "13146314",
+            "author": "d...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-09-30 19:37:58",
+            "date_b": "2020-09-26 17:36:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13110121": {
+            "review_id": "13110121",
+            "author": "e...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-09-21 20:43:05",
+            "date_b": "2020-08-14 16:37:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bdb",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14883432": {
+            "review_id": "14883432",
+            "author": "b...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-08-25 14:56:28",
+            "date_b": "2021-08-18 22:26:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13828629": {
+            "review_id": "13828629",
+            "author": "b...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2021-01-24 09:00:37",
+            "date_b": "2021-01-11 13:31:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "jakość",
+                "rgb",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "11815014": {
+            "review_id": "11815014",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2020-02-27 13:09:40",
+            "date_b": "2020-02-27 13:09:40",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Dostałem to co chciałem w tej cenie. ",
+            "pos_features": [
+                "filtry na magnes",
+                "rgb",
+                "rozmiar",
+                "szkło na froncie oraz boku",
+                "wykonanie"
+            ],
+            "neg_features": [
+                "zaślepka portu c"
+            ]
+        }
+    }
+}

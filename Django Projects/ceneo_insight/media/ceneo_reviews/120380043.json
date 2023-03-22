@@ -1,0 +1,592 @@
+{
+    "120380043": {
+        "17173198": {
+            "review_id": "17173198",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-02-21 19:01:56",
+            "date_b": "2023-02-10 19:45:39",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dysk WD Blue SN570 1TB\nNiskie temperatury w zwykłym użytkowaniu (laptop montowanie bez radiatora) w granicach od 36-42 stopni C, średnio o 5 stopni mniej względem poprzedniego fabrycznego dysku. Podczas grania w gry dysk nie przekraczał 50 stopni C, natomiast temperatury maksymalne odnotowanie podczas przenoszenia danych o wadze 300GB rozgrzewały dysk do temp. max. 67 stopni. Dysk po wykorzystaniu bufora pamięci o wielkości ok. 12GB zapisuje dane (pliki średnich wielkości od 500MB - 4GB plik) ze stałą prędkością 450-500 MB/s nawet przy zapełnieniu w 90% pojemności. Syntetyczne testy w programach potwierdzają to co deklaruje producent. Jeśli ktoś chce używać tego dysku z przeznaczeniem magazynowym, systemowym, multimedialnym. Powinien być zadowolony, Ja na chwilę obecną jestem. Zdawałem sobie sprawę, że \"demon\" prędkości to nie będzie i taki też być nie miał. Miał być \"chłodny\" i taki jest. Nawet pomimo osiągania temperatur 50-65 stopni są one mało odczuwalne na samym korpusie/ spodzie laptopa względem poprzednika, który grzał się znacznie bardziej i miał inną konstrukcję co dodatkowo przekładało się na jego generowanie ciepła na kadłubek. Pół gwiazdki odejmuję mu za faktycznie dosyć mały bufor pamięci.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17103185": {
+            "review_id": "17103185",
+            "author": "Paweł",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-03 21:07:47",
+            "date_b": "2023-01-11 00:48:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jak na krótki moment użytkowania wszystko w porządku, szybkości dysku takie jakie być powinny (zapis możne się znacząco zmniejszyć przy długim zapisywaniu bardzo dużych plików ponieważ dysk nie posiada DRAM, ale dla mnie i tak najważniejszy jest odczyt). Na temat trwałości dysku wypowiedzieć się jeszcze nie mogę. Brak śruby montażowej, ale nie uznaje tego za minus, raczej płyta główna jeżeli ma wejście na taki dysk powinna mieć też dołączoną śrubkę (moja miała).",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16234006": {
+            "review_id": "16234006",
+            "author": "t...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-21 16:50:26",
+            "date_b": "2022-06-13 17:32:32",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "działa, założyłem radiator - nie przekracza 50 stopni (temp. otoczenia 28 stopni obecnie) , przeniosłem system z sata 6 ssd 250GB, działa trochę szybciej miejsca przybyło jest więcej swobody (1GB). szybkości nie testowałem zależało mi na zwiększeniu miejsca na dane.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16853216": {
+            "review_id": "16853216",
+            "author": "p...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 20:33:13",
+            "date_b": "2022-11-24 00:48:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Za około 300 zł świetny wybór. Prędkości nie odbiegają od tych podanych przez producenta, temperatury nie przekraczają normy. Świetne rozwiązanie za taką cenę.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16929699": {
+            "review_id": "16929699",
+            "author": "s...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-12-26 19:27:59",
+            "date_b": "2022-06-17 21:58:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybkość bez zarzutu, dobra jakość do ceny. Tylko śrubę do montażu na MOBA trzeba kupić samemu.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": [
+                "brak śruby montażowe"
+            ]
+        },
+        "15913406": {
+            "review_id": "15913406",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-04 12:21:11",
+            "date_b": "2022-03-28 22:49:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kupiony na promocji. W tej cenie najlepsza propozycja. Prędkości odczyt/zapis pokrywają się z danymi producenta. Jedyny minus to brak pamięci cache.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "15834406": {
+            "review_id": "15834406",
+            "author": "p...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-17 09:15:12",
+            "date_b": "2022-02-23 18:19:22",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "dla mnie super. Prawda że nie testowałem. Nie muszę odciągać najszybciej napisu oraz odczytu. Używam tylko do zachowania pliki z pracy ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16835828": {
+            "review_id": "16835828",
+            "author": "barszczu91",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-06 00:58:03",
+            "date_b": "2022-11-21 09:13:39",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dysk zgodny z opisem, rozpoznany odrazu. Prędkości zgodne z specyfikacja. Polecam!",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "17038088": {
+            "review_id": "17038088",
+            "author": "k...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-19 14:05:00",
+            "date_b": "2023-01-12 14:38:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dysk rewelka ale kolejki po odbiór w sklepie koszmar i brak szacunku dla klienta",
+            "pos_features": [
+                "trwałość"
+            ],
+            "neg_features": [
+                "brak śruby montażowe",
+                "szybkość"
+            ]
+        },
+        "17169069": {
+            "review_id": "17169069",
+            "author": "h...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-20 21:03:44",
+            "date_b": "2023-02-06 20:30:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Siema : )) Mam podobny sprzęt ano napisze ten może nawet i  lepszy",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": [
+                "brak śruby montażowe"
+            ]
+        },
+        "17262576": {
+            "review_id": "17262576",
+            "author": "s...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-14 07:39:47",
+            "date_b": "2023-02-25 20:01:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Chodzi, działa, zapisuje. Po tygodniu pracy wszystko w porządku. ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17179843": {
+            "review_id": "17179843",
+            "author": "Paweł",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-22 21:18:45",
+            "date_b": "2023-02-10 16:50:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W tej kategorii cenowej świetny, szybki i trwały dysk.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17210489": {
+            "review_id": "17210489",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-01 20:34:05",
+            "date_b": "2023-02-17 19:51:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Idealny, szybki, niezawodny i tani w Alsenie",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": [
+                "brak śruby montażowe"
+            ]
+        },
+        "16485711": {
+            "review_id": "16485711",
+            "author": "d...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-03 18:39:48",
+            "date_b": "2022-08-04 00:20:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry dysk SSD za swoją cenę, polecam",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16464823": {
+            "review_id": "16464823",
+            "author": "r...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-29 10:01:30",
+            "date_b": "2022-08-22 10:37:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jak każdy dysk od WD solidnie wykonany ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16380111": {
+            "review_id": "16380111",
+            "author": "c...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-02 19:10:19",
+            "date_b": "2022-07-26 16:27:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobry dysk w dobrej cenie",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "15920454": {
+            "review_id": "15920454",
+            "author": "a...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-05 20:01:14",
+            "date_b": "2022-03-22 02:09:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bardzo szybki",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16432664": {
+            "review_id": "16432664",
+            "author": "m...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-18 13:58:16",
+            "date_b": "2022-08-10 15:22:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobre",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16276179": {
+            "review_id": "16276179",
+            "author": "a...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-02 20:35:04",
+            "date_b": "2022-06-13 12:17:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17123535": {
+            "review_id": "17123535",
+            "author": "a...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 10:18:33",
+            "date_b": "2023-02-02 19:12:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17154117": {
+            "review_id": "17154117",
+            "author": "z...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-16 14:51:21",
+            "date_b": "2023-02-07 09:06:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15932707": {
+            "review_id": "15932707",
+            "author": "k...c",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-07 20:50:27",
+            "date_b": "2022-03-24 18:54:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17157254": {
+            "review_id": "17157254",
+            "author": "E...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-17 09:47:17",
+            "date_b": "2023-02-12 10:29:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": ".. ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": [
+                "brak śruby montażowe"
+            ]
+        },
+        "16859056": {
+            "review_id": "16859056",
+            "author": "m...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-09 19:54:51",
+            "date_b": "2022-11-22 21:04:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "git",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16875576": {
+            "review_id": "16875576",
+            "author": "k...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 23:51:26",
+            "date_b": "2022-11-21 22:19:04",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17181412": {
+            "review_id": "17181412",
+            "author": "driversti",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-23 08:38:07",
+            "date_b": "2023-02-10 22:40:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Kupiłem SSD jako miejsce dla przechowywania zdjęć oraz wideo dla mojej żony. Byłem zaskoczony prędkością z którą dane są sczytywane i zapisywane. Stabilnie wydaje 850Mb/s (mam kieszeń Orico 10Gbit/s). 72Gb foto i wideo z jednego SSD na ten przeniosłem zaledwie w 5 minut, przy czy połowę już w 1 minutę. I co ważne - prawie się nie grzeje w porównaniu do mojego ADATA XPS 2TB. Zdecydowanie polecam.",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "17170381": {
+            "review_id": "17170381",
+            "author": "f...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-02-21 09:28:21",
+            "date_b": "2023-02-10 23:55:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Tani ale dobry dysk. Do macbooka air z 2017 w sam raz. Z przejsciówką wyszlo mniej niz 2 stówy a zamiast 128 mam teraz 500 i lepsze odczyty. Dysk na żywo wygląda inaczej niż na zdjęciu. Nie ma radiatora ani DRAM ale w moim wypadku liczyła się cena.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17218157": {
+            "review_id": "17218157",
+            "author": "2...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-03 08:41:14",
+            "date_b": "2023-02-11 11:35:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dysk dziala bex problemu, nie grzeje się. Spełnia moje oczekiwania ",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16971654": {
+            "review_id": "16971654",
+            "author": "p...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-04 09:12:17",
+            "date_b": "2022-12-13 11:19:21",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Mega szybki dysk, windows ładuje się w kilka-kilkanaście sekund. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16627505": {
+            "review_id": "16627505",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-13 10:24:23",
+            "date_b": "2022-10-09 21:39:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko bez najmniejszego problemu, szybko, sprawnie, polecam.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17180817": {
+            "review_id": "17180817",
+            "author": "Marcin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-23 03:32:00",
+            "date_b": "2023-02-10 23:10:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Duży przeskok w porównaniu do starego dysku.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16713790": {
+            "review_id": "16713790",
+            "author": "w...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 21:01:54",
+            "date_b": "2022-10-12 09:43:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dyski sa super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15952074": {
+            "review_id": "15952074",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-04-12 20:13:08",
+            "date_b": "2022-03-29 18:37:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Może być ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17044911": {
+            "review_id": "17044911",
+            "author": "t...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-01-20 20:16:27",
+            "date_b": "2023-01-13 22:23:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nie wiem",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15452783": {
+            "review_id": "15452783",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "4",
+            "date_p": "2019-01-13 00:00:00",
+            "date_b": "2019-01-13 00:00:00",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "4,0/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "85935848": {
+        "13032929": {
+            "review_id": "13032929",
+            "author": "Jacek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2020-09-01 17:30:39",
+            "date_b": "2020-08-01 14:10:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przede wszystkim obudowa jest cicha i dość funkcjonalna - przemyślana, a ponadto \"przewiewna\". W dodatku nie źle wygląda. Jakościowo z pewnością można by lepiej. Miałem obudowę w porównywalnej cenie wykonaną dużo staranniej i z montażem bez śrubokrętu - choć też nie bez wad - \"nobody’s perfect\".",
+            "pos_features": [
+                "cicha",
+                "przewiewna",
+                "wielkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17217349": {
+            "review_id": "17217349",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2023-03-02 22:41:29",
+            "date_b": "2023-02-14 14:44:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ładna. srubki od wiatrakow sie strasznie cierzko wkreca j wykreca Przychodzi tylko z 2 wiatrakami wienc trzeba pamientac zeby dokupic wiatraki dodatkowe.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17142491": {
+            "review_id": "17142491",
+            "author": "s...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-14 12:53:12",
+            "date_b": "2023-02-07 12:08:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Obudowa jest po prostu wspaniała, wykonana z delikatnego plastiku, dźwięk izolacji i zapięcia jest wspaniały, bardzo mi się podoba!",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17074465": {
+            "review_id": "17074465",
+            "author": "k...p",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-28 09:03:14",
+            "date_b": "2023-01-06 14:06:12",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "bardzo fajna obudowa",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

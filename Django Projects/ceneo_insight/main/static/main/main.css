@@ -41,8 +41,8 @@ li.no-bullets {
 
 #filter-form {
     position: sticky;
-    margin-top: 21vw;
-    left: 11vw;
+    margin-top: 13vw;
+    left: 5.2vw;
     position: fixed;
     transform: translate(-50%, -50%);
     background-color: var(--palette-5);

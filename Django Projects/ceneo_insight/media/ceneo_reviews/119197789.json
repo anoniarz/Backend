@@ -1,0 +1,176 @@
+{
+    "119197789": {
+        "16697830": {
+            "review_id": "16697830",
+            "author": "x...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-01 12:37:37",
+            "date_b": "2022-10-18 14:23:01",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Bardzo dobre parametry pojemności i szybkości odczytu/zapisy do ceny. Najtańsza oferta w dniu zakupu.",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16250428": {
+            "review_id": "16250428",
+            "author": "j...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-25 11:36:35",
+            "date_b": "2022-06-11 16:08:10",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "dysk super szybszy niz wiatr mega super polecam",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16951243": {
+            "review_id": "16951243",
+            "author": "t...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-30 03:53:23",
+            "date_b": "2022-12-26 17:56:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dysk zakupiony do ps5 za te pieniadze idealny",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "16966064": {
+            "review_id": "16966064",
+            "author": "a...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-03 07:14:58",
+            "date_b": "2022-12-14 23:15:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo szybki jak błyskawica ;)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16945956": {
+            "review_id": "16945956",
+            "author": "p...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-29 10:09:35",
+            "date_b": "2022-12-14 17:39:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jak do dziś wszystko ok",
+            "pos_features": [
+                "pojemność",
+                "szybkość",
+                "trwałość"
+            ],
+            "neg_features": []
+        },
+        "17158780": {
+            "review_id": "17158780",
+            "author": "g...n",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-17 12:40:30",
+            "date_b": "2023-02-05 21:25:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze sobię radzi ",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16711549": {
+            "review_id": "16711549",
+            "author": "a...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-04 11:24:54",
+            "date_b": "2022-10-31 11:00:58",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Rakieta",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16568092": {
+            "review_id": "16568092",
+            "author": "p...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-28 03:59:27",
+            "date_b": "2022-09-20 23:36:17",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Szybki.",
+            "pos_features": [
+                "pojemność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "17233161": {
+            "review_id": "17233161",
+            "author": "k...5",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-03-07 12:07:04",
+            "date_b": "2023-03-02 20:14:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Chyba jest ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16708053": {
+            "review_id": "16708053",
+            "author": "Misiek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-03 18:20:12",
+            "date_b": "2022-10-30 10:00:53",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15548770": {
+            "review_id": "15548770",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "4.5",
+            "date_p": "2019-08-06 00:00:00",
+            "date_b": "2019-08-06 00:00:00",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "4,5/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

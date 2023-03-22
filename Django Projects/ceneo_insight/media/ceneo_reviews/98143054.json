@@ -1,0 +1,307 @@
+{
+    "98143054": {
+        "14485497": {
+            "review_id": "14485497",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "4.5",
+            "date_p": "2021-05-20 09:42:09",
+            "date_b": "2021-05-20 09:42:09",
+            "t_up": "7",
+            "t_down": "0",
+            "opinion": "Płyta godna uwagi poprawiona sekcja zasilania. temp. 30-40C za bardzo nie ma co krytykować ,no chyba ze ktoś chce mieć 10 dysków podłączone to się rozczaruje  bo jest tylko 4 porty SATA .i brak WI-FI ale to nie za taką cenę Jest wyjście pod USB typ-C ale na panel przedni ,obsługuje dyski i pamięci które producent nie podaje w spisie. Mam zainstalowane podzespoły R 3600, ADATA XPG GAMMIX D10 DDR4 3200 16GB.  SSD SAMSUNG PM981a 256GB M.2 2280 NVMe jako systemowy który osiąga prędkości 2850 odczyt i zapis ponad 2300 Mb/s .system win 10 odpala w mniej niż 10s .Co do systemu to tylko 10 ,choć 8.1 jest jeszcze bardziej  szybszy ok 5s to są problemy z instalacja. 1 sterowniki sieci.grafy nie wszystkie instaluje i pokazuje ostrz, ze procek nie obsługuje zab. stery w sieci są ale nie łatwo je odszukać .Linuxa nie testowałem, jest też dużo wyjść pod wentylatory dla mnie płyta jest ok,",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17138183": {
+            "review_id": "17138183",
+            "author": "Aleksander",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-13 13:14:26",
+            "date_b": "2023-02-07 15:04:24",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko zgodnie z opisem co niestety w moim przypadku okazało się bolączką, bo liczyłem na obsługę Ryzen-a 1700, ale się nie udało...",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "15102629": {
+            "review_id": "15102629",
+            "author": "l...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-20 12:29:09",
+            "date_b": "2021-10-07 16:07:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "To już kolejna płyta którą montuje w zestawie. Nigdy nie było problemów. Jeśli kto potrzebuje bardzo szybkiego lanu 2.5Gb to polecam.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16299389": {
+            "review_id": "16299389",
+            "author": "m...w",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-09 11:09:52",
+            "date_b": "2022-07-01 11:52:28",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta wstała od razu po złożeniu kompa. Bezproblemowa , UEFI w j. polskim nic dodać nic ująć.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16040927": {
+            "review_id": "16040927",
+            "author": "s...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-04 16:21:06",
+            "date_b": "2022-04-27 01:03:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa bez problemu. Wszystko gra. Mogłem jedynie pomyśleć o wersji z WiFi i bluetooth. ",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17067569": {
+            "review_id": "17067569",
+            "author": "j...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-26 20:06:52",
+            "date_b": "2023-01-03 20:35:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Posiadam od dwóch tygodni. Póki co, wszystko w jak najlepszym porządku.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17056972": {
+            "review_id": "17056972",
+            "author": "y...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-24 21:39:13",
+            "date_b": "2023-01-18 11:54:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płyta wygląda obłędnie. Ma wszystko czego potrzeba.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17159247": {
+            "review_id": "17159247",
+            "author": "Piotr",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-17 14:00:02",
+            "date_b": "2023-02-13 15:09:13",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobra płyta za rozsądne pieniądze.",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17125262": {
+            "review_id": "17125262",
+            "author": "Jacek",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 15:36:59",
+            "date_b": "2023-02-04 15:46:07",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wygląda dobrze - jeszcze nie uruchomiona.",
+            "pos_features": [
+                "jakość"
+            ],
+            "neg_features": []
+        },
+        "13981489": {
+            "review_id": "13981489",
+            "author": "m...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-02-18 20:43:18",
+            "date_b": "2021-01-28 11:39:39",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "Wszystko ma co niezbędne ",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "14179264": {
+            "review_id": "14179264",
+            "author": "m...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-25 14:26:21",
+            "date_b": "2021-03-10 20:22:20",
+            "t_up": "1",
+            "t_down": "0",
+            "opinion": "bardzo dobry produkt",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17172863": {
+            "review_id": "17172863",
+            "author": "s...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-21 17:16:49",
+            "date_b": "2023-01-21 19:53:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Przesyłka w terminie, sprawnie",
+            "pos_features": [
+                "jakość",
+                "stabilność"
+            ],
+            "neg_features": []
+        },
+        "16943860": {
+            "review_id": "16943860",
+            "author": "c...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-28 22:46:47",
+            "date_b": "2022-12-18 16:07:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super płyta. ",
+            "pos_features": [
+                "jakość"
+            ],
+            "neg_features": []
+        },
+        "13428309": {
+            "review_id": "13428309",
+            "author": "k...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-11-23 11:35:10",
+            "date_b": "2020-11-19 15:01:17",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobra płyta. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14223910": {
+            "review_id": "14223910",
+            "author": "f...y",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2021-04-02 15:30:57",
+            "date_b": "2021-03-30 11:57:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16245953": {
+            "review_id": "16245953",
+            "author": "r...6",
+            "recommendation": "None",
+            "is_verified": true,
+            "stars": "3",
+            "date_p": "2022-06-24 00:41:30",
+            "date_b": "2022-06-03 11:24:34",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Bardzo dobra płyta, szkoda tylko że moja wersja biosu ma pewne problemy i trzeba zrobić update",
+            "pos_features": [
+                "jakość",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16033803": {
+            "review_id": "16033803",
+            "author": "Piotr",
+            "recommendation": "False",
+            "is_verified": false,
+            "stars": "1",
+            "date_p": "2022-05-02 18:39:46",
+            "date_b": "2022-05-02 18:39:46",
+            "t_up": "0",
+            "t_down": "4",
+            "opinion": "Dwie niespodzianki (ale tylko dlatego, że robię upgrade starej maszynki).\n\nWindows 7 nie obsługuje USB 3.0 bez dodatkowych drive'ów. Jeśli instalujesz takiego starocia to trzeba się nakombinować, bo domyślnie w instalatorze nie będzie działać ani klawiatura, ani myszka (polecam nowszą windę lub linuxa).\n\nNa linuxach sterowniki do tej karty sieciowej będą tylko w najnowszych systemach, więc po przełożeniu płyty w czymś pokroju Ubuntu 18-20 nie będzie net'a! (to akurat łatwe do naprawy).\n\nA teraz o samej płycie:\nUsb się rozłącza, okazuje się że problem znany w necie i szeroko opisywany:\nnp. tutaj *****/\n\nprzetestowałem wszystkie wersje biosów, które były -  żadna u mnie nie pomogła.\n\nDodatkowo memtest pokazywał mi błędy pamięci, które przechodziły ten test bez problemów na innej płycie.\n\nNie wiem na jakiej zasadzie problem z USB ludzie sobie rozwiązali, być może nie działa tylko na niektórych kombinacjach procesorów / pamięci (problem z usb to ponoć problem z kompatybilnością na linii płyta - proc!)\n\nGeneralnie paździerz, bo straciłem dwa wieczory, żeby dojść do tego czemu nie działa. Płyta poszła na gwarancje, choć teraz żałuję, że nie oddałem bez podania przyczyn, bo muszę czekać na odpowiedź z serwisu.\n\nMam nadzieje, że przyślą nowy egzemplarz na którym wszystko będzie git.",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": [
+                "stabilność"
+            ]
+        },
+        "15385716": {
+            "review_id": "15385716",
+            "author": "Damian",
+            "recommendation": "False",
+            "is_verified": false,
+            "stars": "2",
+            "date_p": "2021-12-17 12:53:00",
+            "date_b": "2021-12-17 12:53:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Płytę wybrałem do stosunkowo wydajnego zestawu komputerowego z procesorem AMD Ryzen 7 5800X. W ciągu miesiąca komputer zawiesił się 3-4 razy, ale uznawałem to za problem z oprogramowaniem i jakoś specjalnie się nie niepokoiłem... po czym komputer przestał wysyłać obraz na monitor. Serwis stwierdził awarię płyty głównej i wymienił ją na nową w ramach gwarancji. Mam nadzieję, że nowy egzemplarz nie będzie sprawiał problemów.",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": [
+                "jakość"
+            ]
+        }
+    }
+}

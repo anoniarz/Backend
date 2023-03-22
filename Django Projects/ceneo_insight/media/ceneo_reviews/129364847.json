@@ -463,6 +463,20 @@
             "pos_features": [],
             "neg_features": []
         },
+        "17302245": {
+            "review_id": "17302245",
+            "author": "t...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-22 11:26:49",
+            "date_b": "2023-03-16 08:39:19",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok.",
+            "pos_features": [],
+            "neg_features": []
+        },
         "16894414": {
             "review_id": "16894414",
             "author": "u...2",

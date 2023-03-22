@@ -170,11 +170,9 @@ def scrape(link):
             flag = False
         n += 1
 
-    # Saving Data as Json
     with open(f'media\ceneo_reviews\{ceneo_id}.json', 'w', encoding="utf-8") as file:
         json.dump(data, file, indent=4, ensure_ascii=False)
 
-    # Adding Data to DataBase
     if Product.objects.filter(product_id=ceneo_id).exists():
         delete_from_db(ceneo_id)
 
@@ -303,7 +301,7 @@ def products(request):
     elif sorter == 'lowest_price':
         products = products.order_by('product_price')
 
-    paginator = Paginator(products, 9)
+    paginator = Paginator(products, 14)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
@@ -367,10 +365,10 @@ class ProductDetailView(DetailView):
                 reviews = reviews.filter(t_down=t_down)
             if pos_feat:
                 reviews = reviews.filter(
-                    pos_features = pos_feat)
+                    pos_features=pos_feat)
             if neg_feat:
                 reviews = reviews.filter(
-                    neg_features = neg_feat)
+                    neg_features=neg_feat)
 
         sorter = self.request.GET.get('sort')
 

@@ -1,0 +1,454 @@
+{
+    "90096827": {
+        "15323698": {
+            "review_id": "15323698",
+            "author": "n...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-12-08 04:03:07",
+            "date_b": "2021-12-03 12:22:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko dobrze ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13481154": {
+            "review_id": "13481154",
+            "author": "l...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-12-01 19:14:10",
+            "date_b": "2020-11-27 19:46:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Okej 👌 ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13349598": {
+            "review_id": "13349598",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-11-09 20:55:19",
+            "date_b": "2020-10-26 22:20:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17109716": {
+            "review_id": "17109716",
+            "author": "m...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2023-02-06 17:54:27",
+            "date_b": "2023-01-30 17:27:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W tej cenie bardzo korzystna relacja ceny do wydajności i podstawowych zastosowań domowych.",
+            "pos_features": [
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "16776249": {
+            "review_id": "16776249",
+            "author": "m...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-22 11:39:29",
+            "date_b": "2022-11-01 19:36:23",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działają idealnie, płyta główna od razu wykryła profil i dopasowała taktowanie. ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "12131965": {
+            "review_id": "12131965",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-04-13 19:58:28",
+            "date_b": "2020-03-27 15:08:00",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ram stabilny, niski i szybki. Kupiłbym jeszcze raz.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13190032": {
+            "review_id": "13190032",
+            "author": "t...t",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-10-11 09:37:23",
+            "date_b": "2020-09-02 18:52:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "jest stabilna i co ukrywać, dobra",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13734129": {
+            "review_id": "13734129",
+            "author": "S...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-01-08 08:00:29",
+            "date_b": "2020-12-22 08:03:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam. Tanie I solidne ramy",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "12987499": {
+            "review_id": "12987499",
+            "author": "b...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2020-08-21 13:32:32",
+            "date_b": "2020-08-15 13:10:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "nie podoba mi się ta naklejka",
+            "pos_features": [
+                "szybkość"
+            ],
+            "neg_features": [
+                "wygląd"
+            ]
+        },
+        "15125142": {
+            "review_id": "15125142",
+            "author": "p...b",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-26 01:56:32",
+            "date_b": "2021-10-14 10:31:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działka, nie mam zastrzeżeń",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16762916": {
+            "review_id": "16762916",
+            "author": "n...e",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-18 09:08:52",
+            "date_b": "2022-10-27 19:34:36",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działają jak trzeba",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15652226": {
+            "review_id": "15652226",
+            "author": "k...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4",
+            "date_p": "2022-02-03 15:20:11",
+            "date_b": "2022-01-10 19:22:26",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry ram",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15835215": {
+            "review_id": "15835215",
+            "author": "p...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-17 10:45:51",
+            "date_b": "2022-03-13 19:43:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "zgodny z opisem",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14175433": {
+            "review_id": "14175433",
+            "author": "p...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-03-24 22:37:21",
+            "date_b": "2021-03-17 12:39:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobre ramy",
+            "pos_features": [
+                "stabilność",
+                "szybkość"
+            ],
+            "neg_features": [
+                "wygląd"
+            ]
+        },
+        "12989728": {
+            "review_id": "12989728",
+            "author": "r...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-08-21 21:46:43",
+            "date_b": "2020-08-16 20:31:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Pozytywna ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "14904806": {
+            "review_id": "14904806",
+            "author": "1...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-08-31 10:25:14",
+            "date_b": "2021-08-24 13:41:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Świetny ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16322723": {
+            "review_id": "16322723",
+            "author": "O...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-15 20:55:34",
+            "date_b": "2022-07-09 16:16:46",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spoczko",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "12881945": {
+            "review_id": "12881945",
+            "author": "h...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-07-31 18:43:57",
+            "date_b": "2020-07-29 15:12:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16940821": {
+            "review_id": "16940821",
+            "author": "c...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-28 16:03:30",
+            "date_b": "2022-12-20 15:26:16",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16319983": {
+            "review_id": "16319983",
+            "author": "m...s",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-07-15 09:47:24",
+            "date_b": "2022-07-08 21:57:55",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16044276": {
+            "review_id": "16044276",
+            "author": "p...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-05 08:34:04",
+            "date_b": "2022-04-20 15:54:30",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "14778540": {
+            "review_id": "14778540",
+            "author": "m...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-07-29 00:38:49",
+            "date_b": "2021-07-14 07:55:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "13406012": {
+            "review_id": "13406012",
+            "author": "r...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-11-19 12:15:54",
+            "date_b": "2020-10-22 15:32:57",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość"
+            ],
+            "neg_features": []
+        },
+        "13180213": {
+            "review_id": "13180213",
+            "author": "y...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-10-08 23:14:29",
+            "date_b": "2020-09-16 15:34:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "OK",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13117636": {
+            "review_id": "13117636",
+            "author": "m...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2020-09-23 13:07:09",
+            "date_b": "2020-08-31 14:44:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "13073129": {
+            "review_id": "13073129",
+            "author": "r...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-09-11 11:52:17",
+            "date_b": "2020-09-06 10:03:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "12997236": {
+            "review_id": "12997236",
+            "author": "m...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-08-24 17:05:32",
+            "date_b": "2020-08-17 20:17:01",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "12798875": {
+            "review_id": "12798875",
+            "author": "s...p",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2020-07-14 06:51:19",
+            "date_b": "2020-06-25 14:56:58",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

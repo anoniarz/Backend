@@ -1,0 +1,200 @@
+{
+    "112974622": {
+        "15701034": {
+            "review_id": "15701034",
+            "author": "b...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-02-14 22:18:43",
+            "date_b": "2022-01-13 14:39:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "TO KLASYKA. KINGSTON PASUJE DO WIĘKSZOŚCI URZĄDZEŃ \nBARDZO STABILNA SZYBKA I NIEZAWODNA PAMIĘĆ \n(nie wiesz co kupić kup kingston)",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16814289": {
+            "review_id": "16814289",
+            "author": "k...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-30 21:26:36",
+            "date_b": "2022-11-11 15:32:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko ok, w końcu kingston marka mówi sama za siebie. Laptop wyraźnie przyspieszył i można wykorzystać jego potencjał. Polecam",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17174093": {
+            "review_id": "17174093",
+            "author": "a...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-21 21:08:53",
+            "date_b": "2023-02-09 21:04:51",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W pełni działające od razu ustawiły same 3200mhz \nwspółpracują z ryzenem 7 5800h  (legion 5)\n\npo prostu dobre kości sodimm w tej cenie :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17104595": {
+            "review_id": "17104595",
+            "author": "m...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-04 09:51:38",
+            "date_b": "2023-01-24 21:30:56",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Produkt wysokiej jakości, fabrycznie zapakowany w idealnym stanie",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16640207": {
+            "review_id": "16640207",
+            "author": "o...m",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-10-17 10:24:13",
+            "date_b": "2022-10-10 21:24:47",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Ram jak ram - dobry, szybki, realizacja też - warto było ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16757227": {
+            "review_id": "16757227",
+            "author": "p...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-17 08:52:42",
+            "date_b": "2022-11-13 10:02:56",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "Nie dostałem produktu. Sklep anulował zamówienie.",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16121731": {
+            "review_id": "16121731",
+            "author": "m...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-24 11:41:33",
+            "date_b": "2022-05-17 21:38:39",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Pamięci działają idealnie",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16311976": {
+            "review_id": "16311976",
+            "author": "r...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-07-13 11:39:36",
+            "date_b": "2022-07-04 08:53:14",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry produkt",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16156461": {
+            "review_id": "16156461",
+            "author": "p...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-06-01 11:34:16",
+            "date_b": "2022-05-17 21:42:38",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "It does its job",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17185331": {
+            "review_id": "17185331",
+            "author": "Sebix",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-23 20:30:05",
+            "date_b": "2023-02-13 15:55:22",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Robi robotę.",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17253264": {
+            "review_id": "17253264",
+            "author": "T...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-10 21:38:04",
+            "date_b": "2023-02-17 09:52:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15464115": {
+            "review_id": "15464115",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "None",
+            "is_verified": false,
+            "stars": "4",
+            "date_p": "2019-10-30 00:00:00",
+            "date_b": "2019-10-30 00:00:00",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "4,0/5",
+            "pos_features": [],
+            "neg_features": []
+        }
+    }
+}

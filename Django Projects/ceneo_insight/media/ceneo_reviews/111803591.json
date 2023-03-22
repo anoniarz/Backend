@@ -1,0 +1,204 @@
+{
+    "111803591": {
+        "16387514": {
+            "review_id": "16387514",
+            "author": "s...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-04 12:18:17",
+            "date_b": "2022-07-13 09:28:18",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Efektywne oraz Efektowne kości na ryzen 5 1600 działają z pełnym taktowaniem 3200MHz",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15636732": {
+            "review_id": "15636732",
+            "author": "WalkingDeadTM",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-01-31 21:29:26",
+            "date_b": "2022-01-23 17:35:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Łatwy montaż, szybkie, łączą się z mystic light",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16543381": {
+            "review_id": "16543381",
+            "author": "p...a",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-09-21 10:02:53",
+            "date_b": "2022-09-09 22:45:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Dobrze wykonane, podświetlane",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16073092": {
+            "review_id": "16073092",
+            "author": "K...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-11 22:27:20",
+            "date_b": "2022-04-10 16:35:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobry ram za taką cene ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15785032": {
+            "review_id": "15785032",
+            "author": "m...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-03-05 20:54:59",
+            "date_b": "2022-02-20 15:28:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Spełnia wymagania ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15536987": {
+            "review_id": "15536987",
+            "author": "r...1",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-01-11 19:17:52",
+            "date_b": "2022-01-06 16:49:44",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko OK.",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16029285": {
+            "review_id": "16029285",
+            "author": "w...k",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-04-30 10:17:51",
+            "date_b": "2022-04-13 23:18:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15718077": {
+            "review_id": "15718077",
+            "author": "a...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-02-17 18:09:37",
+            "date_b": "2022-01-20 11:04:48",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17090976": {
+            "review_id": "17090976",
+            "author": "s...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-01 19:37:34",
+            "date_b": "2023-01-25 18:38:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "git",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16897884": {
+            "review_id": "16897884",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-18 09:13:57",
+            "date_b": "2022-11-16 20:38:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16828829": {
+            "review_id": "16828829",
+            "author": "m...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-03 16:27:17",
+            "date_b": "2022-11-16 19:00:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15059029": {
+            "review_id": "15059029",
+            "author": "Szymon",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2021-10-10 21:10:37",
+            "date_b": "2021-10-10 21:10:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo dobry produkt, RAM'ki działają rewelacyjnie, podświetlenie również bardzo dobre, równomierne. Program do kontroli podświetlenia prosty i przejrzysty. Szczerze polecam :D",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        }
+    }
+}

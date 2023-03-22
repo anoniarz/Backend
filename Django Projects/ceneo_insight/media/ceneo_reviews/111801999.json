@@ -1,0 +1,190 @@
+{
+    "111801999": {
+        "17262570": {
+            "review_id": "17262570",
+            "author": "s...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-03-14 07:39:46",
+            "date_b": "2023-02-25 20:01:05",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Od tygodnia zamontowane na płycie głównej. Póki co wszystko hula jak powinno.",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16766615": {
+            "review_id": "16766615",
+            "author": "b...d",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "4.5",
+            "date_p": "2022-11-18 21:57:29",
+            "date_b": "2022-11-12 18:43:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "dobra pamięć, ale chciałem 4000+, szkoda, że ​​nie było",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "16768965": {
+            "review_id": "16768965",
+            "author": "w...3",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-20 12:27:47",
+            "date_b": "2022-10-25 19:21:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "taki jaki miał być czyli odpowiedni ",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17163293": {
+            "review_id": "17163293",
+            "author": "Arkadiusz",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-18 17:11:34",
+            "date_b": "2023-01-06 22:40:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Działa, to najważniejsze XD",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "15043834": {
+            "review_id": "15043834",
+            "author": "r...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-06 22:58:34",
+            "date_b": "2021-09-22 14:12:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko Ok! Polecam!",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "15021609": {
+            "review_id": "15021609",
+            "author": "r...0",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2021-10-01 12:02:09",
+            "date_b": "2021-09-25 06:29:40",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Wszystko Ok! Polecam!",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17124836": {
+            "review_id": "17124836",
+            "author": "M...6",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-09 13:22:47",
+            "date_b": "2023-02-01 12:28:52",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Szybki, pojemny ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16404264": {
+            "review_id": "16404264",
+            "author": "l...7",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-08-09 21:35:01",
+            "date_b": "2022-08-04 16:26:25",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Super!",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17173252": {
+            "review_id": "17173252",
+            "author": "p...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-02-21 19:15:03",
+            "date_b": "2023-02-08 19:40:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Są ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        },
+        "17248442": {
+            "review_id": "17248442",
+            "author": "d...0",
+            "recommendation": "False",
+            "is_verified": true,
+            "stars": "0.5",
+            "date_p": "2023-03-10 06:47:05",
+            "date_b": "2023-02-20 23:43:59",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Nie mogę napisać co sądzę bo ze względu na brak towaru od ręki otrzymałem produkt GoodRam a ocena jest dla ankietera bo ma nieaktualne dane",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16140513": {
+            "review_id": "16140513",
+            "author": "c...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-05-27 20:47:51",
+            "date_b": "2022-05-13 14:04:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "ok",
+            "pos_features": [
+                "stabilność",
+                "szybkość",
+                "wygląd"
+            ],
+            "neg_features": []
+        }
+    }
+}
