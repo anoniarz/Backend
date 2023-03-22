@@ -14,7 +14,7 @@
                 {% if forloop.counter0 == 5 %}<br>{% endif %}
                 {% if forloop.counter0 == 8 %}<br>{% endif %}
           {% endfor %}<br>
-          
+
           <label for="id_recommendation">Does Recommend:</label><br>
       
           {% for option in recommend_options %}
@@ -37,7 +37,7 @@
           <label for="id_pos_features">Min Positive features:</label>
           <input type="number" id="id_pos_features" name="pos_features" style="max-width: 20%;" class="float-right"><br><br>
       
-          <label for="id_neg_features">Max Negative features:</label>
+          <label for="id_neg_features">Min Negative features:</label>
           <input type="number" id="id_neg_features" name="neg_features" style="max-width: 20%;" class="float-right"><br><br>
       
           <button class="btn btn-warning"type="submit">Filter</button>

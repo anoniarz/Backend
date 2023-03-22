@@ -7,7 +7,7 @@ from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f, ReviewFilterForm
 from django.views.generic import DetailView, View
-from django.db.models import Q
+from django.db.models import Count
 
 # Scraper
 import os
@@ -328,7 +328,6 @@ class ProductDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         product = self.get_object()
         reviews = Review.objects.filter(product_id=product.product_id)
-
         stars_numbers = sorted(set([float(x.stars) for x in reviews]))
         recommend_options = sorted(set([x.recommendation for x in reviews]))
 
@@ -360,15 +359,23 @@ class ProductDetailView(DetailView):
             if days_used:
                 reviews = reviews.filter(days_used__gte=days_used)
             if t_up:
-                reviews = reviews.filter(t_up=t_up)
+                reviews = reviews.filter(t_up__gte=t_up)
             if t_down:
-                reviews = reviews.filter(t_down=t_down)
+                reviews = reviews.filter(t_down__lte=t_down)
+
             if pos_feat:
-                reviews = reviews.filter(
-                    pos_features=pos_feat)
+                pos_feat_list = []
+                for review in reviews:
+                    if len(review.pos_features) >= pos_feat:
+                        pos_feat_list.append(review.review_id)
+                reviews = reviews.filter(review_id__in=pos_feat_list)
+
             if neg_feat:
-                reviews = reviews.filter(
-                    neg_features=neg_feat)
+                neg_feat_list = []
+                for review in reviews:
+                    if len(review.neg_features) >= neg_feat:
+                        neg_feat_list.append(review.review_id)
+                reviews = reviews.filter(review_id__in=neg_feat_list)
 
         sorter = self.request.GET.get('sort')
 
