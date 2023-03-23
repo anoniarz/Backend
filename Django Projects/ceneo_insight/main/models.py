@@ -1,7 +1,5 @@
 from django.db import models
 
-# rm db.sqlite3
-
 
 class Product(models.Model):
     product_id = models.CharField(

@@ -7,15 +7,13 @@ from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f, ReviewFilterForm
 from django.views.generic import DetailView, View
-from django.db.models import Count
+from bs4 import BeautifulSoup as bs
 
-# Scraper
 import os
 import requests
 import re
 import json
 import collections as co
-from bs4 import BeautifulSoup as bs
 
 
 def delete_from_db(ceneo_id):
@@ -53,9 +51,6 @@ def scrape(link):
         page = requests.get(URL)
         doc = bs(page.text, "html.parser")
 
-        with open("doc.html", "w", encoding="UTF-8") as fil:
-            fil.write(doc.text)
-
         content = doc.find_all(
             class_='user-post user-post__card js_product-review')
         if content == []:
@@ -66,27 +61,28 @@ def scrape(link):
             class_="js_breadcrumbs__item breadcrumbs__item link")[-1].text.split())
         category = " ".join(category)
         try:
-            name = try_or(doc.find(
-                class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+            name = doc.find(
+                class_="product-top__product-info__name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string
         except:
-            name = try_or(doc.find(
-                class_="product-top__product-info__name long-name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string)
+            name = doc.find(
+                class_="product-top__product-info__name long-name js_product-h1-link js_product-force-scroll js_searchInGoogleTooltip default-cursor").string
         if len(name) > 55:
             name = name.split(" ")
-            name = " ".join(name[:6])
+            name = " ".join(name[:5])
 
         rating = try_or(doc.find(
             class_="product-review").find(class_="product-review__score").get('content'))
 
         price = try_or(
             doc.find(class_="price-format nowrap").find(class_="value").string)
+
         rest = try_or(
             doc.find(class_="price-format nowrap").find(class_="penny").string)
+
         price = re.sub(' ', '', price)
         rest = re.sub(',', '.', rest)
         price = float(price+rest)
 
-        # Scraping
         for i in range(len(content)):
 
             review_id = try_or(content[i].get("data-entry-id"))
@@ -110,14 +106,13 @@ def scrape(link):
                     class_="review-pz").find("em").string == "Opinia potwierdzona zakupem" else False
             except:
                 is_verified = False
-                pass
             # Date published
             date_p = try_or(content[i].find(
                 class_="user-post__published").find_all("time")[0].get("datetime"))
             # Date Bought
             try:
-                date_b = content[i].find(class_="user-post__published")
-                date_b = date_b.find_all("time")[1].get("datetime")
+                date_b = content[i].find(
+                    class_="user-post__published").find_all("time")[1].get("datetime")
             except:
                 date_b = date_p
             # No. positive
@@ -208,12 +203,6 @@ def scrape(link):
     return product.pk
 
 
-def error(request):
-    return render(request, 'main/error.html')
-
-# Adding Product
-
-
 def add_product(request):
     if request.method == 'POST':
         form = Url_f(request.POST)
@@ -263,26 +252,28 @@ class DownloadFile(View):
                     fh.read(), content_type='application/json')
                 response['Content-Disposition'] = f'attachment; filename={file_name}'
                 return response
-
         raise Http404
 
 
 def products(request):
 
-    category = request.GET.get('category')
-    sorter = request.GET.get('sort')
     products = Product.objects.all()
+
     user = request.user
     user_favourites_list = []
-
     if user.is_authenticated:
         user_favourites = request.user.profile.favourites.all()
         user_favourites_list = [
             product.product_id for product in user_favourites]
 
+    category = request.GET.get('category')
     if category != "None" and category != "All":
         products = products.filter(product_category=category)
 
+    categories = Product.objects.values_list(
+        'product_category', flat=True).distinct()
+
+    sorter = request.GET.get('sort')
     if sorter == 'a-z':
         products = products.order_by('product_name')
     elif sorter == 'z-a':
@@ -305,9 +296,6 @@ def products(request):
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
-    categories = Product.objects.values_list(
-        'product_category', flat=True).distinct()
-
     context = {
         "products": page_obj,
         "sorter": sorter,
@@ -315,7 +303,6 @@ def products(request):
         "categories": categories,
         "selected_category": category,
     }
-
     return render(request, 'main/products.html', context)
 
 
@@ -328,6 +315,7 @@ class ProductDetailView(DetailView):
         context = super().get_context_data(**kwargs)
         product = self.get_object()
         reviews = Review.objects.filter(product_id=product.product_id)
+
         stars_numbers = sorted(set([float(x.stars) for x in reviews]))
         recommend_options = sorted(set([x.recommendation for x in reviews]))
 
@@ -336,7 +324,6 @@ class ProductDetailView(DetailView):
         if form.is_valid():
 
             data = form.cleaned_data
-
             stars = data.get('stars')
             recommendation = data.get('recommendation')
             is_verified = data.get('is_verified')
@@ -378,7 +365,6 @@ class ProductDetailView(DetailView):
                 reviews = reviews.filter(review_id__in=neg_feat_list)
 
         sorter = self.request.GET.get('sort')
-
         if sorter == 'newest':
             reviews = reviews.order_by('-date_p')
         elif sorter == 'oldest':
@@ -424,5 +410,4 @@ class ProductDetailView(DetailView):
             'stars_numbers': stars_numbers,
             'recommend_options': recommend_options,
         }
-
         return context

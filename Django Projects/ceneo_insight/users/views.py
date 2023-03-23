@@ -24,10 +24,10 @@ def register(request):
 @login_required
 def favourites(request):
 
-    sorter = request.GET.get('sort')
     profile = request.user.profile
     favourites = profile.favourites.all()
 
+    sorter = request.GET.get('sort')
     if sorter == 'a-z':
         favourites = favourites.order_by('product_name')
     elif sorter == 'z-a':
