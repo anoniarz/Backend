@@ -3,11 +3,13 @@ from django.core.paginator import Paginator
 from django.conf import settings
 from django.http import HttpResponse, Http404
 from django.contrib import messages
+from django.db.models.functions import Lower
+from django.views.generic import DetailView, View
 from .models import Review, Product
 from datetime import datetime
 from .forms import Url_f, ReviewFilterForm
-from django.views.generic import DetailView, View
 from bs4 import BeautifulSoup as bs
+
 
 import os
 import requests
@@ -275,9 +277,9 @@ def products(request):
 
     sorter = request.GET.get('sort')
     if sorter == 'a-z':
-        products = products.order_by('product_name')
+        products = products.order_by(Lower('product_name'))
     elif sorter == 'z-a':
-        products = products.order_by('-product_name')
+        products = products.order_by(Lower('product_name').desc())
     elif sorter == 'most_reviews':
         products = sorted(
             products, key=lambda p: p.reviews.count(), reverse=True)
