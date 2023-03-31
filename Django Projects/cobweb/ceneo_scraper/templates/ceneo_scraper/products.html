@@ -27,7 +27,7 @@
     <div class="media-body">
         <h5>
             <div class="container">
-                <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
+                <a class="article-title float-left" style="text-decoration: none;" href="{% url 'product_reviews' product.pk %}">
                     {{ product.product_name }}
                 </a>
                 <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">

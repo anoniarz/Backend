@@ -208,10 +208,6 @@ def home(request):
     return render(request, 'ceneo_scraper/home.html')
 
 
-def about(request):
-    return render(request, 'ceneo_scraper/about.html')
-
-
 def refresh_product(request, pk):
     scrape(str(pk))
     page = request.META.get('HTTP_REFERER')
@@ -259,6 +255,7 @@ def products(request):
         'product_category', flat=True).distinct()
 
     sorter = request.GET.get('sort')
+    products = products.order_by('-date_added')
     if sorter == 'a-z':
         products = products.order_by(Lower('product_name'))
     elif sorter == 'z-a':

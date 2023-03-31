@@ -16,7 +16,6 @@ pln {
 }
 
 body {
-    background: radial-gradient(circle, var(--palette-3) 10%, transparent 11%), radial-gradient(circle at bottom left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at bottom right, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top left, var(--palette-3) 5%, transparent 6%), radial-gradient(circle at top right, var(--palette-3) 5%, transparent 6%);
     background-size: 6em 6em;
     background-color: var(--palette-4);
     color: var(--palette-2);
@@ -164,6 +163,12 @@ h4,
 h5,
 h6 {
     color: var(--palette-2);
+}
+
+.text-muted {
+
+    color: gray !important;
+    opacity: 80%;
 }
 
 .ceneo {

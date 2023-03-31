@@ -3,7 +3,6 @@ from . import views
 
 urlpatterns = [
     path('', views.home, name='ceneo_home'),
-    path('about', views.about, name='about'),
     path('products', views.products, name='products'),
     path('add_product', views.add_product, name='add_product'),
     path('product/<int:pk>/', views.ProductDetailView.as_view(),

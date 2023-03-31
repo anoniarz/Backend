@@ -1,0 +1,317 @@
+{
+    "131118595": {
+        "16821873": {
+            "review_id": "16821873",
+            "author": "n...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-02 09:26:55",
+            "date_b": "2022-11-14 12:33:02",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor bestia! Szczególnie pokazuje pazury w wymagających grach jak symulatory/symulacje(Microsoft Flight Simulator, Factorio) i MMO(Star Citizen, New World).\n\nW ustawieniach fabrycznych grzeje się dość mocno, ale po małym undervoltingu i z w miarę solidnym chłodzeniem(osobiście posiadam Arctic AK620) temperatury są w porządku(maks 60-70 podczas grania). Undervolting bardzo zalecany(można znaleźć poradniki jak to zrobić prosto i bezpiecznie na youtube), gdyż może obniżyć temperatury nawet o 10 stopni przy jednoczesnym spadku poboru prądu i szybszym/stabilniejszym zegarze.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16736741": {
+            "review_id": "16736741",
+            "author": "Użytkownik Ceneo",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-11 14:27:14",
+            "date_b": "2022-10-05 18:46:03",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Najlepszy procesor do gier w rozsądnej cenie! Super wydajność przy stosunkowo niskim poborze prądu (i wydzielanym cieple). Temperatura działania jest bardzo specyficzna (próbuje zawsze osiągnąć 90 stopni), przez co trzeba umiejętnie dobrać chłodzenie.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16931009": {
+            "review_id": "16931009",
+            "author": "K...l",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-27 03:54:03",
+            "date_b": "2022-12-14 18:14:37",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "praktycznie nie do zajechania. domyślne napięcie ustawiane przez płytę główną mogłoby być nieco niższe żeby zbić temperatury, które z powodu jednego CCD są dość wysokie",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16734783": {
+            "review_id": "16734783",
+            "author": "i...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-10 20:27:41",
+            "date_b": "2022-10-27 13:30:47",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Bardzo udany zakup,Świetne wyniki  zarówno  w aplikacjach jedno jak i wielowątkowych.Jedyny minus to ,że wymaga wydajnego chłodzenia ",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16854560": {
+            "review_id": "16854560",
+            "author": "s...9",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-08 23:57:11",
+            "date_b": "2022-11-25 00:26:41",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "W porównaniu do R5 3600xt temperatury wzrosły o 5-10 stopni, natomiast wydajność o około 30%",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": [
+                "głośność pracy"
+            ]
+        },
+        "16759681": {
+            "review_id": "16759681",
+            "author": "c...f",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-17 15:42:31",
+            "date_b": "2022-10-30 08:44:42",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Fajny procesor, jeśli ktoś chce wycisnąć wszystko co możliwe  z am4. ",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16742440": {
+            "review_id": "16742440",
+            "author": "j...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-14 10:38:37",
+            "date_b": "2022-11-02 08:11:08",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor jest niesamowity, jestem w pełni zadowolony.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16957902": {
+            "review_id": "16957902",
+            "author": "pin",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-31 09:01:46",
+            "date_b": "2022-12-12 10:22:49",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Temperatury trochę wyższe od 5800x, cache robi swoje",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17039315": {
+            "review_id": "17039315",
+            "author": "d...z",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-19 19:42:46",
+            "date_b": "2023-01-07 15:57:33",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Procesor działa bez zarzutu :)",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17040110": {
+            "review_id": "17040110",
+            "author": "a...o",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-19 21:11:36",
+            "date_b": "2023-01-09 23:49:53",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Smiga, choc mocno sie grzeje",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16706691": {
+            "review_id": "16706691",
+            "author": "I...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-03 11:41:12",
+            "date_b": "2022-10-30 10:41:34",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "najlepsze cpu na am4 do gier",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16787693": {
+            "review_id": "16787693",
+            "author": "y...2",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-24 11:42:29",
+            "date_b": "2022-11-21 13:22:11",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Ok, nowy zgodny z opisem",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "17057556": {
+            "review_id": "17057556",
+            "author": "k...8",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-25 03:28:44",
+            "date_b": "2023-01-04 17:39:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Zaje procesor do gier",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16857900": {
+            "review_id": "16857900",
+            "author": "z...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-09 15:06:24",
+            "date_b": "2022-12-05 19:11:29",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Po prostu polecam.",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "17049882": {
+            "review_id": "17049882",
+            "author": "c...r",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2023-01-23 12:13:57",
+            "date_b": "2023-01-16 15:35:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Polecam. ",
+            "pos_features": [
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16870111": {
+            "review_id": "16870111",
+            "author": "k...4",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-12-13 06:41:30",
+            "date_b": "2022-11-30 15:26:27",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "super!",
+            "pos_features": [
+                "głośność pracy",
+                "stabilność",
+                "wydajność"
+            ],
+            "neg_features": []
+        },
+        "16748380": {
+            "review_id": "16748380",
+            "author": "j...i",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-15 13:12:51",
+            "date_b": "2022-11-09 18:23:31",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Tak",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16809863": {
+            "review_id": "16809863",
+            "author": "p...x",
+            "recommendation": "True",
+            "is_verified": true,
+            "stars": "5",
+            "date_p": "2022-11-30 09:54:55",
+            "date_b": "2022-11-25 07:31:45",
+            "t_up": "0",
+            "t_down": "0",
+            "opinion": "Jw",
+            "pos_features": [],
+            "neg_features": []
+        },
+        "16759870": {
+            "review_id": "16759870",
+            "author": "imie",
+            "recommendation": "True",
+            "is_verified": false,
+            "stars": "5",
+            "date_p": "2022-11-17 16:44:58",
+            "date_b": "2022-11-17 16:44:58",
+            "t_up": "0",
+            "t_down": "1",
+            "opinion": "W tej cenie to bardzo dobry procesor. Oszczędny, wydajny i w miarę przyszłościowy. Na kilka dobrych lat na pewno wystarczy. Jedyny minus to dość wysokie temperatury pracy, około 70-75 stopni w grach na chłodzeniu Noctua NH-D15. I trochę szkoda że nie da się go podkręcić do powiedzmy 4.7/4.8Ghz.",
+            "pos_features": [
+                "wydajność"
+            ],
+            "neg_features": []
+        }
+    }
+}

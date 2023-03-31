@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 
 
 class Product(models.Model):
@@ -8,6 +9,7 @@ class Product(models.Model):
     product_rating = models.CharField(max_length=10)
     product_category = models.CharField(max_length=50)
     product_price = models.FloatField()
+    date_added = models.DateTimeField(default=timezone.now)
     reviews = models.ManyToManyField('Review', related_name='reviews')
 
     def __str__(self):
