@@ -1,0 +1,190 @@
+{% include 'ceneo_scraper/head.html' %}
+
+    <main role="main" class="container">
+
+      <div id="filter-form" style="display: none;">
+        <form method="get">
+          <h5><label><i class="fa-solid fa-filter">&nbsp;</i>Filter by:</label><br></h5>
+      
+          <label>Stars:</label><br>
+          {% for number in stars_numbers %}
+                <input type="checkbox" id="id_stars{{ number }}" name="stars" value="{{ number }}">
+                <label for="id_stars{{ number }}">{{ number }}</label>
+                {% if forloop.counter0 == 2 %}<br>{% endif %}
+                {% if forloop.counter0 == 5 %}<br>{% endif %}
+                {% if forloop.counter0 == 8 %}<br>{% endif %}
+          {% endfor %}<br>
+
+          <label for="id_recommendation">Does Recommend:</label><br>
+      
+          {% for option in recommend_options %}
+          <label for="id_recommendation">{{ option }}</label>
+          <input type="checkbox" id="id_recommendation" name="recommendation" value='{{ option }}'>&nbsp;&nbsp;
+          {% endfor %}<br><br>
+          
+          <label for="id_is_verified">Verified</label>
+          <input type="checkbox" id="id_is_verified" name="is_verified" value="True"><br><br>
+      
+          <label for="id_days_used">Min Days used:</label>
+          <input type="number" id="id_days_used" name="days_used" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_t_up">Min Thumbs up:</label>
+          <input type="number" id="id_t_up" name="t_up" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_t_down">Max Thumbs down:</label>
+          <input type="number" id="id_t_down" name="t_down" min="0" step="1" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_pos_features">Min Positive features:</label>
+          <input type="number" id="id_pos_features" name="pos_features" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <label for="id_neg_features">Min Negative features:</label>
+          <input type="number" id="id_neg_features" name="neg_features" style="max-width: 20%;" class="float-right"><br><br>
+      
+          <button class="btn btn-warning"type="submit">Filter</button>
+        </form>
+      </div>
+
+      <div class="row"> 
+      <div class="col-md-2">
+        <div class="content-section" >
+        <h3 style="margin-bottom: 10px;">Sort by:</h3>
+        <button class="btn btn-warning" id="filter-btn"><i class="fa-solid fa-filter">&nbsp;</i>Filters</button>
+        <a class="btn btn-outline-warning float-right" href="{% url 'product_reviews' product.pk %}?sort={{ sorter }}">Reset&nbsp;<i class="fa-solid fa-filter"></i></a>
+
+        <ul class="list-group" style="margin-top: 10px;">
+        <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'oldest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=oldest">Oldest&nbsp;<i class="fa-solid fa-hourglass-start"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'highest_rated' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=highest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_rated' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=lowest_rated">Rated&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_liked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_liked">Liked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_disliked' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_disliked">Disliked&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_used' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=most_used">Days Used&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'pos_features' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=pos_features">Positive Features&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'neg_features' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=neg_features">Negative Features&nbsp;<i class="fa-solid fa-arrow-down-wide-short"></i></a>
+        </ul>
+        </div>
+      </div>
+
+      <div class="col-md-8">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+            {% block content %}{% endblock %}
+      </div> 
+      <div class="col-md-2">
+          <div class="chart">
+              <h4>Stars</h4>
+              <canvas id="star_chart" width="600" height="600"></canvas>
+          </div> 
+          <div class="chart">
+              <h4>Does Recomend</h4>
+              <canvas id="recomendation_chart" width="600" height="600"></canvas>
+          </div>
+          <div class="chart">
+            <h4>Days Used</h4>
+            <canvas id="days_chart" width="600" height="600"></canvas>
+        </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+
+    const filterBtn = document.getElementById('filter-btn');
+    const filterForm = document.getElementById('filter-form');
+
+    filterBtn.addEventListener('click', () => {
+
+      if (filterForm.style.display === 'none') {
+        filterForm.style.display = 'block';
+      } else {
+        filterForm.style.display = 'none';
+      }
+    });
+
+      Chart.defaults.borderColor = '#36A2EB';
+      Chart.defaults.color = 'white';
+
+      var labels1 = {{ labels1|safe }};
+      var values1 = {{ values1|safe }};
+
+      var ctx = document.getElementById('star_chart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: labels1,
+              datasets: [{
+                  data: values1,
+                  backgroundColor: ['#FFE15D','#F49D1A','#DC3535','#B01E68'],
+                  borderColor: 'white',
+                  borderWidth: 1
+              }]
+          },
+          options: {
+            plugins: {
+              legend: {
+                display: false
+              }
+            }
+          }
+      });
+    </script>
+    <script>
+      var labels2 = {{ labels2|safe }};
+      var values2 = {{ values2|safe }};
+
+      var ctx = document.getElementById('recomendation_chart').getContext('2d');
+      var myChart = new Chart(ctx, {
+          type: 'doughnut',
+          data: {
+              labels: labels2,
+              datasets: [{
+                  label: 'Recommendation',
+                  data: values2,
+                  backgroundColor: ['#FFE15D','#F49D1A','#DC3535'],
+                  borderColor: 'white',
+                  borderWidth: 1
+              }]
+          },
+      });
+  </script>
+  <script>
+
+    var labels3 = {{ labels3|safe }};
+    var values3 = {{ values3|safe }};
+
+    var ctx = document.getElementById('days_chart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels3,
+            datasets: [{
+                data: values3,
+                backgroundColor: 'white',
+                borderColor: '#ff6300',
+                borderWidth: 1
+            }]
+        },
+        options: {
+          ticks: {
+                  autoSkip: true,
+                  maxTicksLimit: 5,
+              },
+          tension: 0.5,
+          plugins: {
+            legend: {
+              display: false
+            }
+          }
+        }
+    });
+  </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

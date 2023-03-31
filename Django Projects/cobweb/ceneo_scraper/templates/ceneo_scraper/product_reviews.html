@@ -1,0 +1,76 @@
+{% extends "ceneo_scraper/chart_base.html" %}
+
+{% block content %}
+  <article class="media content-section">
+    <h4>{{ product.product_name }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i></h4>
+  </article>
+
+  
+  {% for review in reviews %}
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2">{{ review.author }} - {{ review.review_id }}</a>
+          <small class="text-muted">{{ review.date_p|date:"j F, Y" }}&nbsp;</small>
+          <small class="text-muted"> {{ review.stars }}\5 <i class="yellow fa-solid fa-star"></i>&nbsp;</small>
+          {% if review.recommendation == "True" %}
+          <small class="text-muted">Recomended: <i class="green fa-solid fa-check"></i>&nbsp;</small>
+          {% elif review.recommendation == "False" %}
+          <small class="text-muted">Recomended: <i class="red fa-solid fa-xmark"></i>&nbsp;</small>
+          {% elif review.recommndation == "None" %}
+          <small class="text-muted">Recomended: <i class="red fa-solid fa-question"></i>&nbsp;</small>
+          {% endif %}
+          {% if review.is_verified == True %}
+          <small class="text-muted">Verified:&nbsp;<i class="green fa-solid fa-calendar-day"></i> {{ review.days_used }}&nbsp;</small>
+          {% elif review.is_verified == False %}
+          <small class="text-muted">Verified: <i class="red fa-solid fa-xmark"></i>&nbsp;</small>
+          {% endif %}
+           <i class="green fa-solid fa-thumbs-up"></i> <small class="text-muted">{{ review.t_up }}&nbsp;</small>
+           <i class="red fa-solid fa-thumbs-down"></i> <small class="text-muted">{{ review.t_down }}</small>
+        </div>
+        <p><i class="fa-solid fa-comment"></i>&nbsp;{{ review.opinion }}</p>
+
+        {% for pos_feature in review.pos_features %}
+        <ul class="no-bullets">
+        <i class="green fa-solid fa-plus">&nbsp;</i>
+        {{ pos_feature }}
+        </ul>
+        {% endfor %}
+
+
+
+        {% for neg_feature in review.neg_features %}
+        <ul class="no-bullets">
+        <i class="red fa-solid fa-minus">&nbsp;</i>
+        {{ neg_feature }}
+        </ul>
+        {% endfor %}
+
+
+      </div>
+    </article>
+  {% endfor %}
+
+  {% if reviews.has_other_pages %}
+  <div class="pagination">
+      {% if reviews.has_previous %}
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page=1"><i class="fa-solid fa-angles-left"></i></a>&nbsp;
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.previous_page_number }}"><i class="fa-solid fa-angle-left"></i></a>&nbsp;
+      {% endif %}
+
+      {% for num in reviews.paginator.page_range %}
+          {% if num == reviews.number %}
+          <a class="btn btn-outline-warning mb-4 active" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          {% elif num > reviews.number|add:'-3' and num < reviews.number|add:'3' %}
+          <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ num }}">{{ num }}</a>&nbsp;
+          {% endif %}
+      {% endfor %}
+
+      {% if reviews.has_next %}
+      <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.next_page_number }}"><i class="fa-solid fa-angle-right"></i></a>&nbsp;
+      <a class="btn btn-outline-warning mb-4" href="?{{ request.GET.urlencode }}&sort={{ sorter }}&page={{ reviews.paginator.num_pages }}"><i class="fa-solid fa-angles-right"></i></a>
+      {% endif %}
+  </div>
+{% endif %}
+
+{% endblock %}

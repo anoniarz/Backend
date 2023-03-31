@@ -1,0 +1,56 @@
+{% include 'ceneo_scraper/head.html' %}
+    <main role="main" class="container">
+      <div class="row">
+      <div class="col-md-2">
+          <div class="content-section">
+            <h3>Sort by:</h3>
+            <p class='text-muted'>
+
+          <ul class="list-group" style="margin-top: 10px;">
+          <div class="dropdown" style="margin-bottom: 10px;">
+            <button class="btn btn-warning dropdown-toggle" type="button" id="categoryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {% if selected_category %}<i class="fa-solid fa-filter">&nbsp;</i>{{ selected_category }}{% else %}<i class="fa-solid fa-filter">&nbsp;</i>All{% endif %}
+            </button>
+            <div class="dropdown-menu" aria-labelledby="categoryDropdown" style="height: 200px; overflow-y: scroll;">
+              <a class="dropdown-item {% if not selected_category %}active{% endif %}" href="{% url 'products' %}?category=All&sort={{ sorter }}">All</a>
+              {% for category in categories %}
+                <a class="dropdown-item {% if selected_category == category %}active{% endif %}" href="{% url 'products' %}?category={{ category }}&sort={{ sorter }}"><i class="fa-solid fa-filter">&nbsp;</i>{{ category }}</a>
+              {% endfor %}
+            </div>
+          </div>  
+          <a class="btn btn-outline-warning {% if sorter == 'a-z' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'z-a' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'highest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'lowest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'most_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+          <a class="btn btn-outline-warning {% if sorter == 'least_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+          </ul>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-10">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+          {% block content %}{% endblock %}
+        </div>
+        
+      </div>
+    </main>
+
+   <!-- Bootstrap4.5 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- Bootstrap4 -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

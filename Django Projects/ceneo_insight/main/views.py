@@ -10,7 +10,6 @@ from datetime import datetime
 from .forms import Url_f, ReviewFilterForm
 from bs4 import BeautifulSoup as bs
 
-
 import os
 import requests
 import re
