@@ -1,7 +1,41 @@
-{% extends "ceneo_scraper/sort_base.html" %}
+{% extends "ceneo_scraper/head.html" %}
 {% block content %}
 
+<main role="main" class="container">
+    <div class="row">
+    <div class="col-md-2">
+        <div class="content-section">
+          <h3>Sort by:</h3>
+          <p class='text-muted'>
 
+        <ul class="list-group" style="margin-top: 10px;">
+        <div class="dropdown" style="margin-bottom: 10px;">
+          <a class="btn btn-warning  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {% if selected_category %}<i class="fa-solid fa-filter">&nbsp;</i>{{ selected_category }}{% else %}<i class="fa-solid fa-filter">&nbsp;</i>All{% endif %}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="categoryDropdown" style="height: 200px; overflow-y: scroll;">
+            <a class="dropdown-item {% if not selected_category %}active{% endif %}" href="{% url 'products' %}?category=All&sort={{ sorter }}">All</a>
+            {% for category in categories %}
+              <a class="dropdown-item {% if selected_category == category %}active{% endif %}" href="{% url 'products' %}?category={{ category }}&sort={{ sorter }}"><i class="fa-solid fa-filter">&nbsp;</i>{{ category }}</a>
+            {% endfor %}
+          </div>
+        </div>  
+        <a class="btn btn-outline-warning {% if sorter == 'a-z' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=a-z">Order&nbsp;<i class="fa-solid fa-arrow-down-a-z"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'z-a' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=z-a">Order&nbsp;<i class="fa-solid fa-arrow-up-z-a"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'highest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_price">Price&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_price' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_price">Price&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'highest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=highest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'lowest_rating' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=lowest_rating">Rating&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'most_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=most_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-up-wide-short"></i></a>
+        <a class="btn btn-outline-warning {% if sorter == 'least_reviews' %}active{% endif %}" href="{% url 'products' %}?category={{ selected_category }}&sort=least_reviews">Reviews&nbsp;<i class="fa-solid fa-arrow-down-short-wide"></i></a>
+        </ul>
+          </p>
+        </div>
+      </div>
+
+      
+    <div class="col-md-10">
+  
 <article class="media content-section">
     <form method="POST" action="{% url 'add_product' %}">
         <div class="container">
@@ -44,15 +78,20 @@
                     <i class="yellow star-icon {% if product.product_id in user_favourites_list %}fa-solid{% else %}fa-regular{% endif %} fa-star" style="vertical-align: middle;">&nbsp;&nbsp;</i>
                 </a>
                 {% endif %}
-                <a class="float-right">
+                <p class="float-right">
                     {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-sm fa-star" style="vertical-align: middle;"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-sm fa-comment" style="vertical-align: middle;"></i>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-                </a>
+                </p>
             </div>
         </h5>
     </div>
 </article>
 
 {% endfor %}
+</div>
+</div>
+</main>
+
+
 {% if products.has_other_pages %}
 <div class="pagination">
     {% if products.has_previous %}
@@ -82,11 +121,6 @@
     });
 </script>
 
-<script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous">
-</script>
 
 {% endblock content %}
 

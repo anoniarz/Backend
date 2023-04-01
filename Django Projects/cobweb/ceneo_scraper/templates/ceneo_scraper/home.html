@@ -1,29 +1,33 @@
-{% extends "ceneo_scraper/sidebar.html" %}
+{% extends "ceneo_scraper/head.html" %}
 {% block content %}
-<article class="media content-section">
-<h4>
-    Home
-</h4>
-  </article>
+{% include 'ceneo_scraper/sidebar.html' %}
+
+<div class="col-md-10">
   <article class="media content-section">
-    <h4>Main Purpose:<br> Getting product reviews and reviews statistics from ceneo site</h4>
-  </article>
-  <article class="media content-section">
-    <h4>How Does it Work:<br> You paste ceneo id/url and get product reviews and statistics</h4>
-  </article>
-  <article class="media content-section">
-    <ul>
-        <li class="no-bullets"><h4>Used Libraries:</h4></li>
-        <li>Django</li>
-        <li>Bootstrap</li>
-        <li>CrispyForms</li>
-        <li>BeautifulSoup</li>
-        <li>Chart.js</li>
-        <li>regular expresions</li>
-        <li>json</li>
-    </ul>
-  </article>
-  <article class="media content-section">
-    <h4>Approches:<br>To many to count</h4>
-  </article>
+  <h4>
+      Home
+  </h4>
+    </article>
+    <article class="media content-section">
+      <h4>Main Purpose:<br> Getting product reviews and reviews statistics from ceneo site</h4>
+    </article>
+    <article class="media content-section">
+      <h4>How Does it Work:<br> You paste ceneo id/url and get product reviews and statistics</h4>
+    </article>
+    <article class="media content-section">
+      <ul>
+          <li class="no-bullets"><h4>Used Libraries:</h4></li>
+          <li>Django</li>
+          <li>Bootstrap</li>
+          <li>CrispyForms</li>
+          <li>BeautifulSoup</li>
+          <li>Chart.js</li>
+          <li>regular expresions</li>
+          <li>json</li>
+      </ul>
+    </article>
+    <article class="media content-section">
+      <h4>Approches:<br>To many to count</h4>
+    </article>
+</div>
 {% endblock content %}

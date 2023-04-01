@@ -3,18 +3,65 @@
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/6f6a51b67a.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
-
-    <title>Cobweb</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/6f6a51b67a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="{% static 'users/main.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'home/main.css' %}">
+  <title>Cobweb</title>
 
 </head>
 <body>
-      <nav class="navbar fixed-top">
-          <h3><a class="ceneo mr-4" href="{% url 'home' %}"><i class="fa-solid fa-spider"></i>  </i>Cobweb</a></h3>
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+
+          
+          <div class="dropdown">
+            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Cobweb</a>
+              
+            <ul class="dropdown-menu">
+              <li><a href="{% url 'ceneo_home' %}" class="dropdown-item" type="button">Ceneo Scraper</a></li>
+              <li><a href="{% url 'faceweb_home' %}" class="dropdown-item" type="button">Faceweb</a></li>
+            </ul>
+          </div>
+
+            <div class="navbar-nav">
+                {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'profile' %}">{{ username }}</a>
+                  <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                {% else %}
+                  <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
+                  <a class="nav-item nav-link" onclick="openRegisterForm()">Register</a>
+                {% endif %}
+              </div>
+          </div>
+        </div>
       </nav>
+
+      {% include 'users/register.html' %}
+      {% include 'users/login.html' %}
+
+
+      <div class="container">
+        <div class="text-center">
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+        </div>
+        {% block content %}{% endblock %}
+      </div>
+      <script src="{% static 'users/script.js' %}"></script>
+
+
+
+</body>
+</html>
+
+

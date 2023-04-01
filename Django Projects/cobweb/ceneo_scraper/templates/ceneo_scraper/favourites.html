@@ -1,4 +1,6 @@
-{% include 'ceneo_scraper/head.html' %}
+{% extends 'ceneo_scraper/head.html' %}
+
+  {% block content %}
     <main role="main" class="container">
       <div class="row">
       <div class="col-md-2">
@@ -20,13 +22,6 @@
           </div>
         </div>
         <div class="col-md-10">
-          {% if messages %}
-            {% for message in messages %}
-              <div class="alert alert-{{ message.tags }}">
-                {{ message }}
-              </div>
-            {% endfor %}
-          {% endif %}
           {% if favourites.count < 1 %}
           <article class="media content-section">
             <div class="media-body">
@@ -46,7 +41,7 @@
           <article class="media content-section">
             <div class="media-body">
                 <h5>
-                    <a class="article-title float-left" href="{% url 'product_reviews' product.pk %}">
+                    <a class="article-title float-left" style="text-decoration: none;" href="{% url 'product_reviews' product.pk %}">
                         {{ product.product_name }} - {{ product.product_price }}&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>
                     </a>
                     <a href="{% url 'delete_product' pk=product.pk %}" class="float-right" onclick="return confirm('Are you sure you want to delete this product?');">
@@ -64,9 +59,9 @@
                     </a>
                     {% endif %}
         
-                    <a class="float-right">
+                    <g class="float-right">
                       {{ product.product_price }} <pln>PLN</pln>&nbsp;&nbsp;{{ product.product_rating }}&nbsp;<i class="yellow fa-solid fa-star"></i>&nbsp; {{ product.reviews.count }} <i class="fa-solid fa-comment"></i>&emsp;&emsp;&emsp;&emsp;
-                    </a>
+                    </g>
                 </h5>
             </div>
         </article>
@@ -98,12 +93,6 @@
         </div>
       </div>
     </main>
-
-   
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
-</html>
+{% endblock %}
 
 

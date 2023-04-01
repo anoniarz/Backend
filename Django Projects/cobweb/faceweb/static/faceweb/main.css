@@ -3,9 +3,45 @@
     --palette-2: #E5E5E5;
     --palette-3: #ff6300;
     --palette-4: #14213D;
-    --palette-5: #233358;
+    --palette-5: #333333;
     --palette-6: #000000;
 }
+
+
+
+/* messages */
+
+.alert {
+    position: fixed;
+    align-items: center;
+    width: 79vw;
+    z-index: 999;
+}
+
+.alert-hidden {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    pointer-events: none;
+}
+
+
+/* navbar */
+.dropdown-toggle {
+    color: var(--palette-1) !important;
+    text-decoration: none !important;
+    margin-right: 12px;
+}
+
+.nav-link{
+    color: var(--palette-1) !important;
+    opacity: 0.75;
+}
+.nav-link:hover{
+    opacity: 1;
+}
+
+
 
 .container {
     max-width: 80vw;
@@ -16,8 +52,10 @@ pln {
 }
 
 body {
-    background-size: 6em 6em;
-    background-color: var(--palette-4);
+    background: #1F1F1F;
+    background: -webkit-radial-gradient(center, #1F1F1F, #343434);
+    background: -moz-radial-gradient(center, #1F1F1F, #343434);
+    background: radial-gradient(ellipse at center, #1F1F1F, #343434);
     color: var(--palette-2);
     margin-top: 5rem;
 }
@@ -165,6 +203,12 @@ h6 {
     color: var(--palette-2);
 }
 
+.text-muted {
+
+    color: gray !important;
+    opacity: 80%;
+}
+
 .ceneo {
     color: var(--palette-3);
     font-size: larger;
@@ -310,15 +354,3 @@ a.article-title:hover {
 .account-heading {
     font-size: 2.5rem;
 }
-
-.article-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
-  }
-
-.article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-  }

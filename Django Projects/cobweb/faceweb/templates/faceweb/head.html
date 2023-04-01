@@ -3,6 +3,7 @@
 <html>
 <head>
 
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -10,16 +11,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/6f6a51b67a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="{% static 'users/main.css' %}">
-  <link rel="stylesheet" type="text/css" href="{% static 'ceneo_scraper/main.css' %}">
-  <title>Ceneo Scraper</title>
-
+  <link rel="stylesheet" type="text/css" href="{% static 'faceweb/main.css' %}">
+  <title>Faceweb</title>
 </head>
-<body>
-      <nav class="navbar navbar-expand-md fixed-top" style="background-color: #333333;">
-        <div class="container">
 
+<body>
+    <header class="site-header">
+
+      <nav class="navbar navbar-expand-md fixed-top" style="background-color: #333333;">
+
+        <div class="container">
           <div class="dropdown">
-            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Ceneo Scraper</a>
+            <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Faceweb</a>
               
             <ul class="dropdown-menu">
               <li><a href="{% url 'home' %}" class="dropdown-item" type="button">Main Page</a></li>
@@ -31,41 +34,41 @@
 
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{% url 'ceneo_home' %}">Home</a>
-              <a class="nav-item nav-link" href="{% url 'products' %}?category=All">Products</a>
+              <a class="nav-item nav-link" href="{% url 'faceweb_home' %}">Home</a>
+              <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
             </div>
           </div>
-
-            <div class="navbar-nav">
-              {% if user.is_authenticated %}
-                <a class="nav-item nav-link" href="{% url 'favourites' %}">Favourites</a>
-                <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
-              {% else %}
-                <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
-                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
-              {% endif %}
-            </div>
+            
+          <div class="navbar-nav ">
+            {% if user.is_authenticated %}
+              <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+              <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+              <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+            {% else %}
+              <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
+              <a class="nav-item nav-link" onclick="openRegisterForm()">Register</a>
+            {% endif %}
           </div>
-
+        </div>
       </nav>
-      <div class="container">
+    </header>
 
-        <div id="alerts" class="text-center">
-          {% if messages %}
-            {% for message in messages %}
-              <div class="alert alert-{{ message.tags }}">
-                {{ message }}
-              </div>
-            {% endfor %}
-          {% endif %}  
-      </div>
-      
+    {% include 'users/register.html' %}
     {% include 'users/login.html' %}
-    {% block content %}{% endblock %}
+
+    <div class="container">
+      <div class="text-center">
+        {% if messages %}
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+      {% block content %}{% endblock %}
     </div>
     <script src="{% static 'users/script.js' %}"></script>
 
-      
 </body>
 </html>

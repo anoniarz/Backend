@@ -10,7 +10,7 @@
     <article class="media content-section">
       <div class="media-body">
         <div class="article-metadata">
-          <a class="mr-2">{{ review.author }} - {{ review.review_id }}</a>
+          {{ review.author }} - {{ review.review_id }}
           <small class="text-muted">{{ review.date_p|date:"j F, Y" }}&nbsp;</small>
           <small class="text-muted"> {{ review.stars }}\5 <i class="yellow fa-solid fa-star"></i>&nbsp;</small>
           {% if review.recommendation == "True" %}
