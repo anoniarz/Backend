@@ -1,34 +1,35 @@
 <div id="login-overlay">
   <div class="d-flex justify-content-md-center align-items-center vh-100">
-      <div class="user_card">
-        <div class="d-flex justify-content-center">
-          <h3 id="form-title">LOGIN</h3>
-        </div>
-        <div class="d-flex justify-content-center form_container">
-          <form method="POST" action="{% url 'login' %}">
-            {% csrf_token %} 
-            <div class="input-group mb-3">
-              <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-user"></i></span>
-              </div>
-              <input type="text" name="username" placeholder="Username..." class="form-control">
+    <div class="user_card">
+      <div class="login_title">
+        <h3 id="form-title" class="text-center login_text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LOGIN</h3>
+        <a class="close-btn" onclick="closeLoginForm()">X</a> 
+      </div>
+      <div class="d-flex justify-content-center form_container">
+        <form id="login-form" style="" method="POST" action="{% url 'login' %}">
+          {% csrf_token %} 
+          <div class="input-group mb-3">
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
             </div>
-            <div class="input-group mb-2">
-              <div class="input-group-append">
-                <span class="input-group-text"><i class="fas fa-key"></i></span>
-              </div>
-              <input type="password" name="password" placeholder="Password..." class="form-control" >
-            </div> 
-            <div class="d-flex justify-content-center mt-3 login_container">
-              <input class="btn login_btn" type="submit" value="Login">
-            </div>
-          </form>
-        </div>
-        <div class="mt-4">
-          <div class="d-flex justify-content-center links">
-            Don't have an account? <a href="{% url 'register' %}" class="ml-2">Sign Up</a>
+            <input type="text" name="username" placeholder="Username..." class="form-control">
           </div>
+          <div class="input-group mb-2">
+            <div class="input-group-append">
+              <span class="input-group-text"><i class="fas fa-key"></i></span>
+            </div>
+            <input type="password" name="password" placeholder="Password..." class="form-control" >
+          </div> 
+          <div class="d-flex justify-content-center mt-3 login_container">
+            <input class="btn login_btn" type="submit" value="Login">
+          </div>
+        </form>
+      </div>
+      <div class="mt-4">
+        <div class="d-flex justify-content-center links">
+          Don't have an account? <a onclick="sign_up()">&nbsp;Sign Up</a>
         </div>
       </div>
     </div>
   </div>
+</div>

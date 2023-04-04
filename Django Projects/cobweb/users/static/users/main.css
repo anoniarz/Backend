@@ -1,3 +1,5 @@
+
+
 #login-overlay {
     position: fixed;
     top: 0;
@@ -20,8 +22,24 @@
     display: none;
 }
 
+a {
+    cursor: pointer;
+
+}
+
+.login_title {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.login_text {
+    flex: 1; 
+    text-align: center;
+}
+
 .user_card {
-    width: 350px;
+    min-width: 350px;
+    max-width: 450px;
     margin-top: auto;
     margin-bottom: auto;
     background: #333333;
@@ -34,28 +52,31 @@
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
-
 }
 
 .form_container {
     margin-top: 20px;
 }
 
-#form-title{
+#form-title {
     color: #fff;
 }
+
 .login_btn {
     width: 100%;
     background: #74b496 !important;
     color: white !important;
 }
+
 .login_btn:focus {
     box-shadow: none !important;
     outline: 0px !important;
 }
+
 .login_container {
     padding: 0 2rem;
 }
+
 .input-group-text {
     background: #445043 !important;
     color: white !important;
@@ -85,3 +106,16 @@
 .form-group {
     margin-bottom: 10px;
 }
+
+.close-btn {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.close-btn:hover {
+    color: red;
+}
+
