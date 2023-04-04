@@ -171,3 +171,8 @@ a {
     text-decoration: none;
     color: var(--palette-1);
 }
+
+
+.ignore-css {
+    all:unset;
+}
