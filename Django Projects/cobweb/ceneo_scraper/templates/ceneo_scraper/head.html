@@ -24,7 +24,6 @@
             <ul class="dropdown-menu">
               <li><a href="{% url 'home' %}" class="dropdown-item" type="button">Main Page</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a href="{% url 'ceneo_home' %}" class="dropdown-item" type="button">Ceneo Scraper</a></li>
               <li><a href="{% url 'faceweb_home' %}" class="dropdown-item" type="button">Faceweb</a></li>
             </ul>
           </div>
@@ -43,7 +42,7 @@
                 <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
               {% else %}
                 <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
-                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                <a class="nav-item nav-link" onclick="openRegisterForm()">Register</a>
               {% endif %}
             </div>
           </div>
@@ -62,6 +61,7 @@
       </div>
       
     {% include 'users/login.html' %}
+    {% include 'users/register.html' %}
     {% block content %}{% endblock %}
     </div>
     <script src="{% static 'users/script.js' %}"></script>

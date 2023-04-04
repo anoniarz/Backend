@@ -1,5 +1,6 @@
 {% extends "faceweb/head.html" %}
 {% block content %}
+<div class="col-md-10">
   <article class="media content-section">
     <img class="rounded-circle article-img" src="{{ object.author.profile.image.url }}">
     <div class="media-body">
@@ -17,4 +18,5 @@
       <p class="article-content">{{ object.content }}</p>
     </div>
   </article>
+</div>
 {% endblock content %}

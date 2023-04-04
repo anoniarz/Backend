@@ -6,6 +6,8 @@ from django.contrib.auth import logout, login, authenticate
 from .forms import UserRegisterForm, UserUpdateForm, ProfileUpdateForm
 from django.contrib.auth.decorators import user_passes_test
 
+import re
+
 
 @user_passes_test(lambda u: not u.is_authenticated, login_url='home')
 def login_view(request):
@@ -21,12 +23,16 @@ def login_view(request):
                 return redirect(page)
             else:
                 messages.error(request, 'Your account is not active.')
+                return redirect(page)
         else:
             messages.warning(request, 'Invalid username or password.')
-            redirect('login')
+            return redirect(page)
+
 
 
 def register(request):
+    page = request.META.get('HTTP_REFERER')
+    app_name = re.findall(r"/([a-z]{3,})", page)
     if request.method == 'POST':
         username = request.POST.get('username')
         email = request.POST.get('email')
@@ -35,16 +41,19 @@ def register(request):
 
         if password1 != password2:
             messages.error(request, 'Passwords do not match')
-            return redirect(request.META.get('HTTP_REFERER'))
+            return redirect(page)
 
         user = User.objects.create_user(
             username, email=email, password=password1)
         login(request, user)
         messages.success(
             request, 'Registration successful. You are now logged in.')
-        return redirect('home')
+        if app_name:
+            return redirect(f'{app_name[0]}_home')
+        else:
+            return redirect('home')
 
-    return render(request, 'registration/register.html')
+    return redirect(page)
 
 
 @login_required
@@ -52,7 +61,11 @@ def logout_view(request):
     logout(request)
     messages.success(request, "You have been logged out")
     page = request.META.get('HTTP_REFERER')
-    return redirect(page)
+    app_name = re.findall(r"/([a-z]{3,})", page)
+    if app_name:
+        return redirect(f'{app_name[0]}_home')
+    else:
+        return redirect('home')
 
 
 @login_required
@@ -77,4 +90,4 @@ def profile(request):
         'p_form': p_form
     }
 
-    return render(request, 'home/profile.html', context)
+    return render(request, 'users/profile.html', context)
