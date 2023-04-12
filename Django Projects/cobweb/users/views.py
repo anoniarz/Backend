@@ -39,8 +39,12 @@ def register(request):
         password1 = request.POST.get('password1')
         password2 = request.POST.get('password2')
 
-        if password1 != password2:
-            messages.error(request, 'Passwords do not match')
+        if not all([username,email,password1,password2]):
+            messages.warning(request, 'Incomplete data')
+            return redirect(page)
+
+        if password1 != password2 or not password1:
+            messages.warning(request, 'Passwords do not match')
             return redirect(page)
 
         user = User.objects.create_user(

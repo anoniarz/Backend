@@ -209,7 +209,13 @@ def home(request):
 
 
 def refresh_product(request, pk):
+
     scrape(str(pk))
+    user = request.user
+    if user.is_authenticated:
+        product = Product.objects.get(product_id=pk)
+        profile = request.user.profile
+        profile.add_to_favourites(product)
     page = request.META.get('HTTP_REFERER')
     return redirect(page)
 

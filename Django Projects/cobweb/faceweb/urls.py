@@ -16,4 +16,12 @@ urlpatterns = [
     path('post/<int:pk>/update/', PostUpdateView.as_view(), name='post-update'),
     path('post/<int:pk>/delete/', views.delete_post, name='post-delete'),
     path('about/', views.about, name='blog-about'),
+    
+
+
+    path('chat', views.index, name="index"),
+    path('friend/<str:pk>', views.detail, name="detail"),
+    path('sent_msg/<str:pk>', views.sentMessages, name = "sent_msg"),
+    path('rec_msg/<str:pk>', views.receivedMessages, name = "rec_msg"),
+    path('notification', views.chatNotification, name = "notification"),
 ]

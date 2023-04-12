@@ -1,30 +1,37 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/6f6a51b67a.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" type="text/css" href="{% static 'users/main.css' %}">
-  <link rel="stylesheet" type="text/css" href="{% static 'faceweb/main.css' %}">
-  <title>Faceweb</title>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/6f6a51b67a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'users/main.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'faceweb/main.css' %}" />
+    <title>Faceweb</title>
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-
-      <nav class="navbar navbar-expand-md fixed-top" style="background-color: #333333;">
-
+      <nav class="navbar navbar-expand-md fixed-top" style="background-color: #333333">
         <div class="container">
           <div class="dropdown">
             <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Faceweb</a>
-              
+
             <ul class="dropdown-menu">
               <li><a href="{% url 'home' %}" class="dropdown-item" type="button">Main Page</a></li>
-              <li><hr class="dropdown-divider"></li>
+              <li><hr class="dropdown-divider" /></li>
               <li><a href="{% url 'ceneo_home' %}" class="dropdown-item" type="button">Ceneo Scraper</a></li>
             </ul>
           </div>
@@ -35,52 +42,49 @@
               <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
             </div>
           </div>
-            
-          <div class="navbar-nav ">
+
+          <div class="navbar-nav">
             {% if user.is_authenticated %}
-              <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
-              <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-              <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+            <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+            <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+            <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
             {% else %}
-              <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
-              <a class="nav-item nav-link" onclick="openRegisterForm()">Register</a>
+            <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>
+            <a class="nav-item nav-link" onclick="openRegisterForm()">Register</a>
             {% endif %}
           </div>
         </div>
       </nav>
     </header>
 
-    {% include 'users/register.html' %}
-    {% include 'users/login.html' %}
+    {% include 'users/register.html' %} {% include 'users/login.html' %}
 
     <div class="container">
       <div class="text-center">
-        {% if messages %}
-          {% for message in messages %}
-            <div class="alert alert-{{ message.tags }}">
-              {{ message }}
-            </div>
-          {% endfor %}
-        {% endif %}
+        {% if messages %} {% for message in messages %}
+        <div class="alert alert-{{ message.tags }}">{{ message }}</div>
+        {% endfor %} {% endif %}
       </div>
 
       <div class="row">
         <div class="col-md-2">
           <div class="content-section">
             <h3>Sidebar</h3>
-              <ul class="list-group text-center">
-
-                <li class="list-group-item"><a href="{% url 'faceweb_home' %}">Latest Posts</a>
-
-              </ul>
+            <ul class="list-group text-center">
+              <li class="list-group-item"><a href="{% url 'faceweb_home' %}">Latest Posts</a></li>
+            </ul>
           </div>
         </div>
 
-
-      {% block content %}{% endblock %}
+        <div class="col-md-10">
+          {% block content %}{% endblock %} {% if user.is_authenticated %}
+          <button class="btn btn-secondary chat-button" onclick="toggleChatWindow()">
+            <i class="fa-solid fa-lg fa-comments"></i>
+          </button>
+          {% include 'faceweb/chat.html' %} {% endif %}
+        </div>
       </div>
     </div>
     <script src="{% static 'users/script.js' %}"></script>
-
-</body>
+  </body>
 </html>
