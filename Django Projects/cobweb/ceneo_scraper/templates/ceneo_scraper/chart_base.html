@@ -49,7 +49,7 @@
         <div class="content-section" >
         <h3 style="margin-bottom: 10px;">Sort by:</h3>
         <button class="btn btn-warning" id="filter-btn"><i class="fa-solid fa-filter">&nbsp;</i>Filters</button>
-        <a class="btn btn-outline-warning float-right" href="{% url 'product_reviews' product.pk %}?sort={{ sorter }}">Reset&nbsp;<i class="fa-solid fa-filter"></i></a>
+        <a class="btn btn-outline-warning float-right" href="{% url 'product-reviews' product.pk %}?sort={{ sorter }}">Reset&nbsp;<i class="fa-solid fa-filter"></i></a>
 
         <ul class="list-group" style="margin-top: 10px;">
         <a class="btn btn-outline-warning {% if sorter == 'newest' %}active{% endif %}" href="?{{ request.GET.urlencode }}&sort=newest">Newest&nbsp;<i class="fa-solid fa-hourglass-end"></i></a>

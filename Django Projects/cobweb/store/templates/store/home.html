@@ -1,0 +1,15 @@
+{% extends "store/head.html" %} {% block content %} {% for category in categories %}
+
+<article class="media content-section">
+  <div class="media-body">
+    <h5>
+      <div class="container">
+        <a class="article-title" style="text-decoration: none" href="{% url 'store-products' category %}">
+          {{ category }}
+        </a>
+      </div>
+    </h5>
+  </div>
+</article>
+
+{% endfor %} {% endblock %}

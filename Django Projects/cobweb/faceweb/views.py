@@ -67,7 +67,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 def delete_post(request, pk):
     Post.objects.filter(pk=pk).delete()
 
-    return redirect('faceweb_home')
+    return redirect('faceweb-home')
 
 
 

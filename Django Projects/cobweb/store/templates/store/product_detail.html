@@ -1,0 +1,17 @@
+{% extends 'store/head.html' %} {% block content %}
+
+<div class="col-md-10">
+  <article class="media content-section">
+    <img class="article-img" src="{{ product.img.url }}" />
+    <div class="media-body">
+      <div class="article-metadata"></div>
+      <h2 class="article-title">{{ product.name }}</h2>
+      {% if user.is_staff %}
+      <a class="btn btn-secondary btn-sm mt-1 mb-1" href="{% url 'update-product' product.pk %}">Update</a>
+      {% endif %}
+      <p class="article-content">{{ product.description }}</p>
+    </div>
+  </article>
+</div>
+
+{% endblock %}

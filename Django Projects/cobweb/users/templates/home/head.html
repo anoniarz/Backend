@@ -29,17 +29,16 @@
 
           <ul class="dropdown-menu">
             <li>
-              <a href="{% url 'ceneo_home' %}" class="dropdown-item" type="button">Ceneo Scraper</a>
+              <a href="{% url 'ceneo-home' %}" class="dropdown-item" type="button">Ceneo Scraper</a>
             </li>
             <li>
-              <a href="{% url 'faceweb_home' %}" class="dropdown-item" type="button">Faceweb</a>
+              <a href="{% url 'faceweb-home' %}" class="dropdown-item" type="button">Faceweb</a>
             </li>
           </ul>
         </div>
 
         <div class="navbar-nav">
           {% if user.is_authenticated %}
-
           <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
           {% else %}
           <a class="nav-item nav-link" onclick="openLoginForm()">Login</a>

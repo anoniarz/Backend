@@ -53,7 +53,7 @@ def register(request):
         messages.success(
             request, 'Registration successful. You are now logged in.')
         if app_name:
-            return redirect(f'{app_name[0]}_home')
+            return redirect(f'{app_name[0]}-home')
         else:
             return redirect('home')
 
@@ -67,7 +67,7 @@ def logout_view(request):
     page = request.META.get('HTTP_REFERER')
     app_name = re.findall(r"/([a-z]{3,})", page)
     if app_name:
-        return redirect(f'{app_name[0]}_home')
+        return redirect(f'{app_name[0]}-home')
     else:
         return redirect('home')
 
@@ -94,4 +94,4 @@ def profile(request):
         'p_form': p_form
     }
 
-    return render(request, 'users/profile.html', context)
+    return render(request, 'faceweb/profile.html', context)

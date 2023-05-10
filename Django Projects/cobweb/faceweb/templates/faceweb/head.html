@@ -32,13 +32,13 @@
             <ul class="dropdown-menu">
               <li><a href="{% url 'home' %}" class="dropdown-item" type="button">Main Page</a></li>
               <li><hr class="dropdown-divider" /></li>
-              <li><a href="{% url 'ceneo_home' %}" class="dropdown-item" type="button">Ceneo Scraper</a></li>
+              <li><a href="{% url 'ceneo-home' %}" class="dropdown-item" type="button">Ceneo Scraper</a></li>
             </ul>
           </div>
 
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <a class="nav-item nav-link" href="{% url 'faceweb_home' %}">Home</a>
+              <a class="nav-item nav-link" href="{% url 'faceweb-home' %}">Home</a>
               <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
             </div>
           </div>
@@ -71,7 +71,7 @@
           <div class="content-section">
             <h3>Sidebar</h3>
             <ul class="list-group text-center">
-              <li class="list-group-item"><a href="{% url 'faceweb_home' %}">Latest Posts</a></li>
+              <li class="list-group-item"><a href="{% url 'faceweb-home' %}">Latest Posts</a></li>
             </ul>
           </div>
         </div>
@@ -81,7 +81,7 @@
           <button class="btn btn-secondary chat-button" onclick="toggleChatWindow()">
             <i class="fa-solid fa-lg fa-comments"></i>
           </button>
-          {% include 'faceweb/chat.html' %} {% endif %}
+          {% endif %}
         </div>
       </div>
     </div>

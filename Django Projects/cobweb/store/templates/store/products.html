@@ -1,0 +1,10 @@
+{% extends 'store/head.html' %} {% block content %} {% for product in products %}
+
+<article class="media content-section">
+  <img src="{{ product.img.url }}" />
+  <div class="media-body">
+    <a class="article-title" href="{% url 'product-detail' product.pk %}">{{ product.name }}</a>
+  </div>
+</article>
+
+{%endfor%} {%endblock%}

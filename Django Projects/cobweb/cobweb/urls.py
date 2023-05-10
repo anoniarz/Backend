@@ -11,6 +11,7 @@ urlpatterns = [
     path('', home_views.home, name='home'),
     path('ceneo_scraper/', include('ceneo_scraper.urls')),
     path('faceweb/', include('faceweb.urls')),
+    path('store/', include('store.urls')),
     path('register/', user_views.register, name='register'),
     path('login/', user_views.login_view, name='login'),
     path('logout/', user_views.logout_view, name='logout'),

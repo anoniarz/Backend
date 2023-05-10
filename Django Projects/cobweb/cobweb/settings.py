@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'ceneo_scraper',
     'users',
     'faceweb',
+    'store',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
