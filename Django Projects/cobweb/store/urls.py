@@ -8,8 +8,8 @@ urlpatterns = [
     path('products/<str:category>s/', views.products, name='store-products'),
     path('product/<int:pk>/', views.ProductDetailView.as_view(), name='product-detail'),
     path('add-product/', views.add_product, name='add-product'),
-    path('update-product/<int:pk>/', views.update_product, name='update-product')
-
+    path('update-product/<int:pk>/', views.update_product, name='update-product'),
+    path('delete-product/<int:pk>/', views.delete_product, name='delete-product')
 ]
 
 if settings.DEBUG:

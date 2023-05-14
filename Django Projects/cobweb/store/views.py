@@ -3,6 +3,7 @@ from django.contrib.auth.decorators import user_passes_test
 from .models import Product
 from .forms import ProductForm
 from django.views.generic import DetailView
+
 # Create your views here.
 
 def home(request):
@@ -52,3 +53,9 @@ def update_product(request, pk):
         form.save()
         return redirect('product-detail', pk=product.pk)
     return render(request, 'store/update_product.html', {'form': form})
+
+@user_passes_test(lambda u: u.is_staff)
+def delete_product(request, pk):
+    Product.objects.filter(pk=pk).delete()
+    page = request.META.get('HTTP_REFERER')
+    return redirect(page)

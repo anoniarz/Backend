@@ -4,6 +4,12 @@
   <img src="{{ product.img.url }}" />
   <div class="media-body">
     <a class="article-title" href="{% url 'product-detail' product.pk %}">{{ product.name }}</a>
+    <a
+      href="{% url 'delete-product' pk=product.pk %}"
+      onclick="return confirm('Are you sure you want to delete this product?');"
+    >
+      <i class="fa-solid fa-trash trash-icon" style="vertical-align: middle">&nbsp;</i>
+    </a>
   </div>
 </article>
 
